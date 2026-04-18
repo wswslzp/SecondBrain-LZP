@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "c68ac133c63d65bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5881cab6219942bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc149e92f3f70cb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8fbb6c15f9db9540",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f569d4c562b6397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a3d641a8a5493c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "22e19a466d6066f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4a016885e11eae82",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3c0697b0a8a1df5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c67e21e44fddbaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e385fd4ad7afd256",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/How to Get Rich.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "How to Get Rich 的反向链接列表"
+            }
+          },
+          {
+            "id": "6ed5733e0c6195f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLAUDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CLAUDE 的出链列表"
+            }
+          },
+          {
+            "id": "29264ed8d2edceb0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2bd89f1dda9c5c2f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a1950f6b4ecc081f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CLAUDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "CLAUDE 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "dc149e92f3f70cb8",
+  "lastOpenFiles": [
+    "wiki/accountability.md",
+    "wiki/ai-impact-on-industry.md",
+    "index.md",
+    "raw/CS 153 '26 Frontier Systems - Anjney Midha, AMP PBC.md",
+    "log.md.tmp.37668.1776525539500",
+    "wiki/attention-economy.md",
+    "wiki/neuromarketing.md",
+    "wiki/ai-for-learning.md",
+    "wiki/sovereign-ai.md",
+    "wiki/compute-infrastructure.md",
+    "wiki/context-feedback-loops.md",
+    "wiki/frontier-systems.md",
+    "wiki/vibe-coding.md",
+    "wiki/productize-yourself.md",
+    "wiki/judgment.md",
+    "wiki/specific-knowledge.md",
+    "wiki/leverage.md",
+    "wiki/wealth-creation.md",
+    "wiki/anjney-midha.md",
+    "wiki/naval-ravikant.md",
+    "sources/neuromarketing-tribe-v2.md",
+    "sources/how-to-get-rich.md",
+    "sources/how-to-get-rich.md.tmp.37668.1776525078155",
+    "sources/cs153-frontier-systems.md",
+    "sources/a-motorcycle-for-the-mind.md",
+    "raw/social media marketing is dead, neuromarketing is next社交媒体营销已死，神经营销将是下一个.md",
+    "raw/How to Get Rich.md",
+    "raw/A Motorcycle for the Mind.md"
+  ]
+}
