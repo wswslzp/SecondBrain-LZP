@@ -3,7 +3,7 @@ title: "Frontier Systems（前沿系统）"
 tags: [ai, infrastructure, compute, systems]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]"]
+related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]"]
 ---
 
 # Frontier Systems
@@ -65,5 +65,21 @@ Midha 的系统级观点（非模型级）：
 - 一个执行良好的公司不断改进自己的 compute/context/capital 飞轮
 - 不一定需要"超级智能模型"
 
+## 跨领域的 Frontier Lab 案例
+
+CS 153 讲座覆盖了不同模态下的前沿系统：
+
+| 领域 | Lab | 核心架构决定 |
+|------|-----|-------------|
+| 代码 | Anthropic | Context 独占 + RL |
+| 图像 | [[andreas-blattmann]] / BFL | Latent diffusion + [[open-weights-strategy]] |
+| 视频/多模态 | [[amit-jain]] / Luma | [[unified-models]] |
+| 语音 | [[mati-staniszewski]] / ElevenLabs | Cascaded 企业，混合方向 |
+
+详见 [[ai-factory]] 与 [[cascaded-vs-fused-architectures]]。
+
 ## 来源
 - [[cs153-frontier-systems]]
+- [[cs153-luma-amit-jain]]
+- [[cs153-bfl-andreas-blattmann]]
+- [[cs153-elevenlabs-mati-staniszewski]]
