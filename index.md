@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-04-18
+date_modified: 2026-04-25
 ---
 
 # Index
@@ -13,6 +13,8 @@ A catalog of all pages in this wiki, organized by category.
 - [[anjney-midha]] — Amp PBC 创始投资人，Stanford CS 153 讲师
 - [[marc-andreessen]] — a16z 联合创始人，四种运气理论传播者
 - [[naval-ravikant]] — AngelList 创始人，Productize Yourself 框架提出者
+- [[0xjeff]] — Researcher/Investor，Hermes agent 深度用户
+- [[brett-goldstein]] — Micro 创始人，前 Google 认知科学家，Context Farming 提出者
 
 ## Concepts
 
@@ -33,6 +35,18 @@ A catalog of all pages in this wiki, organized by category.
 - [[vibe-coding]] — 用英语而非代码构建应用的新范式
 - [[wealth-creation]] — Naval 的完整财富创造框架
 - [[ai-for-learning]] — AI 作为最有耐心的导师
+- [[hermes-agent]] — 自我学习、自我记忆的 AI agent 框架
+- [[browser-harness]] — 无框架限制的自愈型浏览器自动化工具
+- [[hindsight]] — AI agent 外部 memory provider，recall accuracy 第一
+- [[human-memory-systems]] — 认知科学人类记忆完整分类（多重存储模型、长时记忆子类）
+- [[working-memory]] — Baddeley 工作记忆四组件模型
+- [[forgetting-mechanisms]] — 遗忘曲线与四种遗忘理论
+- [[memory-consolidation]] — 记忆巩固的两阶段与睡眠角色
+- [[ai-agent-memory]] — AI Agent 记忆架构与人类记忆对比及改进路线
+- [[context-farming]] — 人类在 AI 时代的最终职业：为 AI 提供上下文
+- [[agentic-micro-company]] — 极小团队 + 大量 AI agent 的新型公司形态
+- [[company-brain]] — 公司级统一记忆/上下文系统
+- [[composable-context]] — 万亿美元级可组合全球上下文层
 
 ## Topics
 
@@ -49,6 +63,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[how-to-get-rich]] — Naval 的财富创造系列（2019）
 - [[luck-and-the-entrepreneur]] — 四种运气与企业家精神（Marc Andreessen, 2001）
 - [[neuromarketing-tribe-v2]] — Meta Tribe V2 与神经营销（@karlocreates, 2026-04-10）
+- [[3-highly-useful-hermes-skills]] — Hermes agent 实战用例与教训（0xJeff, 2026-04-20）
+- [[human-memory-cognitive-science]] — 认知科学人类记忆分类体系综述（自研, 2026-04-25）
+- [[context-farming]] — The Last Job for Mankind: Context Farming（Brett Goldstein, 2026-04-24）
 
 ## Analyses
 
