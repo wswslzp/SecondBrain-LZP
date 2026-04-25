@@ -2,9 +2,12 @@
 title: "Context Feedback Loops 与 Context Wars"
 tags: [ai, rl, infrastructure, strategy]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[anjney-midha]]", "[[frontier-systems]]", "[[sovereign-ai]]"]
+date_modified: 2026-04-19
+related: ["[[anjney-midha]]", "[[frontier-systems]]", "[[sovereign-ai]]", "[[context-management]]"]
 ---
+
+> **术语提示**：本页"context"指**训练/改进模型用的数据与信号**（monorepo、用户交互、RL 反馈）。要看**单次会话内 prompt/token 层面的 context 管理**，请看 [[context-management]] 与 [[context-rot]]。两者是同一词在不同时间尺度上的含义。
+
 
 # Context Feedback Loops
 
@@ -78,5 +81,17 @@ Midha 的关键问题：
 
 "生活是凌乱的。"
 
+## 跨 lab 的 Context 来源
+
+| Lab | Context 输入 | 可验证性 |
+|-----|-----|-----|
+| Anthropic | Monorepo、git history、IDE 文件 | 单元测试 |
+| BFL | 用户 prompts、preference signals、Flux 社区 LoRA | 人工标注（美学） |
+| Luma | 用户交互、偏好、studio 定制数据（SOC2 隔离） | 人工 + 物理（材料科学） |
+| ElevenLabs | 语音交互、情感标注、多语言使用 | 人工 + 用户反馈 |
+
 ## 来源
 - [[cs153-frontier-systems]]
+- [[cs153-luma-amit-jain]]
+- [[cs153-bfl-andreas-blattmann]]
+- [[cs153-elevenlabs-mati-staniszewski]]

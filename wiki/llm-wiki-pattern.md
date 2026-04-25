@@ -2,8 +2,8 @@
 title: "LLM Wiki 模式"
 tags: [ai, knowledge-management, obsidian, claude-code, productivity]
 date_created: 2026-04-11
-date_modified: 2026-04-11
-related: ["[[andrej-karpathy]]", "[[ai-impact-on-industry]]"]
+date_modified: 2026-04-19
+related: ["[[andrej-karpathy]]", "[[ai-impact-on-industry]]", "[[claude-code]]", "[[context-management]]"]
 ---
 
 # LLM Wiki 模式
@@ -37,5 +37,13 @@ related: ["[[andrej-karpathy]]", "[[ai-impact-on-industry]]"]
 
 Vannevar Bush 1945 年提出的 Memex — 一个私人策展的知识存储，文档间的连接与文档本身同等重要。Bush 无法解决的部分是"谁来维护"。现在 LLM 解决了这个问题。
 
+## 运行时
+
+这套模式需要一个能跨多文件读写、维护 wikilinks 的 agent 化工具。参见 [[claude-code]]。它的健康运转依赖 [[context-management]]：
+- Ingest 按"新任务 = 新 session"规则切分
+- Lint 可委托给 subagent 并行扫描
+- Query 用轻量 session，答完 clear
+
 ## 来源
 - [[claude-obsidian-second-brain]]
+- [[claude-code-session-management]]

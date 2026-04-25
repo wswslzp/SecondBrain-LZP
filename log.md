@@ -50,6 +50,26 @@ Source: @karlocreates X thread. Created: `sources/neuromarketing-tribe-v2.md`, `
 
 `index.md` 重新组织，新增 4 个 sources、2 个 entities（Naval, Anjney Midha）、13 个新 concepts。Concepts 分类从"按学科"转为"按主题簇"（财富框架、AI 基础设施、注意力经济等）。
 
+## [2026-04-18] ingest | CS153 Amit Jain (Luma AI) on Unified Intelligence
+
+Source: Stanford CS 153 第 3 周（YouTube）. Created: `sources/cs153-luma-amit-jain.md`, `wiki/amit-jain.md`, `wiki/unified-models.md`, `wiki/multimodal-ai.md`, `wiki/ai-factory.md`, `wiki/cascaded-vs-fused-architectures.md`.
+
+## [2026-04-18] ingest | CS153 Andreas Blattmann (BFL) on Visual Intelligence
+
+Source: Stanford CS 153 第 2 周（YouTube）. Created: `sources/cs153-bfl-andreas-blattmann.md`, `wiki/andreas-blattmann.md`, `wiki/visual-intelligence.md`, `wiki/distillation.md`, `wiki/open-weights-strategy.md`.
+
+## [2026-04-18] ingest | CS153 Mati Staniszewski (ElevenLabs) on Audio Intelligence
+
+Source: Stanford CS 153 第 2 周（YouTube）. Created: `sources/cs153-elevenlabs-mati-staniszewski.md`, `wiki/mati-staniszewski.md`, `wiki/audio-intelligence.md`.
+
+## [2026-04-18] update | CS 153 系列交叉引用
+
+更新 `wiki/frontier-systems.md` 和 `wiki/context-feedback-loops.md` 以链接三个新讲座的 context 和架构实例。Index 新增 6 个 concepts（unified-models、multimodal-ai、visual-intelligence、audio-intelligence、cascaded-vs-fused-architectures、ai-factory、distillation、open-weights-strategy）和 3 个 entities（Amit Jain、Andreas Blattmann、Mati Staniszewski）。
+
+## [2026-04-19] ingest | Using Claude Code: Session Management & 1M Context
+
+Source: @trq212 (Thariq) X thread. Created: `sources/claude-code-session-management.md`, `wiki/context-management.md`, `wiki/context-rot.md`, `wiki/claude-code.md`. Updated: `wiki/llm-wiki-pattern.md`（加 runtime 与 context-management 引用）、`wiki/context-feedback-loops.md`（加术语澄清，区分 RL context 与 prompt context）。Index 新增 3 个 concepts（claude-code、context-management、context-rot）与 1 个 source。
+
 ## [2026-04-20] ingest | 3 Highly Useful Hermes Skills
 
 Source: 0xJeff X article. Created: `sources/3-highly-useful-hermes-skills.md`, `wiki/hermes-agent.md`, `wiki/0xjeff.md`, `wiki/browser-harness.md`, `wiki/hindsight.md`. Topics: AI agent 实战经验，token 管理，工具安全警告。
@@ -61,4 +81,3 @@ Source: 自研综述（综合 Simply Psychology, Psychology Today, The Decision 
 ## [2026-04-25] ingest | The Last Job for Mankind: Context Farming
 
 Source: Brett Goldstein (@thatguybg) X article. Created: `sources/context-farming.md`, `wiki/brett-goldstein.md`, `wiki/context-farming.md`, `wiki/agentic-micro-company.md`, `wiki/company-brain.md`, `wiki/composable-context.md`. Updated: `wiki/ai-agent-memory.md` (交叉引用). Topics: Context Farming、Agentic Micro Company、Company Brain、可组合全球上下文。
-
