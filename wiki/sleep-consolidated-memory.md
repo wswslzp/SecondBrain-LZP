@@ -133,3 +133,8 @@ SCM 的每个模块都可以映射到 Hermes 的现有/可扩展组件：
 - [[ai-agent-memory]]
 - [[complementary-learning-systems]]
 - [[human-memory-systems]]
+- [[hermes-sleep-implementation-plan]] — Hermes 落地方案
+- [[ai-sleep-memory-research-survey]] — 完整调研综述
+- [[letta-sleep-time-compute]]
+- [[catastrophic-forgetting]]
+- [[generative-agents]]

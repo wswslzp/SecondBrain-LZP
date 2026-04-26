@@ -97,3 +97,7 @@ Source: 自研调研（综合 arXiv 论文、GitHub 项目、脑科学文献）�
 ## [2026-04-26] ingest | Awesome-AI-Memory: 学术界 AI 记忆研究全景索引
 
 Source: IAAR-Shanghai/Awesome-AI-Memory (GitHub). Created: `raw/awesome-ai-memory-repo.md`, `sources/awesome-ai-memory.md`, `wiki/ai-memory-taxonomy.md`, `wiki/memory-system-architecture.md`, `wiki/memory-forgetting.md`, `wiki/memory-retrieval-pipeline.md`, `wiki/memory-compression.md`, `wiki/ai-memory-benchmarks.md`, `wiki/ai-memory-open-source-landscape.md`, `wiki/iaar-shanghai.md`. Updated: `wiki/ai-agent-memory.md` (交叉引用), `wiki/forgetting-mechanisms.md` (交叉引用), `wiki/hindsight.md` (交叉引用), `index.md`. Topics: 349篇论文 + 97个开源项目的完整索引、记忆系统四层架构（存储→处理→检索→控制）、五种原子操作、记忆四维分类体系、遗忘机制四类、43个开源系统四代演化时间线（Zep→Mem0→MemOS→SkillClaw）、评测基准 53 篇、2026 年前沿方法（MemCoT/ClawVM/FadeMem/ShardMemo/OBLIVION）。
+
+## [2026-04-26] ingest | AI 的"睡眠记忆处理"：从认知科学到开源实现
+
+Source: 自研调研（综合 20+ 项目/论文、脑科学文献）。Created: `raw/AI睡眠记忆处理-从认知科学到开源实现 - Hermes Research.md`, `sources/ai-sleep-memory-research-survey.md`, `wiki/letta-sleep-time-compute.md`, `wiki/catastrophic-forgetting.md`, `wiki/generative-agents.md`. Updated: `wiki/ai-agent-memory.md` (新增 Letta/Generative Agents/灾难性遗忘引用), `wiki/sleep-consolidated-memory.md` (新增调研交叉引用). Topics: 人类睡眠记忆处理机制（SWS巩固+REM联想+突触缩放）、两大技术流派（神经网络睡眠模拟 vs LLM Agent 离线记忆管理）、三大核心项目（Letta Sleep-Time Compute ⭐21.7K / SCM 五模块 / OpenClaw Auto-Dream ⭐562）、灾难性遗忘与 CLS 互补学习系统、Stanford Generative Agents 记忆架构先驱、Hermes 零侵入实现路径。

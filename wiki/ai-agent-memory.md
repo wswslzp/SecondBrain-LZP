@@ -35,10 +35,13 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 ## 相关项目
 
 - **MemGPT/Letta** — LLM Agent 分层记忆管理
+- **[[letta-sleep-time-compute]]** — Letta 的双 Agent 异步记忆整合框架（⭐21.7K）
+- **[[generative-agents]]** — Stanford 虚拟小镇，Agent 记忆管理先驱（⭐21.2K）
 - **OpenChronicle** — 开源屏幕观察 + 记忆层，MCP 接口
 - **SOAR / ACT-R** — 经典认知架构的记忆子系统
 - **[[sleep-consolidated-memory|SCM]]** — 受脑科学启发的睡眠巩固记忆架构（NREM/REM/遗忘），目前最完整的 AI "睡眠记忆"方案
 - **[[complementary-learning-systems|CLS 理论]]** — SCM 等系统的神经科学理论基础
+- **[[catastrophic-forgetting]]** — 神经网络持续学习的核心问题
 
 ## 改进路线图
 
@@ -58,3 +61,5 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 - [[ai-memory-taxonomy]]
 - [[memory-system-architecture]]
 - [[ai-memory-open-source-landscape]]
+- [[hermes-sleep-implementation-plan]] — 完整实现方案
+- [[ai-sleep-memory-research-survey]] — 从认知科学到开源实现的完整调研（20+ 项目/论文）

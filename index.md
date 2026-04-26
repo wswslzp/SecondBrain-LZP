@@ -80,6 +80,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[sleep-consolidated-memory]] — SCM：受脑科学启发的 LLM 睡眠巩固记忆架构（NREM/REM/遗忘）
 - [[hebbian-learning]] — Hebb 规则：共同激活的神经元连接增强，SCM 巩固机制的基础
 - [[complementary-learning-systems]] — 互补学习系统理论：海马体（快速）+ 新皮层（慢速）双系统
+- [[catastrophic-forgetting]] — 灾难性遗忘：神经网络持续学习核心难题，睡眠重播可缓解
+- [[letta-sleep-time-compute]] — Letta Sleep-Time Compute：双 Agent 异步记忆整合框架（⭐21.7K）
+- [[generative-agents]] — Stanford Generative Agents：25 个 LLM Agent 虚拟小镇，记忆管理先驱（⭐21.2K）
 - [[context-farming]] — 人类在 AI 时代的最终职业：为 AI 提供上下文
 - [[agentic-micro-company]] — 极小团队 + 大量 AI agent 的新型公司形态
 - [[company-brain]] — 公司级统一记忆/上下文系统

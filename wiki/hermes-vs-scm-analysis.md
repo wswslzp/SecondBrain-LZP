@@ -279,3 +279,4 @@ Cron: 每天凌晨 3:00 触发
 - [[hermes-agent]]
 - [[forgetting-mechanisms]]
 - [[working-memory]]
+- [[hermes-sleep-implementation-plan]] — 完整实现方案
