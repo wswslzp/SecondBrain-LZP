@@ -2,8 +2,8 @@
 title: "Forgetting Mechanisms"
 tags: [cognitive-science, memory, forgetting, ebbinghaus]
 date_created: 2026-04-25
-date_modified: 2026-04-25
-related: ["[[human-memory-systems]]", "[[memory-consolidation]]", "[[ai-agent-memory]]"]
+date_modified: 2026-04-26
+related: ["[[human-memory-systems]]", "[[memory-consolidation]]", "[[ai-agent-memory]]", "[[memory-forgetting]]"]
 ---
 
 # Forgetting Mechanisms

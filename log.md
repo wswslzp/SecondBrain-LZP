@@ -81,3 +81,19 @@ Source: 自研综述（综合 Simply Psychology, Psychology Today, The Decision 
 ## [2026-04-25] ingest | The Last Job for Mankind: Context Farming
 
 Source: Brett Goldstein (@thatguybg) X article. Created: `sources/context-farming.md`, `wiki/brett-goldstein.md`, `wiki/context-farming.md`, `wiki/agentic-micro-company.md`, `wiki/company-brain.md`, `wiki/composable-context.md`. Updated: `wiki/ai-agent-memory.md` (交叉引用). Topics: Context Farming、Agentic Micro Company、Company Brain、可组合全球上下文。
+
+## [2026-04-26] ingest | SCM: Sleep-Consolidated Memory with Algorithmic Forgetting for LLMs
+
+Source: Saish Shinde (Clyrai IP Studio), arXiv:2604.20943. Created: `raw/SCM Sleep-Consolidated Memory - Saish Shinde.md`, `sources/scm-sleep-consolidated-memory.md`, `wiki/sleep-consolidated-memory.md`, `wiki/saish-shinde.md`, `wiki/hebbian-learning.md`, `wiki/complementary-learning-systems.md`. Updated: `wiki/memory-consolidation.md` (加 SCM 实现与 CLS 引用), `wiki/ai-agent-memory.md` (加 SCM 和 CLS 相关项目). Topics: 脑科学启发的 LLM 睡眠记忆架构、NREM/REM 巩固、主动遗忘、4D 重要性评分、互补学习系统理论。
+
+## [2026-04-26] analysis | Hermes vs SCM 记忆系统全方位对比
+
+Created: `wiki/hermes-vs-scm-analysis.md`. 从架构哲学、模块映射、生命周期、CLS 理论视角对 Hermes 和 SCM 做了八个维度的深度对比。核心发现：Hermes 有完整的觉醒记忆工具但缺少离线巩固（"睡眠"），SCM 有完整的睡眠机制但只是记忆子系统。提出了最小可行"睡眠"方案和优先级建议。
+
+## [2026-04-26] ingest | 多模态记忆系统调研：AI 记忆系统超越纯文本的前沿
+
+Source: 自研调研（综合 arXiv 论文、GitHub 项目、脑科学文献）。Created: `raw/multimodal-memory-systems-research.md`, `sources/multimodal-memory-systems.md`, `wiki/multimodal-memory.md`, `wiki/memos-memory-os.md`, `wiki/simplemem.md`, `wiki/screenpipe.md`, `wiki/imagebind.md`, `wiki/cross-modal-binding.md`, `wiki/cognitive-atrophy.md`. Updated: `index.md`. Topics: 16个多模态记忆项目全景图（MemOS/SimpleMem/M3-Agent/MemVerse/Screenpipe/ImageBind等）、四种技术路线（嵌入统一/转写归一/MemCube/持续捕获）、脑科学多感官整合（γ振荡绑定、反向有效性）、认知萎缩风险、对 Hermes 的改进路线建议。
+
+## [2026-04-26] ingest | Awesome-AI-Memory: 学术界 AI 记忆研究全景索引
+
+Source: IAAR-Shanghai/Awesome-AI-Memory (GitHub). Created: `raw/awesome-ai-memory-repo.md`, `sources/awesome-ai-memory.md`, `wiki/ai-memory-taxonomy.md`, `wiki/memory-system-architecture.md`, `wiki/memory-forgetting.md`, `wiki/memory-retrieval-pipeline.md`, `wiki/memory-compression.md`, `wiki/ai-memory-benchmarks.md`, `wiki/ai-memory-open-source-landscape.md`, `wiki/iaar-shanghai.md`. Updated: `wiki/ai-agent-memory.md` (交叉引用), `wiki/forgetting-mechanisms.md` (交叉引用), `wiki/hindsight.md` (交叉引用), `index.md`. Topics: 349篇论文 + 97个开源项目的完整索引、记忆系统四层架构（存储→处理→检索→控制）、五种原子操作、记忆四维分类体系、遗忘机制四类、43个开源系统四代演化时间线（Zep→Mem0→MemOS→SkillClaw）、评测基准 53 篇、2026 年前沿方法（MemCoT/ClawVM/FadeMem/ShardMemo/OBLIVION）。

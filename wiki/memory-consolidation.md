@@ -45,6 +45,20 @@ AI Agent 缺少"离线巩固"过程。可能的实现：
 - 提取高频模式为持久知识
 - 类似"睡眠巩固"的周期性记忆整理
 
+### SCM 实现 (2026)
+
+[[sleep-consolidated-memory|SCM]] 论文提出了目前最完整的 AI 睡眠巩固方案：
+- 工作记忆限制 7 项 → 制造记忆压力
+- NREM 重播 + Hebbian 强化 + 突触下调
+- REM 随机游走产生新联想
+- 主动遗忘剪枝低价值概念
+- 效果：90.9% 噪声消除，图大小缩减 3 倍
+
+其理论基础为 [[complementary-learning-systems|互补学习系统理论]] (McClelland et al., 1995)。
+
 ## References
 
 - [[human-memory-cognitive-science]]
+- [[scm-sleep-consolidated-memory]]
+- [[sleep-consolidated-memory]]
+- [[complementary-learning-systems]]

@@ -2,8 +2,8 @@
 title: "AI Agent Memory Architecture"
 tags: [ai-agents, memory, cognitive-science, hermes]
 date_created: 2026-04-25
-date_modified: 2026-04-25
-related: ["[[human-memory-systems]]", "[[working-memory]]", "[[forgetting-mechanisms]]", "[[memory-consolidation]]", "[[hermes-agent]]"]
+date_modified: 2026-04-26
+related: ["[[human-memory-systems]]", "[[working-memory]]", "[[forgetting-mechanisms]]", "[[memory-consolidation]]", "[[hermes-agent]]", "[[sleep-consolidated-memory]]", "[[complementary-learning-systems]]", "[[multimodal-memory]]", "[[cognitive-atrophy]]", "[[ai-memory-taxonomy]]", "[[memory-system-architecture]]", "[[ai-memory-open-source-landscape]]"]
 ---
 
 # AI Agent Memory Architecture
@@ -37,6 +37,8 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 - **MemGPT/Letta** — LLM Agent 分层记忆管理
 - **OpenChronicle** — 开源屏幕观察 + 记忆层，MCP 接口
 - **SOAR / ACT-R** — 经典认知架构的记忆子系统
+- **[[sleep-consolidated-memory|SCM]]** — 受脑科学启发的睡眠巩固记忆架构（NREM/REM/遗忘），目前最完整的 AI "睡眠记忆"方案
+- **[[complementary-learning-systems|CLS 理论]]** — SCM 等系统的神经科学理论基础
 
 ## 改进路线图
 
@@ -52,3 +54,7 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 
 - [[human-memory-cognitive-science]]
 - [[hermes-agent]]
+- [[awesome-ai-memory]]
+- [[ai-memory-taxonomy]]
+- [[memory-system-architecture]]
+- [[ai-memory-open-source-landscape]]

@@ -3,7 +3,7 @@ title: "Hindsight"
 tags: [tools, memory, ai-agents, context-management]
 date_created: 2026-04-20
 date_modified: 2026-04-20
-related: ["[[hermes-agent]]", "[[context-feedback-loops]]"]
+related: ["[[hermes-agent]]", "[[memory-retrieval-pipeline]]", "[[ai-memory-open-source-landscape]]", "[[context-feedback-loops]]"]
 ---
 
 # Hindsight

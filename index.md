@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-04-25
+date_modified: 2026-04-26
 ---
 
 # Index
@@ -18,6 +18,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[naval-ravikant]] — AngelList 创始人，Productize Yourself 框架提出者
 - [[0xjeff]] — Researcher/Investor，Hermes agent 深度用户
 - [[brett-goldstein]] — Micro 创始人，前 Google 认知科学家，Context Farming 提出者
+- [[saish-shinde]] — Clyrai IP Studio，SCM 睡眠巩固记忆论文作者
+- [[memos-memory-os]] — MemOS: 记忆操作系统，MemCube 统一明文/激活/参数三种记忆形式
+- [[iaar-shanghai]] — IAAR 上海 AI Agent 研究机构，Awesome-AI-Memory 维护方
 
 ## Concepts
 
@@ -60,6 +63,23 @@ A catalog of all pages in this wiki, organized by category.
 - [[forgetting-mechanisms]] — 遗忘曲线与四种遗忘理论
 - [[memory-consolidation]] — 记忆巩固的两阶段与睡眠角色
 - [[ai-agent-memory]] — AI Agent 记忆架构与人类记忆对比及改进路线
+- [[multimodal-memory]] — 多模态记忆：AI 记忆系统超越纯文本，原生支持图像/音频/视频
+- [[memos-memory-os]] — MemOS 记忆操作系统：MemCube 统一明文/激活/参数三种记忆
+- [[simplemem]] — SimpleMem/Omni-SimpleMem：多模态记忆 SOTA，三阶段管线
+- [[screenpipe]] — 开源 Rewind 替代，持续屏幕+音频捕获
+- [[imagebind]] — Meta AI 六模态统一嵌入空间（CVPR 2023）
+- [[cross-modal-binding]] — 跨模态绑定：γ 振荡、时间窗口、反向有效性原则
+- [[cognitive-atrophy]] — 认知萎缩风险：AI 替人记忆是否导致海马体退化
+- [[ai-memory-taxonomy]] — AI 记忆多维分类体系（参数/外部、短期/长期、情景/语义/程序）
+- [[memory-system-architecture]] — AI 记忆系统四层架构：存储→处理→检索→控制
+- [[memory-forgetting]] — AI 记忆遗忘机制四类：选择性遗忘、隐私驱动、记忆衰减、冲突驱动
+- [[memory-retrieval-pipeline]] — 记忆检索三阶段管线：语义预筛→上下文重排→时间过滤
+- [[memory-compression]] — 记忆压缩四层次：内容级、表示级、组织级、知识蒸馏
+- [[ai-memory-benchmarks]] — AI 记忆评测基准：53 篇 benchmark 论文梳理
+- [[ai-memory-open-source-landscape]] — 开源记忆系统全景（43 项目，2023-2026 四代演化）
+- [[sleep-consolidated-memory]] — SCM：受脑科学启发的 LLM 睡眠巩固记忆架构（NREM/REM/遗忘）
+- [[hebbian-learning]] — Hebb 规则：共同激活的神经元连接增强，SCM 巩固机制的基础
+- [[complementary-learning-systems]] — 互补学习系统理论：海马体（快速）+ 新皮层（慢速）双系统
 - [[context-farming]] — 人类在 AI 时代的最终职业：为 AI 提供上下文
 - [[agentic-micro-company]] — 极小团队 + 大量 AI agent 的新型公司形态
 - [[company-brain]] — 公司级统一记忆/上下文系统
@@ -91,7 +111,10 @@ A catalog of all pages in this wiki, organized by category.
 - [[3-highly-useful-hermes-skills]] — Hermes agent 实战用例与教训（0xJeff, 2026-04-20）
 - [[human-memory-cognitive-science]] — 认知科学人类记忆分类体系综述（自研, 2026-04-25）
 - [[context-farming]] — The Last Job for Mankind: Context Farming（Brett Goldstein, 2026-04-24）
+- [[scm-sleep-consolidated-memory]] — SCM: Sleep-Consolidated Memory with Algorithmic Forgetting（Saish Shinde, 2026-04-22）
+- [[multimodal-memory-systems]] — 多模态记忆系统调研：16个项目全景图与技术路线分析（自研, 2026-04-26）
+- [[awesome-ai-memory]] — Awesome-AI-Memory: 学术界 AI 记忆研究全景索引（IAAR-Shanghai, 349篇论文+97个开源项目）
 
 ## Analyses
 
-_No entries yet._
+- [[hermes-vs-scm-analysis]] — Hermes 记忆系统 vs SCM 睡眠巩固记忆：全方位对比分析
