@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-04-26
+date_modified: 2026-05-17
 ---
 
 # Index
@@ -21,6 +21,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[saish-shinde]] — Clyrai IP Studio，SCM 睡眠巩固记忆论文作者
 - [[memos-memory-os]] — MemOS: 记忆操作系统，MemCube 统一明文/激活/参数三种记忆形式
 - [[iaar-shanghai]] — IAAR 上海 AI Agent 研究机构，Awesome-AI-Memory 维护方
+- [[zostaff]] — AI 量化研究者，ai-quant-researcher 开源项目作者
 
 ## Concepts
 
@@ -92,6 +93,14 @@ A catalog of all pages in this wiki, organized by category.
 - [[attention-economy]] — 大脑作为生存时代过滤器，注意力稀缺
 - [[neuromarketing]] — Meta Tribe V2 让神经营销从实验室走向任何人
 
+### 量化金融与 AI 投研
+- [[ai-quant-system]] — 6 Agent + 三道硬门的 AI 量化研究流水线
+- [[deflated-sharpe-ratio]] — 多重检验下的夏普率惩罚（无人工 override 硬门）
+- [[backtest-leakage]] — 五类回测数据泄漏与结构性防御
+- [[walk-forward-validation]] — 时序数据正确验证：滚动 + 锚定 + CPCV
+- [[three-gate-evaluator]] — 三道硬门评估器（Critic / DSR / Correlation），可推广到任何不可逆决策
+- [[multi-agent-research-loop]] — 生成 + 对抗审查 + 统计校正的多 Agent 设计模式
+
 ## Topics
 
 - [[ai-impact-on-industry]] — AI 对硬件、软件、营销、生产力的全栈影响
@@ -117,6 +126,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[scm-sleep-consolidated-memory]] — SCM: Sleep-Consolidated Memory with Algorithmic Forgetting（Saish Shinde, 2026-04-22）
 - [[multimodal-memory-systems]] — 多模态记忆系统调研：16个项目全景图与技术路线分析（自研, 2026-04-26）
 - [[awesome-ai-memory]] — Awesome-AI-Memory: 学术界 AI 记忆研究全景索引（IAAR-Shanghai, 349篇论文+97个开源项目）
+- [[ai-quant-system-zostaff]] — How to Build an AI Quant System. Test 1,000 Strategies per Week.（zostaff, 2026-05-13）
 
 ## Analyses
 
