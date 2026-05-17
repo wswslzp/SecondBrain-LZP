@@ -8,7 +8,6 @@ date_modified: 2026-05-17
 A catalog of all pages in this wiki, organized by category.
 
 ## Entities
-- [[歌白说Geslook]] — B站财经UP主
 
 - [[amit-jain]] — Luma AI 联合创始人，unified multimodal 押注者
 - [[andrej-karpathy]] — AI 研究者，LLM Wiki 模式提出者
@@ -23,14 +22,10 @@ A catalog of all pages in this wiki, organized by category.
 - [[memos-memory-os]] — MemOS: 记忆操作系统，MemCube 统一明文/激活/参数三种记忆形式
 - [[iaar-shanghai]] — IAAR 上海 AI Agent 研究机构，Awesome-AI-Memory 维护方
 - [[zostaff]] — AI 量化研究者，ai-quant-researcher 开源项目作者
+- [[歌白说Geslook]] — B站财经UP主，FIRE/指数基金定投布道者
+- [[dianwan-keji-ak]] — 电丸科技 AK，中文科技自媒体与智能眼镜重度评测者
 
 ## Concepts
-- [[最小有效量]]
-- [[消费主义]]
-- [[通货膨胀]]
-- [[FIRE 运动]]
-- [[指数基金定投]]
-- [[复利效应]]
 
 ### 财富与生涯（Naval 框架）
 - [[wealth-creation]] — Naval 的完整财富创造框架
@@ -42,6 +37,13 @@ A catalog of all pages in this wiki, organized by category.
 - [[four-kinds-of-luck]] — James Austin / Naval / @digiii 的四种运气理论
 - [[game-theory]] — 博弈论视角：运气 = 隐藏信息，策略即掌控可控因素
 
+### 个人理财与 FIRE
+- [[FIRE 运动]] — Financial Independence, Retire Early
+- [[复利效应]] — 长期年化 10% 的指数级增长力量
+- [[指数基金定投]] — 普通人最稳健的财富积累路径
+- [[通货膨胀]] — 满仓现金的隐性贬值
+- [[消费主义]] — 抵制不必要消费、珍惜复利
+- [[最小有效量]] — 95% 收益只需 2.5% 努力
 ### AI 系统与架构
 - [[frontier-systems]] — AI 全栈与四大瓶颈（Context、Compute、Capital、Culture）
 - [[ai-factory]] — 前沿 AI 制造管线（pre/mid/post/deployment）
@@ -108,12 +110,21 @@ A catalog of all pages in this wiki, organized by category.
 - [[three-gate-evaluator]] — 三道硬门评估器（Critic / DSR / Correlation），可推广到任何不可逆决策
 - [[multi-agent-research-loop]] — 生成 + 对抗审查 + 统计校正的多 Agent 设计模式
 
+### 智能眼镜与消费硬件
+- [[meta-ray-ban-glasses]] — Meta + Ray-Ban 智能眼镜产品线全貌
+- [[meta-ray-ban-scriber-blazer]] — 2026 Optics 系列：近视镜定位转向
+- [[meta-display-hypernova]] — Meta Display 与 Hypernova 2 MicroLED 路线图
+- [[ar1-plus-chip]] — 高通 AR1+ 芯片与软件代差
+- [[smart-glasses-form-factor]] — 重量底线、TR90、双眼镜轮换策略
+- [[photochromic-lens-essilor-gens]] — 依视路 GEN S 第九代变色片
+- [[li-xiang-livis-glasses]] — 理想 Livis：录音 + 中文 AI 差异化
+
 ## Topics
 
 - [[ai-impact-on-industry]] — AI 对硬件、软件、营销、生产力的全栈影响
+- [[smart-glasses-2026]] — 智能眼镜赛道 2026：第一梯队、国产追赶、关键技术节点
 
 ## Sources
-- [[bilibili-early-retirement-plan-gelook]] — B站视频：提前退休可行性计划
 
 - [[a-motorcycle-for-the-mind]] — Naval 的 AI 思考（2026-02）
 - [[ai-destroying-programmer-jobs]] — AI 对程序员就业的冲击讨论（立党, 2026-04-04）
@@ -135,6 +146,8 @@ A catalog of all pages in this wiki, organized by category.
 - [[multimodal-memory-systems]] — 多模态记忆系统调研：16个项目全景图与技术路线分析（自研, 2026-04-26）
 - [[awesome-ai-memory]] — Awesome-AI-Memory: 学术界 AI 记忆研究全景索引（IAAR-Shanghai, 349篇论文+97个开源项目）
 - [[ai-quant-system-zostaff]] — How to Build an AI Quant System. Test 1,000 Strategies per Week.（zostaff, 2026-05-13）
+- [[bilibili-early-retirement-plan-gelook]] — 【硬核】爆肝1.4万字提前退休可行性计划（歌白说Geslook, 2023-10-10）
+- [[smart-glasses-2026-dianwan]] — 2026 年智能眼镜怎么选（电丸科技 AK, 2026-05-15）
 
 ## Analyses
 

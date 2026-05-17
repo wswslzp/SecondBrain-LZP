@@ -101,15 +101,30 @@ Source: IAAR-Shanghai/Awesome-AI-Memory (GitHub). Created: `raw/awesome-ai-memor
 ## [2026-04-26] ingest | AI 的"睡眠记忆处理"：从认知科学到开源实现
 
 Source: 自研调研（综合 20+ 项目/论文、脑科学文献）。Created: `raw/AI睡眠记忆处理-从认知科学到开源实现 - Hermes Research.md`, `sources/ai-sleep-memory-research-survey.md`, `wiki/letta-sleep-time-compute.md`, `wiki/catastrophic-forgetting.md`, `wiki/generative-agents.md`. Updated: `wiki/ai-agent-memory.md` (新增 Letta/Generative Agents/灾难性遗忘引用), `wiki/sleep-consolidated-memory.md` (新增调研交叉引用). Topics: 人类睡眠记忆处理机制（SWS巩固+REM联想+突触缩放）、两大技术流派（神经网络睡眠模拟 vs LLM Agent 离线记忆管理）、三大核心项目（Letta Sleep-Time Compute ⭐21.7K / SCM 五模块 / OpenClaw Auto-Dream ⭐562）、灾难性遗忘与 CLS 互补学习系统、Stanford Generative Agents 记忆架构先驱、Hermes 零侵入实现路径。
+
 ## [2026-05-17] ingest | How to Build an AI Quant System. Test 1,000 Strategies per Week.
 
 Source: @zostaff X long-form article (2026-05-13, 328K Views). Created: `raw/How to Build an AI Quant System - zostaff.md`, `sources/ai-quant-system-zostaff.md`, `wiki/zostaff.md`, `wiki/ai-quant-system.md`, `wiki/deflated-sharpe-ratio.md`, `wiki/backtest-leakage.md`, `wiki/walk-forward-validation.md`, `wiki/three-gate-evaluator.md`, `wiki/multi-agent-research-loop.md`. Updated: `index.md` (+ Entities: zostaff; + new Concepts category "量化金融与 AI 投研" with 6 pages; + Sources entry). New concepts span quantitative trading, multi-agent LLM research loops, statistical validation (DSR), and a portable "three-gate" decision pattern applicable beyond finance.
 
+<<<<<<< HEAD
 ## 2026-05-17
 
 - Ingested: [[bilibili-early-retirement-plan-gelook]] — B站视频「提前退休可行性计划」by 歌白说Geslook
 - New concepts: [[FIRE 运动]], [[复利效应]], [[指数基金定投]], [[通货膨胀]], [[消费主义]], [[最小有效量]]
 - New entity: [[歌白说Geslook]]
+=======
+## [2026-05-17] ingest | 【硬核】爆肝1.4万字提前退休可行性计划 — 歌白说Geslook
+
+Source: B站视频（2023-10-10, BV1Vb9hBVE4C）。Created: `sources/bilibili-early-retirement-plan-gelook.md` and concept pages: `wiki/FIRE 运动.md`, `wiki/复利效应.md`, `wiki/指数基金定投.md`, `wiki/通货膨胀.md`, `wiki/消费主义.md`, `wiki/最小有效量.md`. New entity: `wiki/歌白说Geslook.md`. Topics: FIRE/提前退休、复利效应、指数基金定投长期年化、消费主义抵制、最小有效量原则。
+
+## [2026-05-17] rename | Geslook 文件名 Windows 兼容修复
+
+修复远端 `raw/【硬核】爆肝1.4万字提前退休可行性计划 |...md` 文件名中的 ASCII `|` 字符（Windows 不允许），改为全角 `｜`。仅路径变更，blob 内容不变。
+
+## [2026-05-17] ingest | 2026 年智能眼镜怎么选 — 电丸科技 AK
+
+Source: 电丸科技 AK YouTube 视频（约 65 分钟）。Created: `sources/smart-glasses-2026-dianwan.md`, `wiki/meta-ray-ban-glasses.md`, `wiki/meta-ray-ban-scriber-blazer.md`, `wiki/meta-display-hypernova.md`, `wiki/ar1-plus-chip.md`, `wiki/smart-glasses-form-factor.md`, `wiki/photochromic-lens-essilor-gens.md`, `wiki/dianwan-keji-ak.md`, `wiki/li-xiang-livis-glasses.md`, `wiki/smart-glasses-2026.md`. Updated: `index.md` (新增 "智能眼镜与消费硬件" concept 分类、smart-glasses-2026 topic、电丸科技 AK entity、新 source). Topics: Meta+Ray-Ban 2026 Optics 系列近视镜转向（Scriber/Blayzer）、AR1+ 芯片与软件代差（Conversation Focus / 自动调音暂缺）、Meta Display 卡片提词器工作流 + Hypernova 2 MicroLED 路线图、依视路 GEN S 第九代变色片、TR90 重量底线（30g 镜框 + 10-20g 镜片）、双眼镜轮换续航策略、Gen 1→Gen 2 钢壳电池改装、理想 Livis 录音+中文 AI 差异化、限定款经济学（透明/Coperni）。
+>>>>>>> 62d8056e4a22eafdb633bfc8a5fcbc0adc718c70
 
 ## 2026-05-17
 
