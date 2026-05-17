@@ -1,0 +1,6 @@
+# Claude Code local settings (per-machine, should not be tracked)
+.claude/
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sources/human-memory-cognitive-science.md",
+                "file": "raw/2026 年智能眼镜怎么选.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "human-memory-cognitive-science"
+              "title": "2026 年智能眼镜怎么选"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "dc149e92f3f70cb8",
   "lastOpenFiles": [
+    "sources/human-memory-cognitive-science.md",
+    "raw/2026 年智能眼镜怎么选.md",
     "wiki/human-memory-systems.md",
     "index.md",
     "log.md",
@@ -211,8 +213,6 @@
     "wiki/multimodal-ai.md.tmp.4916.1776527526421",
     "wiki/mati-staniszewski.md",
     "wiki/andreas-blattmann.md",
-    "wiki/amit-jain.md",
-    "sources/cs153-elevenlabs-mati-staniszewski.md",
     "log.md.tmp.37668.1776525539500",
     "sources/how-to-get-rich.md.tmp.37668.1776525078155"
   ]
