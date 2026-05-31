@@ -106,3 +106,10 @@ related: ["[[unified-models]]", "[[audio-intelligence]]", "[[mati-staniszewski]]
 - [[cs153-elevenlabs-mati-staniszewski]]
 - [[cs153-luma-amit-jain]]
 - [[cs153-bfl-andreas-blattmann]]
+
+## 系统实现层：multi-stage decode
+
+[[sglang-omni-llm-inference]] 从推理系统角度解释了 fused / omni 语音模型为什么不能简单复用标准 LLM serving：Thinker 与 Talker 是两条异构 decode loop，Talker+MTP 又是同步紧耦合反馈回路。架构选择不只是产品上的 reliability vs latency，也是调度、通信和显存管理的系统边界问题。
+
+## 来源补充
+- [[sglang-omni-llm-inference]]

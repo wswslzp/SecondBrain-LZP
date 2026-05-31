@@ -112,3 +112,7 @@ Source: @zostaff X long-form article (2026-05-13, 328K Views). Created: `raw/How
 Source: 吴梓豪leslie 知识星球「半导体大佬的会议室」长文 (2026-04-17). Created: `raw/光互联大迁徙 - 吴梓豪leslie.md`, `sources/optical-interconnect-migration-leslie.md`, `wiki/wu-zihao-leslie.md`, `wiki/control-point-convergence.md`, `wiki/cpo-co-packaged-optics.md`, `wiki/silicon-photonics.md`, `wiki/optical-interconnect-roadmap.md`. Updated: `index.md` (+ Entity: wu-zihao-leslie; + new Concepts category "半导体与光通信" with 4 pages; + Sources entry). 
 
 核心要点：作者从全产业链视角推演光互联未来十年演进，提出「控制点收敛」框架——价值链最终向系统架构者(NVIDIA/Broadcom)、Foundry 制造平台(TSMC)、先进封装收敛。三极论：6.4T CPO 时代的 NVIDIA + Broadcom + TSMC。主动去神化 A 股光模块龙头与 FiconTEC 等炒作叙事。⚠️ 作者 95% 重仓 TSMC，疑似台积电背景，对 Foundry 层判断存在 confirmation bias，时间表预测可能偏乐观。
+
+## [2026-06-01] ingest | LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍
+
+Source: 鸭哥每日手记 / Superlinear Academy. Created: `raw/LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍 - 鸭哥每日手记.md`, `sources/sglang-omni-llm-inference.md`, `wiki/sglang-omni.md`, `wiki/llm-inference-systems.md`, `wiki/multi-stage-decode.md`. Updated: `wiki/audio-intelligence.md`, `wiki/cascaded-vs-fused-architectures.md`, `wiki/multimodal-ai.md`, `index.md`.

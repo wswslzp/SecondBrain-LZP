@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-05-18
+date_modified: 2026-06-01
 ---
 
 # Index
@@ -8,6 +8,7 @@ date_modified: 2026-05-18
 A catalog of all pages in this wiki, organized by category.
 
 ## Entities
+- [[sglang-omni]] — SGLang 面向 multi-stage/omni 模型的推理系统设计方向
 
 - [[amit-jain]] — Luma AI 联合创始人，unified multimodal 押注者
 - [[andrej-karpathy]] — AI 研究者，LLM Wiki 模式提出者
@@ -45,6 +46,8 @@ A catalog of all pages in this wiki, organized by category.
 - [[消费主义]] — 抵制不必要消费、珍惜复利
 - [[最小有效量]] — 95% 收益只需 2.5% 努力
 ### AI 系统与架构
+- [[llm-inference-systems]] — LLM serving 中 prefill/decode、KV cache、调度与显存管理
+- [[multi-stage-decode]] — Thinker/Talker/MTP 等异构 stage 组成的多阶段推理模式
 - [[frontier-systems]] — AI 全栈与四大瓶颈（Context、Compute、Capital、Culture）
 - [[ai-factory]] — 前沿 AI 制造管线（pre/mid/post/deployment）
 - [[context-feedback-loops]] — RL 飞轮与 context wars
@@ -131,6 +134,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[smart-glasses-2026]] — 智能眼镜赛道 2026：第一梯队、国产追赶、关键技术节点
 
 ## Sources
+- [[sglang-omni-llm-inference]] — SGLang Omni 推理系统设计与 multi-stage decode 方法论
 
 - [[a-motorcycle-for-the-mind]] — Naval 的 AI 思考（2026-02）
 - [[ai-destroying-programmer-jobs]] — AI 对程序员就业的冲击讨论（立党, 2026-04-04）

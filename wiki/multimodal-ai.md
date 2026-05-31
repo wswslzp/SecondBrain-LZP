@@ -85,3 +85,10 @@ related: ["[[unified-models]]", "[[visual-intelligence]]", "[[audio-intelligence
 - [[cs153-luma-amit-jain]]
 - [[cs153-bfl-andreas-blattmann]]
 - [[cs153-elevenlabs-mati-staniszewski]]
+
+## Omni 推理系统
+
+[[sglang-omni-llm-inference]] 提供了一个系统设计视角：多模态/Omni 的关键边界不一定是“支持哪些模态”，而是 decode 是否变成 [[multi-stage-decode]]。当语音输出引入 Talker、MTP、Vocoder 等异构 stage，推理系统必须重新设计调度、通信与显存预算。
+
+## 来源补充
+- [[sglang-omni-llm-inference]]

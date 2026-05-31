@@ -115,3 +115,10 @@ AI 合成声音太容易 → 语音不应是安全认证机制。
 ## 来源
 - [[cs153-elevenlabs-mati-staniszewski]]
 - [[cs153-bfl-andreas-blattmann]]
+
+## 推理系统视角（SGLang Omni）
+
+[[sglang-omni-llm-inference]] 补充了 voice agent 的底层系统视角：语音输出不仅是模型能力问题，也是推理系统问题。Thinker 生成低频文本 token，Talker 生成高频 codec token，两者的调度、通信和显存行为不同，因此需要 [[multi-stage-decode]] 的系统抽象。
+
+## 来源补充
+- [[sglang-omni-llm-inference]]
