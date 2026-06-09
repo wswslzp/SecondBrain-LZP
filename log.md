@@ -113,6 +113,10 @@ Source: 吴梓豪leslie 知识星球「半导体大佬的会议室」长文 (202
 
 核心要点：作者从全产业链视角推演光互联未来十年演进，提出「控制点收敛」框架——价值链最终向系统架构者(NVIDIA/Broadcom)、Foundry 制造平台(TSMC)、先进封装收敛。三极论：6.4T CPO 时代的 NVIDIA + Broadcom + TSMC。主动去神化 A 股光模块龙头与 FiconTEC 等炒作叙事。⚠️ 作者 95% 重仓 TSMC，疑似台积电背景，对 Foundry 层判断存在 confirmation bias，时间表预测可能偏乐观。
 
+## [2026-06-09] ingest | 拆解机器人「肉身」：量产与供应链（硅谷101）
+
+Source: 硅谷101 YouTube（https://www.youtube.com/watch?v=DZIhQeFEdXI）. Created: `sources/silicon-valley-101-humanoid-robot-hardware.md`, `wiki/humanoid-robot-hardware.md`, `wiki/robot-actuators.md`, `wiki/embodied-ai-supply-chain.md`. Updated: `index.md`.
+
 ## [2026-06-01] ingest | LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍
 
 Source: 鸭哥每日手记 / Superlinear Academy. Created: `raw/LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍 - 鸭哥每日手记.md`, `sources/sglang-omni-llm-inference.md`, `wiki/sglang-omni.md`, `wiki/llm-inference-systems.md`, `wiki/multi-stage-decode.md`. Updated: `wiki/audio-intelligence.md`, `wiki/cascaded-vs-fused-architectures.md`, `wiki/multimodal-ai.md`, `index.md`.

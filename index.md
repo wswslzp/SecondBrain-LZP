@@ -113,6 +113,11 @@ A catalog of all pages in this wiki, organized by category.
 - [[three-gate-evaluator]] — 三道硬门评估器（Critic / DSR / Correlation），可推广到任何不可逆决策
 - [[multi-agent-research-loop]] — 生成 + 对抗审查 + 统计校正的多 Agent 设计模式
 
+### 具身智能与机器人
+- [[humanoid-robot-hardware]] — 人形机器人硬件四大系统：骨架/执行器/传感器/电气计算完整解剖
+- [[robot-actuators]] — 执行器深度：三类减速器（行星/谐波/RV）、电机散热与 TN 曲线、自研 vs 采购
+- [[embodied-ai-supply-chain]] — 供应链与汽车/手机 80%+ 重合；量产核心难题是系统整合而非单点技术
+
 ### 半导体与光通信
 - [[control-point-convergence]] — 产业链控制点收敛框架：判断公司在哪一层而非是否在供应链上
 - [[cpo-co-packaged-optics]] — CPO 共封装光学：把光从前面板搬进封装内部，价值链重写
@@ -158,6 +163,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[ai-quant-system-zostaff]] — How to Build an AI Quant System. Test 1,000 Strategies per Week.（zostaff, 2026-05-13）
 - [[bilibili-early-retirement-plan-gelook]] — 【硬核】爆肝1.4万字提前退休可行性计划（歌白说Geslook, 2023-10-10）
 - [[smart-glasses-2026-dianwan]] — 2026 年智能眼镜怎么选（电丸科技 AK, 2026-05-15）
+- [[silicon-valley-101-humanoid-robot-hardware]] — 拆解机器人「肉身」：骨架/执行器/传感器/供应链全拆解（硅谷101, 2026-06-01）
 - [[optical-interconnect-migration-leslie]] — 光互联大迁徙：从光纤、光模块、1.6T 到 CPO 与 OIO 的全产业链终局推演（吴梓豪leslie, 2026-04-17）
 
 ## Analyses
