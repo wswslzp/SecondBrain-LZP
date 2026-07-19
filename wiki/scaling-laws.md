@@ -3,7 +3,7 @@ title: "Scaling Laws"
 tags: [ai, scaling-laws, compute, llm, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]"]
+related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]", "[[sam-altman]]", "[[satya-nadella]]", "[[intelligence-as-utility]]"]
 ---
 
 # Scaling Laws
@@ -46,6 +46,10 @@ Dario 首创 scaling laws 的**概念**（算法不变、data+compute 即可变�
 ## 与基础设施的关系
 
 scaling laws 把「更多 compute」直接转化为「更强模型」，因此是 [[compute-infrastructure]] 资本狂潮的底层逻辑——Big Tech 三年 CapEx 从 $300B 冲向 $1.2T，本质是在为这条曲线加燃料。相关工程/系统视角见 [[frontier-systems]] 与 [[ai-factory]]。
+
+## CS153：Altman 的「scale is its own quality」
+
+[[sam-altman|Sam Altman]]（[[cs153-sam-altman-scale]]）在 CS153 把 scaling 推广为一条更宽的命题——**「scale is its own quality」**：最有意思的东西都来自**规模下的涌现性质（emergent properties at scale）**，其回报超出共识（AI 模型、研究团队、经济体、YC 批次皆然）；他认为这个领域曾「held back by a generation of scientists too certain about what scaling wouldn't produce」。[[satya-nadella|Satya Nadella]] 则把 Microsoft 2019 年那笔 $1B 投资 OpenAI 描述为**押注这条 scaling-laws 的 Pareto 会持续延伸**，并由此引出「智能/算力将成为一种新公用事业」（[[intelligence-as-utility]]）的判断。
 
 ## 相关页面
 

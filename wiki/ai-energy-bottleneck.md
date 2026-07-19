@@ -3,7 +3,7 @@ title: "AI 能源瓶颈（Energy Bottleneck）"
 tags: [ai, energy, power, nuclear, uranium-enrichment, grid, compute, infrastructure, cs153]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]", "[[nvidia]]", "[[frontier-systems]]"]
+related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]", "[[nvidia]]", "[[frontier-systems]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]"]
 ---
 
 # AI 能源瓶颈
@@ -81,6 +81,10 @@ related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]",
 - **[[nvidia]] / [[jensen-huang]]**：Jensen 在 Joe Rogan 承认 energy 是 blocker；NVIDIA 侧的近解是先吃电网**闲置容量**这块 low-hanging fruit，并用 [[extreme-co-design]] 把 **tokens/sec/watt** 每年拉高一个数量级——这是从**能效需求侧**缓解同一个瓶颈。
 - **[[frontier-systems]]**：本讲正对应 AI 全栈的 **土地 / 电力 / 外壳** 那一层（4 Cs 之外常被忽视的实体约束）。
 - **[[sovereign-ai]]**：美国 enrichment 独立 = 能源/供应链主权与国家安全，且低成本供盟国带来防扩散收益。
+
+## CS153 补充：电网供给侧（Amin Vahdat 的运营者视角）
+
+如果说 [[scott-nolan]]（[[general-matter]]）从**燃料/enrichment** 一路追瓶颈，[[amin-vahdat]]（[[value-per-gigawatt]]）补的则是同一功耗瓶颈的**电网供给与合约**这一面：电力公司要求 **20 年 take-or-pay** 长约、permitting 漫长、小于 **100MW** 的容量被 stranded；且 **serving/推理**负载在电力上是可分散互换的，**training** 却要一大块**连续（contiguous）**的电。这正是数据中心运营者眼中的 power bottleneck——与本页需求侧的 super-linear 曲线、以及 [[sam-altman]] 口中的「shortage forever」是同一枚硬币的两面。
 
 ## 相关页面
 - [[compute-infrastructure]]

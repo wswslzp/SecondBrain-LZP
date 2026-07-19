@@ -3,7 +3,7 @@ title: "风险投资作为系统（Venture Capital as a System）"
 tags: [venture-capital, systems, a16z, moats, startups, ai]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[ben-horowitz]]", "[[network-effects]]", "[[cs153-ben-horowitz]]", "[[marc-andreessen]]", "[[frontier-systems]]"]
+related: ["[[ben-horowitz]]", "[[network-effects]]", "[[cs153-ben-horowitz]]", "[[marc-andreessen]]", "[[frontier-systems]]", "[[y-combinator]]", "[[garry-tan]]", "[[diana-hu]]", "[[ai-native-company]]"]
 ---
 
 # 风险投资作为系统
@@ -100,6 +100,10 @@ AI 反转了这条：**"if you have enough GPUs and enough data, you can basical
 - SaaSpocalypse 下"人人入狱，不论是否有罪"——"when the paddy wagon backs up to the house of ill repute, everybody goes to jail."
 - Warren Buffett："in the short term, it's a voting machine. In the long term, it's a weighing machine." Wall Street **买 narrative，不买 facts**；等到季报（weighing machine）出来，"为什么一个据说被 [[anthropic|Anthropic]] one-shot 的公司还这么赚钱"，narrative 才会翻转。
 - 真实 moat 的反例 **Navan**（企业差旅软件）：护城河是与全球每一家航司/酒店的**供应链关系**（爬网站会被 cease-and-desist 起诉出局）+ 卖给"travel manager"这种脏活——"there's gold bricks everywhere. They're not going to pick up a silver brick."
+
+## YC 与 The SAFE：把种子融资标准化（CS153）
+
+CS153（主持人 Anjney Midha + YC 的 [[garry-tan]]/[[diana-hu]]）把 **The SAFE**（Simple Agreement for Future Equity；Paul Graham & Jessica Livingston 提出）视为**工业化了种子融资的标准**——它在资本世界里的地位，类比 AC/DC 电力标准 + 公用事业公司之于电力世界。由此，[[y-combinator]] 被定位为**把种子阶段融资标准化的机构**。这与本页 [[ben-horowitz]]/[[marc-andreessen]] 的「VC 即系统」论题彼此呼应。详见 [[ai-native-company]]。
 
 ## 相关
 

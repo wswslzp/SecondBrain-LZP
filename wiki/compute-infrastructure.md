@@ -2,8 +2,8 @@
 title: "AI Compute 基础设施经济"
 tags: [ai, compute, infrastructure, gpu, markets]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]"]
+date_modified: 2026-07-19
+related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]", "[[satya-nadella]]"]
 ---
 
 # Compute 基础设施
@@ -96,6 +96,10 @@ Midha 请 Claude 整理的案例：
 来自 [[jensen-huang|Jensen]] 的 [[cs153-jensen-huang-compute|CS153 讲座]]：
 - **不是缺芯片，是体制问题**：「There's plenty of chips. If the president of Stanford places an order, I'll deliver it.」真问题是各系各自拉 grant、没人合并，单笔不够买校级共享算力，世界又搬去了人手一台笔记本。解法：聚合建**校级共享超算**、「$40B endowment 切 $1B 做成给每个学生/研究者的 AI cloud」——这为本页「compute 不是商品、需要机构协调」提供了一个具体的机构失灵案例。
 - **能源总量**：未来计算所需能源「likely **1,000× more** than we currently have」；能效是可控杠杆（tokens/watt 已 +50× 且复利）。能源作为 compute 之上的**实体地基**详见 [[ai-energy-bottleneck]]（[[scott-nolan]] / [[general-matter]]）——即便「电力可互换（1 MW=1 MW）」，你也得**先有电**。
+
+## CS153 补充：供给/交期的物理现实（Vahdat / Altman / Nadella）
+
+[[amin-vahdat]]（[[value-per-gigawatt]]）在 CS153 给出数据中心运营者视角的**供给与交期现实**：1 GW 产能约合 **$40–50B**；净新增 GW 的 lead time 要 **2–3 年**；电力公司如今要求 **20 年 take-or-pay** 长约（电网已无 slack）；小于 **100MW** 的孤立站点会被 stranded；而 **watts 与 space 在不同芯片世代间是可互换的**，因此要先把**电力信封（watt envelope）**圈下来、再逐代填芯片，并且**每天重新规划（replan daily）**。需求侧上，[[sam-altman]] 称这是一场「gigantic compute shortage… shortage forever」（需求无上限），[[satya-nadella]] 则把负载归为三类主导 workload——**训练 / 推理 / 长时运行的 agent**。这些都为本页「compute 不是商品、需要机构协调」的论点补上了电力与交期这层硬约束。
 
 ## 来源
 - [[cs153-frontier-systems]]

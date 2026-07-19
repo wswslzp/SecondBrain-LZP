@@ -2,8 +2,8 @@
 title: "Sovereign AI"
 tags: [ai, geopolitics, cloud, infrastructure]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]", "[[ai-energy-bottleneck]]"]
+date_modified: 2026-07-19
+related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]", "[[ai-energy-bottleneck]]", "[[frontier-ecosystem]]", "[[satya-nadella]]", "[[microsoft]]"]
 ---
 
 # Sovereign AI
@@ -48,6 +48,10 @@ Macron + Jensen Huang + 一位 33 岁从未运营过企业的科学家（Mensch�
 ## Jensen Huang 的国家视角
 
 [[jensen-huang|Jensen]]（[[nvidia]]）本人正是巴黎 Mistral 发布的站台者之一。在 Lex Fridman 访谈里，他把 NVIDIA 的成功直接系于**美国国家利益**：巨额税收、技术领导力=国家安全（"all aspects"）、以及 AI factory 带来的**再工业化**与就业回流。同时他盛赞中国是「fastest-innovating country / builder nation」（50% 的 AI 研究者是华人；省市竞争 + open source 文化），其领导层多为工程师而非律师。主权 AI 的博弈因此不只是「数据放哪」，也是美 / 中两个 builder 体系在人才、开源与再工业化上的竞争。
+
+## 企业级映射：Nadella 的 frontier-ecosystem
+
+[[satya-nadella|Satya Nadella]]/[[microsoft]]（[[cs153-satya-nadella-frontier-ecosystem]]）的 [[frontier-ecosystem]] 与主权 AI 是同一命题的两个尺度：都关乎**不把敏感 context / IP 泄漏**给外部——主权 AI 在**国家层面**（数据不出境、不落海外云），frontier-ecosystem 在**企业层面**（拥有自己的「token capital」、在私有 RLE 上 hill-climb，而非把语料喂给基础模型的所有者）。
 
 ## 来源
 - [[cs153-frontier-systems]]

@@ -2,8 +2,8 @@
 title: "LLM Wiki 模式"
 tags: [ai, knowledge-management, obsidian, claude-code, productivity]
 date_created: 2026-04-11
-date_modified: 2026-04-19
-related: ["[[andrej-karpathy]]", "[[ai-impact-on-industry]]", "[[claude-code]]", "[[context-management]]"]
+date_modified: 2026-07-19
+related: ["[[andrej-karpathy]]", "[[ai-impact-on-industry]]", "[[claude-code]]", "[[context-management]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[company-brain]]"]
 ---
 
 # LLM Wiki 模式
@@ -43,6 +43,10 @@ Vannevar Bush 1945 年提出的 Memex — 一个私人策展的知识存储，�
 - Ingest 按"新任务 = 新 session"规则切分
 - Lint 可委托给 subagent 并行扫描
 - Query 用轻量 session，答完 clear
+
+## 真实世界的延伸：GBrain 建在「知识 Wiki」之上（CS153）
+
+一个可爱的自指链接：YC 的 [[garry-tan]] 把他的三层记忆系统 **GBrain 直接建在 [[andrej-karpathy]] 的「Knowledge Wiki」之上**——也就是本页所讲的 LLM-Wiki 模式。当纯 grep 检索「扛不住」时，他加上了**向量检索、RRF 融合、backlinks、一个带类型的图数据库，以及一层 epistemology 层**（区分 hunches / beliefs-by-person / world-knowledge），并朝着**动态本体（dynamic ontology，每个用户一套 schema）**演进。这是本仓库所运行模式的一个真实世界扩展。详见 [[agentic-engineering-primitives]]、[[company-brain]]。
 
 ## 来源
 - [[claude-obsidian-second-brain]]

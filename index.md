@@ -39,6 +39,16 @@ A catalog of all pages in this wiki, organized by category.
 - [[ben-horowitz]] — a16z 联合创始人（与 [[marc-andreessen]]）、《The Hard Thing》作者、Opsware 创始 CEO；VC-as-system 与网络效应布道者
 - [[scott-nolan]] — General Matter 创始人/CEO、前 Founders Fund 合伙人、SpaceX 早期推进工程师；AI 能源瓶颈讲者
 - [[general-matter]] — Scott Nolan 2024 创办的美国铀浓缩公司，补上美国缺失的 enrichment 一步（2026 拿 DOE $900M 合同）
+- [[satya-nadella]] — Microsoft 董事长/CEO；2019 押注 OpenAI $10 亿的「prepared mind」，frontier ecosystem 与 growth mindset 布道者
+- [[microsoft]] — 50 年开发者工具+知识工作公司；MAI/hill-climbing、Copilot/Scout autopilot、Maia 200 codesign、Majorana 量子
+- [[sam-altman]] — OpenAI 联合创始人/CEO；scale=quality、intelligence-as-utility、democratization fork（~80%）布道者
+- [[openai]] — 从研究实验室倒装成公司的前沿 AI 实验室；ChatGPT/Codex 缔造者，把 intelligence 卖成「utility」
+- [[joe-sullivan]] — 前 Uber/Facebook 安全负责人、Cloudflare CISO、联邦检察官；Uber 泄露案被告，responsible disclosure 与 resilience 布道者
+- [[amin-vahdat]] — Google 基础设施 VP（TPU/网络）；「value per gigawatt」纪律与 system balance 布道者，被称「Jensen 的反面」
+- [[google]] — TPU/Gemini/DeepMind 全栈基础设施；8i/8t 专用化、光路交换 torus、6 年折旧，非零和竞争观
+- [[garry-tan]] — Y Combinator 总裁/CEO；GStack/GBrain 作者，「一人 1000x 工程师」与 skillify 布道者
+- [[diana-hu]] — Y Combinator GP；closed-loop AI-native 组织与 taste/evals 布道者
+- [[y-combinator]] — 种子期投资标准化机构（The SAFE）；AI-native 公司范式与 3x/3 月增长的观察者
 
 ## Concepts
 
@@ -93,6 +103,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[token-economics]] — Token 工厂经济学：retrieval→generative、warehouse→factory、$3T 营收论证（与既有 ai-factory 两种含义）
 - [[accelerated-computing]] — 加速计算/后通用计算：Moore-Dennard 终结、RISC/Hennessy codesign 血统、Hopper→Blackwell→Vera Rubin→Feynman 随 workload 共演化
 - [[ai-energy-bottleneck]] — AI 的真正约束在 compute 之上：power→电网→核能→核燃料→enrichment 的 five-whys；enrichment 是五年尺度的瓶颈
+- [[value-per-gigawatt]] — Amin Vahdat 的系统纪律：真正的指标是 value per dollar（→ happy DAU）而非 GW；MFU/system balance/Amdahl、五个 9 与 2N、access-over-reliability、光路交换 torus
+- [[intelligence-as-utility]] — Sam Altman：intelligence 是新公用事业（「卖 light 而非 electricity」）；tokens-as-utility（vs Jensen 的 compute-as-utility）、democratization fork、需求无上限→永久短缺
+- [[frontier-ecosystem]] — Satya Nadella：让每家公司带着自己复利的 IP（含「token capital」）在前沿运营；私有 RLE 上 hill-climbing、positive-sum，与 [[sovereign-ai]] 互为镜像
 
 ### AI 与人类
 - [[llm-wiki-pattern]] — Karpathy 提出的 LLM 持续构建个人知识库的模式
@@ -140,6 +153,11 @@ A catalog of all pages in this wiki, organized by category.
 - [[headless-agent-pattern]] — 非程序员的通用方法：headless Claude Code + temp folder + JSON 状态回传
 - [[agent-comfort-zone]] — AI agent 舒适区=封闭可验证环境（编程/Lean4/EDA/MATLAB/CAD）与能力边界
 - [[multi-agent-patterns]] — multi-agent 适用（map-reduce/go-driven）与天坑（组织架构模拟）
+- [[agentic-engineering-primitives]] — Garry Tan 的 code 层原语：skill / resolver / skillify / GBrain，latent-vs-deterministic 纪律与「原语↔组织」同构
+- [[ai-native-company]] — Diana Hu/Garry Tan 的 org 层论：open-loop→closed-loop 公司、IC/DRI/AI-founder 三角色、taste&evals、forward-deployed wedge、3x/3 月增长
+
+### 安全与韧性
+- [[cybersecurity-resilience]] — Joe Sullivan：透明 > 掩盖、responsible disclosure/bug bounty、resilience & 危机沟通、agents-as-toddlers 运行时异常检测、operational resilience、AI cyber 模型的 6 个月扩散窗口
 
 ### 注意力与营销
 - [[attention-economy]] — 大脑作为生存时代过滤器，注意力稀缺
@@ -195,6 +213,11 @@ A catalog of all pages in this wiki, organized by category.
 - [[cs153-jensen-huang-compute]] — Jensen Huang / NVIDIA「The Compute Behind Intelligence」：accelerated computing、MFU 批判、1000× 能源、出口管制（CS153 第 6 讲）
 - [[cs153-scott-nolan-energy]] — Scott Nolan / General Matter「Energy Bottlenecks」：从 compute 追到铀浓缩的 five-whys（CS153 第 7 讲）
 - [[cs153-ben-horowitz]] — Ben Horowitz / a16z「VC Systems, Network Effects」：VC 作为系统、网络效应、AI 时代 moat 重估（CS153 第 8 讲）
+- [[cs153-satya-nadella-frontier-ecosystem]] — Satya Nadella / Microsoft「Building the Frontier Ecosystem」：hill-climbing machine、Scout autopilot、Maia 200、Majorana 量子（CS153 第 1 讲）
+- [[cs153-sam-altman-scale]] — Sam Altman / OpenAI「Scale, AGI, and the Future of Everything」：scale=quality、ChatGPT/Codex 系统故事、intelligence-as-utility、democratization fork（CS153 第 2 讲）
+- [[cs153-joe-sullivan-resilience]] — Joe Sullivan「The Road Ahead: Resilience Required」：Uber 泄露案、responsible disclosure、AI 时代安全与 resilience（CS153 第 3 讲）
+- [[cs153-amin-vahdat-gigawatt]] — Amin Vahdat / Google「The Discipline of Delivering Value per Gigawatt」：value-per-dollar、system balance、光路交换 torus、供应链与规划（CS153 第 4 讲）
+- [[cs153-garry-tan-diana-hu-ai-native]] — Garry Tan & Diana Hu / YC「The AI Native Company」：一人 1000x 工程师、skillify/GBrain、closed-loop 组织、forward-deployed wedge（CS153 第 5 讲）
 - [[how-to-1000x-your-luck]] — 博弈论视角的运气培养方法（@digiii, 2026-04-09）
 - [[how-to-get-rich]] — Naval 的财富创造系列（2019）
 - [[luck-and-the-entrepreneur]] — 四种运气与企业家精神（Marc Andreessen, 2001）

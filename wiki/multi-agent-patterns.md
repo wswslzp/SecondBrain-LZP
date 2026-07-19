@@ -3,7 +3,7 @@ title: "Multi-Agent 适用与不适用"
 tags: [ai-agents, multi-agent, map-reduce, go-driven, scaling]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]"]
+related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[ai-native-company]]"]
 ---
 
 # Multi-Agent 适用与不适用
@@ -69,6 +69,10 @@ CrewAI、AutoGen、agent-agency（GitLab 上爆火过）、腾讯 workbody（飞
 ## 一个有产出的 multi-agent 正例
 
 [[multi-agent-research-loop]]（[[zostaff]] 的 [[ai-quant-system]]）是"有产出"的 multi-agent 范例：不是七嘴八舌的组织模拟，而是 **generate + 对抗审查（Critic）+ 统计校正** 的单一职责流水线，每个 agent 单一职责、有明确接受标准与硬门——恰好符合立党所说"干净、可验证、有流程控制"的要求。
+
+## YC 的代码级 agent 原语（CS153）
+
+[[garry-tan]] 在 CS153 给出一组 [[agentic-engineering-primitives|code-level primitives]]，与本页「干净、可验证、有流程控制」的判断互补：**skill**（一份能调用代码的 markdown runbook）、**resolver**（惰性加载指令、而非把 CLAUDE.md 撑爆——扮演「组织架构图 / org chart」的角色）、**skillify**（把一次性操作提升为受测 skill：单元测试 + LLM evals + 集成测试 + trigger eval + check-resolvable），以及 **latent-vs-deterministic** 纪律（确定性工作放进代码、latent 工作留给 LLM）。详见 [[ai-native-company]]。
 
 ## References
 

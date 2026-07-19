@@ -3,7 +3,7 @@ title: "Extreme Co-Design（极致协同设计）"
 tags: [nvidia, engineering, systems, compute, extreme-co-design, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[optical-interconnect-roadmap]]", "[[scaling-laws]]", "[[accelerated-computing]]"]
+related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[optical-interconnect-roadmap]]", "[[scaling-laws]]", "[[accelerated-computing]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]"]
 ---
 
 # Extreme Co-Design（极致协同设计）
@@ -78,6 +78,10 @@ NVIDIA 把这套「协同设计优于各自单独优化」从「编译器 × 芯
 ## 与 Elon 的对照
 
 Jensen 认为 co-design 是「the ultimate systems engineering problem」，与 Elon 在 Colossus 上的方法论同源：凡事三问——**是否必要 / 是否必须这样做 / 是否必须这么久**，把一切削到「不能再删、但必要能力仍在」的最小集，且亲临 point of action。
+
+## CS153 补充：system balance = Google-TPU 侧的 co-design
+
+[[amin-vahdat]]（[[value-per-gigawatt]]）讲的 **system balance** 是本页 co-design 在 Google-TPU 一侧的孪生：按 **Amdahl's Law**，**FLOPs : HBM bandwidth : network** 三者必须匹配，否则就是在烧钱，而 **100% MFU 本就不可能**。随着推理与训练需求分化，TPU 也开始**专用化**（**8i** 主打 inference、**8t** 主打 training）——真正的设计旋钮就是 **memory : compute : networking** 的比例。同一范式在 Microsoft 一侧体现为 **Maia 200**（[[satya-nadella]]），它与 Microsoft 自家及 OpenAI 的模型联合 codesign。可见「跨栈联合优化」已从 NVIDIA 扩散为各家自研 silicon 的通用方法。
 
 ## 相关页面
 

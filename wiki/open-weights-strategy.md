@@ -2,8 +2,8 @@
 title: "Open Weights 作为商业策略"
 tags: [ai, business, open-source, bfl]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]", "[[nvidia]]"]
+date_modified: 2026-07-19
+related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]", "[[nvidia]]", "[[satya-nadella]]", "[[microsoft]]", "[[frontier-ecosystem]]", "[[sam-altman]]", "[[intelligence-as-utility]]"]
 ---
 
 # Open Weights 作为商业策略
@@ -113,6 +113,10 @@ Image/Video 生态：
 3. **AI 不只是语言**——生物、化学、物理、physical AI 等模态都需要有人把前沿推到极限（"we don't build cars, but we want every car company to have great models"）。
 
 NVIDIA 把 weights + data + 训练方法**一并开源**。这与中国（DeepSeek、MiniMax）的开源文化（见 [[nvidia]] 的 China 段）共同构成对照，呼应 [[mati-staniszewski]] 对「西方开源须至少与中国持平」的担忧。
+
+## Microsoft MAI：licensed weights（授权而非全开源）
+
+[[satya-nadella|Satya Nadella]]/[[microsoft]]（[[cs153-satya-nadella-frontier-ecosystem]]）把 MAI 模型作为**授权权重（licensed weights）**发布——并非完全开源：在 Base10 / Fireworks / Together 上广泛授权、可 fine-tune，但以许可形式附带**可审查/安全条款**与一套经济模型；目标是让每家公司都拿到一个能自行 post-train、并**保留 IP** 的模型（即 [[frontier-ecosystem]] 所说的「hill-climbing」）。[[sam-altman|Sam Altman]]（[[cs153-sam-altman-scale]]）则把更深的赌注点为**「民主化分叉」**（他给约 80% 的概率）：是把智能作为一种公用事业（[[intelligence-as-utility]]）向外推，还是让它集中于少数公司。
 
 ## 来源
 - [[cs153-bfl-andreas-blattmann]]

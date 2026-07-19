@@ -2,8 +2,8 @@
 title: "Frontier Systems（前沿系统）"
 tags: [ai, infrastructure, compute, systems]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[venture-capital-systems]]", "[[ai-energy-bottleneck]]"]
+date_modified: 2026-07-19
+related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[venture-capital-systems]]", "[[ai-energy-bottleneck]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[frontier-ecosystem]]", "[[intelligence-as-utility]]"]
 ---
 
 # Frontier Systems
@@ -81,6 +81,10 @@ CS 153 讲座覆盖了不同模态下的前沿系统：
 ## 非技术一讲：product 与 career
 
 CS153 第 9 讲切到产品与职业（讲者 [[nikhyl-singhal]]，Skip）——前五讲都是技术创始人谈 AI/context/the loop，这一讲谈 **AI 如何把产品管理从「information mover」重塑为「有 judgment 的 builder」**、组织变平、中层经理承压。详见 [[product-management-ai-era]] 与 [[career-as-chapters]]。
+
+## CS153 讲者如何填满 4 Cs
+
+后续讲座把四大瓶颈逐一补齐：**Compute/能源**由 [[amin-vahdat]] 从「每吉瓦的价值」（[[value-per-gigawatt]]）角度切入；**Capital** 由 [[y-combinator]] 的 The SAFE、[[garry-tan]]/[[diana-hu]]（[[ai-native-company]]）与 [[ben-horowitz]] 共同覆盖；**生态/正和博弈**由 [[satya-nadella]] 的 [[frontier-ecosystem]] 提供；而贯穿全栈的「智能/算力作为一种新公用事业」这条线索由 [[sam-altman]]（[[intelligence-as-utility]]）挑明。
 
 ## 来源
 - [[cs153-frontier-systems]]

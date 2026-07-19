@@ -3,7 +3,7 @@ title: "Token 工厂经济学（AI 作为营收引擎）"
 tags: [nvidia, ai, economics, tokens, ai-factory, revenue, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[ai-factory]]", "[[tasks-vs-jobs]]"]
+related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[ai-factory]]", "[[tasks-vs-jobs]]", "[[value-per-gigawatt]]", "[[amin-vahdat]]", "[[intelligence-as-utility]]", "[[sam-altman]]"]
 ---
 
 # Token 工厂经济学（AI 作为营收引擎）
@@ -79,6 +79,10 @@ Token 工厂需要「杀手级应用」来引爆需求，而 Jensen 认为它已
 ## 与就业的联系
 
 Token 工厂经济学的另一面是「谁来消费这些 token、谁的工作被改变」。Jensen 的立场——**purpose ≠ tasks**、程序员从 3000 万增至 10 亿、放射科医生不减反增——是对 [[tasks-vs-jobs]] 中 [[dario-amodei|Dario]] 观点的直接对位。详见 [[jensen-huang]] 与 [[jensen-huang-lex-fridman]]。
+
+## CS153 补充：value per dollar 与 tokens-as-utility
+
+[[amin-vahdat]]（[[value-per-gigawatt]]）把度量进一步收紧到 **value per dollar**（而非 FLOPs 或 gigawatts）——这与本页的 **MFU 批判**、以及 **system balance**（按 peak 过量供给、别让瓶颈资源空转）直接同源：闲置的产能「is a bug」。需求侧则由 [[sam-altman]] 的 **tokens-as-utility** 框架补齐——消费者直接以 **token** 计量思考、底层硬件被彻底抽象掉，智能像水电一样按量取用（见 [[intelligence-as-utility]]）。两者一供一需，都指向「token/价值」而非「flops」才是正确的经济单位。
 
 ## 相关页面
 

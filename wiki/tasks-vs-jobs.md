@@ -3,7 +3,7 @@ title: "Tasks vs Jobs"
 tags: [ai, job-loss, economics, labor, career, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[ai-impact-on-industry]]", "[[ai-destroying-programmer-jobs]]", "[[context-farming]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[product-management-ai-era]]"]
+related: ["[[ai-impact-on-industry]]", "[[ai-destroying-programmer-jobs]]", "[[context-farming]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[product-management-ai-era]]", "[[sam-altman]]", "[[satya-nadella]]", "[[ai-native-company]]"]
 ---
 
 # Tasks vs Jobs
@@ -65,6 +65,10 @@ Jensen Huang 称 Dario「conflating tasks with jobs」；有人指这是有利�
 
 - 程序员侧的具体版本见 [[ai-destroying-programmer-jobs]]（立党：价值在「定义问题」而非写代码）与 [[ai-impact-on-industry]]。
 - 「人引导 AI」的落地形态之一是 [[context-farming]]——人类把 context/意图喂给 agent、承担剩余 10% 的高杠杆判断。
+
+## CS153 新增声音：Altman 与 Nadella
+
+这场辩论在 CS153 又添两个声音。[[sam-altman|Sam Altman]]（[[openai]]，[[cs153-sam-altman-scale]]）自称已「much less of a short-term jobs doomer」——总有新事物涌现，短期冲击「may not even be as disruptive as I originally thought in the short term」；他更大的忧虑是**算力的公平分配**（当杠杆从劳动转向资本，需要类似「公民财富基金」/ 所有权份额来对冲）。[[satya-nadella|Satya Nadella]]（[[microsoft]]，[[cs153-satya-nadella-frontier-ecosystem]]）承认「any disruptive technology will have real displacement」，**但**当下的智能被 commoditize 后，人类作为「the most adaptive species」会在其上创造新价值 →**带来有能动性、有工资的新经济活动**（与 Jensen 的 purpose≠task 乐观论同调）。YC 的 [[diana-hu]]/[[garry-tan]]（[[ai-native-company]]，[[cs153-garry-tan-diana-hu-ai-native]]）则从组织结构上印证了 Nikhyl 的中层挤压：AI-native 公司更扁平、更少中层管理，中层原本承担的「lossy info routing」被削去。
 
 ## 相关页面
 

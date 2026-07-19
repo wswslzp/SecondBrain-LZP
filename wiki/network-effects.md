@@ -3,7 +3,7 @@ title: "网络效应（Network Effects）"
 tags: [network-effects, moats, platforms, venture-capital, systems]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[ben-horowitz]]", "[[venture-capital-systems]]", "[[cs153-ben-horowitz]]", "[[marc-andreessen]]"]
+related: ["[[ben-horowitz]]", "[[venture-capital-systems]]", "[[cs153-ben-horowitz]]", "[[marc-andreessen]]", "[[sam-altman]]", "[[y-combinator]]"]
 ---
 
 # 网络效应
@@ -69,6 +69,10 @@ Ben 顺带指出网络效应生意的**副作用**：
 
 - a16z 作为"平台/agency 型 VC"的更大系统设计（集中控制、拆成可对话的小组、founder-first 等）见 [[venture-capital-systems]]。
 - AI 时代对 moat 的重估（code/UI 失效、供应链与渠道成为新护城河，Navan 案例）同样见 [[venture-capital-systems]]。
+
+## 规模下的涌现：YC batch 的网络效应（CS153）
+
+[[sam-altman]] 在 CS153 把 **YC batch 的网络效应**举为一个典范级的**规模涌现属性（emergent property at scale）**——这种「魔力」只有当你以旧 batch 规模的 100× 去投创业公司时才会出现；当年不少聪明人反而劝 [[y-combinator]] 缩小规模，事后看是错的。这与本页「网络长到有力量才显出多么不可战胜」的主线一脉相承，也呼应 [[intelligence-as-utility]] 的规模涌现主题。
 
 ## 相关
 

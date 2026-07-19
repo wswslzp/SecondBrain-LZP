@@ -8,7 +8,7 @@ related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[pro
 
 # 四种运气理论
 
-综合三个来源：[[Marc Andreessen|marc-andreessen]] 介绍的 Dr. James Austin 理论、@digiii 的博弈论视角、[[naval-ravikant]] 在《How to Get Rich》中的版本。三人版本高度一致，Naval 是向英语世界普及这个框架的另一个主要声音。
+综合三个来源：[[marc-andreessen|Marc Andreessen]] 介绍的 Dr. James Austin 理论、@digiii 的博弈论视角、[[naval-ravikant]] 在《How to Get Rich》中的版本。三人版本高度一致，Naval 是向英语世界普及这个框架的另一个主要声音。
 
 ## 四种运气
 

@@ -3,7 +3,7 @@ title: "Accelerated Computing（加速计算 / 后通用计算时代）"
 tags: [nvidia, accelerated-computing, compute, moores-law, codesign, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]", "[[compute-infrastructure]]"]
+related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]"]
 ---
 
 # Accelerated Computing（加速计算 / 后通用计算时代）
@@ -66,6 +66,10 @@ related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]",
 | 内容 | 通用计算终结（Moore/Dennard）、RISC 血统、该加速哪些问题、硬件随 workload 共演化 | 跨整条 stack + 超越 CPU/GPU（含 power/cooling/rack/pod）、anticipate hardware、pod-scale 数字 |
 
 两页互为上下游：先有「通用已死、必须加速」的前提，才谈得上「如何极致协同设计」。
+
+## CS153 补充：Google 的专用化理由（Amin Vahdat）
+
+[[amin-vahdat]]（[[value-per-gigawatt]]）从**需求侧**给出与本页一致的专用化理由：通用 CPU 的性能/能效增长已停滞了**十余年**，所以必须挑那些体量足够大的 workload（inference / training）去做专用硅——一颗 TPU 在这些任务上可比 CPU **高约 100×** 的效率，代价是它「can't do anything（else）」。这条来自 Google 自研 silicon 的路径，为本页「通用计算走到尽头、机制上专用」的后通用计算命题再添一个独立佐证。
 
 ## 相关页面
 

@@ -2,8 +2,8 @@
 title: "Claude Code"
 tags: [ai, claude-code, tool, anthropic, productivity]
 date_created: 2026-04-19
-date_modified: 2026-04-19
-related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]"]
+date_modified: 2026-07-19
+related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]", "[[garry-tan]]", "[[ai-native-company]]", "[[agentic-engineering-primitives]]"]
 ---
 
 # Claude Code
@@ -58,6 +58,10 @@ Claude Code 既是产品，也是 Anthropic 的 **context 采集前端**。
 [[lidang|立党]] 把 Claude Code 之类的工具定位为「宇宙级通用 agent」，并给出两条路线：
 - 会编程的人 → [[build-your-own-agent]]：先手写最小 SWE agent，再对照 Claude Code / Codex 学习现代机制；
 - 不会编程的人 → [[headless-agent-pattern]]：headless 驱动 Claude Code + temp folder + JSON 状态回传，端到端办事。「这正是 Claude Code 被设计出来的用法。」
+
+## YC 创始人的「软件工厂」（CS153）
+
+在 CS153，YC 的 [[garry-tan]] 用一个 **\$200/mo 的 Claude Code Max 计划**、**独自约 5 天**重建了他当年的创业公司 Posterous（当年是 10 人 + \$4M + 2 年才做出来），并把这套配置称为**「软件工厂」（software factory）**。他的 **plan-review skill**（每天跑约 20 次）把测试覆盖率推到 **80–90%**，用以逃离所谓的「AI slop」。YC 创始人们的调侃：**"Claude Code is my ADHD CEO, Codex is my near-non-verbal 200-IQ CTO"**。详见 [[ai-native-company]]、[[agentic-engineering-primitives]]（来源 [[cs153-garry-tan-diana-hu-ai-native]]）。
 
 ## 相关来源
 - [[claude-code-session-management]] — Thariq 讲 context/session 管理

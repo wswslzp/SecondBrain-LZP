@@ -3,7 +3,7 @@ title: "Jensen Huang（黄仁勋）"
 tags: [nvidia, jensen-huang, leadership, person, engineering, philosophy]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[extreme-co-design]]", "[[cuda]]", "[[tasks-vs-jobs]]", "[[scaling-laws]]"]
+related: ["[[nvidia]]", "[[extreme-co-design]]", "[[cuda]]", "[[tasks-vs-jobs]]", "[[scaling-laws]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]"]
 ---
 
 # Jensen Huang（黄仁勋）
@@ -110,6 +110,10 @@ Jensen 做大赌注的方式不是「宣布 + 强推」，而是长期、逐日�
 
 ### 最大的错误：mobile → robotics
 第一代产品架构「completely wrong」（曲面而非三角形、无 z-buffer、forward texture mapping、无浮点）却逼出战略天才。真正的战略错误是**进军 mobile**：做到 $1B 又被 Qualcomm 的 3G→4G modem 完全锁死、归零；但把那身**极致低功耗**本事转去了当年还不存在的 robotics——「**Thor 是那颗 mobile 芯片的 great-great-great-great grandson**」。
+
+## CS153 补充：Amin Vahdat =「the opposite of Jensen」
+
+在 [[cs153-amin-vahdat-gigawatt|CS153 另一场讲座]]里，Google 基础设施/TPU 负责人 [[amin-vahdat]] 被主持人明确框定为**「the opposite of Jensen」**——用严谨的系统工程 discipline 对照 Jensen 的 showmanship。但 Amin 自己说对 Jensen「all the respect in the world」、遇到难题会打电话向他请教。最实质的差异在**度量口径**：Amin 把 Jensen 的 **tokens/sec/watt** 重述为 **[[value-per-gigawatt]]**（先是 value per dollar，最终落到 happy DAUs），主张真正该优化的是交付给用户的价值，而非纯粹的能效数字。
 
 ## 相关页面
 

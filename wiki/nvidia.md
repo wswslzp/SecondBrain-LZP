@@ -3,7 +3,7 @@ title: "NVIDIA"
 tags: [nvidia, ai, compute, gpu, cuda, semiconductors, company, supply-chain]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[jensen-huang]]", "[[cuda]]", "[[extreme-co-design]]", "[[token-economics]]", "[[compute-infrastructure]]"]
+related: ["[[jensen-huang]]", "[[cuda]]", "[[extreme-co-design]]", "[[token-economics]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]"]
 ---
 
 # NVIDIA
@@ -75,6 +75,10 @@ NVIDIA 用 **Anthropic + OpenAI 的 token 比几乎任何人都多**，**100% �
 
 ### 芯片出口管制立场
 Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**medical imaging**（「in every single medical imaging system in the world」）；「a billion people have NVIDIA GPUs，我向家人推荐它们，**I don't advocate atomic bombs to anybody**」。他也反对「why compete abroad, you'll lose anyway」的失败主义，并以**电信业前车之鉴**（美国当年用同样论证把电信核心技术「policied out」，如今已无本土电信核心技术）作警示。总结句：**「Everybody should have AI. Nobody should have nuclear bombs.」**（与 [[sovereign-ai]] 的主权/国家安全视角互补。）
+
+## CS153 补充：TPU/Maia vs GPU 并非零和
+
+在 CS153 上，Google 的 [[amin-vahdat]]（[[value-per-gigawatt]]）强调 **TPU 与 GPU 不是零和**：Google 自己也**大量采购、使用 NVIDIA GPU**，整个市场在扩张，「no winners and losers」。同一逻辑也出现在 Microsoft 一侧——[[satya-nadella]] 正在 codesign 自研的 **Maia 200** 加速器（已在生产环境跑 **GPT-5.5**），却依然「love GPUs because they're general purpose」。也就是说，NVIDIA 招牌的 [[extreme-co-design]] 打法如今已被全行业各家（Google TPU、Microsoft Maia）复制到自研 silicon 上，而 NVIDIA GPU 的通用性仍是各家离不开的底座。
 
 ## 相关页面
 
