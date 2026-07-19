@@ -84,17 +84,17 @@ url: "https://www.youtube.com/watch?v=tsQB0n0YV3k"
 
 ## 与 Lex #494 的异同（速查）
 
-| 主题 | Lex #494（已入库） | CS153（本讲新增/更强调） |
-|---|---|---|
-| Codesign | 跨 stack + 超越 CPU/GPU + anticipate hardware（[[extreme-co-design]]） | **RISC/Hennessy 血统**、post-general-purpose、通用路线实际只 ~10× |
-| Moore/Dennard | 1M× vs 100× | 补「Dennard 死后通用只剩 ~10×」的 nuance |
-| 硬件 roadmap | Grace Blackwell → Vera Rubin + Rock | **完整四代**（Hopper/pretraining → NVLink72/inference → Vera Rubin/agents → **Feynman/swarms**）+ $350M「marketplace of zero」 |
-| 度量 | tokens/sec/watt（[[token-economics]]） | **MFU 批判**、「low MFU on purpose」、disaggregate、「index of intelligences」 |
-| 能源 | 消化电网闲置容量 | **「1,000× more energy」**、可再生能源投资窗口 |
-| Open source | Nemotron 三动机（[[nvidia]]） | **NVIDIA 用最多 Anthropic/OpenAI token、100% 工程师 agentic**、五大 foundation 域、Alpamayo world-model fusion、Nemotron Nano cyber-dome |
-| 政策 | China/主权 AI | **出口管制**、电信前车之鉴、「everybody should have AI」、反末日论 |
-| 教育/大学 | —（几乎没有） | **AI 重写课程**、大学 compute crunch、endowment→$1B compute |
-| 就业/人生 | purpose≠tasks、放射科医生、intelligence is a commodity | suffering→resilience、别只追热爱、forecasting 三档、mobile→robotics 复盘 |
+| 主题            | Lex #494（已入库）                                                     | CS153（本讲新增/更强调）                                                                                                             |
+| ------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Codesign      | 跨 stack + 超越 CPU/GPU + anticipate hardware（[[extreme-co-design]]） | **RISC/Hennessy 血统**、post-general-purpose、通用路线实际只 ~10×                                                                      |
+| Moore/Dennard | 1M× vs 100×                                                       | 补「Dennard 死后通用只剩 ~10×」的 nuance                                                                                              |
+| 硬件 roadmap    | Grace Blackwell → Vera Rubin + Rock                               | **完整四代**（Hopper/pretraining → NVLink72/inference → Vera Rubin/agents → **Feynman/swarms**）+ $350M「marketplace of zero」      |
+| 度量            | tokens/sec/watt（[[token-economics]]）                              | **MFU 批判**、「low MFU on purpose」、disaggregate、「index of intelligences」                                                       |
+| 能源            | 消化电网闲置容量                                                          | **「1,000× more energy」**、可再生能源投资窗口                                                                                          |
+| Open source   | Nemotron 三动机（[[nvidia]]）                                          | **NVIDIA 用最多 Anthropic/OpenAI token、100% 工程师 agentic**、五大 foundation 域、Alpamayo world-model fusion、Nemotron Nano cyber-dome |
+| 政策            | China/主权 AI                                                       | **出口管制**、电信前车之鉴、「everybody should have AI」、反末日论                                                                             |
+| 教育/大学         | —（几乎没有）                                                           | **AI 重写课程**、大学 compute crunch、endowment→$1B compute                                                                         |
+| 就业/人生         | purpose≠tasks、放射科医生、intelligence is a commodity                   | suffering→resilience、别只追热爱、forecasting 三档、mobile→robotics 复盘                                                                |
 
 ## 关键实体 / 概念页
 - [[jensen-huang]] — 人物与领导力哲学
