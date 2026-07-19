@@ -63,11 +63,25 @@ Jensen 称 agents 是 **"the iPhone of tokens"**、**"the fastest-growing applic
 
 **安全（NemoClaw / OpenShell）**：核心是 **two-of-three rights**——agentic 系统可以（a）访问敏感信息、（b）执行代码、（c）对外通信，任意时刻**最多同时开两项**，绝不三项全开；再叠加基于企业授权的 access control + 接入企业既有 policy engine。
 
+## CS153 补充：自研 foundation 域、内部用量与出口管制
+
+来自 [[cs153-jensen-huang-compute|CS153 讲座]]：
+
+### 五大自研 foundation model 域
+除 Nemotron（语言）外，NVIDIA 亲自造「第一件 artifact」以**激活整条下游产业**（这些领域的科学家没有 scale/技术自建 foundation model）：**BioNemo**（生物）、**Alpamayo**（自动驾驶）、**Groot**（人形机器人 articulation）、**climate science**（mesoscale multiphysics）。其中 **Alpamayo = language model 融合 world model + human priors**，因而只需「a few million miles, not billions」的数据。cybersecurity 打法不是「7.0 对 8.0」的模型军备竞赛，而是用 **Nemotron Nano** 训出「swarms of cheap AIs」组成「a giant dome」围住威胁。理由之一是 **open = safety**：「you can't defend against a black box, and you can't secure a black box.」
+
+### NVIDIA 自身重度用 frontier 模型
+NVIDIA 用 **Anthropic + OpenAI 的 token 比几乎任何人都多**，**100% 工程师已 agentically supported**。Jensen 对学生说：「Claude is a product, and **Claude Code is a whole harness** around it」——不太可能去 GitHub 下个开源的就一样好（见 [[claude-code]]）。
+
+### 芯片出口管制立场
+Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**medical imaging**（「in every single medical imaging system in the world」）；「a billion people have NVIDIA GPUs，我向家人推荐它们，**I don't advocate atomic bombs to anybody**」。他也反对「why compete abroad, you'll lose anyway」的失败主义，并以**电信业前车之鉴**（美国当年用同样论证把电信核心技术「policied out」，如今已无本土电信核心技术）作警示。总结句：**「Everybody should have AI. Nobody should have nuclear bombs.」**（与 [[sovereign-ai]] 的主权/国家安全视角互补。）
+
 ## 相关页面
 
 - [[jensen-huang]]
 - [[cuda]]
 - [[extreme-co-design]]
+- [[accelerated-computing]]
 - [[token-economics]]
 - [[compute-infrastructure]]
 - [[ai-factory]]

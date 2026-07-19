@@ -65,3 +65,4 @@ Claude Code 既是产品，也是 Anthropic 的 **context 采集前端**。
 - [[a-motorcycle-for-the-mind]] — Naval 将 Claude Code 视为 vibe coding 的典型
 - [[inside-anthropic-the-circuit]] — Anthropic 视角：Claude Code/Cowork 的诞生与影响
 - [[jensen-huang-lex-fridman]] — Jensen Huang 称 agentic coding（他叫「OpenClaw」）是「the iPhone of tokens」、史上增长最快的应用
+- [[cs153-jensen-huang-compute]] — Jensen 对学生：「Claude is a product, and Claude Code is a whole harness around it」，开源下载难以匹敌

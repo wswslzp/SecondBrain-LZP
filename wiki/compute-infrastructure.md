@@ -91,5 +91,11 @@ Midha 请 Claude 整理的案例：
 
 [[jensen-huang|Jensen]]（[[nvidia]]）从需求侧给出同一判断的另一面：四条 scaling law 最终都收敛到「intelligence is gonna scale by one thing, and that's compute」（见 [[scaling-laws]]）。他进一步论证计算的「用途」也变了——从 retrieval-based 的仓库变成 generative 的**工厂**，因此世界 GDP 中用于计算的比例会是过去的 **100×**（见 [[token-economics]]）。这解释了本页描述的 CapEx 狂潮与 H100 涨价并非泡沫式反常，而是需求侧结构性变化的映射。NVIDIA 用 [[extreme-co-design]] 把 tokens/sec/watt 每年拉高一个数量级，正是在缓解本页所说的「不可互换 + 集中囤积」压力。
 
+## CS153 补充：大学 compute crunch + 能源总量
+
+来自 [[jensen-huang|Jensen]] 的 [[cs153-jensen-huang-compute|CS153 讲座]]：
+- **不是缺芯片，是体制问题**：「There's plenty of chips. If the president of Stanford places an order, I'll deliver it.」真问题是各系各自拉 grant、没人合并，单笔不够买校级共享算力，世界又搬去了人手一台笔记本。解法：聚合建**校级共享超算**、「$40B endowment 切 $1B 做成给每个学生/研究者的 AI cloud」——这为本页「compute 不是商品、需要机构协调」提供了一个具体的机构失灵案例。
+- **能源总量**：未来计算所需能源「likely **1,000× more** than we currently have」；能效是可控杠杆（tokens/watt 已 +50× 且复利）。能源作为 compute 之上的**实体地基**详见 [[ai-energy-bottleneck]]（[[scott-nolan]] / [[general-matter]]）——即便「电力可互换（1 MW=1 MW）」，你也得**先有电**。
+
 ## 来源
 - [[cs153-frontier-systems]]

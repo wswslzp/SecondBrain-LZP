@@ -3,12 +3,12 @@ title: "Marc Andreessen"
 tags: [person, entrepreneurship, venture-capital]
 date_created: 2026-04-11
 date_modified: 2026-04-11
-related: ["[[four-kinds-of-luck]]"]
+related: ["[[four-kinds-of-luck]]", "[[ben-horowitz]]", "[[venture-capital-systems]]"]
 ---
 
 # Marc Andreessen
 
-a16z（Andreessen Horowitz）联合创始人，Netscape 联合创始人。
+a16z（Andreessen Horowitz）联合创始人，Netscape 联合创始人。与联合创始人 [[ben-horowitz]] 一起把 a16z 建成「VC 作为系统」的范式（[[venture-capital-systems]]、[[network-effects]]）。
 
 ## 与本 Wiki 的关系
 

@@ -55,6 +55,8 @@ Jensen Huang 称 Dario「conflating tasks with jobs」；有人指这是有利�
 
 **分歧的精确位置**：Jensen 也承认「**if your job IS the task, you'll be highly disrupted**」——在「tasks 会被自动化」这一点上二人一致。真正的分歧是：Jensen 相信 pie 变大 + purpose≠task ⇒ 人总能找到新 purpose、岗位净增长；Dario 担心 the hump 最终逼近 ~100%、人未必能**足够快**地找到新去处。另可参见 Jensen 的哲学锚点「intelligence is a commodity，真正该抬高的词是 humanity」（[[jensen-huang]]），与「人往哪去」的人本方向一致。
 
+第三个声音：[[ben-horowitz|Ben Horowitz]] 在 CS153（[[cs153-ben-horowitz]]）站 Jensen 一侧——「software engineering jobs are growing very fast **despite what Dario says**，而且在 Anthropic 内部也增长很快」；他认为流传的 tweet 扭曲了 Dario 关于「转型期低技能岗位」的真实说法。
+
 ## 产品/职业层的实证：[[nikhyl-singhal|Nikhyl Singhal]] 的分布结论
 
 [[product-management-ai-era]] 给这场辩论补上了「谁被冲击」的具体分布：被自动化的正是 **information mover（搬信息的官僚）** 这类「job = task」的岗位，而 **有 judgment 的 builder** 需求与薪资齐升（top 1% 产品人薪资 18 个月翻倍）。最惨的不是学生、也不是高管，而是 **8–15 年、被 ZIRP 提拔去「管人」、只会搬信息的中层经理**——这为 Dario 的「task=job 者被冲击」提供了现实画像，也为 Jensen 的「purpose≠task 者受益」提供了正面证据。二者在这里并不矛盾，而是同一分布的两端。

@@ -3,7 +3,7 @@ title: "Extreme Co-Design（极致协同设计）"
 tags: [nvidia, engineering, systems, compute, extreme-co-design, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[optical-interconnect-roadmap]]", "[[scaling-laws]]"]
+related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[optical-interconnect-roadmap]]", "[[scaling-laws]]", "[[accelerated-computing]]"]
 ---
 
 # Extreme Co-Design（极致协同设计）
@@ -66,6 +66,14 @@ extreme co-design 的方法论内核是 Jensen 的 **speed of light**——一�
 | scale 带宽 | 10 PB/s |
 
 而单个 **NVL72 rack** 就有 130 万个组件、1300 颗芯片。Jensen 说「we're probably gonna have to crank out about **200 of these pods a week**」——「the most complex computer the world has ever made」。
+
+## Codesign 的 RISC / Hennessy 血统
+
+codesign 的方法论根来自 Stanford 的 **RISC**（John Hennessy）：让编译器与微处理器架构「harmoniously codesign」——
+
+> "A simpler machine, codesigned with a compiler, creates better performance than two systems that were optimized individually. That's very Stanford."
+
+NVIDIA 把这套「协同设计优于各自单独优化」从「编译器 × 芯片」放大到「算法 × 系统 × 编译器 × 框架 × 芯片 × power × cooling × rack × pod × data center」的全栈。上游的「为什么必须加速 / 通用计算为何走到尽头」以及**四代硬件随 workload 共演化的完整 roadmap**（Hopper=pretraining → NVLink-72=inference → Vera Rubin=agents → **Feynman=swarms of agents**）见 [[accelerated-computing]]。
 
 ## 与 Elon 的对照
 

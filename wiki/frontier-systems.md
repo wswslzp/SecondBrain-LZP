@@ -3,7 +3,7 @@ title: "Frontier Systems（前沿系统）"
 tags: [ai, infrastructure, compute, systems]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]"]
+related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[venture-capital-systems]]", "[[ai-energy-bottleneck]]"]
 ---
 
 # Frontier Systems
@@ -37,7 +37,7 @@ Midha 的框架：
 - **Capital**
 - **Culture**
 
-CS 153 课程主要覆盖前两个。
+CS 153 早期讲座主要覆盖前两个（Context/Compute）；**Capital 与 Culture** 由 [[ben-horowitz]] 的一讲补上（[[venture-capital-systems]]、[[network-effects]]），而 AI 全栈里「土地/电力/外壳」这一**实体层**由 [[scott-nolan]] 的能源专讲补上（[[ai-energy-bottleneck]]）。
 
 ## 制造智能的简单配方
 
@@ -88,3 +88,6 @@ CS153 第 9 讲切到产品与职业（讲者 [[nikhyl-singhal]]，Skip）——
 - [[cs153-bfl-andreas-blattmann]]
 - [[cs153-elevenlabs-mati-staniszewski]]
 - [[cs153-skip-nikhyl-singhal]]
+- [[cs153-jensen-huang-compute]]
+- [[cs153-ben-horowitz]]
+- [[cs153-scott-nolan-energy]]

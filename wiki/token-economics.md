@@ -66,6 +66,16 @@ Token 工厂需要「杀手级应用」来引爆需求，而 Jensen 认为它已
 
 这个「iPhone」不是某个具体产品，而是 **agents**（OpenClaw 是其代表）。agents 会 spawn 大量 sub-agents（对应 [[scaling-laws]] 的 agentic scaling law），从需求侧指数级放大 token 消耗 → 需要指数级更多 token 工厂。安全侧的 two-of-three rights 见 [[nvidia]]。
 
+## CS153 补充：MFU 批判（度量的艺术）
+
+[[jensen-huang|Jensen]] 在 [[cs153-jensen-huang-compute|CS153]] 给出一个反直觉的度量观（MFU = model flops utilization）：
+
+> "I'd like to be at low MFU all the time."
+
+- 缘由：想「聪明到 overprovisioned」以避开 **Amdahl's law**——数据中心里 flops / memory bandwidth / memory capacity / network 总有一个是瞬时瓶颈，要按 **peak 而非 base** 过量供给。
+- **「flops are cheap」**——H100 涨价不是因为 flops，而是 bandwidth / architecture /「everything else」。正确度量是 **tokens per watt > flops**；对 decode，产 token/watt 的最大单一因素是 **NVLink-72 的 aggregate bandwidth**，此时可 **disaggregate prefill/decode**，用「极低 MFU 交付极高 tokens/watt」。
+- **「not all tokens are born equal」**（coding token 更值钱）→ 需要严肃的 eval、构建「an index of different intelligences」，而非优化 flops（「flops is too contrived… necessary, not sufficient」）。
+
 ## 与就业的联系
 
 Token 工厂经济学的另一面是「谁来消费这些 token、谁的工作被改变」。Jensen 的立场——**purpose ≠ tasks**、程序员从 3000 万增至 10 亿、放射科医生不减反增——是对 [[tasks-vs-jobs]] 中 [[dario-amodei|Dario]] 观点的直接对位。详见 [[jensen-huang]] 与 [[jensen-huang-lex-fridman]]。

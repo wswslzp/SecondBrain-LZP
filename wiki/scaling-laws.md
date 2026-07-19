@@ -39,6 +39,8 @@ Dario 首创 scaling laws 的**概念**（算法不变、data+compute 即可变�
 
 > "Intelligence is gonna scale by one thing, and that's compute." — Jensen Huang
 
+> 另一句精炼定义（[[cs153-jensen-huang-compute|CS153]]）：「**thinking is generating tokens you consume internally; tool use is generating tokens you consume externally.**」——test-time 与 agentic 两条 law 本质都是「多产 token」。
+
 这四条正是 [[nvidia]] 押注 [[compute-infrastructure]] 与 [[extreme-co-design]] 的底层逻辑，也解释了为何 test-time 与 agentic 阶段需要不同的硬件（Grace Blackwell → Vera Rubin 从跑 LLM 转向跑 agents）。
 
 ## 与基础设施的关系

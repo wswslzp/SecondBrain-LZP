@@ -3,7 +3,7 @@ title: "Sovereign AI"
 tags: [ai, geopolitics, cloud, infrastructure]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]"]
+related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]", "[[ai-energy-bottleneck]]"]
 ---
 
 # Sovereign AI

@@ -36,6 +36,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[jensen-huang]] — 黄仁勋，NVIDIA 联合创始人/CEO；speed of light、manifesting the future、intelligence is a commodity
 - [[nvidia]] — 全球市值最高公司、AI 革命引擎；moat=CUDA install base + ecosystem，extreme co-design，Nemotron 开源
 - [[nikhyl-singhal]] — Skip 创始人，三次创业者/前 Meta 产品 VP/Google/Credit Karma CPO；产品与职业布道者
+- [[ben-horowitz]] — a16z 联合创始人（与 [[marc-andreessen]]）、《The Hard Thing》作者、Opsware 创始 CEO；VC-as-system 与网络效应布道者
+- [[scott-nolan]] — General Matter 创始人/CEO、前 Founders Fund 合伙人、SpaceX 早期推进工程师；AI 能源瓶颈讲者
+- [[general-matter]] — Scott Nolan 2024 创办的美国铀浓缩公司，补上美国缺失的 enrichment 一步（2026 拿 DOE $900M 合同）
 
 ## Concepts
 
@@ -64,6 +67,10 @@ A catalog of all pages in this wiki, organized by category.
 - [[product-management-ai-era]] — AI 把 PM 从「information mover」重塑为「有 judgment 的 builder」；组织变平、中层承压
 - [[career-as-chapters]] — 职业=15–18 段「书的章节」；想你的第二份工作、be modern、成长>头衔、comfortable 就该走
 
+### 风险投资与商业策略
+- [[network-effects]] — 网络效应：N² 价值为何是最强 moat、bootstrap 冷启动最难、a16z 如何把自身建成网络
+- [[venture-capital-systems]] — VC 作为可规模化系统：共享经济不共享控制、7 人对话组、Skype 下注、AI 时代 moat 重估、投人+founder-market fit
+
 ### AI 系统与架构
 - [[llm-inference-systems]] — LLM serving 中 prefill/decode、KV cache、调度与显存管理
 - [[multi-stage-decode]] — Thinker/Talker/MTP 等异构 stage 组成的多阶段推理模式
@@ -84,6 +91,8 @@ A catalog of all pages in this wiki, organized by category.
 - [[extreme-co-design]] — NVIDIA 招牌工程范式：跨整条 stack + 超越芯片协同优化，对抗 Amdahl's Law，提前 2–3 年押注硬件
 - [[cuda]] — NVIDIA 护城河根基：「install base 定义架构」，当年不惜市值跌到 $1.5B 把 CUDA 塞进每块 GeForce
 - [[token-economics]] — Token 工厂经济学：retrieval→generative、warehouse→factory、$3T 营收论证（与既有 ai-factory 两种含义）
+- [[accelerated-computing]] — 加速计算/后通用计算：Moore-Dennard 终结、RISC/Hennessy codesign 血统、Hopper→Blackwell→Vera Rubin→Feynman 随 workload 共演化
+- [[ai-energy-bottleneck]] — AI 的真正约束在 compute 之上：power→电网→核能→核燃料→enrichment 的 five-whys；enrichment 是五年尺度的瓶颈
 
 ### AI 与人类
 - [[llm-wiki-pattern]] — Karpathy 提出的 LLM 持续构建个人知识库的模式
@@ -183,6 +192,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[cs153-frontier-systems]] — Anjney Midha 的 Stanford 讲座（2026-04-04）
 - [[cs153-luma-amit-jain]] — Amit Jain / Luma AI 统一智能讲座（2026-04-18）
 - [[cs153-skip-nikhyl-singhal]] — Nikhyl Singhal / Skip 谈 AI 时代的产品管理与职业（CS153 第 9 讲, 2026-05-08）
+- [[cs153-jensen-huang-compute]] — Jensen Huang / NVIDIA「The Compute Behind Intelligence」：accelerated computing、MFU 批判、1000× 能源、出口管制（CS153 第 6 讲）
+- [[cs153-scott-nolan-energy]] — Scott Nolan / General Matter「Energy Bottlenecks」：从 compute 追到铀浓缩的 five-whys（CS153 第 7 讲）
+- [[cs153-ben-horowitz]] — Ben Horowitz / a16z「VC Systems, Network Effects」：VC 作为系统、网络效应、AI 时代 moat 重估（CS153 第 8 讲）
 - [[how-to-1000x-your-luck]] — 博弈论视角的运气培养方法（@digiii, 2026-04-09）
 - [[how-to-get-rich]] — Naval 的财富创造系列（2019）
 - [[luck-and-the-entrepreneur]] — 四种运气与企业家精神（Marc Andreessen, 2001）

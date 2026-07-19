@@ -94,10 +94,28 @@ Jensen 做大赌注的方式不是「宣布 + 强推」，而是长期、逐日�
 - **radiologist**：AI 曾被预言最先取代放射科医生，CV 早在 2019–2020 就 superhuman，结果放射科医生**不减反增、如今短缺**（purpose 是诊断疾病，不是读扫描；效率提升 → 看更多病人 → 需要更多医生）。软件工程师同理，会增不会减。
 - 因此他建议每个学生、每个职业（木匠、电工、农民、药剂师、会计）都去成为 AI 的 expert；招人时在「懂 AI」与「不懂 AI」之间必选前者。（详见 [[jensen-huang-lex-fridman]] 第 12 节。）
 
+## CS153 补充：forecasting、suffering 与最大的错误
+
+来自 [[cs153-jensen-huang-compute|CS153 讲座]]（面向 Stanford 学生的更「方法论」一面）：
+
+### Forecasting 方法
+`what am I observing?` → 回到 first principles → `so what? is this a big deal?`（AlexNet：一个神经网络一举碾压几十年的 CV → big deal）→ `how far can you take it? what else can you solve?` → 建 mental model of the future → 定位公司 → work backwards。把结果分成三档：**will likely / will absolutely / may happen**。
+
+> "The opportunity cost of pursuing a strategy is the real cost."——要最大化 optionality、「get the journey to pay for itself」。
+
+### Suffering → resilience
+- **别只追热爱**：「choose what you love」门槛太高，多数人不知道自己爱什么；「my job used to be cleaning toilets and bussing tables」，无论什么工作都做到最好。
+- **90% 的工作是苦的**：没有哪个 CEO 从早到晚 zippity-doo-dah；他真正喜欢的只有 10%，其余 literally suffer through。主动求些 pain → 练出 resilience 这块肌肉，关键时刻才顶得住。**"Don't wake up with a loser mindset."**
+- **赋能式归因**：「It's absolutely your fault」=「当谁有错，你就赋能了谁去解决它」（Stanford compute-crunch 交锋，见 [[compute-infrastructure]]）。
+
+### 最大的错误：mobile → robotics
+第一代产品架构「completely wrong」（曲面而非三角形、无 z-buffer、forward texture mapping、无浮点）却逼出战略天才。真正的战略错误是**进军 mobile**：做到 $1B 又被 Qualcomm 的 3G→4G modem 完全锁死、归零；但把那身**极致低功耗**本事转去了当年还不存在的 robotics——「**Thor 是那颗 mobile 芯片的 great-great-great-great grandson**」。
+
 ## 相关页面
 
 - [[nvidia]]
 - [[extreme-co-design]]
+- [[accelerated-computing]]
 - [[cuda]]
 - [[token-economics]]
 - [[tasks-vs-jobs]]
