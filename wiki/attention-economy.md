@@ -3,7 +3,7 @@ title: "注意力经济（Attention Economy）"
 tags: [attention, neuroscience, marketing, media]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]"]
+related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]"]
 ---
 
 # 注意力经济

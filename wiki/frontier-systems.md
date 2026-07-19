@@ -3,7 +3,7 @@ title: "Frontier Systems（前沿系统）"
 tags: [ai, infrastructure, compute, systems]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]"]
+related: ["[[anjney-midha]]", "[[compute-infrastructure]]", "[[context-feedback-loops]]", "[[ai-factory]]", "[[unified-models]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]"]
 ---
 
 # Frontier Systems
@@ -16,7 +16,7 @@ Stanford CS 153（2026 春）的课程框架。由 [[anjney-midha]] 和 Mike Abr
 
 1. **资本** — 最灵活
 2. **土地/电力/外壳** — 数据中心建设、能源
-3. **芯片** — Jensen Huang (Nvidia), Lisa Su (AMD)
+3. **芯片** — [[jensen-huang|Jensen Huang]]（[[nvidia|Nvidia]]）, Lisa Su (AMD)
 4. **云** — 基础设施层（Satya Nadella/Microsoft）
 5. **模型** — Anthropic, OpenAI（Sam Altman）
 6. **Agents**
@@ -78,8 +78,13 @@ CS 153 讲座覆盖了不同模态下的前沿系统：
 
 详见 [[ai-factory]] 与 [[cascaded-vs-fused-architectures]]。
 
+## 非技术一讲：product 与 career
+
+CS153 第 9 讲切到产品与职业（讲者 [[nikhyl-singhal]]，Skip）——前五讲都是技术创始人谈 AI/context/the loop，这一讲谈 **AI 如何把产品管理从「information mover」重塑为「有 judgment 的 builder」**、组织变平、中层经理承压。详见 [[product-management-ai-era]] 与 [[career-as-chapters]]。
+
 ## 来源
 - [[cs153-frontier-systems]]
 - [[cs153-luma-amit-jain]]
 - [[cs153-bfl-andreas-blattmann]]
 - [[cs153-elevenlabs-mati-staniszewski]]
+- [[cs153-skip-nikhyl-singhal]]

@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-06-01
+date_modified: 2026-07-19
 ---
 
 # Index
@@ -26,6 +26,16 @@ A catalog of all pages in this wiki, organized by category.
 - [[歌白说Geslook]] — B站财经UP主，FIRE/指数基金定投布道者
 - [[dianwan-keji-ak]] — 电丸科技 AK，中文科技自媒体与智能眼镜重度评测者
 - [[wu-zihao-leslie]] — 半导体大佬的会议室主理人，TSMC 重仓投资者，光互联控制点收敛框架提出者
+- [[cate-hall]] — 最高法院辩护律师/世界第一女子扑克手/Alvea 联创，《You Can Just Do Things》作者，能动性布道者
+- [[dylan-bowman]] — AI safety 通才，整理「通才养成」阅读清单
+- [[dan-koe]] — Writer/creator，教 value creation 与「人性」meta-skill
+- [[lidang]] — 立党，观点鲜明的中文 AI 评论者，go-driven 与 coding agent 早期提出者
+- [[anthropic]] — 估值 ~$965B 的前沿 AI 实验室，Claude / Claude Code / Cowork 的缔造者
+- [[dario-amodei]] — Anthropic 兄长/CEO，scaling laws 提出者，tasks-vs-jobs 就业警告者
+- [[daniela-amodei]] — Anthropic 妹妹/President，把 Dario 的宏观构想落地的 operator
+- [[jensen-huang]] — 黄仁勋，NVIDIA 联合创始人/CEO；speed of light、manifesting the future、intelligence is a commodity
+- [[nvidia]] — 全球市值最高公司、AI 革命引擎；moat=CUDA install base + ecosystem，extreme co-design，Nemotron 开源
+- [[nikhyl-singhal]] — Skip 创始人，三次创业者/前 Meta 产品 VP/Google/Credit Karma CPO；产品与职业布道者
 
 ## Concepts
 
@@ -45,6 +55,15 @@ A catalog of all pages in this wiki, organized by category.
 - [[通货膨胀]] — 满仓现金的隐性贬值
 - [[消费主义]] — 抵制不必要消费、珍惜复利
 - [[最小有效量]] — 95% 收益只需 2.5% 努力
+
+### 能动性与通才
+- [[agency]] — 能动性=让事情发生的明确决心，可后天习得；寻找 real edges 的 6 个 hacks
+- [[generalist]] — 强通才作为稀缺角色；四类能力与「Humans are not automatically strategic」
+
+### 产品与职业
+- [[product-management-ai-era]] — AI 把 PM 从「information mover」重塑为「有 judgment 的 builder」；组织变平、中层承压
+- [[career-as-chapters]] — 职业=15–18 段「书的章节」；想你的第二份工作、be modern、成长>头衔、comfortable 就该走
+
 ### AI 系统与架构
 - [[llm-inference-systems]] — LLM serving 中 prefill/decode、KV cache、调度与显存管理
 - [[multi-stage-decode]] — Thinker/Talker/MTP 等异构 stage 组成的多阶段推理模式
@@ -61,6 +80,10 @@ A catalog of all pages in this wiki, organized by category.
 - [[distillation]] — 模型蒸馏（size vs steps）
 - [[open-weights-strategy]] — Open weights 作为商业策略
 - [[vibe-coding]] — 用英语而非代码构建应用的新范式
+- [[scaling-laws]] — Dario 的核心观点：算法不变，data+compute 也能可预测地让 LLM 变强；含 Jensen 的四条 scaling laws
+- [[extreme-co-design]] — NVIDIA 招牌工程范式：跨整条 stack + 超越芯片协同优化，对抗 Amdahl's Law，提前 2–3 年押注硬件
+- [[cuda]] — NVIDIA 护城河根基：「install base 定义架构」，当年不惜市值跌到 $1.5B 把 CUDA 塞进每块 GeForce
+- [[token-economics]] — Token 工厂经济学：retrieval→generative、warehouse→factory、$3T 营收论证（与既有 ai-factory 两种含义）
 
 ### AI 与人类
 - [[llm-wiki-pattern]] — Karpathy 提出的 LLM 持续构建个人知识库的模式
@@ -100,10 +123,19 @@ A catalog of all pages in this wiki, organized by category.
 - [[agentic-micro-company]] — 极小团队 + 大量 AI agent 的新型公司形态
 - [[company-brain]] — 公司级统一记忆/上下文系统
 - [[composable-context]] — 万亿美元级可组合全球上下文层
+- [[claude-constitution]] — Claude 的 Constitution 与角色训练（professional warmth、诚实、harmlessness）
+- [[tasks-vs-jobs]] — Dario 区分 tasks 与 jobs：the hump、就业冲击与人往哪去
+
+### AI Agent 工程与实践
+- [[build-your-own-agent]] — 手写最小 SWE agent + 对照现代 coding agent 机制；选模型 85 vs 95 分
+- [[headless-agent-pattern]] — 非程序员的通用方法：headless Claude Code + temp folder + JSON 状态回传
+- [[agent-comfort-zone]] — AI agent 舒适区=封闭可验证环境（编程/Lean4/EDA/MATLAB/CAD）与能力边界
+- [[multi-agent-patterns]] — multi-agent 适用（map-reduce/go-driven）与天坑（组织架构模拟）
 
 ### 注意力与营销
 - [[attention-economy]] — 大脑作为生存时代过滤器，注意力稀缺
 - [[neuromarketing]] — Meta Tribe V2 让神经营销从实验室走向任何人
+- [[human-nature-meta-skill]] — 理解人性是不过时的 meta-skill：三种紧张感 + 五个心理杠杆
 
 ### 量化金融与 AI 投研
 - [[ai-quant-system]] — 6 Agent + 三道硬门的 AI 量化研究流水线
@@ -150,6 +182,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[cs153-elevenlabs-mati-staniszewski]] — Mati Staniszewski / ElevenLabs 音频讲座（2026-04-09）
 - [[cs153-frontier-systems]] — Anjney Midha 的 Stanford 讲座（2026-04-04）
 - [[cs153-luma-amit-jain]] — Amit Jain / Luma AI 统一智能讲座（2026-04-18）
+- [[cs153-skip-nikhyl-singhal]] — Nikhyl Singhal / Skip 谈 AI 时代的产品管理与职业（CS153 第 9 讲, 2026-05-08）
 - [[how-to-1000x-your-luck]] — 博弈论视角的运气培养方法（@digiii, 2026-04-09）
 - [[how-to-get-rich]] — Naval 的财富创造系列（2019）
 - [[luck-and-the-entrepreneur]] — 四种运气与企业家精神（Marc Andreessen, 2001）
@@ -165,6 +198,12 @@ A catalog of all pages in this wiki, organized by category.
 - [[smart-glasses-2026-dianwan]] — 2026 年智能眼镜怎么选（电丸科技 AK, 2026-05-15）
 - [[silicon-valley-101-humanoid-robot-hardware]] — 拆解机器人「肉身」：骨架/执行器/传感器/供应链全拆解（硅谷101, 2026-06-01）
 - [[optical-interconnect-migration-leslie]] — 光互联大迁徙：从光纤、光模块、1.6T 到 CPO 与 OIO 的全产业链终局推演（吴梓豪leslie, 2026-04-17）
+- [[how-to-be-more-agentic]] — 能动性是可习得的技能与 6 个 hacks（Cate Hall, 2024-01-11）
+- [[a-reading-list-for-generalists]] — 通才养成阅读清单，18 篇文章分四类（Dylan Bowman, 2026-06-29）
+- [[most-profitable-skill-dan-koe]] — 21 世纪最赚钱的技能=理解人性：三种紧张感 + 五个心理杠杆（Dan Koe, 2026-07-04）
+- [[lidang-ai-agent-tutorial]] — 立党AI学习研究完整教程（第一期）：选模型/手写 agent/headless 用法/舒适区/multi-agent（立党, 2026-06-23）
+- [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访 Amodei 兄妹：Anthropic 起源、scaling laws、Constitution、tasks vs jobs（2026-06-10）
+- [[jensen-huang-lex-fridman]] — Lex Fridman #494 深访黄仁勋：extreme co-design、四条 scaling laws、供应链/中国/TSMC、$10T 论证、AGI 与就业、意识（Jensen Huang, 2026-03-24）
 
 ## Analyses
 

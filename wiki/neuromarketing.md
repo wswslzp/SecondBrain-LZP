@@ -3,7 +3,7 @@ title: "神经营销（Neuromarketing）"
 tags: [marketing, neuroscience, ai, meta, advertising]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[attention-economy]]", "[[ai-impact-on-industry]]"]
+related: ["[[attention-economy]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]"]
 ---
 
 # 神经营销（Neuromarketing）
@@ -93,6 +93,10 @@ YouTube 创作者拆分测试：
 > "Social media marketing as we've known it for the last 15 years is on its way out. Neuromarketing is what's replacing it."
 
 > "The marketers who win aren't the ones who manipulate the hardest. They're the ones who understand the human brain the best."
+
+## 同一母题的另一路径
+
+[[human-nature-meta-skill]]（Dan Koe）从**进化心理学**抵达同一结论：理解大脑/心理以影响行为。神经营销走**神经扫描**路径（720 人 MRI），Dan Koe 走 hunter-gatherer wiring + Maslow 路径，二者互为印证。
 
 ## 来源
 - [[neuromarketing-tribe-v2]]

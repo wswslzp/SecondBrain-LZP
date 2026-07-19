@@ -3,7 +3,7 @@ title: "AI Compute 基础设施经济"
 tags: [ai, compute, infrastructure, gpu, markets]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]"]
+related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]"]
 ---
 
 # Compute 基础设施
@@ -86,6 +86,10 @@ Midha 请 Claude 整理的案例：
 
 1. 未来几年如何实现 compute 的和平过渡？
 2. 你在其中的角色？（博客、推文、写作、参与标准化）
+
+## Jensen Huang：compute 是智能的唯一约束
+
+[[jensen-huang|Jensen]]（[[nvidia]]）从需求侧给出同一判断的另一面：四条 scaling law 最终都收敛到「intelligence is gonna scale by one thing, and that's compute」（见 [[scaling-laws]]）。他进一步论证计算的「用途」也变了——从 retrieval-based 的仓库变成 generative 的**工厂**，因此世界 GDP 中用于计算的比例会是过去的 **100×**（见 [[token-economics]]）。这解释了本页描述的 CapEx 狂潮与 H100 涨价并非泡沫式反常，而是需求侧结构性变化的映射。NVIDIA 用 [[extreme-co-design]] 把 tokens/sec/watt 每年拉高一个数量级，正是在缓解本页所说的「不可互换 + 集中囤积」压力。
 
 ## 来源
 - [[cs153-frontier-systems]]

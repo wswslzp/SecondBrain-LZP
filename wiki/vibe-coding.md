@@ -3,7 +3,7 @@ title: "Vibe Coding"
 tags: [ai, programming, naval, karpathy]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]"]
+related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[product-management-ai-era]]"]
 ---
 
 # Vibe Coding
@@ -66,6 +66,10 @@ AI 让应用海啸式涌现，但：
 - 工作流、工具集、prompt 技巧寿命只有几周到几月
 - AI 适应你的速度 > 你适应它的速度
 - 例外：前沿竞争环境需要每一点优势
+
+## Jensen Huang：coding = specification，程序员从 30M → 1B
+
+[[jensen-huang|Jensen]] 给出同一范式的另一种说法：编码的本质是**写 specification**（说明要造什么，愿意的话还可给出架构）。会做这件事的人将从 ~30M 增至 ~1B——「every carpenter in the future will be a coder，而且是带 AI 的 architect」。他强调「specification 的艺术」在于按问题选择**详述 vs 欠详述**（有意 under-specify，给协作者 / AI 留创造空间——正如他给 43,000 员工下指令的方式）。这把 vibe coding 从「非程序员也能做应用」推进到「人人都在编码谱系的某个位置」，也是他反驳「AI 消灭程序员」的核心（见 [[tasks-vs-jobs]]）。
 
 ## 关键引语
 

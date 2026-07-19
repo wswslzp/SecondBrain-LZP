@@ -4,7 +4,7 @@ type: concept
 tags: [ai-agents, future-of-work, context, paradigm-shift]
 date_created: 2026-04-25
 date_modified: 2026-04-25
-related: ["[[agentic-micro-company]]", "[[company-brain]]", "[[composable-context]]", "[[ai-agent-memory]]"]
+related: ["[[agentic-micro-company]]", "[[company-brain]]", "[[composable-context]]", "[[ai-agent-memory]]", "[[headless-agent-pattern]]", "[[tasks-vs-jobs]]"]
 ---
 
 # Context Farming
@@ -32,6 +32,11 @@ related: ["[[agentic-micro-company]]", "[[company-brain]]", "[[composable-contex
 - "quantum physics PhDs with severe amnesia" 正是我们分析的 Agent 记忆缺失问题
 - Company Brain 本质上是解决 Agent **语义记忆**和**情景记忆**的系统
 - Context 的"质量衰减"对应 [[forgetting-mechanisms]] 中的衰减理论
+
+## 具体落地形态
+
+- [[headless-agent-pattern]] —— [[lidang|立党]] 的「temp folder + headless Claude Code」正是 context farming 的操作化：人负责把对的材料塞进文件夹（策展/喂 context），agent 负责执行。
+- [[tasks-vs-jobs]] —— [[dario-amodei|Dario]] 所说「人在剩下 10% 上 10× leveraged」「把 AI 对齐到人的意图」的角色，与 context farmer 是同一件事的两种说法。
 
 ## References
 

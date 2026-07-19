@@ -3,7 +3,7 @@ title: "四种运气理论"
 tags: [luck, entrepreneurship, game-theory, self-improvement, naval]
 date_created: 2026-04-11
 date_modified: 2026-04-18
-related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[productize-yourself]]"]
+related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[productize-yourself]]", "[[agency]]", "[[career-as-chapters]]"]
 ---
 
 # 四种运气理论
@@ -56,6 +56,8 @@ related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[pro
 - **Do（行动）**: 创造更多，尝试更多
 - **Tell（分享）**: 公开发布作品，建立关系网
 - **Exposure（曝光）**: 改变环境，接受邀请，保持一致
+
+[[cate-hall|Cate Hall]] 的「增加运气接触面」是这条原则的能动性版本：尽可能多地见相关领域的人，**即便看不出明显好处**——因为你几乎无法提前预测一次对话是否有用。详见 [[agency]]。
 
 ## 博弈论视角
 

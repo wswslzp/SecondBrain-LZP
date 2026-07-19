@@ -3,7 +3,7 @@ title: "具身智能供应链与量产"
 tags: [humanoid-robot, supply-chain, manufacturing, embodied-ai, china]
 date_created: 2026-06-09
 date_modified: 2026-06-09
-related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-industry]]"]
+related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-industry]]", "[[nvidia]]", "[[jensen-huang]]"]
 ---
 
 # 具身智能供应链与量产
@@ -91,6 +91,10 @@ related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-
 - **中小公司**：购买成品执行器，快速出样，但性能受限、成本高
 
 ---
+
+## Jensen Huang：机器人会「用工具」而非取代工具
+
+[[jensen-huang|Jensen]]（[[nvidia]]，其 Orin/Thor 已是上表的「大脑」芯片）用一个思想实验点出具身智能的形态：最强的 humanoid robot 不会把手变成 10 磅锤子、或从指尖发微波，而是**走到你家的微波炉前、读说明书、瞬间学会使用**——即像 agentic 系统一样「使用既有工具、访问文件、做 research」。他还把 physical AI（生物 / 化学 / 流体 / 热力学等非语言模态）列为必须开源推进的前沿（见 [[open-weights-strategy]]）。
 
 ## References
 

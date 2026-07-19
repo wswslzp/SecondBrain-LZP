@@ -3,12 +3,20 @@ title: "AI Factory（前沿 AI 制造管线）"
 tags: [ai, training, infrastructure, post-training]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]"]
+related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]", "[[token-economics]]", "[[nvidia]]"]
 ---
 
 # AI Factory
 
 [[anjney-midha]] 在 CS 153 反复强调的前沿 AI 制造模板。每个前沿 lab（Anthropic、BFL、Luma、ElevenLabs、Periodic Labs）都在运行这个基本管线的变体。
+
+## 「AI Factory」一词的两种含义
+
+⚠️ 注意区分：
+- **本页**（[[anjney-midha]] / CS 153 语境）指 AI **模型的生产管线**：pre-training → mid → post → deployment + RL 的制造模板。
+- **[[jensen-huang|Jensen Huang]] / [[nvidia]] 语境**（见 [[token-economics]]）指**数据中心本身就是一座工厂**：过去计算机是「仓库」（存储、检索、不怎么赚钱），现在是「工厂」（实时生成 token、直接产生营收）；计算单元从 chip→computer→cluster→AI factory→planetary scale 不断放大。
+
+两者互补——前者是「工厂里造什么」，后者是「工厂作为营收引擎的经济学」。
 
 ## 基本模板
 

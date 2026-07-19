@@ -120,3 +120,31 @@ Source: 硅谷101 YouTube（https://www.youtube.com/watch?v=DZIhQeFEdXI）. Crea
 ## [2026-06-01] ingest | LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍
 
 Source: 鸭哥每日手记 / Superlinear Academy. Created: `raw/LLM 推理是怎么跑的：跟着 SGLang Omni 团队的设计思路走一遍 - 鸭哥每日手记.md`, `sources/sglang-omni-llm-inference.md`, `wiki/sglang-omni.md`, `wiki/llm-inference-systems.md`, `wiki/multi-stage-decode.md`. Updated: `wiki/audio-intelligence.md`, `wiki/cascaded-vs-fused-architectures.md`, `wiki/multimodal-ai.md`, `index.md`.
+
+## [2026-07-19] ingest | How to be more agentic（Cate Hall）
+
+Source: Cate Hall, usefulfictions.substack.com (2024-01-11；2026 成书《You Can Just Do Things》). Created: `sources/how-to-be-more-agentic.md`, `wiki/agency.md`, `wiki/cate-hall.md`. Updated: `wiki/four-kinds-of-luck.md`（「增加运气接触面」= agency 版），`index.md`（+ Entities: cate-hall；+ 新 Concepts 子类「能动性与通才」；+ Sources）. 核心：能动性非天生而是可习得的技能；radical agency = 寻找 real edges（别人因烦人/不适而回避的事）；6 个 hacks（主动求拒绝/匿名反馈/增加运气接触面/假设一切可习得/热爱低地位护城河/别太辛苦），"Burnout is the ultimate agency-killer"。
+
+## [2026-07-19] ingest | A reading list for generalists（Dylan Bowman）
+
+Source: Dylan Bowman, LessWrong (2026-06-29). Created: `sources/a-reading-list-for-generalists.md`, `wiki/generalist.md`, `wiki/dylan-bowman.md`. Updated: `index.md`. 核心：强通才作为稀缺角色（AI safety 社区默认无人 own 的项目需通才扛起）；18 篇文章分四类（倾向性/策略/项目领导力/人际组织）；最推荐 Anna Salamon《Humans are not automatically strategic》；被引最多的作者 Paul Graham(5)、Ben Kuhn(4)。与 [[agency]] 互链（Cate Hall 一文即收录于本清单 Dispositional 类）。
+
+## [2026-07-19] ingest | The most profitable skill of the 21st century (not AI)（Dan Koe）
+
+Source: Dan Koe (@thedankoe), X long-form letter (2026-07-04). Created: `sources/most-profitable-skill-dan-koe.md`, `wiki/human-nature-meta-skill.md`, `wiki/dan-koe.md`. Updated: `wiki/neuromarketing.md`、`wiki/attention-economy.md`（related + 「同一母题的另一路径」段落），`index.md`. 核心：唯一不过时的 meta-skill 是理解人性；The mind is a story engine；Three Tensions（Survival/Identity/Progress）× Five Levers（Name the Threat/Mirror Identity/Exclude People/Paint the Transformation/Give the First Step）；Eugene Schwartz 的 5 levels of awareness、Zeigarnik effect。与 [[neuromarketing]] 互为「进化心理 vs 神经扫描」两条通往同一结论的路径。
+
+## [2026-07-19] ingest | 立党AI学习研究完整教程（第一期）
+
+Source: 立党 lidang, YouTube (2026-06-23). Created: `sources/lidang-ai-agent-tutorial.md`, `wiki/lidang.md`, `wiki/build-your-own-agent.md`, `wiki/headless-agent-pattern.md`, `wiki/agent-comfort-zone.md`, `wiki/multi-agent-patterns.md`. Updated: `wiki/claude-code.md`（两条使用路线）、`wiki/multi-agent-research-loop.md`（有产出的 multi-agent 正例）、`wiki/ai-impact-on-industry.md`（lidang 实体 + tasks vs jobs）、`sources/ai-destroying-programmer-jobs.md`（同作者互链），`index.md`（+ Entity: lidang；+ 新 Concepts 子类「AI Agent 工程与实践」）. 五部分：选模型(85 vs 95 分性价比)/手写最小 SWE agent/非程序员 headless 用法（temp folder + JSON 状态）/agent 舒适区（封闭可验证：编程·Lean4·EDA·MATLAB·CAD）与能力边界（不能违反因果论/信息论）/multi-agent 适用（map-reduce·go-driven）与天坑（组织架构模拟）。
+
+## [2026-07-19] ingest | Inside Anthropic, the $965 Billion AI Juggernaut（Bloomberg The Circuit）
+
+Source: Bloomberg Originals / Emily Chang × Dario & Daniela Amodei, YouTube (2026-06-10；raw 文件此前已入库但未消化). Created: `sources/inside-anthropic-the-circuit.md`, `wiki/anthropic.md`, `wiki/dario-amodei.md`, `wiki/daniela-amodei.md`, `wiki/scaling-laws.md`, `wiki/claude-constitution.md`, `wiki/tasks-vs-jobs.md`. Updated: `wiki/claude-code.md`（Anthropic/Boris Cherny 段）、`wiki/ai-impact-on-industry.md`（SaaSpocalypse + tasks vs jobs）、`wiki/context-farming.md`（tasks-vs-jobs 互链），`index.md`（+ Entities: anthropic/dario-amodei/daniela-amodei；+ Concepts: scaling-laws/claude-constitution/tasks-vs-jobs）. 核心：2021 年 7 位前 OpenAI 成员创立、co-founder 全留任；scaling laws 与 smooth exponential；enterprise-over-consumer 押注与首次盈利；Claude Cowork 引发 $285B SaaSpocalypse；Constitution 与 professional warmth；Dario 的 tasks vs jobs 与「50% entry-level 白领岗」警告；自比 Leo Szilard 而非 Oppenheimer。
+
+## [2026-07-19] ingest | Jensen Huang: NVIDIA — The $4 Trillion Company & the AI Revolution（Lex Fridman #494）
+
+Source: Lex Fridman Podcast #494（guest Jensen Huang），YouTube (2026-03-24；raw 文件此前已入库但未消化). Created: `sources/jensen-huang-lex-fridman.md`, `wiki/jensen-huang.md`, `wiki/nvidia.md`, `wiki/extreme-co-design.md`, `wiki/cuda.md`, `wiki/token-economics.md`. Updated: `wiki/scaling-laws.md`（+ Jensen 的四条 scaling laws）、`wiki/tasks-vs-jobs.md`（+ Jensen↔Dario 对立视角与放射科医生反例）、`wiki/compute-infrastructure.md`、`wiki/ai-factory.md`（「AI factory」两种含义辨析）、`wiki/open-weights-strategy.md`（Nemotron）、`wiki/sovereign-ai.md`（China/国家视角）、`wiki/embodied-ai-supply-chain.md`（机器人用工具）、`wiki/vibe-coding.md`（coding=specification）、`wiki/optical-interconnect-roadmap.md`（NVLink/Amdahl）、`wiki/claude-code.md`（OpenClaw），`index.md`（+ Entities: jensen-huang/nvidia；+ Concepts: extreme-co-design/cuda/token-economics）. 核心：extreme co-design（跨 stack + speed of light + 提前押注硬件）；accelerated computing→AI factory 公司史（CUDA-on-GeForce 存亡赌注，市值一度跌到 $1.5B）；四条 scaling laws（pre/post/test-time/agentic，最终只受 compute 约束）；供应链/能源/中国与开源（Nemotron）/TSMC；moat=CUDA install base + ecosystem；token 工厂经济学与 $3T/$10T 论证；purpose≠tasks 的乐观就业观（放射科医生不减反增）；intelligence is a commodity 而该抬高 humanity；领导力（manifesting the future、systematic forgetting、die on the job）。是与 [[inside-anthropic-the-circuit]] 就 tasks vs jobs 形成正面对位的旗舰级素材。
+
+## [2026-07-19] ingest | CS153 | Nikhyl Singhal（Skip）on Product Management in the AI Era
+
+Source: Stanford CS153 Frontier Systems 第 9 讲（讲者 Nikhyl Singhal，主持 Mike Abbott），YouTube (2026-05-08). Created: `sources/cs153-skip-nikhyl-singhal.md`, `wiki/nikhyl-singhal.md`, `wiki/product-management-ai-era.md`, `wiki/career-as-chapters.md`. Updated: `wiki/frontier-systems.md`（+ 非技术一讲 + 来源 + Jensen/Nvidia 链接）、`wiki/tasks-vs-jobs.md`（+ Nikhyl 的中层经理分布结论）、`wiki/ai-impact-on-industry.md`（+ 产品与组织层）、`wiki/four-kinds-of-luck.md`、`wiki/vibe-coding.md`、`wiki/generalist.md`（related），`index.md`（+ Entity: nikhyl-singhal；+ 新 Concepts 子类「产品与职业」；+ Sources）. 核心：产品管理四阶段（PMF/流程协调/hypergrowth/晚期再造）；Google Hangouts 教训（解决真实客户问题、迭代速度、大公司需更快见效）；AI 把 product 从「information mover」重塑为「有 judgment 的 builder」，组织变平、30–70% 裁员与薪资飙升并存、中层经理最危险；职业=15–18 段「书的章节」，想你的第二份工作、be modern、networking、systems mindset、comfortable 就该走。是 CS153 系列第 5 篇、也是首篇非技术课，与 [[tasks-vs-jobs]] 强关联。

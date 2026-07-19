@@ -5,7 +5,7 @@ date_created: 2026-05-17
 date_modified: 2026-05-17
 aliases:
   - 多 Agent 研究循环
-related: ["[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[hermes-agent]]", "[[claude-code]]"]
+related: ["[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[hermes-agent]]", "[[claude-code]]", "[[multi-agent-patterns]]"]
 ---
 
 # Multi-Agent Research Loop
@@ -100,6 +100,10 @@ Orchestrator:
 - 代码 review（写 / 找 bug / 测试覆盖率统计）
 - 论文研究（提假设 / 找反例 / meta-analysis）
 - 个人笔记综合（concept page generation / contradiction lint / freshness check）
+
+## 与 [[multi-agent-patterns]] 的关系
+
+本模式正是 [[lidang|立党]] 在 [[multi-agent-patterns]] 中称许的「有产出的 multi-agent」正例：单一职责、有明确接受标准与硬门、go-driven，而非「七嘴八舌、无决策者」的组织架构模拟（那类是他所说的「超级大天坑」）。
 
 ## Sources
 

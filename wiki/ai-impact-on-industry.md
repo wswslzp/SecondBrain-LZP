@@ -3,7 +3,7 @@ title: "AI 对产业的影响"
 tags: [ai, semiconductor, programming, career, industry, marketing]
 date_created: 2026-04-11
 date_modified: 2026-04-18
-related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]"]
+related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]", "[[tasks-vs-jobs]]", "[[anthropic]]", "[[product-management-ai-era]]", "[[career-as-chapters]]"]
 ---
 
 # AI 对产业的影响
@@ -37,14 +37,19 @@ AI 大模型从训练到推理阶段的转变，引发了存储芯片前所未�
 
 ## 软件层：程序员职业影响
 
-### 立党的观察
+### 立党（[[lidang]]）的观察
 - **被替代的**: 低端重复性编程工作
 - **不被替代的**: 定义问题的能力、理解大型项目复杂性的能力
 - **核心观点**: 程序员的价值在于"定义问题"，而非"写代码"
 
 > "换一个人都没有办法理解这个项目的所有细节" — 立党
 
-来源: [[ai-destroying-programmer-jobs]]
+延伸：[[lidang]] 在 [[lidang-ai-agent-tutorial]] 中进一步给出「不会编程者如何用 [[headless-agent-pattern|headless Claude Code]] 端到端办事」与「AI agent 的 [[agent-comfort-zone|封闭可验证舒适区]]」。
+
+来源: [[ai-destroying-programmer-jobs]]、[[lidang-ai-agent-tutorial]]
+
+### Dario 的观察：tasks vs jobs
+[[dario-amodei|Dario Amodei]] 的框架（详见 [[tasks-vs-jobs]]）：AI 先自动化 tasks 而非整份 job；自动化 90% 时人在剩下 10% 上 10× leveraged，但逼近 100% 后必须为人找到新去处。他警告可能出现「高 GDP 增长 + 高失业 + 高不平等」的组合，并预测 1–5 年内或消灭 50% entry-level 白领岗位。
 
 ### Naval 的观察
 - [[vibe-coding]] 让非程序员也能构建应用
@@ -60,6 +65,16 @@ AI 大模型从训练到推理阶段的转变，引发了存储芯片前所未�
 - 头部：超级聚合者
 - 长尾：填补任何细分
 - **中型公司被摧毁**（5-20 人软件公司）
+
+### SaaSpocalypse
+[[anthropic|Anthropic]] 发布 Claude Cowork 后，软件板块**一夜蒸发 $285B 市值**（交易员称之为 SaaSpocalypse / 白领 wipeout，部分软件股连跌九日）。Dario 的解读：AI 让「pie 变大」，软件产业整体不缩小，但看不清趋势、认不清护城河的公司会成为「big losers」。详见 [[anthropic]]。
+
+## 产品与组织层：从 information mover 到 builder
+
+[[nikhyl-singhal]]（Skip，前 Meta/Google/Credit Karma）在 CS153 给出组织内部的重构画像（详见 [[product-management-ai-era]]、[[career-as-chapters]]）：
+- 产品/管理岗中「**搬信息**」的部分交给 agent → 组织**变平又变宽**，价值转向 **judgment / building**。
+- 大厂今年 **30–70% 裁员**却又**薪资飙升、大规模招聘**并存——被裁的是 ZIRP 超招的「information mover」，稀缺的是「有 judgment 的 product builder」（top 1% 产品人薪资 18 个月翻倍）。
+- 最受冲击的是 **8–15 年、只会搬信息的中层经理**；学生与 hands-on builder 反而最占位。这与 [[tasks-vs-jobs]] 的 Dario/Jensen 之争是同一分布的两端。
 
 ## 营销层：神经营销崛起
 

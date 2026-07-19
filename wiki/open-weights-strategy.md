@@ -3,7 +3,7 @@ title: "Open Weights 作为商业策略"
 tags: [ai, business, open-source, bfl]
 date_created: 2026-04-18
 date_modified: 2026-04-18
-related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]"]
+related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]", "[[nvidia]]"]
 ---
 
 # Open Weights 作为商业策略
@@ -104,6 +104,15 @@ Image/Video 生态：
 > "Open vs closed is a false trade-off. They're both tactics. Open makes sense where preferences are heterogeneous." — [[anjney-midha]]
 
 > "The beauty of open models is if you give away the weights and they're good general weights, you can tell Meta 'customize for your users' and another government 'customize for your culture.'" — Midha
+
+## NVIDIA / Nemotron：开源作为生态与 co-design 策略
+
+[[jensen-huang|Jensen]]（[[nvidia]]）给出开源的三个理由，与本页「开源是战术不是宗教」一致：
+1. **co-design**——自己做模型（如 Nemotron 3 Super，120B MoE，transformer+SSM）才能看清模型架构演进方向，反哺硬件设计；
+2. **扩散**——让每个行业 / 国家 / 研究者 / 学生都能加入 AI 革命，纯闭源难以在其上创新；
+3. **AI 不只是语言**——生物、化学、物理、physical AI 等模态都需要有人把前沿推到极限（"we don't build cars, but we want every car company to have great models"）。
+
+NVIDIA 把 weights + data + 训练方法**一并开源**。这与中国（DeepSeek、MiniMax）的开源文化（见 [[nvidia]] 的 China 段）共同构成对照，呼应 [[mati-staniszewski]] 对「西方开源须至少与中国持平」的担忧。
 
 ## 来源
 - [[cs153-bfl-andreas-blattmann]]

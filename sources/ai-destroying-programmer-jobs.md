@@ -32,5 +32,8 @@ AI（如 Claude Code、Codex）确实在改变编程行业，但程序员的核�
 - 大学存在意义的讨论
 
 ## 相关页面
+- [[lidang]] —— 作者立党的实体页
+- [[lidang-ai-agent-tutorial]] —— 立党后续的 AI agent 学习教程（同一作者，2026-06）
 - [[ai-impact-on-industry]]
+- [[tasks-vs-jobs]] —— Dario Amodei 对同一就业冲击的框架
 - [[programming-career]]

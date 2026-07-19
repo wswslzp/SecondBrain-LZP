@@ -5,7 +5,7 @@ tags: [光通信, 半导体, ai-infrastructure]
 date_created: 2026-05-18
 date_modified: 2026-05-18
 aliases: ["光互联代际演进", "光模块速率路线图"]
-related: ["[[cpo-co-packaged-optics]]", "[[silicon-photonics]]", "[[oio-optical-io]]"]
+related: ["[[cpo-co-packaged-optics]]", "[[silicon-photonics]]", "[[oio-optical-io]]", "[[nvidia]]", "[[extreme-co-design]]"]
 ---
 
 # Optical Interconnect Roadmap — 光互联代际演进
@@ -78,6 +78,10 @@ related: ["[[cpo-co-packaged-optics]]", "[[silicon-photonics]]", "[[oio-optical-
 | 2030+（12.8T） | 仅能固守低端 LPO | 制造交付股（15-25PE） |
 
 详见 [[control-point-convergence]] 框架。
+
+## 与 NVIDIA 的呼应
+
+本页「拐点不是器件成熟、而是不用它已撑不住」与 [[jensen-huang|Jensen]] 的 [[extreme-co-design]] 完全同构：当「问题装不进一台电脑」、要把上万台机器连成一个 NVLink domain 时，networking / 光互连 / copper 就成了与 GPU 同等的瓶颈（Amdahl's Law）。NVLink-72 把整个机架当作一个 GPU 域来跑万亿参数 MoE——正是电互连逼近极限、系统公司被迫改写架构的直接例证（见 [[nvidia]]）。
 
 ## References
 
