@@ -2,8 +2,8 @@
 title: "Tasks vs Jobs"
 tags: [ai, job-loss, economics, labor, career, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[ai-impact-on-industry]]", "[[ai-destroying-programmer-jobs]]", "[[context-farming]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[product-management-ai-era]]", "[[sam-altman]]", "[[satya-nadella]]", "[[ai-native-company]]"]
+date_modified: 2026-10-25
+related: ["[[ai-impact-on-industry]]", "[[ai-destroying-programmer-jobs]]", "[[context-farming]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[product-management-ai-era]]", "[[sam-altman]]", "[[satya-nadella]]", "[[ai-native-company]]", "[[agi-roadmap-ladder]]", "[[liang-wenfeng]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Tasks vs Jobs
@@ -17,6 +17,15 @@ related: ["[[ai-impact-on-industry]]", "[[ai-destroying-programmer-jobs]]", "[[c
 - 阶段一：自动化 90% → 人在剩下 10% 上 **10× leveraged**，生产力大涨（「the usual hump」）。
 - 阶段二：逼近 **~100%** → 对某些人而言 AI「just do the thing」更好，此时**必须给他们找别的事做**。
 - 软件工程正处于此过程早期：AI 已写「almost all the code」，多数工程师更高产，但「已开始看到」少数人 AI 不再能提升其产力。
+
+## 技术前提：[[liang-wenfeng|梁文锋]] 的「持续学习」判据
+
+Dario/Jensen 争的是**会不会**替代 jobs；[[liang-wenfeng|梁文锋]]（[[liang-wenfeng-investor-meeting]]）给出一个**技术性判据**——jobs 被替代的前提是**持续学习**被攻克：
+
+> 招一个员工，他花两个月熟悉环境就能听懂「叫小王来」；AI 前面没有这两个月的学习，你得给它所有上下文——所以**当前 AI 替代不了你的员工**。
+
+- 差的不是智能而是**持续学习**：「AI 现在不缺品味和直觉，缺的是持续学习。」在 Agent 这一级走完前，jobs 层面的替代不会真正发生（tasks 仍会被大量吃掉，对应上面的 the hump）。
+- 这把「the hump 逼近 100%」的时点，锚定到 [[agi-roadmap-ladder|AGI 路线图]]里「持续学习 → 奇点」那一跃——为 tasks-vs-jobs 之争提供了一个可证伪的技术里程碑。
 
 ## 不寻常的宏观组合
 
@@ -70,6 +79,14 @@ Jensen Huang 称 Dario「conflating tasks with jobs」；有人指这是有利�
 
 这场辩论在 CS153 又添两个声音。[[sam-altman|Sam Altman]]（[[openai]]，[[cs153-sam-altman-scale]]）自称已「much less of a short-term jobs doomer」——总有新事物涌现，短期冲击「may not even be as disruptive as I originally thought in the short term」；他更大的忧虑是**算力的公平分配**（当杠杆从劳动转向资本，需要类似「公民财富基金」/ 所有权份额来对冲）。[[satya-nadella|Satya Nadella]]（[[microsoft]]，[[cs153-satya-nadella-frontier-ecosystem]]）承认「any disruptive technology will have real displacement」，**但**当下的智能被 commoditize 后，人类作为「the most adaptive species」会在其上创造新价值 →**带来有能动性、有工资的新经济活动**（与 Jensen 的 purpose≠task 乐观论同调）。YC 的 [[diana-hu]]/[[garry-tan]]（[[ai-native-company]]，[[cs153-garry-tan-diana-hu-ai-native]]）则从组织结构上印证了 Nikhyl 的中层挤压：AI-native 公司更扁平、更少中层管理，中层原本承担的「lossy info routing」被削去。
 
+## DHH：区分“热爱拼装”与“热爱构建”（Lex #501）
+
+- **两类人**：如果你热爱的只是把正确的逻辑构造拼在一起、实现别人要求的东西，这个机械过程确实受到威胁；如果你热爱构建东西，就不会受到威胁（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **乐观与保留**：他用杰文斯悖论和 ATM 增加了柜员数量的例子说明需求可能扩张，但也明确说“这并不保证”。他认为卢德派比农业机械化更贴切，因为那是一群在不错条件下做着喜欢的工作的高技能工匠。
+- **生产力的定义**：生产力提升就是用更少的人做同样的事，对被裁员的个人很残酷，对整体经济是增长。他还认为，当前的裁员很多是疫情期间过度招聘的结果，AI 只是方便的借口。他引用 Graeber 的《Bullshit Jobs》，以及 Tobi 的 F1 类比（F1 雇了数万人做一件“轻浮的事”）来说明新工作会被发明出来。
+- **建议**：不要预测两次模型迭代之后的世界，专注当下、加入社区；离开一年的人两周就能追上前沿。
+- **与 Jensen 的异同**：两人都持乐观立场，但 DHH 更直白地承认短期痛苦是真的，也是进步的必要代价。
+
 ## 相关页面
 
 - [[ai-impact-on-industry]]
@@ -80,3 +97,4 @@ Jensen Huang 称 Dario「conflating tasks with jobs」；有人指这是有利�
 ## References
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（2026-06-10）
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

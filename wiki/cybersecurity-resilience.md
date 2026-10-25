@@ -2,8 +2,8 @@
 title: "Cybersecurity Resilience（网络安全韧性）"
 tags: [cybersecurity, resilience, transparency, ai-security, crisis-management]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[joe-sullivan]]", "[[cs153-joe-sullivan-resilience]]", "[[anthropic]]", "[[vibe-coding]]", "[[agent-comfort-zone]]", "[[frontier-systems]]"]
+date_modified: 2026-10-25
+related: ["[[joe-sullivan]]", "[[cs153-joe-sullivan-resilience]]", "[[anthropic]]", "[[vibe-coding]]", "[[agent-comfort-zone]]", "[[frontier-systems]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Cybersecurity Resilience
@@ -56,8 +56,18 @@ AI 时代最重要的范式转移（呼应 [[agent-comfort-zone]]）：
 - **smart regulation**：在规模之上需要监管保护人（纯为赚钱的公司不会主动保护每个用户，如 Facebook 上无商业激励可保护的非洲异见者）；理想是形成一套"发布前 N 条 best practices"。政府正把私营部门的人拉进来。
 - **Quantum risk**："harvest now, decrypt later"——机构现在吸走加密数据，等量子（约 2030）到来再破解；主干基础设施届时多会 quantum-resistant。
 
+## 7. 最小权限与运行时监测的互补
+
+[[nvidia-gtc-berlin-2026]] 用 OpenShell/Sentry 介绍另一层防护：Agent 外部执行文件、网络、凭证和权限上限策略，再监测其行为。它与 Sullivan 的观点不是“权限无用”对“权限万能”的对立；权限减少可达攻击面，运行时监测识别权限内的异常使用。详见 [[agent-runtime-security]]。企业演讲中的安全能力主张不等同经独立测试的安全保证。
+
+## 8. 漏洞修补潮：看不见才是最危险的（DHH，Lex #501）
+
+[[dhh|DHH]] 说，新一代模型发现漏洞的能力是 37signals 技术团队近期最大的压力来源：要修补的漏洞一个接一个，最终系统更安全，但过程很颠簸。他的判断是**攻防同源**，能找到攻击方法的模型，也能用于防御。他还提醒，**如果你的团队现在没在忙着打补丁，不是因为安全，而是因为看不见**，你的对手很可能已经掌握了相关手段。Lex 补充说，社会工程攻击（伪造邮件、语音）会随着 AI 能力提升大规模出现（[[dhh-lex-fridman|DHH × Lex #501]]）。他也提到，Shopify 的研究发现，经智能体审查的 PR 引发的生产事故明显少于经人类审查的 PR（口述，未核实）。
+
 ## References
 
 - [[cs153-joe-sullivan-resilience]] —— Joe Sullivan, Stanford CS153（2026）
 - [[joe-sullivan]] —— 人物页（Uber 案完整经过）
 - [[frontier-systems]] —— AI 全栈治理/安全层
+- [[nvidia-gtc-berlin-2026]] —— 外置策略执行、凭证隔离与硬件监测
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

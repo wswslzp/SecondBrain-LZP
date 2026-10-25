@@ -2,8 +2,8 @@
 title: "AI-native 公司"
 tags: [ai-native, startups, org-design, evals, go-to-market, y-combinator]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]", "[[y-combinator]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]"]
+date_modified: 2026-10-25
+related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]", "[[y-combinator]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # AI-native 公司
@@ -28,11 +28,11 @@ related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]",
 
 ## 三种角色
 
-| 角色 | 定义 | 备注 |
-|------|------|------|
-| **IC who ships** | 人人都是会交付的 individual contributor | 连非技术岗也是——**销售自己搭 pipeline**、自动化 call/meeting |
-| **DRI** | Directly Responsible Individual（Apple 术语），编排 IC 达成一个 outcome | 常是 **founder**；例："本周把收入做到 3x" |
-| **AI founder** | 活在未来边缘、试遍每个新工具、把创新带回公司 | [[garry-tan|Garry]] 即化身；"还在 Copilot 水平的人，not gonna make it" |
+| 角色               | 定义                                                           | 备注                                           |                                                 |
+| ---------------- | ------------------------------------------------------------ | -------------------------------------------- | ----------------------------------------------- |
+| **IC who ships** | 人人都是会交付的 individual contributor                              | 连非技术岗也是——**销售自己搭 pipeline**、自动化 call/meeting |                                                 |
+| **DRI**          | Directly Responsible Individual（Apple 术语），编排 IC 达成一个 outcome | 常是 **founder**；例："本周把收入做到 3x"                |                                                 |
+| **AI founder**   | 活在未来边缘、试遍每个新工具、把创新带回公司                                       | [[garry-tan                                  | Garry]] 即化身；"还在 Copilot 水平的人，not gonna make it" |
 
 - 引 **Jack Dorsey 的 "agentic organization"**：组织更**扁平**、**更少中层管理**（中层过去主要做"lossy information routing"）。
 - 与 [[nikhyl-singhal|Nikhyl Singhal]] 的"中层被挤压"论一致；参见 [[tasks-vs-jobs]]、[[product-management-ai-era]]。
@@ -45,7 +45,7 @@ related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]",
   1. **捕获 traces**（高度依赖产品形态：video / speech / consumer / B2B SaaS 各异）；
   2. **human-in-the-loop** 亲自读 trace，标注失败（是否守指令、答案对不对、有没有守住 customer trust、达没达业务目标、合不合 domain rules）→ 转成 **evals**；
   3. **replay** 回系统 → self-heal、自动改 prompt。
-- **cross-modal eval**（[[garry-tan|Garry]] 预告）：**Opus + GPT-5.5 + DeepSeek V4** 互评彼此 I/O，评分反馈给原 subagent 迭代 → meta-prompt 出比第一版好 10x 的结果。YC 创始人金句："Claude Code 是我的 ADHD CEO，Codex 是我近乎不说话的 200-IQ CTO——两个都要做 cross-modal analysis，**ships zero bugs**。"
+- **cross-modal eval**（[[garry-tan|Garry]] 预告）：**Opus + GPT-5.5 + [[deepseek|DeepSeek]] V4** 互评彼此 I/O，评分反馈给原 subagent 迭代 → meta-prompt 出比第一版好 10x 的结果。YC 创始人金句："Claude Code 是我的 ADHD CEO，Codex 是我近乎不说话的 200-IQ CTO——两个都要做 cross-modal analysis，**ships zero bugs**。"
 
 ## Go-to-market：forward-deployed wedge
 
@@ -63,7 +63,12 @@ related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]",
 - "现在是历史上创业最佳时机，我们在革命的第一局第一个投球，你们是 shock troops。"
 - 收尾："one-person frontier lab 可以变成 one-person company——那可以是你。"
 
+## 评估不能只看演示
+
+[[product-research]] 提供了机器人版本的评估纪律：创始人先定义长期产品与最小闭环，再决定研究优先级。签下客户或完成定制，并不自动构成 [[dyna-robotics]] 所说的可规模化 PMF。
+
 ## References
 
 - [[cs153-garry-tan-diana-hu-ai-native]] — 讲座源页
 - [[agentic-engineering-primitives]] — 配套的 code 层原语
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

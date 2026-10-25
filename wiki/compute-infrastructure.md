@@ -2,7 +2,7 @@
 title: "AI Compute 基础设施经济"
 tags: [ai, compute, infrastructure, gpu, markets]
 date_created: 2026-04-18
-date_modified: 2026-07-19
+date_modified: 2026-10-22
 related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]", "[[satya-nadella]]"]
 ---
 
@@ -101,5 +101,12 @@ Midha 请 Claude 整理的案例：
 
 [[amin-vahdat]]（[[value-per-gigawatt]]）在 CS153 给出数据中心运营者视角的**供给与交期现实**：1 GW 产能约合 **$40–50B**；净新增 GW 的 lead time 要 **2–3 年**；电力公司如今要求 **20 年 take-or-pay** 长约（电网已无 slack）；小于 **100MW** 的孤立站点会被 stranded；而 **watts 与 space 在不同芯片世代间是可互换的**，因此要先把**电力信封（watt envelope）**圈下来、再逐代填芯片，并且**每天重新规划（replan daily）**。需求侧上，[[sam-altman]] 称这是一场「gigantic compute shortage… shortage forever」（需求无上限），[[satya-nadella]] 则把负载归为三类主导 workload——**训练 / 推理 / 长时运行的 agent**。这些都为本页「compute 不是商品、需要机构协调」的论点补上了电力与交期这层硬约束。
 
+## GTC Berlin 补充：投产速度与可互换的边界
+
+[[nvidia-gtc-berlin-2026]] 的 DSX Pod 主张通过工厂预集成、布线与测试来缩短交付到生产的时间，强调已购买但闲置的资本没有产出。[[ai-factory-deployment]] 区分现场安装、安装到投产和上游设施准备，不能把“现场数天”理解为整座数据中心的建设期。
+
+**表述上的张力**：Jensen 称 NVIDIA 架构可跨训练、推理、数据处理和专业工具复用；Midha 说 compute 尚不是可互换商品。前者描述平台内部兼容与利用率，后者描述跨厂商资源、交付和结算，讨论层次不同，不能据前者宣布后者已过时。
+
 ## 来源
 - [[cs153-frontier-systems]]
+- [[nvidia-gtc-berlin-2026]] — 21:49–34:50，部署与平台内部复用

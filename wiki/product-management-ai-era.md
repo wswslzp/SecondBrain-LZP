@@ -2,8 +2,8 @@
 title: "AI 时代的产品管理"
 tags: [product-management, ai-impact, career, org-design, startups, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[nikhyl-singhal]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]", "[[vibe-coding]]"]
+date_modified: 2026-10-25
+related: ["[[nikhyl-singhal]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]", "[[vibe-coding]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # AI 时代的产品管理
@@ -53,6 +53,15 @@ related: ["[[nikhyl-singhal]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]"
 - 与 [[jensen-huang|Jensen]] 的「purpose ≠ task」一致——搬信息的 **task** 被自动化，产品人的 **purpose**（判断该造什么、是否 work、是否 fit）反而更值钱。
 - 但 Nikhyl 给出更锋利的分布结论：**中层经理**（只会搬信息、被 ZIRP 提拔去管人）正是 [[dario-amodei|Dario]] 所说「job = task」的那批人，最先被冲击；而 hands-on 的学生与建造者最受益。「有 judgment 的人要更多、还得付更多钱。」
 
+## DHH：软件就是产品管理（Lex #501）
+
+[[dhh|DHH]] 的判断是：在智能体负责实现的时代，稀缺的能力是“该做什么、为谁做、先做什么、第一版包含什么、长什么样”，而**很多程序员并不是好的产品经理**（[[dhh-lex-fridman|DHH × Lex #501]]）。
+
+- **组织瓶颈**：产品、设计、VP、CTO 都想参与塑造产品，生产力就耗在这里。要拿到 10x～1000x 的提效，人必须直接和智能体对话，中间不能隔一个人。
+- **多数组织不缺实现能力**：它们缺想法、愿景和品味。微软坐拥无穷的工程师资源，却并未因此做出好软件。
+- **差异化评估**：给人三个选项，人能凭直觉瞬间选出一个；给 22 个，就会掉进选择悖论。Lex 的做法是同时实现多个设计，再做网页给自己投票。
+- **异步工具**：37signals 把智能体当同事放进 Basecamp 分配待办，认为异步协作工具可能比聊天式 harness 更合适。
+
 ## 相关页面
 
 - [[nikhyl-singhal]]
@@ -61,6 +70,12 @@ related: ["[[nikhyl-singhal]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]"
 - [[ai-impact-on-industry]]
 - [[vibe-coding]]
 
+## 机器人产品的判断力
+
+[[lindon-gao]] 把 CEO 的核心工作定义为找方向：判断最终价值形态、当前智能边界和最小可闭环场景。技术能力不能替代“什么算有用”的产品判断。
+
 ## References
 
 - [[cs153-skip-nikhyl-singhal]]
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

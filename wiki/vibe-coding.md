@@ -2,8 +2,8 @@
 title: "Vibe Coding"
 tags: [ai, programming, naval, karpathy]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[product-management-ai-era]]"]
+date_modified: 2026-10-25
+related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[product-management-ai-era]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Vibe Coding
@@ -71,6 +71,15 @@ AI 让应用海啸式涌现，但：
 
 [[jensen-huang|Jensen]] 给出同一范式的另一种说法：编码的本质是**写 specification**（说明要造什么，愿意的话还可给出架构）。会做这件事的人将从 ~30M 增至 ~1B——「every carpenter in the future will be a coder，而且是带 AI 的 architect」。他强调「specification 的艺术」在于按问题选择**详述 vs 欠详述**（有意 under-specify，给协作者 / AI 留创造空间——正如他给 43,000 员工下指令的方式）。这把 vibe coding 从「非程序员也能做应用」推进到「人人都在编码谱系的某个位置」，也是他反驳「AI 消灭程序员」的核心（见 [[tasks-vs-jobs]]）。
 
+## DHH：定义之争与 Basecamp 教训（Lex #501）
+
+[[dhh|DHH]] 讨厌 “vibe coding” 这个词，觉得它像 2000 年代初的“脚本小子”。他给出一个更严格的定义：**让智能体构建软件，而你完全不看实现**，这才叫 vibe coding。编程则意味着理解循环、条件等基本构造。他还说，“说 vibe coder 制造垃圾的人，看过普通程序员的产出吗？”（[[dhh-lex-fridman|DHH × Lex #501]]）
+
+- **Basecamp 5 反例（2026-02）**：设计师直接用智能体写代码，每个 PR 单看都合理，合起来却毁了架构，只能靠人工清理。在大型已有代码库上，仍然需要懂架构的人把关。这和上文“传统软件工程仍然重要”一致。
+- **⚠️ 与 Naval 观点的张力**：上文说“懂底层的人能堵上抽象泄漏”。DHH 则认为，进入第三智能体时刻后，**懂编程有一阵子反而是劣势**，因为程序员倾向于规定实现路径，而描述结果和问题更有效。瓶颈也转移到了产品判断（见 [[product-management-ai-era]]）。两种说法分别适用于不同阶段和领域，这里如实并存，不强行调和。
+- **黑箱实验**：他把 Omawrite（C++/Qt）和 TTFX（Rust）当作纯黑箱来做，一行代码都没看就发布了，见 [[omarchy]]。
+- **少规定**：这和上文 Jensen 说的“有意欠详述”相呼应。DHH 还转述 Boris 的说法：Opus 5 的系统提示缩减约 80%，因为过度规定反而有害。
+
 ## 关键引语
 
 > "The hottest new programming language is English." — Andrej Karpathy
@@ -79,3 +88,4 @@ AI 让应用海啸式涌现，但：
 
 ## 来源
 - [[a-motorcycle-for-the-mind]]
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

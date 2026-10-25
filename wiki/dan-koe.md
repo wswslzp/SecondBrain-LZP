@@ -2,7 +2,7 @@
 title: "Dan Koe (@thedankoe)"
 tags: [person, creator, writer, marketing, value-creation]
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-10-22
 related: ["[[human-nature-meta-skill]]", "[[wealth-creation]]", "[[productize-yourself]]"]
 ---
 
@@ -16,7 +16,12 @@ Writer / creator，教 **value creation、marketing、human nature** 与独立�
 - 方法论关键词：The mind is a story engine、The Three Tensions（Survival / Identity / Progress）、The Five Levers（Name the Threat / Mirror the Identity / Exclude People / Paint the Transformation / Give the First Step）、Eugene Schwartz 的 5 levels of awareness、Zeigarnik effect。
 - 立场：**Entrepreneurship = self-improvement**（市场与现实是严师）；persuasion「只和握工具的人一样不道德」，正道是 value exchange & mutual benefit。
 
+## 目标设定与注意力
+
+[[dan-koe-delusional-goals]] 把目标视为注意力过滤器：先自主选择高挑战目标，再减少无关投入、寻找高杠杆路径。概念页见 [[goal-directed-attention]]。这是作者的个人发展框架，不是“不现实目标必然成功”的证据；它与 [[agency]] 中的防倦怠和开放探索原则有明确张力。文章也包含 Eden / Creator Bootcamp 的商业推广。
+
 ## References
 
 - [[most-profitable-skill-dan-koe]] — 本页信息来源
+- [[dan-koe-delusional-goals]] — 2026-09-13，目标作为注意力过滤器
 - 站点：letters.thedankoe.com；bootcamp：eden.so

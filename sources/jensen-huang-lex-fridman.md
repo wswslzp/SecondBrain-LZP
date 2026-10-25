@@ -17,7 +17,9 @@ NVIDIA 的胜负手已从「造最好的 GPU」扩展到跨整条 stack 的 [[ex
 
 > "The reason why extreme co-design is necessary is because the problem no longer fits inside one computer to be accelerated by one GPU."
 
-问题一旦分布式，就撞上 **Amdahl's Law**：局部加速无限大，整体收益仍受非加速部分制约。过去 10 年 Moore's Law 只能带来约 **100×**，而 extreme co-design 带来了约 **1,000,000×**（tokens/sec/watt 每年数量级提升）。硬件必须提前押注：AI 模型架构约每 6 个月一变，系统/硬件架构约每 3 年一变——所以要「anticipate」（如为 MoE/sparsity 提前上 NVLink-72；从 Grace Blackwell 跑 LLM 转向 Vera Rubin + Rock 跑 agents）。
+问题一旦分布式，就撞上 **Amdahl's Law**：局部加速无限大，整体收益仍受非加速部分制约。过去 10 年 Moore's Law 只能带来约 **100×**，而 extreme co-design 带来了约 **1,000,000×**（tokens/sec/watt 每年数量级提升）。硬件必须提前押注：AI 模型架构约每 6 个月一变，系统/硬件架构约每 3 年一变——所以要「anticipate」（如为 MoE/sparsity 提前上 NVLink-72；从 Grace Blackwell 跑 LLM 转向 Vera Rubin + Groq 跑 agents）。
+
+> ⚠️ 更正（2026-10-25）：此处原写作「Rock」。raw 转录与本地 ASR 均作「Grok」，按上下文（"we just announced Grok… talking about the stepping stones for two and a half years"）应为推理芯片公司 **Groq** 的机架，已改。
 
 ## 2. Accelerated computing → AI factory（公司史）
 
@@ -108,5 +110,7 @@ NVIDIA GPU 是**首批上太空的 GPU**（卫星高分辨率成像的边缘 AI�
 
 ## References
 
-- Lex Fridman Podcast #494（2026-03-24），YouTube: https://www.youtube.com/watch?v=vif8NQcjVf0
+- Lex Fridman Podcast #494（2026-03-24；YouTube 上传为 2026-03-23 UTC），YouTube: https://www.youtube.com/watch?v=vif8NQcjVf0
 - Transcript: https://lexfridman.com/jensen-huang-transcript
+- 本地音频 ASR 分段（2026-10-25，faster-whisper large-v3-turbo，未人工校对）：`raw/assets/youtube-vif8NQcjVf0-asr-segments.jsonl`
+- 中文长文：[[jensen-huang-lex-fridman-chinese-article]]

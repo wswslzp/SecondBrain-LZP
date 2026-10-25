@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "wiki/lex-fridman-podcast-catalog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "lex-fridman-podcast-catalog"
+            }
+          },
+          {
+            "id": "7b861e8880020098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/xiaojun-podcast-catalog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "xiaojun-podcast-catalog"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -78,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 326.48555755615234
   },
   "right": {
     "id": "d3c0697b0a8a1df5",
@@ -184,43 +201,43 @@
       "bases:新建数据库": false
     }
   },
-  "active": "dc149e92f3f70cb8",
+  "active": "7b861e8880020098",
   "lastOpenFiles": [
-    "sources/cs153-bfl-andreas-blattmann.md",
-    "sources/cs153-garry-tan-diana-hu-ai-native.md",
-    "wiki/four-kinds-of-luck.md.tmp.88160.0a8eccfbc76d",
-    "sources/cs153-joe-sullivan-resilience.md",
-    "wiki/frontier-systems.md",
-    "sources/cs153-satya-nadella-frontier-ecosystem.md",
-    "sources/cs153-scott-nolan-energy.md",
-    "sources/cs153-skip-nikhyl-singhal.md",
+    "wiki/lindon-dyna-chinese-article.md",
+    "raw/assets/youtube-iDaxRNIddME-subs-zh-CN.jsonl",
+    "wiki/lindon-gao.md",
+    "sources/lindon-gao-dyna-xiaojun.md",
+    "wiki/robot-workflow-loop.md",
+    "wiki/product-research.md",
+    "wiki/dyna-robotics.md",
+    "wiki/lex-fridman-podcast-catalog.md",
+    "wiki/xiaojun-podcast-catalog.md",
+    "wiki/dhh-lex-fridman-chinese-article.md",
+    "wiki/jensen-huang-lex-fridman-chinese-article.md",
+    "wiki/nvidia-gtc-berlin-2026-chinese-article.md",
+    "sources/inside-anthropic-the-circuit.md",
+    "sources/a-reading-list-for-generalists.md",
+    "raw/Nvidia GTC Berlin 2026 Jensen Huang Full Keynote.md",
     "index.md",
-    "sources/cs153-sam-altman-scale.md",
-    "wiki/sovereign-ai.md.tmp.88160.c60265cabe5e",
-    "wiki/sovereign-ai.md.tmp.88160.9798156962b3",
-    "wiki/open-weights-strategy.md.tmp.88160.ef6f189836d5",
-    "wiki/open-weights-strategy.md.tmp.88160.b90cd14c4b69",
-    "wiki/open-weights-strategy.md.tmp.88160.81af131fd3a4",
-    "wiki/frontier-systems.md.tmp.88160.c4e719832e2e",
-    "wiki/frontier-systems.md.tmp.88160.45e63112dd84",
-    "wiki/frontier-systems.md.tmp.88160.e15945324116",
-    "wiki/scaling-laws.md.tmp.88160.ab91119158db",
-    "wiki/ai-for-learning.md",
-    "wiki/cognitive-atrophy.md",
-    "wiki/agentic-engineering-primitives.md",
-    "wiki/value-per-gigawatt.md",
-    "wiki/ai-native-company.md",
-    "wiki/y-combinator.md",
-    "wiki/diana-hu.md",
-    "wiki/google.md",
-    "wiki/garry-tan.md",
-    "sources/jensen-huang-lex-fridman.md",
-    "wiki/token-economics.md",
-    "wiki/amin-vahdat.md",
-    "wiki/cybersecurity-resilience.md",
-    "sources/cs153-amin-vahdat-gigawatt.md",
-    "wiki/intelligence-as-utility.md",
-    "wiki/joe-sullivan.md",
-    "wiki/openai.md"
+    "sources/smart-glasses-2026-dianwan.md",
+    "sources/spacex-rise-silicon-valley-101.md",
+    "raw/youtube-GCMlpMNK9c0-原始积累的5条建议-给年轻时候的自己.md",
+    "raw/You need to be delusional if you want to succeed如果你想成功，就需要有点妄想.md",
+    "sources/liang-wenfeng-investor-meeting.md",
+    "wiki/restraint-as-strategy.md",
+    "index.md.tmp.94092.c95969ee3f37",
+    "wiki/tasks-vs-jobs.md.tmp.94092.cc79fe9a84f0",
+    "wiki/china-us-compute-gap.md",
+    "wiki/agi-roadmap-ladder.md",
+    "wiki/agi-roadmap-ladder.md.tmp.94092.c1bd6e69d7aa",
+    "wiki/deepseek.md",
+    "wiki/liang-wenfeng.md",
+    "wiki/liang-wenfeng.md.tmp.94092.30db04318e0d",
+    "raw/梁文锋投资者交流会（完整版全文）.md",
+    "wiki/satya-nadella.md.tmp.21584.1e7369386151",
+    "wiki/satya-nadella.md.tmp.21584.186ea1bce1be",
+    "wiki/sovereign-ai.md.tmp.21584.9de595e91f34",
+    "wiki/sovereign-ai.md.tmp.21584.e96e0c4d61f2",
+    "wiki/meta-ai-ad-flywheel.md.tmp.21584.329905bbe465"
   ]
 }

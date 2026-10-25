@@ -58,9 +58,9 @@ AI 记忆领域开源项目全景图，截至 2026 年 4 月共 43 个活跃项�
 | 项目 | 特点 |
 |------|------|
 | **MAGMA** | 多 Agent 记忆协作 |
-| **MemClaw** | 基于 OpenClaw 的记忆爪 |
+| **MemClaw** | 基于 [[openclaw|OpenClaw]] 的记忆爪 |
 | **SwarmVault** | Swarm Intelligence + 记忆保险库 |
-| **SkillClaw** | 技能记忆蒸馏 → 可复用工具 |
+| **SkillClaw** | 技能记忆蒸馏 → 可复用工具（建在 [[openclaw|OpenClaw]] 上）|
 | **ToolPipe** | MCP Server 形式的记忆管道 |
 
 ## 架构对比

@@ -2,8 +2,8 @@
 title: "Scaling Laws"
 tags: [ai, scaling-laws, compute, llm, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]", "[[sam-altman]]", "[[satya-nadella]]", "[[intelligence-as-utility]]"]
+date_modified: 2026-10-25
+related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]", "[[sam-altman]]", "[[satya-nadella]]", "[[intelligence-as-utility]]", "[[liang-wenfeng]]", "[[agi-roadmap-ladder]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # Scaling Laws
@@ -51,13 +51,28 @@ scaling laws 把「更多 compute」直接转化为「更强模型」，因此�
 
 [[sam-altman|Sam Altman]]（[[cs153-sam-altman-scale]]）在 CS153 把 scaling 推广为一条更宽的命题——**「scale is its own quality」**：最有意思的东西都来自**规模下的涌现性质（emergent properties at scale）**，其回报超出共识（AI 模型、研究团队、经济体、YC 批次皆然）；他认为这个领域曾「held back by a generation of scientists too certain about what scaling wouldn't produce」。[[satya-nadella|Satya Nadella]] 则把 Microsoft 2019 年那笔 $1B 投资 OpenAI 描述为**押注这条 scaling-laws 的 Pareto 会持续延伸**，并由此引出「智能/算力将成为一种新公用事业」（[[intelligence-as-utility]]）的判断。
 
+## [[liang-wenfeng|梁文锋]]：「墙是对硅谷说的，中国离墙还很远」
+
+[[liang-wenfeng|梁文锋]]/[[deepseek|DeepSeek]]（[[liang-wenfeng-investor-meeting]]）同样**信 scaling、没看到上限**，但加了一个东西方视角的关键限定：
+
+> 「硅谷在说 Scaling 到头，那是对硅谷说的；对中国人来讲，我们离那个还很远——我们根本没有 Scaling 到那个程度。」
+
+- **约束是算力不是意愿**：「阻止我们 Scaling 的其实就是算力」；他们训多大模型是**按资源倒推**的，不是「这么大就够了」，「还没机会碰到 Scaling 的墙」。见 [[china-us-compute-gap]]。
+- **叠加新范式（阶梯）**：在 scaling 之上，梁给出 LM→CoT→Agent→**持续学习**→奇点→具身的路线图，认为**下一代模型的核心能力是持续学习**（当前 Agent 能力受限正因不能有效持续学习）。完整见 [[agi-roadmap-ladder]]——与 Jensen 的第 4 条 agentic scaling 可对读。
+
+## 具身数据的规模化押注
+
+[[lindon-gao-dyna-xiaojun]] 给出机器人领域的一个口述案例：DYNA 在约 100 万小时第一人称数据上观察到规模效应，并认为应先扩大多样经验，再做质量筛选。该数字未经独立核实，也不能直接等同于语言模型的 scaling law。
+
 ## 相关页面
 
 - [[compute-infrastructure]]
 - [[frontier-systems]]
 - [[ai-factory]]
 - [[dario-amodei]]
+- [[agi-roadmap-ladder]] — 梁文锋的 AGI 阶梯与持续学习瓶颈
 
 ## References
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（2026-06-10）
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

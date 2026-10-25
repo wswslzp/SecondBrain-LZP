@@ -2,8 +2,8 @@
 title: "注意力经济（Attention Economy）"
 tags: [attention, neuroscience, marketing, media]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]"]
+date_modified: 2026-10-25
+related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # 注意力经济
@@ -66,12 +66,24 @@ related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-met
 
 → 最终压力不是创造更多，而是创造**更值得注意**的。
 
+## 从争夺他人注意力到配置自己的注意力
+
+[[dan-koe-delusional-goals]] 提供另一视角：不是怎样让别人停留，而是自主目标怎样改变自己对信息、机会和行动的筛选。见 [[goal-directed-attention]]。它与本页的营销视角互补，但不为上述具体神经科学或广告效果主张提供独立验证；目标聚焦也可能让人忽略反证。
+
 ## 关键引语
 
 > "It's not about attention spans getting shorter. It's about the brain making survival-era decisions on every piece of content."
 
 > "We're not competing for attention. We're slipping past the filter entirely." — Karlo, 关于 AI 动画广告
 
+## 抵抗算法：DHH 的“显示偏好”管理（Lex #501）
+
+- **算法读的是行为**：它捕捉你停留在哪里，而不是你声称喜欢什么，也就是荣格所说的“阴影”。X 像一台老虎机，也像一盘让你停不下来的 17 颗巧克力草莓（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **对策**：定期离开 X（2026 年夏离开三周）；刷 TikTok 时，一碰到激发怒气或欲望的视频就立刻划走，不让算法学到；主动发布积极内容，对冲负面情绪天然更高的传播力。
+- **更深的担忧**：只要奖励函数是参与度，系统就会迎合人的本能。这与 [[goal-directed-attention]] 讲的主动配置注意力是同一个思路。
+
 ## 来源
 - [[neuromarketing-tribe-v2]]
 - [[a-motorcycle-for-the-mind]]
+- [[dan-koe-delusional-goals]]
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

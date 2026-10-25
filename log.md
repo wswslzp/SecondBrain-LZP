@@ -180,3 +180,78 @@ Source: Stanford CS153 Frontier Systems 第 4 讲（讲者 Amin Vahdat / Google 
 ## [2026-07-19] ingest | CS153 | Garry Tan & Diana Hu (YC) on The AI Native Company
 
 Source: Stanford CS153 Frontier Systems 第 5 讲（讲者 Garry Tan + Diana Hu / Y Combinator），YouTube. Created: `sources/cs153-garry-tan-diana-hu-ai-native.md`, `wiki/garry-tan.md`, `wiki/diana-hu.md`, `wiki/y-combinator.md`, `wiki/ai-native-company.md`, `wiki/agentic-engineering-primitives.md`. Updated（并行 backlink）：`wiki/claude-code.md`（$200 Max plan software factory / ADHD CEO）、`wiki/multi-agent-patterns.md`（skill/resolver/skillify）、`wiki/venture-capital-systems.md`（The SAFE 标准化）、`wiki/network-effects.md`（YC batch）、`wiki/llm-wiki-pattern.md`（GBrain 扩展 Karpathy Knowledge Wiki）、`wiki/tasks-vs-jobs.md`（中层承压佐证）、`wiki/frontier-systems.md`（Capital 层），`index.md`. 核心：unit of production 变了（Garry 用 $200/mo Claude Code 5 天重建 Posterous，6 人做 $10M、$1-2M/人）；GStack「software factory」，plan-review skill→80-90% 覆盖破 slop，「boil the ocean」一人抵 500-1000 人；agentic 工程原语 skill（可调 code 的 markdown runbook）/resolver（惰性加载=组织架构）/skillify（一次性升级为带 unit test+LLM eval+trigger eval 的技能，10 步里只有 2 步是写 code）/GBrain（3 层记忆，在 Karpathy Knowledge Wiki 上加 vector search+RRF+graph db+epistemology）；原语↔组织同构（skill=员工、resolver=org chart、check-resolvable=审计）；AI-native 组织 open-loop→closed-loop（PID）、IC/DRI/AI-founder 三角色、taste&evals 不可委派（cross-modal eval：Opus/GPT-5.5/DeepSeek V4 互评）、forward-deployed wedge（Salient/HappyRobot/Reducto 一年 0→八位数）、last-batch 3x/3 月。GBrain 自指式扩展了本 vault 所用的 [[llm-wiki-pattern]]。新建概念页 [[ai-native-company]] 与 [[agentic-engineering-primitives]]。
+
+## [2026-07-21] ingest | 对话 Vincent Koc：OpenClaw 的反思与进化（硅谷101 @ WAIC 2026）
+
+Source: 硅谷101 YouTube（https://www.youtube.com/watch?v=tnvyMcmtAiw），WAIC 2026 现场对话 OpenClaw 基金会首席架构师 Vincent Koc（2026-07-21）. Created: `sources/silicon-valley-101-vincent-koc-openclaw.md`, `wiki/openclaw.md`, `wiki/vincent-koc.md`, `wiki/openclaw-foundation.md`, `wiki/gateway-architecture.md`, `wiki/conways-law-agents.md`. Updated: `wiki/hermes-agent.md`（Vincent 对 Hermes「更线性/连贯」的评价 + 两条产品路线分岔）、`wiki/microsoft.md`（Scout/MXC 的 Claw/Foundation 做成 wikilink）、`wiki/agentic-engineering-primitives.md`（OpenClaw「工厂」隐喻现实印证：20 秒拉起任意 OS + proof）、`wiki/multi-agent-patterns.md`（康威定律为立党「组织模拟天坑」补机理）、`wiki/ai-agent-memory.md`（生产一线「记忆未解决」：跨模型 + 多租户）、`wiki/ai-memory-open-source-landscape.md`（MemClaw/SkillClaw 挂到 openclaw）、`wiki/claude-code.md`（Jensen 的「OpenClaw」做成 wikilink），`index.md`（+ Entities: openclaw/openclaw-foundation/vincent-koc；+ Concepts: gateway-architecture/conways-law-agents；+ Source）. 
+
+核心：补齐长期缺失的 [[openclaw]] 中心实体页（此前被 12 页引用无独立页）。OpenClaw = 能**改自身代码**的个人 agent（区别于被 harness 锁死的 coding agent）；爆火线（2025-12 polymarket 交易员→2026-02 SF 绕楼排队→中国「小龙虾」狂热/Mac 断货）；中国更火=心态（拥抱 vs block）× 可得性（Codex/Claude Code 用不了）；postclaw era——搞砸过（"how NOT to build software with agents"）但修复后 npm 周下载从 2.5–3M 冲到 4M+ 创新高。[[gateway-architecture]]：always-on + heartbeat（10–30 分触发对话链）、凭证 vault、容器化 + OS 级隔离、auto mode（LLM 按意图判断 + 前沿模型审查/本地模型推理 hybrid）。[[conways-law-agents]]：组织把旧架构镜像进 agent≠最优，与 [[multi-agent-patterns]] 立党「组织模拟天坑」正面互证；多智能体瓶颈是 context 非成本。「工厂」隐喻同构 [[garry-tan]] software factory。记忆未解决（跨模型 + 多租户）。[[openclaw-foundation]]：501c「AI agent 界的瑞士」、Peter→OpenAI 去个人化、positive-sum、open-source vs startup 之辩。预测：agent 间通信协作（像手机互打）是下一爆点。
+
+## [2026-07-21] ingest | All Along the AI Watchtower（Citrini Research）
+
+Source: Citrini Research 付费主题投研（笔名 Citrini Semis），2026-07-20；本 vault 收录中英对照译版。**技术形态特殊**：iOS 18.3.2 导出的「长截图」PDF——单页 212×34604pt、164 张拼接图、**无文字层**。为此新建可复用 skill **`.claude/skills/pdf-ocr/`**（`render_pdf.py`：PyMuPDF 渲染，文本层走 pdftotext 快速通道，否则按高度切成重叠 PNG 切片供视觉 OCR；已双分支测试）。Created: `sources/citrini-all-along-the-ai-watchtower.md`, `wiki/citrini-research.md`, `wiki/ai-capex-beneficiaries.md`, `wiki/memory-wall.md`, `wiki/qualcomm.md`, `wiki/project-glasswing.md`, `wiki/usage-based-pricing.md`, `wiki/meta-ai-ad-flywheel.md`. Updated: `wiki/sovereign-ai.md`（企业级第二义：Nadella「付两次费」+ Palantir×Nvidia on-prem 参考架构 + repatriation/硬件受益链）、`wiki/anthropic.md`（Mythos 的市场续集 + [[project-glasswing]]）、`wiki/satya-nadella.md`（「为智能付两次费」引文 + Claude Code 成本停用）、`index.md`（+ Entities: citrini-research/qualcomm；+ 新 Concepts 子类「AI 投资与商业模式」: ai-capex-beneficiaries/usage-based-pricing/meta-ai-ad-flywheel；+ memory-wall/project-glasswing；+ Source）.
+
+## [2026-07-23] ingest | 梁文锋投资者交流会（完整版全文）
+
+Source: 梁文锋（[[deepseek|DeepSeek]] 创始人）融资后投资者交流会全文，经 X @falali2015 转录流出（2026-07-23）. Created: `sources/liang-wenfeng-investor-meeting.md`, `wiki/liang-wenfeng.md`, `wiki/deepseek.md`, `wiki/restraint-as-strategy.md`, `wiki/agi-roadmap-ladder.md`, `wiki/china-us-compute-gap.md`. Updated: `wiki/cuda.md`（⚠️ 标注梁文锋「CUDA 护城河快速瓦解」对 Jensen 护城河论的正面反驳）、`wiki/nvidia.md`（moat 反论 + China 段中方自述）、`wiki/open-weights-strategy.md`（DeepSeek 开源经济学：市场太大不可独占 + 部署门槛 + 十个月回本）、`wiki/scaling-laws.md`（「墙是对硅谷说的，中国离墙还远」+ 持续学习新范式）、`wiki/sovereign-ai.md`（国产替代=主权算力、三体之一、系统性成本优势）、`wiki/tasks-vs-jobs.md`（持续学习作为 jobs 被替代的技术判据）、`wiki/ai-agent-memory.md`（持续学习=记忆研究的 AGI 出口）、`wiki/ai-native-company.md`（DeepSeek V4 挂到实体页），`index.md`（+ Entities: liang-wenfeng/deepseek；+ Concepts: restraint-as-strategy/agi-roadmap-ladder/china-us-compute-gap；+ Source）.
+
+核心：建立缺失的 [[deepseek]]/[[liang-wenfeng]] 实体页。中心命题 **[[restraint-as-strategy|克制是一种战略]]**——博弈论内核「拿得多者被拿得少者打败」（OpenAI 想占 GDP 5%→被只要 1%/0.1% 的打败）；只赚合理利润=十个月回本≈6 倍利润，本可利润最大化却降价、公司群欢呼。**[[agi-roadmap-ladder|AGI 阶梯]]**：LM→CoT（去年）→Agent（今年）→**持续学习**（下一个瓶颈，"AI 不缺品味直觉、缺持续学习"，员工两个月上手类比）→自我迭代奇点（渐进非突变/非线性）→具身；桥接 [[catastrophic-forgetting]]/[[complementary-learning-systems]]/[[ai-agent-memory]]。**[[china-us-compute-gap|中美算力差距]]**：差距只在资源（2 万张 H 等效、落后 1–2 年、用 1/20 算力；800B 需 5 万 GB300 或 20 万华为 950），⚠️ [[cuda|CUDA]] 护城河快速瓦解（AI 写生态 + TileLang 重写算子 + 计算卡/游戏卡解耦，"英伟达在掘自己的坟墓"），华为 950「4 张顶 1 张+落后 2 年」平替，V3 已"用英伟达卡不用英伟达生态"。**[[open-weights-strategy|开源]]**是克制的必然要求（AI 占 GDP 10% 不可独占 + 部署门槛让第三方无利可图）。只做 AGI 主线（不碰视频生成/世界模型/3D，多模态是组件），C/B 端是副产品=降维打击，唯一核心利益=团队稳定性。与 [[jensen-huang]] 的 CUDA 护城河论、[[sam-altman]] 的民主化分叉形成东西方对位。
+
+核心：Citrini 论「unwind ≠ AI capex 见顶」——回调是最拥挤 AI 交易的杠杆脆弱性，capex 在**轮动**，找**被错误归类的受益者**。四主题：①半导体/内存——[[qualcomm]] 投资者日 FY29 非手机指引 $22B→$40B，[[memory-wall|HBC 近存计算]]绕开 HBM（厂商数字 6x 带宽/瓦、200x 容量/瓦）、AI200→AI300、Meta C1000 CPU、Modular 收购，上行期权含 AR1 眼镜/汽车/机器人；②[[usage-based-pricing|构建者工具包]]——GitLab/MongoDB/Elastic/Figma，定价从席位转向用量/结果；③企业支出安全且自主——[[project-glasswing|Anthropic Project Glasswing]]（Mythos 引爆漏洞浪潮）、Fortinet/Yubico、DSPM 并购、[[sovereign-ai|AI 主权 repatriation]]（Palantir×Nvidia、88% CIO 回流、Dell/HPE/联想/富士通/NetApp/F5/Nutanix）；④[[meta-ai-ad-flywheel|Meta PEMDAS]]——唯一能把 GPU 立即转 P&L 的一体化赢家，Advantage+/Andromeda/GEM 广告飞轮 + CTV $40-50B。首次为 vault 引入卖方/主题投研视角，与既有一手素材（[[anthropic]] 的 Mythos、[[satya-nadella]] 的 frontier-ecosystem）互证。OCR 具体数字已在 source 页标注可复核。
+## [2026-08-15] query | Windows 上 ChatGPT/Codex 启动卡顿是否由 sandbox 导致
+
+区分桌面应用启动阶段与 Codex 工具执行阶段：当前会话的命令和文件访问受 sandbox 权限约束，但没有证据表明它是 Windows 客户端启动卡顿的主要原因；给出 WebView、网络登录、插件/工作区扫描和安全软件等排查方向。
+
+## [2026-10-22] ingest | Nvidia GTC Berlin 2026 黄仁勋主题演讲
+
+Source: Yahoo Finance 发布的 Jensen Huang 演讲转录（2026-10-21）。完整阅读 00:00–1:27:16。Created: `sources/nvidia-gtc-berlin-2026.md`、`wiki/agent-runtime-security.md`、`wiki/ai-factory-deployment.md`、`wiki/physical-ai-computing.md`。Updated: `wiki/nvidia.md`、`wiki/compute-infrastructure.md`、`wiki/ai-factory.md`、`wiki/gateway-architecture.md`、`wiki/cybersecurity-resilience.md`、`wiki/agent-comfort-zone.md`、`wiki/embodied-ai-supply-chain.md`、`index.md`。核心：完整 Agent 五构件、外置策略执行与凭证隔离、投产时间、训练仿真部署循环。产品/性能/合作状态保留企业演讲归属；区分现场安装与完整设施建设、平台内部复用与跨厂商商品化。
+
+## [2026-10-22] ingest | SpaceX 崛起史：一切，为了去火星
+
+Source: 硅谷101实地探访与 Lewis Hong 访谈（2026-06-11）。完整阅读约 75 分钟转录。Created: `sources/spacex-rise-silicon-valley-101.md`、`wiki/spacex.md`、`wiki/musk-engineering-method.md`。Updated: `wiki/agency.md`、`index.md`。核心：长期使命与客户现金流分层、NASA 采购激励、五步工程法、可复用与 Starlink 的规模和学习循环。避免将商业飞轮误写为用户网络效应；区分发展目标与已实现能力，保留媒体叙事和受访者回忆的证据边界，不同步为实时 IPO 或公司财务资料。
+
+## [2026-10-22] ingest | You need to be delusional if you want to succeed
+
+Source: Dan Koe (@thedankoe) X 长文（2026-09-13，中英对照）。Created: `sources/dan-koe-delusional-goals.md`、`wiki/goal-directed-attention.md`。Updated: `wiki/dan-koe.md`、`wiki/agency.md`、`wiki/attention-economy.md`、`index.md`。核心：自主目标作为注意力过滤器，删除无关投入、寻找高杠杆路径。显式保留与 Cate Hall 防倦怠/开放探索的张力；不将夸张目标、神经科学解释或个案收入写成成功保证；保留 Eden/Creator Bootcamp 商业语境。
+
+## [2026-10-22] ingest | 原始积累的 5 条建议：给年轻时候的自己
+
+Source: 原始频道署名“巫师”（2026-10-17），完整音频机器转录（00:00–29:24，原始转录摄取日期 2026-10-19）。Created: `sources/initial-capital-five-lessons-wushi.md`、`wiki/capital-accumulation.md`、`wiki/household-financial-statements.md`、`wiki/financial-scenario-modeling.md`。Updated: `wiki/wealth-creation.md`、`wiki/fire-运动.md`、`index.md`。核心：三个积累里程碑、五条经验、现金流与资产负债表、情景与敏感性建模。修正旧 FIRE 页“25 倍资产即可持续生活”的过强表述；区分预期回报与提款比例，双向记录“伪资产”筛选口径和 Naval 广义财富定义的分歧。保留机器转录未经人工校对状态，原始音频、JSON 和 raw 文件不改动。
+
+## [2026-10-22] update | 本轮摄取整合与检查
+
+本轮新增 4 个 source 摘要、9 个 wiki 页面，更新 12 个已有 wiki 页面及索引。检查 25 个 source/wiki 文件的必需 frontmatter 字段和更新日期，13 个新页面全部进入索引并有内容页入链；新增链接目标均可解析。复利示例按年末固定投入公式重算通过。对照读入时的 SHA-256，`raw/` 内全部 60 个文件保持不变。已有 `wiki/cybersecurity-resilience.md` 的 `breachrx` 悬空链接与旧日志第 186 行行尾空格保留，本轮不作全库 lint 或无关清理。
+
+## [2026-10-23] update | GTC Berlin 2026 演讲中文文章
+
+按用户请求，重读已收录英文转录并整理为可独立阅读的中文长文。Created: `wiki/nvidia-gtc-berlin-2026-chinese-article.md`。Updated: `sources/nvidia-gtc-berlin-2026.md`（文章回链）、`index.md`（Analyses 类别）。文章沿 AI 五层产业结构、全栈平台、工厂投产、Agent 五构件、外置权限执行、企业知识、专业工具及具身计算展开，保留供应链和汽车设计案例及关键时间戳。明确为主题重组与解读而非逐字翻译；产品能力归于演讲表述，区分部署时间口径、专用定制与通用能力、仿真演示与实机可靠性。原始材料未修改。
+
+## [2026-10-25] update | Lex Fridman Podcast 节目分类目录
+
+按用户请求，用 yt-dlp 抓取 YouTube @lexfridman 频道全部 858 条视频，筛出带编号正式播客 500 集（#1–#502，#84、#100 已不在 YouTube）。Created: `wiki/lex-fridman-podcast-catalog.md`，按标题分为 14 类（AI、编程、科技公司、机器人、太空、物理数学、生物医学、意识哲学、历史地缘、政治社会、经济加密、格斗体育、犯罪间谍、文化娱乐），每集单一主类并附链接与时长；#494 回链已有 source。Updated: `index.md`（Topics）。分类仅依据标题，未读字幕。
+
+## [2026-10-25] update | Lex Fridman 目录补充日期
+
+为 `wiki/lex-fridman-podcast-catalog.md` 全部 500 集补上 YouTube 上传日期（UTC，yt-dlp 逐集取 timestamp），目录表新增各分类时间跨度。与官方 RSS（lexfridman.com/feed/podcast）pubDate 交叉核对：497 集相差 ≤1 天，#1/#2 YouTube 早于 RSS 上线，#411 差 2 天。
+
+## [2026-10-25] update | Lex Fridman #494 黄仁勋访谈中文长文 + 音频 ASR
+
+Source: 已收录的 Lex Fridman Podcast #494（`sources/jensen-huang-lex-fridman.md`，2026-07-19 首次摄取），本次未重复建 source。按用户请求下载 YouTube 音频，以 faster-whisper large-v3-turbo（RTX 4070）全程机器转写，共 1820 段，覆盖 0:00–2:25:54（全长 2:25:58），未人工校对。Created: `wiki/jensen-huang-lex-fridman-chinese-article.md`（主题重组的中文长文，非逐字翻译）、`raw/assets/youtube-vif8NQcjVf0-asr-segments.jsonl`（新增文件，ASR 分段）。Updated: `sources/jensen-huang-lex-fridman.md`（参考链接、日期口径）、`wiki/extreme-co-design.md`、`wiki/jensen-huang.md`、`index.md`（Analyses）。**更正**：source 页与 extreme-co-design 页原把 Vera Rubin 的新增机架写作「Rock」；raw 转录与 ASR 均为「Grok」，按上下文应为 Groq，两页均已改并加注。日期口径：RSS/官网 2026-03-24，YouTube 上传 2026-03-23 UTC。音频（m4a，约 200MB）未入库；已有 raw 文件均未修改。
+
+## [2026-10-25] ingest | Lex Fridman #501 DHH：编程的未来、AI、智能体工程、Vibe Coding 与 Linux
+
+Source: Lex Fridman Podcast #501（YouTube 2026-08-26 UTC，5:15:51）。文字稿为 YouTube 人工英文字幕（json3），共 4772 段，覆盖 0:00–5:15:40，约 5.4 万词，已全文通读。此前只出现在 `wiki/lex-fridman-podcast-catalog.md`，未曾摄取，按完整流程处理。Created: `sources/dhh-lex-fridman.md`、`wiki/dhh.md`、`wiki/omarchy.md`、`wiki/malleable-computer.md`、`wiki/dhh-lex-fridman-chinese-article.md`（主题重组的中文长文，不是逐字翻译）、`raw/assets/youtube-NYFGCESmikA-subs-en.jsonl`（新增文件，字幕分段）。Updated: `wiki/vibe-coding.md`、`wiki/claude-code.md`、`wiki/anthropic.md`、`wiki/agentic-engineering-primitives.md`、`wiki/multi-agent-patterns.md`、`wiki/product-management-ai-era.md`、`wiki/tasks-vs-jobs.md`、`wiki/open-weights-strategy.md`、`wiki/cybersecurity-resilience.md`、`wiki/attention-economy.md`、`wiki/openclaw.md`、`wiki/lex-fridman-podcast-catalog.md`（#501 回链）、`index.md`（Entities、AI Agent 工程、Sources、Analyses）。
+
+内容要点：三个智能体时刻（2025-11-24 Opus 4.5 为分水岭）；Basecamp 5 中 vibe 出来的 PR 毁掉架构；开源接纳 AI PR；“软件就是产品管理”；16 线程并行加多模型交叉审查；TTE→Rust 多模型成本横评；Linux 与可塑计算机；模型拒绝翻译与开源模型；就业与焦虑。
+
+**张力已标注**：`vibe-coding` 页原有 Naval 的“懂底层的工程师更强”，与 DHH 的“懂编程有一阵子反而是劣势”并列保留，注明二者适用于不同阶段和领域，不强行调和。`anthropic` 页注明访谈中的 “Fable” 与 Mythos 是什么关系无法确认。
+
+字幕疑似错误已在文中注明：Mach-E/Amachi→Omarchy，Herder→Herdr，GrayCat→Raycast，部分 Groq→Grok。所有数字都是嘉宾口述，未核实。移民段落只转述 DHH 的立场，不背书。已有 raw 文件均未修改，`git diff -- raw` 为空。`cybersecurity-resilience` 页原有的 `breachrx` 悬空链接保留未动。未 commit。
+
+## [2026-10-25] update | 小珺播客 YouTube 视频分类目录
+
+按频道公开视频列表采集 188 条视频，依标题归入主题类别，保留中英文重复、纯享及其他频道视频；频道 Playlists 标签不可用，分类仅基于标题。Created: `wiki/xiaojun-podcast-catalog.md`；Updated: `index.md`。
+
+## [2026-10-25] ingest | DYNA 创始人 Lindon Gao：机器人工作流与产品研究
+
+Source: 张小珺商业访谈录，英文对应视频人工中文字幕（2026-10-15，2:51:18，覆盖至 2:51:12）。中文视频无字幕，未做音频转写。Created: `sources/lindon-gao-dyna-xiaojun.md`、`wiki/lindon-gao.md`、`wiki/dyna-robotics.md`、`wiki/product-research.md`、`wiki/robot-workflow-loop.md`、`wiki/lindon-dyna-chinese-article.md`、`raw/assets/youtube-iDaxRNIddME-subs-zh-CN.jsonl`。Updated: 12 个相关 wiki 页、`wiki/xiaojun-podcast-catalog.md`、`index.md`。嘉宾口述数字未独立核实，未修改既有 raw 文件。

@@ -2,8 +2,8 @@
 title: "AI Agent 的舒适区：封闭可验证环境"
 tags: [ai-agents, go-driven, simulation, eda, matlab, lean4, cad, capability-boundary]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]"]
+date_modified: 2026-10-25
+related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # AI Agent 的舒适区：封闭可验证环境
@@ -78,11 +78,23 @@ agent 只是在**两个前提**满足时把"人可解的过程"自动化：
 
 这与 [[ai-quant-system]] 形成对照：那里 [[zostaff]] 用 6 Agent + 3 道硬门（[[three-gate-evaluator]]、Deflated Sharpe）拼命对抗过拟合与市场对抗性——**正因为金融不在舒适区，量化才如此难**。物理世界、信号、电子、流体力学、热力学、气象、地球物理、天体这些"真实且本地可模拟"的领域反而是舒适区。
 
+## 补充案例：专业工具与具身闭环
+
+[[nvidia-gtc-berlin-2026]] 演示由 Agent 编排 CAD、场景构建、Isaac 仿真、策略训练和实机部署，呼应本页“可运行、可检验工具链”的价值。[[physical-ai-computing]] 区分训练、仿真和部署三个角色：仿真适合大规模试错，但通过仿真不代表真实设备可靠，仍需校准与实测。
+
+[[agent-runtime-security]] 则讨论另一种 sandbox：它限制权限和影响范围，不负责证明业务或物理结果正确。“安全隔离”与“任务可验证”是两个独立条件。
+
 ## 价值判断
 
 > 我给你筛下来的这几个场景，**每一条都值 1000 万美元**——都是传统工科的金饭碗。
+
+## 从可验证动作到完整职责
+
+[[robot-workflow-loop]] 指出，单次动作可重复并不等于生产职责完成。机器人停下来等待人工补料、一次错误拖垮全天产量，都说明验证边界需要扩展到真实工作流。
 
 ## References
 
 - [[lidang-ai-agent-tutorial]] —— 立党AI学习研究完整教程（第一期）
 - [[ai-quant-system]]、[[three-gate-evaluator]]、[[build-your-own-agent]]
+- [[nvidia-gtc-berlin-2026]] — 专业工具与机器人训练演示
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

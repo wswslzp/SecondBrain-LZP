@@ -2,8 +2,8 @@
 title: "能动性 Agency"
 tags: [agency, self-improvement, psychology, career, luck]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]"]
+date_modified: 2026-10-25
+related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # 能动性 Agency
@@ -50,13 +50,26 @@ related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[produc
 
 **能动性下降是倦怠的第一个信号**——甚至早于你有意识地察觉：开关一翻，你开始找理由排除各种想法与行动、断定它们行不通，而不是去追更好的版本。Cate 的原则：**绝不听从从未 burnout 过的人**对"你该多努力"的指教。
 
+## 与激进目标设定的张力
+
+[[dan-koe-delusional-goals]] 用单一高挑战目标和紧迫期限重排注意力，呼应主动选择与寻找优势；但它大幅削减其他投入的主张，与 Cate Hall 强调的探索空间和防倦怠形成张力。两者不是“越拼越有能动性”的同一结论。[[goal-directed-attention]] 保留挑战旧方法的作用，也要求真实反馈、恢复和必要义务不被排除。
+
+[[spacex]] 展示了长期使命与主动行动的企业案例，同时需要资金、客户、团队和可验证的工程学习，不能只归因为意志力。其具体方法见 [[musk-engineering-method]]。
+
 ## 相关
 
 - 这篇文章被收录在 [[a-reading-list-for-generalists]] 的 Dispositional 类别，是 [[generalist|强通才]] 应培养的核心倾向之一。
 - 与 Naval 的框架相通：[[four-kinds-of-luck]] 的行动运/个性运、[[productize-yourself]] 的"通过真实性逃离竞争"都依赖高能动性去 own 一件事。参见 [[naval-ravikant]]。
 - 2026 年出版的书 **《You Can Just Do Things》** 是本文的扩展。
 
+## 修心不是行动力的替代品
+
+[[lindon-gao]] 描述了放下“不能犯错”后重新看清路线的经历。这支持能动性包含情绪与认知调节，但不证明积极心态本身能替代客户、数据和技术反馈。
+
 ## References
 
 - [[how-to-be-more-agentic]] — Cate Hall
 - [[a-reading-list-for-generalists]] — Dylan Bowman（收录本文）
+- [[dan-koe-delusional-goals]] — 与极端聚焦及防倦怠原则的对照
+- [[spacex-rise-silicon-valley-101]] — 使命、资源与工程反馈的企业案例
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

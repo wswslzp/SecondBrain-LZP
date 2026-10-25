@@ -2,7 +2,7 @@
 title: "Jensen Huang（黄仁勋）"
 tags: [nvidia, jensen-huang, leadership, person, engineering, philosophy]
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-10-25
 related: ["[[nvidia]]", "[[extreme-co-design]]", "[[cuda]]", "[[tasks-vs-jobs]]", "[[scaling-laws]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]"]
 ---
 
@@ -127,4 +127,4 @@ Jensen 做大赌注的方式不是「宣布 + 强推」，而是长期、逐日�
 
 ## References
 
-- [[jensen-huang-lex-fridman]] — Lex Fridman Podcast #494（2026-03-24）
+- [[jensen-huang-lex-fridman]] — Lex Fridman Podcast #494（2026-03-24）；中文长文见 [[jensen-huang-lex-fridman-chinese-article]]

@@ -2,7 +2,7 @@
 title: "财富创造框架（Naval Ravikant）"
 tags: [wealth, naval, entrepreneurship, philosophy]
 date_created: 2026-04-18
-date_modified: 2026-04-18
+date_modified: 2026-10-22
 related: ["[[naval-ravikant]]", "[[leverage]]", "[[specific-knowledge]]", "[[judgment]]", "[[accountability]]", "[[productize-yourself]]"]
 ---
 
@@ -87,5 +87,12 @@ Naval 年轻时设定 $5,000/hr（远超当时实际价值）。
 - **谢林点**：无需沟通的合作
 - **单步游戏 → 多步游戏**：通过复利和声誉
 
+## 与原始积累框架的连接及定义分歧
+
+[[initial-capital-five-lessons-wushi]] 将工资、储蓄、资产配置与退休准备连接起来：见 [[capital-accumulation]]、[[household-financial-statements]]、[[financial-scenario-modeling]]。这补充了“如何把早期主动收入转为资产”的路径，而不要求每个人都创业。
+
+**定义分歧**：Naval 本页采用广义所有权与创造价值的视角，包含企业股权、软件和出租房；新材料作者把不符合“可定价、可变现、被动增值”的标的称为“伪资产”。后者是个人筛选口径，不是会计定义，不能据此判定所有未上市股权、需经营的企业或房产都不算资产。两者应按目的比较，而非互相覆盖。
+
 ## 来源
 - [[how-to-get-rich]]
+- [[initial-capital-five-lessons-wushi]] — 原始积累与资产筛选口径的对照

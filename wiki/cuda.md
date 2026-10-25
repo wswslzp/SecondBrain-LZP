@@ -3,7 +3,7 @@ title: "CUDA"
 tags: [nvidia, cuda, compute, moat, developer-platform, concept]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[jensen-huang]]", "[[compute-infrastructure]]", "[[extreme-co-design]]"]
+related: ["[[nvidia]]", "[[jensen-huang]]", "[[compute-infrastructure]]", "[[extreme-co-design]]", "[[china-us-compute-gap]]"]
 ---
 
 # CUDA
@@ -59,6 +59,16 @@ CUDA 的故事提炼成一条通用原则：
 
 > **架构由 install base 定义，而非由优雅度定义。** 要把一个新计算架构推向世界，最好的办法是先不计成本地把它塞进最大的现有装机量里培育 install base，再用 velocity 与 trust 把开发者锁进复利飞轮。
 
+## ⚠️ 反论：[[liang-wenfeng|梁文锋]]「CUDA 护城河在快速瓦解」
+
+本页整篇是 [[jensen-huang|Jensen]] 视角（install base = 牢不可破的护城河）。[[liang-wenfeng|梁文锋]]（[[liang-wenfeng-investor-meeting]]）给出**正面反论**——「英伟达在掘自己的坟墓」，三条理由：
+
+1. **AI 能写生态**：用 AI 就能把「跟英伟达一模一样的生态」构建出来，建生态的成本大幅下降。
+2. **自研高级语言 TileLang**：快速把 CUDA 整套算子重写一遍；DeepSeek **V3 训练已「用英伟达卡但不用英伟达生态」**——install base 与「必须用 CUDA」被解耦。
+3. **计算卡 ⇄ 游戏卡解耦**：CUDA 的兼容性血统来自游戏卡，但计算卡市场已大于游戏卡，未来都是**专用芯片**，「跟 CUDA 不绑定」，生态作用大幅减少。
+
+吊诡之处：这第 3 点恰恰**与 Jensen 自己的「post general-purpose / 专用化」判断（见 [[accelerated-computing]]）同源**，却导向相反结论——同一个专用化趋势，Jensen 认为强化护城河（extreme co-design），梁认为削弱护城河（CUDA 不再必需）。完整论证见 [[china-us-compute-gap]]。
+
 ## 相关页面
 
 - [[nvidia]]
@@ -66,6 +76,7 @@ CUDA 的故事提炼成一条通用原则：
 - [[extreme-co-design]]
 - [[compute-infrastructure]]
 - [[token-economics]]
+- [[china-us-compute-gap]] — 梁文锋的国产替代 / CUDA 瓦解反论
 
 ## References
 

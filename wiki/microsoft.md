@@ -3,7 +3,7 @@ title: "Microsoft"
 tags: [microsoft, ai, company, silicon, quantum, agents]
 date_created: 2026-07-19
 date_modified: 2026-07-19
-related: ["[[satya-nadella]]", "[[frontier-ecosystem]]", "[[openai]]", "[[extreme-co-design]]", "[[open-weights-strategy]]", "[[compute-infrastructure]]"]
+related: ["[[satya-nadella]]", "[[frontier-ecosystem]]", "[[openai]]", "[[extreme-co-design]]", "[[open-weights-strategy]]", "[[compute-infrastructure]]", "[[openclaw]]"]
 ---
 
 # Microsoft
@@ -23,8 +23,8 @@ related: ["[[satya-nadella]]", "[[frontier-ecosystem]]", "[[openai]]", "[[extrem
 
 ## Copilot 三形态 + agent containment
 
-- **chat →（delegate 任务的）Cowork → Scout = autopilot**。Scout 是 long-running agent：持续运行、monitoring、有 **heartbeat**、会「dreaming」（对标 Claw）。用 **Entra ID** 作 delegated identity = 用户的 **digital twin**；可 mint 更多 autopilot，各带自己的 identity 与 sandbox。可视作「enterprise OpenClaw + 融入 Copilot 的 UI」。
-- **containment**：与 OpenClaw Foundation 合作，在 Windows 上 out-of-the-box 把 OpenClaw 装进新容器 **MXC**（sandbox）。可设 process / session / VM 隔离边界（甚至整个 Windows 365 云实例）。名句：「we're going to learn to isolate the environments for these agents, just like how back in the day we thought about **processes**.」见 [[multi-agent-patterns]]。
+- **chat →（delegate 任务的）Cowork → Scout = autopilot**。Scout 是 long-running agent：持续运行、monitoring、有 **heartbeat**、会「dreaming」（对标 [[openclaw|Claw]]，heartbeat 机制见 [[gateway-architecture]]）。用 **Entra ID** 作 delegated identity = 用户的 **digital twin**；可 mint 更多 autopilot，各带自己的 identity 与 sandbox。可视作「enterprise [[openclaw|OpenClaw]] + 融入 Copilot 的 UI」。
+- **containment**：与 [[openclaw-foundation|OpenClaw Foundation]] 合作，在 Windows 上 out-of-the-box 把 OpenClaw 装进新容器 **MXC**（sandbox）。可设 process / session / VM 隔离边界（甚至整个 Windows 365 云实例）。名句：「we're going to learn to isolate the environments for these agents, just like how back in the day we thought about **processes**.」见 [[multi-agent-patterns]]。
 
 ## Unmetered intelligence + edge silicon
 

@@ -2,8 +2,8 @@
 title: "Satya Nadella"
 tags: [microsoft, ceo, ai, leadership, growth-mindset]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[microsoft]]", "[[frontier-ecosystem]]", "[[openai]]", "[[sam-altman]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]"]
+date_modified: 2026-07-21
+related: ["[[microsoft]]", "[[frontier-ecosystem]]", "[[openai]]", "[[sam-altman]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[sovereign-ai]]"]
 ---
 
 # Satya Nadella
@@ -23,6 +23,15 @@ Nadella 把这笔被视为「点燃 Cambrian explosion」的下注归因于一�
 - 借用前一位讲者的比喻——「as electricity came about, we didn't sell electricity, we sold light」。他承认业界「太沉迷于为技术而 hype 技术」，但世界最终按「我们为一个个社区创造了什么价值」来评判。healthcare 成本曲线、家人真实获得的照护，才是「light」。
 - **就业**：任何 disruptive technology 都有真实 displacement，但「humans are the one species that are most adaptive」；当**当前的 intelligence 被 commoditize**，人类会在这一新 commodity 之上创造新价值、获得新 agency 与 wages。见 [[tasks-vs-jobs]]、[[intelligence-as-utility]]。
 - **social permission**：若生态变成「a few firms have all the returns，其余都 in bad shape」，「you will absolutely lose social permission」。因此把生态做成 [[frontier-ecosystem|positive-sum]] 是道义也是生存必需。
+
+## 「为智能付两次费」：frontier-ecosystem 的锋利版
+
+[[citrini-research|Citrini]] 引述 Nadella 近期对前沿实验室的一句敲打,把他的 [[frontier-ecosystem]] / 「别泄漏 IP」论点讲到最锋利:
+
+> "In the AI age… You essentially pay for intelligence twice, once with money, and again with something even more valuable: the proprietary knowledge you must reveal to make that intelligence useful."
+> （在 AI 时代……你为智能付两次价:一次是金钱,另一次是更宝贵的东西——为了让智能发挥作用,你必须透露的专有知识。)
+
+结合 **Microsoft 因「成本」停用内部 [[claude-code|Claude Code]]** 的背景,作者认为隐忧不在表面 token 账,而在把大量软件开发路由进**竞争对手那套「数据饥渴」的系统**。这正是 [[sovereign-ai|AI 主权]] 在企业尺度的表达——见 [[sovereign-ai]]「企业级第二义:repatriation 与 on-prem」。
 
 ## Growth mindset：confront your own fixed mindset
 
@@ -52,3 +61,4 @@ Nadella 把这笔被视为「点燃 Cambrian explosion」的下注归因于一�
 ## References
 
 - [[cs153-satya-nadella-frontier-ecosystem]] — Stanford CS153 源摘要
+- [[citrini-all-along-the-ai-watchtower]] — 「为智能付两次费」引文与 Claude Code 成本停用（Citrini Research, 2026-07-20）

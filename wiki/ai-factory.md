@@ -2,8 +2,8 @@
 title: "AI Factory（前沿 AI 制造管线）"
 tags: [ai, training, infrastructure, post-training]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]", "[[token-economics]]", "[[nvidia]]"]
+date_modified: 2026-10-25
+related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]", "[[token-economics]]", "[[nvidia]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # AI Factory
@@ -17,6 +17,8 @@ related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-model
 - **[[jensen-huang|Jensen Huang]] / [[nvidia]] 语境**（见 [[token-economics]]）指**数据中心本身就是一座工厂**：过去计算机是「仓库」（存储、检索、不怎么赚钱），现在是「工厂」（实时生成 token、直接产生营收）；计算单元从 chip→computer→cluster→AI factory→planetary scale 不断放大。
 
 两者互补——前者是「工厂里造什么」，后者是「工厂作为营收引擎的经济学」。
+
+[[nvidia-gtc-berlin-2026]] 又为第二种含义补上具体的交付和工作负载视角：[[ai-factory-deployment]] 讨论 Pod 预集成与投产时间；工厂不仅运行模型，还要支撑完整 Agent 的知识处理、harness 和专业工具。权限边界见 [[agent-runtime-security]]，物理任务的训练与仿真闭环见 [[physical-ai-computing]]。这些扩展不改变本页以模型生产管线为主的定义。
 
 ## 基本模板
 
@@ -111,8 +113,14 @@ related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-model
 
 > "Every interaction is learned from—whether they liked it, disliked it, in what way, whether the full chain of work was any good, which elements of that weren't."
 
+## 产品定义决定模型收到什么反馈
+
+[[robot-workflow-loop]] 将这一原则延伸到机器人：如果产品只测量一次折叠是否成功，模型就学不到补料、恢复和全天产量；工作流设计本身决定反馈的完整性。
+
 ## 来源
 - [[cs153-luma-amit-jain]]
 - [[cs153-bfl-andreas-blattmann]]
 - [[cs153-elevenlabs-mati-staniszewski]]
 - [[cs153-frontier-systems]]
+- [[nvidia-gtc-berlin-2026]] — 数据中心工厂含义下的部署与 Agent 扩展
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

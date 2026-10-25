@@ -2,7 +2,7 @@
 title: "NVIDIA"
 tags: [nvidia, ai, compute, gpu, cuda, semiconductors, company, supply-chain]
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-10-22
 related: ["[[jensen-huang]]", "[[cuda]]", "[[extreme-co-design]]", "[[token-economics]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]"]
 ---
 
@@ -31,6 +31,8 @@ Jensen 明确给出两条，且有先后：
 
 垂直整合这套极复杂系统，却又**横向嵌入每一家公司**：Google Cloud、AWS（正疯狂 ramp）、Azure、CoreWeave、Nscale、Lilly 的超算、企业机、无线基站边缘、车、机器人、卫星、太空。「One architecture is in all these different systems」——覆盖世界上几乎每个行业。
 
+> ⚠️ **反论（[[liang-wenfeng|梁文锋]]/[[deepseek]]）**：CUDA 护城河「在快速瓦解，英伟达在掘自己的坟墓」——AI 能写生态、自研 [[china-us-compute-gap#TileLang|TileLang]] 重写算子（DeepSeek V3 已「用英伟达卡但不用英伟达生态」）、计算卡与游戏卡解耦使专用芯片不再绑 CUDA。华为 950 超节点被判定可**平替** GB200/GB300（代价「4 张顶 1 张 + 落后 2 年」）。详见 [[china-us-compute-gap]] 与 [[cuda]] 的矛盾标注。
+
 ## 供应链
 
 - 每个 rack **130–150 万个组件**、跨 Vera Rubin rack 有 **200 家供应商**。
@@ -44,6 +46,7 @@ Jensen 明确给出两条，且有先后：
 - 中国不是「一个经济体」，而是众多**省市互相竞争**（市长互卷）→ 所以 EV 公司多、AI 公司多、内卷极致 → 幸存者极强。
 - 文化「**family first, friends second, company third**」+ 校友「brother for life」→ 天然 open source（「What are we protecting? 我工程师的兄弟/同学都在对家公司」），开源社区反过来放大、加速创新。
 - 「a builder nation」，且「their leaders are mostly incredible engineers」（对照美国 leaders 多是 lawyers）。
+- **中方自述**（[[liang-wenfeng|梁文锋]]/[[deepseek]]）印证并延伸：人才与美国「几乎没有差距，就是同一批人」，真正差距**只在算力资源**；中国大概率是全球 AI「三体之一」，扮演**产量最大 / 最便宜**的角色。见 [[china-us-compute-gap]]、[[sovereign-ai]]。
 
 ## Open source（Nemotron）
 
@@ -80,6 +83,17 @@ Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**me
 
 在 CS153 上，Google 的 [[amin-vahdat]]（[[value-per-gigawatt]]）强调 **TPU 与 GPU 不是零和**：Google 自己也**大量采购、使用 NVIDIA GPU**，整个市场在扩张，「no winners and losers」。同一逻辑也出现在 Microsoft 一侧——[[satya-nadella]] 正在 codesign 自研的 **Maia 200** 加速器（已在生产环境跑 **GPT-5.5**），却依然「love GPUs because they're general purpose」。也就是说，NVIDIA 招牌的 [[extreme-co-design]] 打法如今已被全行业各家（Google TPU、Microsoft Maia）复制到自研 silicon 上，而 NVIDIA GPU 的通用性仍是各家离不开的底座。
 
+## GTC Berlin 2026：从模型计算到完整 Agent
+
+[[nvidia-gtc-berlin-2026]]（2026-10-21 演讲转录）进一步把平台边界展开为模型、harness、sandbox、知识和工具五个构件：
+
+- **安全**：OpenShell 被描述为 Agent 外部的权限执行层，凭证、网络与文件访问受独立监督；Sentry 是可选硬件隔离监控。见 [[agent-runtime-security]]，不要把产品宣讲视为安全完备性证明。
+- **部署**：DSX Pod 把更多预集成和测试移到供应链，关注投产速度及闲置资本。见 [[ai-factory-deployment]]；不代表公用设施、许可和电网交期消失。
+- **专业工具**：CUDA-X、仿真器和求解器使 Agent 能测试方案，工具公司也可提供擅用自己工具的 Agent。
+- **具身计算**：训练、数字孪生、实机执行构成循环，见 [[physical-ai-computing]]；演示不替代实机验证。
+
+演讲再次主张通用平台内部工作负载的可复用性。这不等于 [[compute-infrastructure]] 所讨论的跨供应商商品化已经实现，也不消除本页保留的 CUDA 护城河反论。新产品状态、倍数与路线图按演讲归属，不作为实时产品规格。
+
 ## 相关页面
 
 - [[jensen-huang]]
@@ -96,3 +110,4 @@ Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**me
 ## References
 
 - [[jensen-huang-lex-fridman]] — Lex Fridman Podcast #494（2026-03-24）
+- [[nvidia-gtc-berlin-2026]] — GTC Berlin 主题演讲（2026-10-21）

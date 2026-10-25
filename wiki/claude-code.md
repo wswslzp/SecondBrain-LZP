@@ -2,8 +2,8 @@
 title: "Claude Code"
 tags: [ai, claude-code, tool, anthropic, productivity]
 date_created: 2026-04-19
-date_modified: 2026-07-19
-related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]", "[[garry-tan]]", "[[ai-native-company]]", "[[agentic-engineering-primitives]]"]
+date_modified: 2026-10-25
+related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]", "[[garry-tan]]", "[[ai-native-company]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Claude Code
@@ -63,10 +63,18 @@ Claude Code 既是产品，也是 Anthropic 的 **context 采集前端**。
 
 在 CS153，YC 的 [[garry-tan]] 用一个 **\$200/mo 的 Claude Code Max 计划**、**独自约 5 天**重建了他当年的创业公司 Posterous（当年是 10 人 + \$4M + 2 年才做出来），并把这套配置称为**「软件工厂」（software factory）**。他的 **plan-review skill**（每天跑约 20 次）把测试覆盖率推到 **80–90%**，用以逃离所谓的「AI slop」。YC 创始人们的调侃：**"Claude Code is my ADHD CEO, Codex is my near-non-verbal 200-IQ CTO"**。详见 [[ai-native-company]]、[[agentic-engineering-primitives]]（来源 [[cs153-garry-tan-diana-hu-ai-native]]）。
 
+## 重度用户视角：DHH（Lex #501）
+
+- **为什么继续用 Claude Code**：多智能体视图（会话内按左方向键返回 Agent View）、手机 App 无需配置就能接管终端里的会话、写作能力最好（PR 描述和 commit message 的文风很像他本人）。他让智能体以 “Claude on behalf of DHH” 的署名发帖，而不是冒充本人（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **批评**：Claude Code 不读 `AGENTS.md` 和 `.agent/skills`，只认 `CLAUDE.md`，所以他所有项目的 `CLAUDE.md` 都只写一行指向 `AGENTS.md`（本 vault 也是双文件结构）。他还不满 Anthropic 切断 OpenCode 使用 Claude 订阅的通道，觉得这是“小家子气的保护主义”。
+- **交叉审查**：Claude 主写，Codex xHigh 和 Grok 复查，推送后再由 Copilot 审一遍，见 [[multi-agent-patterns]]。
+- **额度瓶颈**：Max 订阅的 token 经常用完，他和 Lex 都同时开着多份订阅，[[omarchy]] 计划内置多订阅切换。
+
 ## 相关来源
 - [[claude-code-session-management]] — Thariq 讲 context/session 管理
 - [[claude-obsidian-second-brain]] — @defileo 讲 Claude Code + Obsidian 搭建第二大脑
 - [[a-motorcycle-for-the-mind]] — Naval 将 Claude Code 视为 vibe coding 的典型
 - [[inside-anthropic-the-circuit]] — Anthropic 视角：Claude Code/Cowork 的诞生与影响
-- [[jensen-huang-lex-fridman]] — Jensen Huang 称 agentic coding（他叫「OpenClaw」）是「the iPhone of tokens」、史上增长最快的应用
+- [[jensen-huang-lex-fridman]] — Jensen Huang 称 agentic coding（他叫「[[openclaw|OpenClaw]]」）是「the iPhone of tokens」、史上增长最快的应用
 - [[cs153-jensen-huang-compute]] — Jensen 对学生：「Claude is a product, and Claude Code is a whole harness around it」，开源下载难以匹敌
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

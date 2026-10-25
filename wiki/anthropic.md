@@ -2,8 +2,8 @@
 title: "Anthropic"
 tags: [anthropic, ai, ai-safety, frontier-lab, company, enterprise]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[dario-amodei]]", "[[daniela-amodei]]", "[[claude-code]]", "[[claude-constitution]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]"]
+date_modified: 2026-10-25
+related: ["[[dario-amodei]]", "[[daniela-amodei]]", "[[claude-code]]", "[[claude-constitution]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[ai-impact-on-industry]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Anthropic
@@ -66,8 +66,15 @@ Dario 的解读：AI 让「pie 变大」，软件产业整体不会缩小，但�
 
 - **与 Pentagon 角力**（head-to-head with the Pentagon）——预告集将深入。
 - 模型强到「能击穿现代网络安全的墙」；早期客户称其为 **super weapon**，请求不要发布。
-- 下一代模型代号 **Mythos**（预告集）。
+- 下一代模型代号 **Mythos**（预告集）。**市场层面的续集**（见 [[citrini-all-along-the-ai-watchtower|Citrini]]）：**Mythos Preview** 发布后数周揭出数千零日漏洞（27 年 OpenBSD bug、FFmpeg、Squid）；IBM 7/14 转述客户「Mythos 让人停下来问：网络安全要投多少？」。Anthropic 借势组建第三方安全联盟 **[[project-glasswing|Project Glasswing]]**（PANW/CSCO/CRWD/NET → 扩至 Okta/Rubrik/Netskope）——因为没有 CISO 愿把模型与防御押在同一供应商。
 - Dario 自比 **Leo Szilard** 而非 Oppenheimer（视 Oppenheimer 为「failure case」），主张「**checks and balances everywhere**」。
+
+## 用户侧批评：模型拒绝与生态锁定（DHH，Lex #501）
+
+- **拒绝翻译**：Claude 拒绝把 [[dhh|DHH]] 一篇关于移民的文章翻成意大利语，理由大意是不认同文章内容。DHH 把这比作 HAL 9000。对照之下，他在美国推理服务上运行的中国开源模型，却能直接回答 1989 年的问题。他的结论是：生物武器之类的护栏是合理的，但用于拒绝翻译文章，就会让所有护栏都显得像扯淡（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **生态锁定**：切断第三方 harness（OpenCode）使用 Claude 订阅；Claude Code 坚持用 `CLAUDE.md` 而不是 `AGENTS.md`。
+- **仍然在用**：他认为 Claude 的 harness 和写作能力依然领先，“代码生成器不需要和我政见一致”，多家竞争加上开源模型就是替代方案。
+- **政府施压事件**：Lex 担心这会开坏的先例。DHH 认为事情经过仍不清楚，如果公司自称握有足以“抢银行”的网络武器，政府想参与也不奇怪。这和上文提到的 Mythos / [[project-glasswing]] 叙事相关，访谈中的 “Fable” 与 Mythos 是什么关系，目前无法确认。
 
 ## 相关页面
 
@@ -82,3 +89,5 @@ Dario 的解读：AI 让「pie 变大」，软件产业整体不会缩小，但�
 ## References
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（Emily Chang × Dario & Daniela Amodei，2026-06-10）
+- [[citrini-all-along-the-ai-watchtower]] — Citrini Research 投研，给出 Mythos / [[project-glasswing]] 的市场层面连锁反应（2026-07-20）
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

@@ -2,8 +2,8 @@
 title: "具身智能供应链与量产"
 tags: [humanoid-robot, supply-chain, manufacturing, embodied-ai, china]
 date_created: 2026-06-09
-date_modified: 2026-06-09
-related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-industry]]", "[[nvidia]]", "[[jensen-huang]]"]
+date_modified: 2026-10-25
+related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-industry]]", "[[nvidia]]", "[[jensen-huang]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # 具身智能供应链与量产
@@ -96,8 +96,18 @@ related: ["[[humanoid-robot-hardware]]", "[[robot-actuators]]", "[[ai-impact-on-
 
 [[jensen-huang|Jensen]]（[[nvidia]]，其 Orin/Thor 已是上表的「大脑」芯片）用一个思想实验点出具身智能的形态：最强的 humanoid robot 不会把手变成 10 磅锤子、或从指尖发微波，而是**走到你家的微波炉前、读说明书、瞬间学会使用**——即像 agentic 系统一样「使用既有工具、访问文件、做 research」。他还把 physical AI（生物 / 化学 / 流体 / 热力学等非语言模态）列为必须开源推进的前沿（见 [[open-weights-strategy]]）。
 
+## GTC Berlin：标准平台与三计算角色
+
+[[nvidia-gtc-berlin-2026]] 主张以参考平台汇集需求，形成开发工具、产量与成本的循环；同时用训练、数字孪生、实机执行三个角色组织具身计算，见 [[physical-ai-computing]]。参考平台可以减少从零集成的工作，但不能消除本页的硬件可靠性、逐机标定与批次一致性问题。人形是演讲押注的通用配置，不是每项任务的最优结构。
+
+## DYNA：大脑定下限，硬件定上限
+
+[[lindon-gao]] 认为智能决定任务能否完成，硬件与运控决定速度、精度和稳定性。DYNA 从第一天就在中国建立硬件供应链团队，并把研究需求反向传递给相机、结构和运控设计，见 [[dyna-robotics]]。
+
 ## References
 
 - 硅谷101《拆解机器人"肉身"》（2026-06-01）→ [[silicon-valley-101-humanoid-robot-hardware]]
 - 硬件详情见 [[humanoid-robot-hardware]]
 - 执行器详情见 [[robot-actuators]]
+- [[nvidia-gtc-berlin-2026]] — 标准机器人平台与训练仿真部署循环
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

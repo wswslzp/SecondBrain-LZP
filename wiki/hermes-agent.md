@@ -3,7 +3,7 @@ title: "Hermes Agent"
 tags: [ai-agents, automation, productivity, personal-ai]
 date_created: 2026-04-20
 date_modified: 2026-04-20
-related: ["[[llm-wiki-pattern]]", "[[ai-for-learning]]", "[[vibe-coding]]"]
+related: ["[[llm-wiki-pattern]]", "[[ai-for-learning]]", "[[vibe-coding]]", "[[openclaw]]"]
 ---
 
 # Hermes Agent
@@ -64,6 +64,17 @@ Hermes 观察用户的操作模式，**主动**（无需用户指示）将其合
 - 严格控制 agent 的写权限
 - 隔离浏览器环境，保护敏感凭证
 
+## 与 OpenClaw 的对比（OpenClaw 首席架构师视角）
+
+[[silicon-valley-101-vincent-koc-openclaw|Vincent Koc]] 被问及是否把 Hermes 当竞品时的看法：
+
+- **表面同类**：Hermes 和 [[openclaw|OpenClaw]] 都是**个人 agent**，都能接大多数消息通道。
+- **口碑差异**：不少开发者偏好 Hermes，形容它在某些用例下**更「线性 / 更连贯」（linear / more coherent）**。
+- **根本不同**：Hermes 的**记忆**做法与 OpenClaw「非常不同且有意思」，**onboarding（开箱体验）**也很不一样——Vincent 认为两者「内部机制根本不同」，不视为竞品，OpenClaw 更把自己定位成**开源 harness 层 / 个人 agent 层**。
+
+> 参见 [[openclaw]] 的「后 Claw 时代」与 [[gateway-architecture]]，理解两条产品路线的分岔。
+
 ## References
 
 - [[3-highly-useful-hermes-skills]] — 0xJeff 的实战经验分享
+- [[silicon-valley-101-vincent-koc-openclaw]] — OpenClaw 首席架构师对 Hermes 的评价

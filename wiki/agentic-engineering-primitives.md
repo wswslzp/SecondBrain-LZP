@@ -2,8 +2,8 @@
 title: "Agentic 工程原语"
 tags: [ai-agents, coding-agents, skills, evals, memory, claude-code]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[ai-native-company]]", "[[garry-tan]]", "[[claude-code]]", "[[hermes-agent]]", "[[llm-wiki-pattern]]", "[[company-brain]]"]
+date_modified: 2026-10-25
+related: ["[[ai-native-company]]", "[[garry-tan]]", "[[claude-code]]", "[[hermes-agent]]", "[[llm-wiki-pattern]]", "[[company-brain]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Agentic 工程原语
@@ -78,8 +78,25 @@ GBrain 里有 ~40 个可试的 skill。参见 [[company-brain]]、[[ai-agent-mem
 
 > "人类系统很乱——我 45 岁、建了大量 agentic 系统后，才终于理解企业为什么要花那么多人做审计合规。"
 
+## 现实印证：OpenClaw 的「工厂」
+
+[[garry-tan|Garry Tan]] 的 **software factory** 不是孤例。[[openclaw|OpenClaw]] 首席架构师 [[vincent-koc|Vincent Koc]]（[[silicon-valley-101-vincent-koc-openclaw|硅谷101 访谈]]）用**完全相同的「工厂」隐喻**总结「降温」教训——让 agent 当主力工程师非常难，关键不在写代码本身，而在**配套设施**：
+
+- 任一 maintainer 的 agent 能在 **~20 秒**内于多数云上拉起**任意 OS / 硬件**，进去截图、录屏、点击验证，并**附上 proof**（改动前后对比、可交还一台已登录的测试机）。
+- 「我们叫它 a **factory**。工厂需要**全部机器**才能转——QA、灯、水、电——不能只有一条传送带就指望它工作。」
+
+> 与本页「skillify 里 10 步只有 2 步在写 code」「check-resolvable = 审计」同构：**agentic engineering at scale 的成本主要在测试/验证/治理的脚手架**，而非模型调用。
+
+## 来自 DHH 的补充（Lex #501）
+
+- **少指令，多结果**：Boris 透露 Opus 5 的系统提示缩减约 80%。DHH 认为过度规定的指令会伤害模型，就像外行老板指手画脚会让程序员写出更烂的代码。这与上文 “Resolver 治 bloated CLAUDE.md” 方向一致：指令文件应该指路，不该做微观管理（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **风格规则仍要写**：比如他在 AGENTS.md 里禁止 Bash 脚本中的“前置条件不满足就提前退出”写法。还有一条反复有效的指令是“写简单点”，智能体常常能因此把代码砍掉一半。
+- **Brains and hands**：协调者运行模型，代码只在隔离的虚拟机里执行，从 PR、issue 拉下来的不可信代码不会污染模型（Omabot 的设计，来自 Tobi 的建议）。
+- **Skills 让系统可扩展**：[[omarchy]] 附带 skills，教任何智能体如何为操作系统写插件，三天内出现 330 个插件，见 [[malleable-computer]]。
+
 ## References
 
 - [[cs153-garry-tan-diana-hu-ai-native]] — 讲座源页
 - [[ai-native-company]] — 配套的 org 层论点
 - [[llm-wiki-pattern]] · [[andrej-karpathy]] — GBrain 的直接祖先（也是本 vault 的模式）
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）

@@ -2,8 +2,8 @@
 title: "人形机器人硬件解剖"
 tags: [humanoid-robot, hardware, embodied-ai, robotics]
 date_created: 2026-06-09
-date_modified: 2026-06-09
-related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]"]
+date_modified: 2026-10-25
+related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
 ---
 
 # 人形机器人硬件解剖
@@ -112,8 +112,13 @@ related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]"]
 
 ---
 
+## 形态选择是 ROI 问题
+
+[[dyna-robotics]] 当前采用轮式底盘和类人上身，而没有预设人形为终局。Lindon 的标准是：新增的腿、灵巧手或其他结构，必须带来超过成本的任务价值；硬件至少经历多次迭代，才谈得上稳定量产。
+
 ## References
 
 - 硅谷101《拆解机器人"肉身"》（2026-06-01）→ [[silicon-valley-101-humanoid-robot-hardware]]
 - 供应链详情见 [[embodied-ai-supply-chain]]
 - 执行器详情见 [[robot-actuators]]
+- [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）

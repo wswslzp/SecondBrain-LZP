@@ -2,7 +2,7 @@
 title: "Extreme Co-Design（极致协同设计）"
 tags: [nvidia, engineering, systems, compute, extreme-co-design, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-10-25
 related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[optical-interconnect-roadmap]]", "[[scaling-laws]]", "[[accelerated-computing]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]"]
 ---
 
@@ -48,7 +48,7 @@ extreme co-design 的方法论内核是 Jensen 的 **speed of light**——一�
 ### 实例
 
 - **MoE / sparsity**：正因预判到 mixture-of-experts，才上 **NVLink-72 而非 NVLink-8**——把整个 4T~10T 参数模型放进「一个 computing domain，as if running on one GPU」。
-- **Grace Blackwell → Vera Rubin + Rock**：Grace Blackwell rack 专为跑 MoE LLM inference 设计；仅一年后的 **Vera Rubin** rack 完全不同——新增 storage accelerators、新 CPU「Vera」、以及额外的 **Rock** rack，从「跑 LLM」转向「跑 **agents**（agents bang on tools）」。这套系统的设计**早于** Claude Code / Codex / OpenClaw 问世——纯靠 first-principles 推理（「a digital worker 必须 access ground truth = file system、do research、use my tools」）预判出来。
+- **Grace Blackwell → Vera Rubin + Groq**：Grace Blackwell rack 专为跑 MoE LLM inference 设计；仅一年后的 **Vera Rubin** rack 完全不同——新增 storage accelerators、新 CPU「Vera」、以及额外的 **Groq** rack（2026-10-25 更正：原误作「Rock」，转录为「Grok」，按上下文应为 Groq），从「跑 LLM」转向「跑 **agents**（agents bang on tools）」。这套系统的设计**早于** Claude Code / Codex / OpenClaw 问世——纯靠 first-principles 推理（「a digital worker 必须 access ground truth = file system、do research、use my tools」）预判出来。
 
 ## Vera Rubin pod 的规模（一个具体锚点）
 

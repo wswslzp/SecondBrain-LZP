@@ -2,8 +2,8 @@
 title: "Multi-Agent 适用与不适用"
 tags: [ai-agents, multi-agent, map-reduce, go-driven, scaling]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[ai-native-company]]"]
+date_modified: 2026-10-25
+related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[ai-native-company]]", "[[conways-law-agents]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
 ---
 
 # Multi-Agent 适用与不适用
@@ -33,6 +33,8 @@ CrewAI、AutoGen、agent-agency（GitLab 上爆火过）、腾讯 workbody（飞
 > 就像《分手厨房 Overcooked（胡闹厨房）》一样一团糟——谁来决定、谁来管理？没有管理，最后一定没有产出。这是过去两三年大家**公认踩的一个超级大天坑**。
 
 例外：扮家家、扮联合国、做管理学研究、看看"谁是大傻逼"——这些**可以**做，但别放进生产力环境。
+
+> **[[conways-law-agents|康威定律]]互证**（[[openclaw|OpenClaw]] 首席架构师 [[vincent-koc|Vincent Koc]]）：复杂组织之所以造出「manager/planner/嵌套子团队」的 multi-agent，只是把**既有组织的沟通结构镜像**了进去——不是最优，而是继承旧包袱。他给出的原因，正是立党这条「(c) 组织架构模拟天坑」的**机理解释**；两人共识是**多数「组织模拟型」multi-agent 不该进生产**。Vincent 的正面主张：9/10 单 agent 足够，**瓶颈是 context 而非成本/延迟**，只在有独立 system prompt 的可重复任务时才切出专门 agent（心法「管理一个员工」）。
 
 ## 适合 multi-agent 的场景
 
@@ -74,7 +76,15 @@ CrewAI、AutoGen、agent-agency（GitLab 上爆火过）、腾讯 workbody（飞
 
 [[garry-tan]] 在 CS153 给出一组 [[agentic-engineering-primitives|code-level primitives]]，与本页「干净、可验证、有流程控制」的判断互补：**skill**（一份能调用代码的 markdown runbook）、**resolver**（惰性加载指令、而非把 CLAUDE.md 撑爆——扮演「组织架构图 / org chart」的角色）、**skillify**（把一次性操作提升为受测 skill：单元测试 + LLM evals + 集成测试 + trigger eval + check-resolvable），以及 **latent-vs-deterministic** 纪律（确定性工作放进代码、latent 工作留给 LLM）。详见 [[ai-native-company]]。
 
+## 个人并行开发的上限：DHH 的 16 线程（Lex #501）
+
+- **配置**：4～5 台 mini PC，通过 GL.iNet Comet KVM 和 Tailscale 连接，每台约 3 个智能体，用 Herdr（tmux 加智能体完成通知）统一管理。约 16 个线程是他个人注意力的上限（[[dhh-lex-fridman|DHH × Lex #501]]）。
+- **动机**：智能体“既太快又太慢”，只开一个时人干等着；多线程并行才能恢复“持续做决策”的心流。代价是没有喘息的空档，他比喻为一个弯接一个弯的赛道，并承认这“完全不可持续”。
+- **出路**：自动化“人在环中”的部分。Omabot 定时处理 PR 和 issue，每天发一封邮件，由他做最终决定。他也提醒，并行的智能体会暴露基础设施里的 race condition。
+- **异构交叉审查**：不同来源的前沿模型互相检查（Claude 写，Codex、Grok、Copilot 审），这和人类同行评审是一个道理。
+
 ## References
 
 - [[lidang-ai-agent-tutorial]] —— 立党AI学习研究完整教程（第一期）
 - [[multi-agent-research-loop]]、[[agent-comfort-zone]]、[[claude-code]]
+- [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
