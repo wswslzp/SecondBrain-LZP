@@ -255,3 +255,24 @@ Source: Lex Fridman Podcast #501（YouTube 2026-08-26 UTC，5:15:51）。文字�
 ## [2026-10-25] ingest | DYNA 创始人 Lindon Gao：机器人工作流与产品研究
 
 Source: 张小珺商业访谈录，英文对应视频人工中文字幕（2026-10-15，2:51:18，覆盖至 2:51:12）。中文视频无字幕，未做音频转写。Created: `sources/lindon-gao-dyna-xiaojun.md`、`wiki/lindon-gao.md`、`wiki/dyna-robotics.md`、`wiki/product-research.md`、`wiki/robot-workflow-loop.md`、`wiki/lindon-dyna-chinese-article.md`、`raw/assets/youtube-iDaxRNIddME-subs-zh-CN.jsonl`。Updated: 12 个相关 wiki 页、`wiki/xiaojun-podcast-catalog.md`、`index.md`。嘉宾口述数字未独立核实，未修改既有 raw 文件。
+
+## [2026-10-25] ingest | 张小珺 #139 苏煜：Agent 技术史与 OpenClaw Moment
+
+Source: 张小珺商业访谈录第 139 期（YouTube 2026-05-01 UTC，2:17:49）。无人工字幕、无可用原语言自动字幕，改用已有 ASR 环境 `Temp/yt_vif8/.venv` 的 faster-whisper large-v3-turbo（language=zh）转写。3889 段，覆盖 0:01–2:17:31，单调，未人工校对。此前只出现在 `wiki/xiaojun-podcast-catalog.md`，按未收录处理。
+
+Created: `sources/yu-su-xiaojun-agent-history.md`、`wiki/yu-su.md`、`wiki/neocognition.md`、`wiki/language-agent.md`、`wiki/specialized-intelligence.md`、`wiki/yu-su-xiaojun-chinese-article.md`、`raw/assets/youtube-Xxz5uh0L1mE-asr-segments.jsonl`。Updated: `wiki/openclaw.md`、`wiki/agi-roadmap-ladder.md`（与梁文锋对奇点的判断标注张力）、`wiki/ai-agent-memory.md`、`wiki/agent-comfort-zone.md`、`wiki/ai-impact-on-industry.md`、`wiki/claude-code.md`、`wiki/xiaojun-podcast-catalog.md`（回链）、`index.md`。
+
+嘉宾口述数字未独立核实。ASR 已校正苏煜、NeoCognition、OpenClaw、SeeAct、UGround、Toolformer；听不清的仓库名和论文名未写入正文。音频（webm，约 109MB）未入库。未修改既有 raw 文件。未 commit。
+
+## [2026-10-25] update | 42章经 YouTube 播客分类目录
+
+按用户请求，用 yt-dlp 抓取 YouTube `@42章经/videos` 全部 74 条公开视频，与官方播放列表 `PLNgy-JPOt1GQ` 逐条一致。YouTube 上传日不可用（66 集挤在 2026-08-13，为批量上架），日期改用小宇宙官方 RSS `feed.xyzfm.space/evgg6xle9rdc` 的 pubDate，换算为北京时间日历日（2023-07-30 – 2026-10-24），74 个标题全部匹配。Created: `wiki/42zhangjing-podcast-catalog.md`，按标题分为 9 类（Agent 与 AI 应用、模型训练与基础设施、创业方法与产品、投资创投与交易、市场周期与宏观、组织人才与增长、内容消费与垂直场景、开源全球化与出海、决策认知与个人），每集单一主类。Updated: `index.md`（新开「播客目录」，并入今天的小珺、Lex Fridman 目录）、`wiki/xiaojun-podcast-catalog.md`、`wiki/lex-fridman-podcast-catalog.md`（互链）。分类仅依据标题，未读字幕。未修改 raw。未 commit。
+
+## [2026-10-25] ingest | 42章经 Ricky Mao：用绝对理性应对世界的波动
+
+Source: 42章经对谈（小宇宙播出 2024-12-14 北京时间，49:39；YouTube `7I0Ty53hD0g` 上传日 2026-08-13 为批量上架，不采用）。无人工字幕、无原语言自动字幕，用已有 ASR 环境 `Temp/yt_vif8/.venv` 的 faster-whisper large-v3-turbo（language=zh）转写。1480 段，覆盖 0:00–49:28，单调，未人工校对。此前只出现在 `wiki/42zhangjing-podcast-catalog.md`。
+
+Created: `sources/ricky-mao-42zhangjing.md`、`wiki/ricky-mao.md`、`wiki/baseline-and-exploit.md`、`wiki/inflation-as-blinds.md`、`wiki/ricky-mao-42zhangjing-chinese-article.md`、`raw/assets/youtube-7I0Ty53hD0g-asr-segments.jsonl`。Updated: `wiki/judgment.md`、`wiki/agency.md`、`wiki/attention-economy.md`、`wiki/capital-accumulation.md`、`wiki/cognitive-atrophy.md`、`wiki/goal-directed-attention.md`、`wiki/restraint-as-strategy.md`（与梁文锋的克制并列，标注张力）、`wiki/three-gate-evaluator.md`、`wiki/agent-comfort-zone.md`、`wiki/42zhangjing-podcast-catalog.md`（回链）、`index.md`。
+
+嘉宾口述数字未独立核实。可核对赛绩：2023 WSOP Event #26 冠军，4747 人，$402,588。ASR 已校正德扑、毛人吉、金手链、Tom Dwan、Phil Ivey、Daniel Negreanu、Erik Seidel、GTO、Straddle。Phil Ivey「没位置打不过我妈」未能核对，未写入正文。单挑对手姓名和若干现役牌手姓名听不清，未采信。音频（webm，约 39MB）未入库。未修改既有 raw 文件。未 commit。
+

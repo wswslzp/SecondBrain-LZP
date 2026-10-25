@@ -3,7 +3,7 @@ title: "目标驱动的注意力与路径选择"
 tags: [goals, attention, agency, decision-making, leverage]
 date_created: 2026-10-22
 date_modified: 2026-10-25
-related: ["[[dan-koe]]", "[[agency]]", "[[attention-economy]]", "[[leverage]]", "[[musk-engineering-method]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+related: ["[[dan-koe]]", "[[agency]]", "[[attention-economy]]", "[[leverage]]", "[[musk-engineering-method]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 目标驱动的注意力与路径选择
@@ -41,9 +41,14 @@ Dan Koe 倾向于单一目标、压缩期限并大幅削减其他投入；Cate H
 
 DYNA 的案例说明，星辰大海式目标必须被最小工作流反复检验。只盯终局会让团队跟随外界节奏；只盯当前客户又可能错过模型瓶颈，见 [[product-research]]。
 
+## 目标会抬高消费，不会自动抬高水平
+
+[[ricky-mao|Ricky Mao]] 讲「一场比赛毁一个冠军」：21、22 岁拿了很好的成绩之后，级别、消费和生活观念一起上去，水平仍只来自日积月累的复盘。单一高目标能重排注意力，也能让人把一次结果误写成能力。他的自检是：不管今天赢了什么，我还是我。这和本页「聚焦可能筛掉反证」是同一风险，换到了成绩单上。
+
 ## References
 
 - [[dan-koe-delusional-goals]] — 目标作为注意力过滤器
 - [[how-to-be-more-agentic]] — 反馈、探索与防倦怠
 - [[spacex-rise-silicon-valley-101]] — 工程路径与使命的案例
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

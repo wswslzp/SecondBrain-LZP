@@ -8,6 +8,9 @@ date_modified: 2026-10-25
 A catalog of all pages in this wiki, organized by category.
 
 ## Entities
+- [[yu-su]] — 苏煜，OSU NLP / NeoCognition；用记忆与自主复盘 agent 史，把这一代定义为 language agent
+- [[ricky-mao]] — 毛人吉，复旦 / MIT，前投行与 CFO；2023 WSOP 金手链得主，用基线和盲注讲决策
+- [[neocognition]] — 苏煜 2025 年创立的 agent research lab，押专门化与持续学习，不押再做一个通用助手
 - [[dhh]] — DHH，Ruby on Rails 作者、37signals CTO、Omarchy 作者；2025-11 起从 AI 怀疑者转向“100% 智能体编写”
 - [[omarchy]] — DHH 的 Arch/Hyprland 发行版，Quattro 版由智能体编写：插件 skills、crash watcher、45 秒安装
 - [[spacex]] — 多星球使命、NASA 服务合同、可复用火箭与 Starlink 的商业工程循环
@@ -227,17 +230,25 @@ A catalog of all pages in this wiki, organized by category.
 - [[li-xiang-livis-glasses]] — 理想 Livis：录音 + 中文 AI 差异化
 
 ## Topics
-- [[xiaojun-podcast-catalog]] — 小珺播客 YouTube 频道视频目录：188 条公开视频按标题分类；15 条链到已核验人工字幕版
-
+- [[language-agent]] — 苏煜的定义：语言是脚手架，撑起理解、弹性推理和行动；coding agent 不是另一个物种
+- [[baseline-and-exploit]] — 先有均衡基线，再用频率而非外貌找偏移；错一次可以，长期策略要对
+- [[inflation-as-blinds]] — 通胀和时间是被迫下注的成本，但多数人把它估得太大，所以大多数牌应该弃
+- [[specialized-intelligence]] — 通用智能变便宜后，价值来自学会一个小世界的世界模型，从而可靠、快、便宜
 - [[ai-impact-on-industry]] — AI 对硬件、软件、营销、生产力的全栈影响
 - [[product-research]] — 用长期产品护栏选择研究问题，再用真实闭环决定下一步
 - [[robot-workflow-loop]] — 机器人须独立完成取料、执行、恢复和持续产出，而不只是单次动作
 - [[smart-glasses-2026]] — 智能眼镜赛道 2026：第一梯队、国产追赶、关键技术节点
-- [[lex-fridman-podcast-catalog]] — Lex Fridman Podcast 全部 500 集按标题分 14 类的目录（YouTube 链接 + 时长）
 - [[lindon-gao]] — DYNA Robotics 创始人兼 CEO；用产品闭环倒推机器人研究路线
 - [[dyna-robotics]] — 全栈机器人公司；从折叠任务推进到完整工作流，数字为创始人口述
 
+## 播客目录
+- [[42zhangjing-podcast-catalog]] — 曲凯 42章经 YouTube 全部 74 集按标题分 9 类；链接为 YouTube，日期为小宇宙 RSS（北京时间）
+- [[xiaojun-podcast-catalog]] — 小珺播客 YouTube 频道视频目录：188 条公开视频按标题分类；15 条链到已核验人工字幕版
+- [[lex-fridman-podcast-catalog]] — Lex Fridman Podcast 全部 500 集按标题分 14 类的目录（YouTube 链接 + 上传日期 + 时长）
+
 ## Sources
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao：绝对理性、基线识人、通胀是人生的大小盲（2024-12-14，本地 ASR）
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜：agent 技术史、OpenClaw Moment、专门化与世界模型（2026-05-01，本地 ASR）
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH：三个智能体时刻、Basecamp 架构教训、开源与 AI PR、16 线程工作流、模型横评、Linux 与可塑计算机（2026-08-26）
 - [[nvidia-gtc-berlin-2026]] — 黄仁勋 GTC Berlin 演讲：完整 Agent、安全运行时、DSX 交付与具身计算（2026-10-21）
 - [[spacex-rise-silicon-valley-101]] — 硅谷101实地探访 SpaceX：工程五步法、复用、NASA 与 Starlink 循环（2026-06-11）
@@ -290,6 +301,8 @@ A catalog of all pages in this wiki, organized by category.
 - [[citrini-all-along-the-ai-watchtower]] — Citrini Research「All Along the AI Watchtower」：AI 资本开支再导流的四主题错价受益者（高通 HBC / 构建者工具包 / 安全与主权 / Meta PEMDAS）（2026-07-20）
 
 ## Analyses
+- [[ricky-mao-42zhangjing-chinese-article]] — 42章经 Ricky Mao 中文长文：下一手从零开始、基线与剥削、金手链不改变水平、通胀是人生的大小盲
+- [[yu-su-xiaojun-chinese-article]] — 张小珺 #139 苏煜中文长文：逻辑智能体到 language agent、OpenClaw Moment、专门化、GUI 与责任边界
 - [[dhh-lex-fridman-chinese-article]] — Lex Fridman #501 DHH 访谈中文长文：从手工雕琢代码到用英语编程，智能体时代的程序员身份、组织瓶颈、Linux 与人的尺度
 
 - [[jensen-huang-lex-fridman-chinese-article]] — Lex Fridman #494 黄仁勋访谈中文长文：极致协同设计、CUDA 押注、四条 scaling law、电力与供应链、AI 工厂增长逻辑、AGI 与就业、智能 vs 人性

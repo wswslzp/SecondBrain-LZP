@@ -2,8 +2,8 @@
 title: "原始积累与财务里程碑"
 tags: [personal-finance, capital-accumulation, compounding, financial-independence]
 date_created: 2026-10-22
-date_modified: 2026-10-22
-related: ["[[wealth-creation]]", "[[复利效应]]", "[[fire-运动]]", "[[household-financial-statements]]", "[[financial-scenario-modeling]]"]
+date_modified: 2026-10-25
+related: ["[[wealth-creation]]", "[[复利效应]]", "[[fire-运动]]", "[[household-financial-statements]]", "[[financial-scenario-modeling]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 原始积累与财务里程碑
@@ -42,7 +42,12 @@ A(n) = S × ((1 + r)^n - 1) / r
 
 [[household-financial-statements]] 提供真实资产、负债、收入与开销；[[financial-scenario-modeling]] 再检验税费、通胀、波动、重大支出及顺序风险。只有假设年化回报的单一路径不能证明财务独立。
 
+## 在场本身有成本，但没你想的大
+
+[[ricky-mao|Ricky Mao]] 用大小盲解释为什么不能永远等待：通胀和时间是被迫付出的成本。他同时认为多数人把这个成本估得太大，于是什么都想抓。空仓在他那里是合法动作，尤其在增长放缓、一把赌输可能爬不起来的时候。这不否定本页的资产积累，只是把「一直满仓」从默认动作里拿掉。比例（锦标赛买入约 0.5% 流动资金、单票股票上限约 25%）是他的保守口径，不是公式。
+
 ## References
 
 - [[initial-capital-five-lessons-wushi]] — 03:54–19:39；机器转录未经逐字校对
 - [[how-to-get-rich]] — 工资、所有权与财富自由的不同视角
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

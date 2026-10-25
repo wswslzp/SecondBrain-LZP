@@ -3,7 +3,7 @@ title: "注意力经济（Attention Economy）"
 tags: [attention, neuroscience, marketing, media]
 date_created: 2026-04-18
 date_modified: 2026-10-25
-related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-meta-skill]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 注意力经济
@@ -82,8 +82,13 @@ related: ["[[neuromarketing]]", "[[ai-impact-on-industry]]", "[[human-nature-met
 - **对策**：定期离开 X（2026 年夏离开三周）；刷 TikTok 时，一碰到激发怒气或欲望的视频就立刻划走，不让算法学到；主动发布积极内容，对冲负面情绪天然更高的传播力。
 - **更深的担忧**：只要奖励函数是参与度，系统就会迎合人的本能。这与 [[goal-directed-attention]] 讲的主动配置注意力是同一个思路。
 
+## 怕错过是一种自我加注
+
+[[ricky-mao|Ricky Mao]] 把平跟太多、喜欢买牌，直接说成 fear of missing out：怕错过一把大牌，并高估做成之后的赔率。这和本页的营销过滤器是同一机制的内侧。外部内容在争注意力；牌桌上是自己的恐惧在逼自己付一张不该付的票。见 [[inflation-as-blinds]]。
+
 ## 来源
 - [[neuromarketing-tribe-v2]]
 - [[a-motorcycle-for-the-mind]]
 - [[dan-koe-delusional-goals]]
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

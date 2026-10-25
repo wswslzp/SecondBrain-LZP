@@ -3,7 +3,7 @@ title: "AI Agent 的舒适区：封闭可验证环境"
 tags: [ai-agents, go-driven, simulation, eda, matlab, lean4, cad, capability-boundary]
 date_created: 2026-07-19
 date_modified: 2026-10-25
-related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # AI Agent 的舒适区：封闭可验证环境
@@ -92,9 +92,21 @@ agent 只是在**两个前提**满足时把"人可解的过程"自动化：
 
 [[robot-workflow-loop]] 指出，单次动作可重复并不等于生产职责完成。机器人停下来等待人工补料、一次错误拖垮全天产量，都说明验证边界需要扩展到真实工作流。
 
+## 苏煜视角：游戏是舒适区，长尾 GUI 不是
+
+[[yu-su|苏煜]] 解释深度强化学习为什么用游戏：环境可重复、数据无限、输入输出简单，刚好配当时的技术。这也是本页「封闭、可仿真、可无限试错」的早期版本。他同时指出，游戏 agent 的计算量不随局面难度变化，一次前向传播就得交出动作。
+
+出了舒适区之后，他不主张把世界重写成 CLI。长尾软件已经用 GUI 编码了知识和业务逻辑；Semantic Web 推了二十几年也没让世界重写。Agent 要变可靠，靠的是学会那个小世界，不是只待在可验证环境里。见 [[yu-su-xiaojun-agent-history]]。
+
+## 扑克是另一种可穷尽的舒适区
+
+[[ricky-mao|Ricky Mao]] 说德州是收敛游戏，所以有相对标准答案，顶尖牌风才会越来越像机器人。这和游戏 agent 的舒适区同构：规则封闭、反馈快、最优解可以被学完。他同时认为现实世界更开放，不能默认每件生活决策都有 GTO。AI 可能杀死两张牌的德州，不一定杀死扑克。封闭环境里的强，不自动兑换成开放世界里的强。
+
 ## References
 
 - [[lidang-ai-agent-tutorial]] —— 立党AI学习研究完整教程（第一期）
 - [[ai-quant-system]]、[[three-gate-evaluator]]、[[build-your-own-agent]]
 - [[nvidia-gtc-berlin-2026]] — 专业工具与机器人训练演示
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

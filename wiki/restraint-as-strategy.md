@@ -2,8 +2,8 @@
 title: "克制作为战略（Restraint as Strategy）"
 tags: [strategy, business, open-source, game-theory, deepseek, agi]
 date_created: 2026-07-23
-date_modified: 2026-07-23
-related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[intelligence-as-utility]]", "[[game-theory]]", "[[venture-capital-systems]]"]
+date_modified: 2026-10-25
+related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[intelligence-as-utility]]", "[[game-theory]]", "[[venture-capital-systems]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 克制作为战略（Restraint as Strategy）
@@ -50,6 +50,11 @@ related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[i
 - **[[venture-capital-systems]]** / [[ben-horowitz]]：与「AI 时代需求近乎无上限、Wall Street 买 narrative」形成有趣张力——梁认为**愿景拿得多者先输**。
 - **[[restraint-as-strategy]] ↔ [[agi-roadmap-ladder]]**：克制让他选「最轻松的技术路线」（先持续学习再具身），二者一脉相承。
 
+## 另一种克制：盲注没那么大
+
+⚠️ 张力：[[liang-wenfeng-investor-meeting|梁文锋]] 的克制来自「拿得多的会被拿得少的打败」，是为了活得更久而压低可得利益。[[ricky-mao|Ricky Mao]] 的克制来自牌桌：通胀是人生的大小盲，但多数人把盲注估得太大，所以大多数牌应该弃，筹码只堆在最好的机会上。一个是少拿以续命，一个是少打以保正期望。并列保留，不合并成同一条战略。
+
 ## References
 
 - [[liang-wenfeng-investor-meeting]] — 投资者交流会完整版全文（2026-07-23）
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

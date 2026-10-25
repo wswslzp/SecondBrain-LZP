@@ -3,7 +3,7 @@ title: "OpenClaw"
 tags: [ai-agents, openclaw, personal-ai, open-source, agentic-engineering, china]
 date_created: 2026-07-21
 date_modified: 2026-10-25
-related: ["[[openclaw-foundation]]", "[[vincent-koc]]", "[[gateway-architecture]]", "[[hermes-agent]]", "[[claude-code]]", "[[microsoft]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+related: ["[[openclaw-foundation]]", "[[vincent-koc]]", "[[gateway-architecture]]", "[[hermes-agent]]", "[[claude-code]]", "[[microsoft]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
 ---
 
 # OpenClaw
@@ -74,7 +74,14 @@ Vincent 称其为 **postclaw era**：OpenClaw 引爆了下一代 agentic framewo
 - **之后的选择**：他回到用 Claude 手机 App 遥控 Claude Code，原因之一是妻子不希望家里出现“会自己开关灯的鬼”。他转述了一个案例：有人把智能体接入健康数据和特斯拉，智能体为了让主人多喝水，擅自让车改道去超市。
 - **Lex 的看法**：OpenClaw 和 [[hermes-agent]] 这类通过 IM 交流、自带记忆系统的智能体，值得体验一下这种不同的交互方式。
 
+## 苏煜视角：OpenClaw Moment 是交互和权限，不是新算法
+
+[[yu-su|苏煜]] 在 [[yu-su-xiaojun-agent-history|张小珺 #139]] 里把 OpenClaw Moment 比作 ChatGPT Moment：底层 agent 能力已经就绪，看代码库容易觉得 nothing is new。变的是两件事——可以在即时通讯里交互、有独立环境所以 24 小时在线；以及把权限和安全开关尽量打开。因为它开源，这种 YOLO 比闭源产品直接这么做风险小一些。他预测再过两年回看，量级可能接近 ChatGPT Moment。这是 2026 年 5 月的预测，不是已发生的事实。
+
+中美热度他和 Vincent 的观察同向、侧重点不同：美国热在开发者圈，中国已经出圈，甚至被讲成个人翻身工具。他立刻补了一句：从爆火到社会影响，中间还缺「好用、容易用」。多数人现在找不到价值。
+
 ## References
 
 - [[silicon-valley-101-vincent-koc-openclaw]] — 硅谷101 对话 Vincent Koc（WAIC 2026）
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）

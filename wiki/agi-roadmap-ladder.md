@@ -2,8 +2,8 @@
 title: "AGI 路线图：阶梯与持续学习瓶颈"
 tags: [agi, roadmap, continual-learning, agents, embodied-ai, deepseek]
 date_created: 2026-07-23
-date_modified: 2026-07-23
-related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastrophic-forgetting]]", "[[complementary-learning-systems]]", "[[ai-agent-memory]]", "[[tasks-vs-jobs]]", "[[agent-comfort-zone]]"]
+date_modified: 2026-10-25
+related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastrophic-forgetting]]", "[[complementary-learning-systems]]", "[[ai-agent-memory]]", "[[tasks-vs-jobs]]", "[[agent-comfort-zone]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
 ---
 
 # AGI 路线图：阶梯与持续学习瓶颈
@@ -37,6 +37,12 @@ related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastroph
 - 全世界都还没找到 work 的方法（对应国外热词 **recursive self-improvement**）；「学习不是一项技术，是一个问题，会由很多东西组成」，既是算法也是工程问题。
 - **顺序选择**：先持续学习 → 奇点 → 具身，是「最轻松、不用加班」的路径（后面能用前面的技术开发）；反过来先做具身会「很苦、数据密集、人力密集」。
 
+## 苏煜视角：持续学习的内容是小世界的世界模型
+
+[[yu-su|苏煜]]（[[yu-su-xiaojun-agent-history|张小珺 #139]]，2026-05）把梁文锋说的「两个月熟悉环境」写成可操作的学习目标：不是再堆通用智能，而是学会一个微世界的模型——谁说了算、工作流、软件操作的后果、他人心智。结果是可靠性、速度和成本，不是又一个基准分数。
+
+⚠️ 张力：梁把自我迭代奇点放在持续学习之后，并说它渐进、无临界点。苏煜看不到可预见的未来里 AI 会因原生目标和生存压力去取代人类；他担心的是岗位置换快过新岗位和再分配。两边都把持续学习当成墙，对墙后面是什么判断不同。并列保留。
+
 ## 与 vault 的关联
 
 - **桥接整套记忆研究**：梁的「持续学习」正是 [[ai-agent-memory]] 里缺失的「自动巩固 / 再巩固」、[[catastrophic-forgetting|灾难性遗忘]] 与 [[complementary-learning-systems|CLS 互补学习系统]] 想解决的问题——人类记忆的**海马体快学 + 新皮层慢固**恰是「持续学习」的生物版本。DeepSeek 的路线图给这条学术线提供了「为什么它是 AGI 关键路径」的产业注脚。
@@ -48,3 +54,4 @@ related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastroph
 ## References
 
 - [[liang-wenfeng-investor-meeting]] — 投资者交流会完整版全文（2026-07-23）
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）

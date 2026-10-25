@@ -2,10 +2,10 @@
 title: "Three-Gate Evaluator"
 tags: [quant-trading, ai-agents, system-design]
 date_created: 2026-05-17
-date_modified: 2026-05-17
+date_modified: 2026-10-25
 aliases:
   - 三道硬门
-related: ["[[ai-quant-system]]", "[[deflated-sharpe-ratio]]", "[[multi-agent-research-loop]]"]
+related: ["[[ai-quant-system]]", "[[deflated-sharpe-ratio]]", "[[multi-agent-research-loop]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # Three-Gate Evaluator
@@ -103,6 +103,10 @@ zostaff 文章里的迭代：
 
 任意一道挂掉就不动手。**这种设计哲学比任何具体策略都有持久价值。**
 
+## 牌桌版的三道门
+
+[[ricky-mao|Ricky Mao]] 的决策可以收成三道门，和本页同构，但不是量化实现。第一道：这个动作是在贴近基线，还是在给翻本找理由。第二道：样本拉得够不够长，一次冠军说明不了水平。第三道：这笔波动会不会大到改写心态（他的口述上限是单场买入约 0.5% 流动资金，单票约 25%）。任意一道过不了就弃牌或空仓。数字未核实，不能直接搬进交易系统。
+
 ## Sources
 
 - [[ai-quant-system-zostaff]]
@@ -113,3 +117,4 @@ zostaff 文章里的迭代：
 - [[deflated-sharpe-ratio]]
 - [[multi-agent-research-loop]]
 - [[backtest-leakage]]
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

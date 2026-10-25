@@ -2,8 +2,8 @@
 title: "AI 对产业的影响"
 tags: [ai, semiconductor, programming, career, industry, marketing]
 date_created: 2026-04-11
-date_modified: 2026-04-18
-related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]", "[[tasks-vs-jobs]]", "[[anthropic]]", "[[product-management-ai-era]]", "[[career-as-chapters]]"]
+date_modified: 2026-10-25
+related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]", "[[tasks-vs-jobs]]", "[[anthropic]]", "[[product-management-ai-era]]", "[[career-as-chapters]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
 ---
 
 # AI 对产业的影响
@@ -104,6 +104,12 @@ LLM 改变了个人知识管理方式：
 
 主权 AI 打破 15 年的云集中（[[sovereign-ai]]）。
 
+## 苏煜视角：软件末日论只对了一半
+
+[[yu-su|苏煜]]（2026-05）承认软件利润率在被压缩，估值逻辑变了。他不相信 agent 会重写或替代所有软件。变化在卖的东西：软件从前卖工具，买家现在要结果、劳动力、AI employee。软件公司若想活，是从 tool 转成在自己平台上交付结果的 labor market。AI-native、模型公司和老软件公司谁赢，他说 2026 年才刚开始，说不准。
+
+就业上，他不把近期风险写成奇点。缺的是原生目标和生存压力。真正担心的是知识工作被替换的速度快过新岗位和再分配，而收益集中在少数公司和资本。研究者能做的一份是把专家级 agent 的门槛降到个人能用自己的洞察变现。数字和判断均为口述。见 [[yu-su-xiaojun-agent-history]]。
+
 ## 相关页面
 - [[compute-infrastructure]]
 - [[vibe-coding]]
@@ -113,3 +119,4 @@ LLM 改变了个人知识管理方式：
 - [[sovereign-ai]]
 - [[llm-wiki-pattern]]
 - [[ai-for-learning]]
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）

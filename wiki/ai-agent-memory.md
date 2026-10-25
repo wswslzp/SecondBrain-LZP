@@ -2,8 +2,8 @@
 title: "AI Agent Memory Architecture"
 tags: [ai-agents, memory, cognitive-science, hermes]
 date_created: 2026-04-25
-date_modified: 2026-04-26
-related: ["[[human-memory-systems]]", "[[working-memory]]", "[[forgetting-mechanisms]]", "[[memory-consolidation]]", "[[hermes-agent]]", "[[sleep-consolidated-memory]]", "[[complementary-learning-systems]]", "[[multimodal-memory]]", "[[cognitive-atrophy]]", "[[ai-memory-taxonomy]]", "[[memory-system-architecture]]", "[[ai-memory-open-source-landscape]]", "[[openclaw]]"]
+date_modified: 2026-10-25
+related: ["[[human-memory-systems]]", "[[working-memory]]", "[[forgetting-mechanisms]]", "[[memory-consolidation]]", "[[hermes-agent]]", "[[sleep-consolidated-memory]]", "[[complementary-learning-systems]]", "[[multimodal-memory]]", "[[cognitive-atrophy]]", "[[ai-memory-taxonomy]]", "[[memory-system-architecture]]", "[[ai-memory-open-source-landscape]]", "[[openclaw]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
 ---
 
 # AI Agent Memory Architecture
@@ -70,6 +70,12 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 | 情绪加权 | 用户纠正/重复提及赋予更高权重 | ⭐⭐ |
 | 元记忆 | 标注置信度，提示确认不确定项 | ⭐⭐⭐ |
 
+## 苏煜视角：记忆是 agent 的一半，另一半是自主
+
+[[yu-su|苏煜]] 用记忆和自主评价从专家系统到语言模型的所有 agent。记忆不只有语义：还包括情景记忆和程序性记忆（怎么骑自行车）。人把学到的东西都存在突触里，所以「所有学到的东西都是 memory」。语言模型的预训练被他描述成一次以语言为材料的压缩，压成对世界的表示，而不是鹦鹉学舌就结束了。
+
+这和本页的工程缺口不矛盾。他承认 OpenClaw / Claude Code 那种写 markdown 的非参数学习还有空间，但只靠它上限有限；RL 后训练也还不是人的在岗学习。他要的持续学习，目标是 [[specialized-intelligence|一个小世界的世界模型]]。见 [[yu-su-xiaojun-agent-history]]。
+
 ## References
 
 - [[human-memory-cognitive-science]]
@@ -80,3 +86,4 @@ AI Agent 记忆系统与人类认知记忆的对比分析，以及改进方向�
 - [[ai-memory-open-source-landscape]]
 - [[hermes-sleep-implementation-plan]] — 完整实现方案
 - [[ai-sleep-memory-research-survey]] — 从认知科学到开源实现的完整调研（20+ 项目/论文）
+- [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）

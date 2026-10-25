@@ -3,7 +3,7 @@ title: "能动性 Agency"
 tags: [agency, self-improvement, psychology, career, luck]
 date_created: 2026-07-19
 date_modified: 2026-10-25
-related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 能动性 Agency
@@ -66,6 +66,10 @@ related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[produc
 
 [[lindon-gao]] 描述了放下“不能犯错”后重新看清路线的经历。这支持能动性包含情绪与认知调节，但不证明积极心态本身能替代客户、数据和技术反馈。
 
+## 能动性也包括离场
+
+[[ricky-mao|Ricky Mao]] 的版本和「尽管去做」不完全同向。锦标赛有时走不了，但他仍把继续打的潜在损失和提前离场的形象损失放在一起比较，两边取害较轻的一边。换跑道在他那里也很小：某天出门向右转，就是改变。这支持能动性包含停止和转向，不支持用热情覆盖资金波动。见 [[ricky-mao-42zhangjing]]。
+
 ## References
 
 - [[how-to-be-more-agentic]] — Cate Hall
@@ -73,3 +77,4 @@ related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[produc
 - [[dan-koe-delusional-goals]] — 与极端聚焦及防倦怠原则的对照
 - [[spacex-rise-silicon-valley-101]] — 使命、资源与工程反馈的企业案例
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）

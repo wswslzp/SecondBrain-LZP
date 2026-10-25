@@ -2,8 +2,8 @@
 title: "判断力（Judgment）"
 tags: [naval, decision-making, wisdom, wealth]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[leverage]]"]
+date_modified: 2026-10-25
+related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[leverage]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 判断力
@@ -61,5 +61,10 @@ Jeremy Grantham、Warren Buffett、Michael Burry 听起来像哲学家。他们�
 - 没有特定知识 → 判断在错误领域
 - 没有杠杆 → 判断影响太小
 
+## 牌桌上的版本：下一手从零开始
+
+[[ricky-mao|Ricky Mao]] 给判断力一个更窄的操作定义：当前动作不能把过去的亏损写进来。翻本、因为水下而加倍，都是情绪在伪造理由。加倍可以，理由必须是安全边际变厚，不是平均成本。他直到 2024 年才承认自己也会被情绪改写那关键的一手；办法是把自己当样本，把样本拉长，而不是在当下找出更多「这次是理性的」解释。见 [[ricky-mao-42zhangjing]]。
+
 ## 来源
 - [[how-to-get-rich]]
+- [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）
