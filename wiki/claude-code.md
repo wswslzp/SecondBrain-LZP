@@ -2,8 +2,8 @@
 title: "Claude Code"
 tags: [ai, claude-code, tool, anthropic, productivity]
 date_created: 2026-04-19
-date_modified: 2026-10-25
-related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]", "[[garry-tan]]", "[[ai-native-company]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
+date_modified: 2026-10-27
+related: ["[[context-management]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[vibe-coding]]", "[[anthropic]]", "[[claude-constitution]]", "[[headless-agent-pattern]]", "[[garry-tan]]", "[[ai-native-company]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[addy-osmani]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Claude Code
@@ -76,6 +76,15 @@ Claude Code 既是产品，也是 Anthropic 的 **context 采集前端**。
 
 他不把 coding agent 当成和 language agent 不同的物种。编程语言本来就是语言。浏览器、桌面、GUI、CLI 最后都要汇成一个 universal digital agent，代码是打破这些边界的织物。见 [[yu-su-xiaojun-agent-history]]。
 
+## Claude Code 团队自身的代码审查体系（Addy Osmani）
+
+当 Claude 编写了 Claude Code 约 **90%** 的代码时，团队并没有取消代码审查，而是将大部分阅读工作自动化，构建了**六层检查 + 一键回滚**的 [[agentic-code-review|Agentic Code Review]] 体系（2026 年 6–9 月合并 PR 翻倍，回滚率下降超 40%，团队自述）：
+
+- **Pre-PR 验证与干净 subagent**：提交 PR 前要求 Claude 跑可运行测试/构建/UI 截图比对并展示证据（Boris Cherny 估计验证流程能将产出质量提升 2–3 倍），再派全新上下文 subagent 审 diff；规范沉淀在简短的 `CLAUDE.md` 与定义审查契约的 `REVIEW.md`。
+- **Code Review for Claude Code（及 `/code-review`）**：多 Agent 并行找 Bug + 独立投票过滤误报 + 过滤纯风格项；设 Quick / Standard / Deep 三档，配合 `/security-review` 阻断合并。
+- **收敛与事故即 Eval**：针对 Agent 作者与 Agent 审查员曾出现的“一夜死循环 50+ 次”现象，限制最多 3 轮、后续只审新增 diff、按 Bug 类别报错；并用历史线上事故集每日评估审查系统。
+- **最多 1 名人类介入 + 切片 Explainer**：低风险变更正走向自动合并，人类只把关产品品味（该不该做）、高危路径、架构、证据核验与最终责任（“You land it, you own it”）；团队学习代码库不再靠逐行读琐碎 diff，而是让 Claude 实时生成模块 Explainer 或可视化 Mini artifact。详见 [[claude-code-team-code-review]]。
+
 ## 相关来源
 - [[claude-code-session-management]] — Thariq 讲 context/session 管理
 - [[claude-obsidian-second-brain]] — @defileo 讲 Claude Code + Obsidian 搭建第二大脑
@@ -85,3 +94,4 @@ Claude Code 既是产品，也是 Anthropic 的 **context 采集前端**。
 - [[cs153-jensen-huang-compute]] — Jensen 对学生：「Claude is a product, and Claude Code is a whole harness around it」，开源下载难以匹敌
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）

@@ -2,8 +2,8 @@
 title: "Open Weights 作为商业策略"
 tags: [ai, business, open-source, bfl]
 date_created: 2026-04-18
-date_modified: 2026-10-25
-related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]", "[[nvidia]]", "[[satya-nadella]]", "[[microsoft]]", "[[frontier-ecosystem]]", "[[sam-altman]]", "[[intelligence-as-utility]]", "[[deepseek]]", "[[restraint-as-strategy]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+date_modified: 2026-10-29
+related: ["[[andreas-blattmann]]", "[[visual-intelligence]]", "[[sovereign-ai]]", "[[nvidia]]", "[[satya-nadella]]", "[[microsoft]]", "[[frontier-ecosystem]]", "[[sam-altman]]", "[[intelligence-as-utility]]", "[[deepseek]]", "[[restraint-as-strategy]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # Open Weights 作为商业策略
@@ -149,8 +149,16 @@ NVIDIA 把 weights + data + 训练方法**一并开源**。这与中国（DeepSe
 
 DYNA 讨论的是第一人称、仿真、真机等数据组合，不是模型权重是否开放。[[product-research]] 提醒：数据手段可以阶段性变化，真正需要长期押注的是最终数据形态和产品目标。
 
+## 嘉宾视角：对抗“好人垄断论”与 Neuralese 黑箱的防御底座（Vitalik，2026-10-29）
+
+[[vitalik-buterin|Vitalik Buterin]] 在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中，从 [[d-acc|d/acc（防御性、去中心化、民主化加速主义）]] 与 [[rationalism-and-ai-safety|AI 安全]] 角度，为开源权重补充了超越商业模式的两重战略价值：
+
+1. **反击闭源巨头的“安全恐吓”**：2026 年以来，以 [[anthropic|Anthropic]] 为代表的部分力量将“开源 AI 无人控制、更加危险”塑造成流行话术；但 Vitalik 指出，**截至目前现实中几乎所有最危险的网络攻击，依然是通过闭源的 GPT 和 Claude 完成的**。闭源巨头反开源的主张与其扩大自身公司权力的利益相关性高达 90% 以上（节目还提到一位 [[deepseek|DeepSeek]] 研究者近期撰文捍卫开源，将 Anthropic 独赢比作希特勒级灾难）。在生物防疫等场景中，靠在闭源模型里加护栏防造毒属于极脆弱的“中心化防御”（只要别国有一个模型不设限即失效），真正有效的是开源疫苗（PopVax、RADVAC）与物理监测等分布式防御。
+2. **看清思维链（CoT）、防范 Neuralese（神经语言）黑箱**：Vitalik 坦言自己偏爱使用开源模型的一大原因，是可以**完整看到模型思考的每一步（英文思维链）**，人类在观察模型思考时也能同步学习；一旦未来前沿模型转向只有机器自己能懂的数百万维数字向量（**Neuralese**）进行潜空间推理，且权重与推理过程被闭源黑箱锁死，人类理解与监督 AI 思维的能力将大幅退化。
+
 ## 来源
 - [[cs153-bfl-andreas-blattmann]]
 - [[cs153-elevenlabs-mati-staniszewski]]
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

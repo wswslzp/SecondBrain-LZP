@@ -2,8 +2,8 @@
 title: "小珺播客｜YouTube 视频目录（标题分类）"
 tags: [podcast, youtube, catalog]
 date_created: 2026-10-25
-date_modified: 2026-10-25
-related: ["[[42zhangjing-podcast-catalog]]", "[[lex-fridman-podcast-catalog]]"]
+date_modified: 2026-11-23
+related: ["[[42zhangjing-podcast-catalog]]", "[[lex-fridman-podcast-catalog]]", "[[valley101-podcast-catalog]]"]
 ---
 
 # 小珺播客｜YouTube 视频目录
@@ -124,8 +124,9 @@ related: ["[[42zhangjing-podcast-catalog]]", "[[lex-fridman-podcast-catalog]]"]
 - [3. 宇航员与机器人：漫谈深邃浪漫的ROBOT新知](https://www.youtube.com/watch?v=AlqlhEJ_sHg) · `2024-08-17` · 0小时58分钟
 - [2. 和曹巍聊聊马斯克、机器人恐怖谷和《西部世界》](https://www.youtube.com/watch?v=abUzp2dJaEA) · `2024-08-17` · 0小时55分钟
 
-### 创业者、公司与商业史（45）
+### 创业者、公司与商业史（46）
 
+- [156. 《侠》｜对影之刃零制作人梁其伟6小时访谈：3A动作游戏、15年创业路上斩妖除魔、命运——“世界没有敌人，只有你和另一个自己”](https://www.youtube.com/watch?v=4roDSFRJ1Aw) · 已摄取：[[liang-qiwei-phantom-blade-zero-xiaojun]] · `2026-11-13` · 6小时27分钟
 - [142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller](https://www.youtube.com/watch?v=XEhf371Aeso) · `2026-05-27` · 2小时18分钟
 - [132. 对星海图创始人高继扬的3小时访谈：鲶鱼、曾国藩、Waymo与Momenta的两面、一只狼与许华哲的离开](https://www.youtube.com/watch?v=n4_c_HsodPg) · `2026-02-13` · 3小时4分钟
 - [Zhipu CEO Zhang Peng: Inside the IPO of China’s First Publicly Listed LLM Company](https://www.youtube.com/watch?v=toy8RLeFZ08) · `2026-01-08` · 2小时24分钟

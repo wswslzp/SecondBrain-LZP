@@ -2,8 +2,8 @@
 title: "Context Management (Agent 会话管理)"
 tags: [ai, claude-code, context-management, productivity, workflow]
 date_created: 2026-04-19
-date_modified: 2026-04-19
-related: ["[[claude-code]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[context-feedback-loops]]"]
+date_modified: 2026-10-27
+related: ["[[claude-code]]", "[[context-rot]]", "[[llm-wiki-pattern]]", "[[context-feedback-loops]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Context Management
@@ -71,7 +71,12 @@ Compact 可以 steer：`/compact focus on the auth refactor, drop the test debug
 - 每个 subagent 拿到**全新 context**
 - 只有结果回流主 session
 - 适合可并行、不依赖主对话的任务
+- **Pre-PR 代码自审（Anthropic 官方最佳实践）**：主 agent 写完代码并跑完验证后，派一个**拥有全新上下文（fresh context）的 subagent** 审查 diff，避免主会话里“自我说服”的历史偏差（见 [[agentic-code-review]]、[[claude-code-team-code-review]]）
 - 配合 [[llm-wiki-pattern]]：比如同时 lint 多个 wiki 目录
+
+## 按需生成切片 Explainer 替代“全库心智模型”
+
+在 [[claude-code-team-code-review]] 中，Claude Code 团队还将“管理人类与模型的上下文”延伸到了团队知识共享：当 90% 代码由 AI 编写、机器承担了大部分 diff 阅读后，团队里没有任何人拥有整个代码库的完整心智模型。当需要修改某个模块时，工程师直接让 Claude 针对该精确切片生成一份实时更新的讲解（Explainer）或可视化微型组件（Mini artifact），把人类有限的注意力集中在当前要改的模块上下文上。
 
 ## 与 LLM Wiki 模式的关系
 
@@ -88,3 +93,4 @@ Compact 可以 steer：`/compact focus on the auth refactor, drop the test debug
 
 ## 来源
 - [[claude-code-session-management]]
+- [[claude-code-team-code-review]] — Addy Osmani：Pre-PR fresh-context subagent review 与按需生成代码切片 Explainer（2026-10-26）

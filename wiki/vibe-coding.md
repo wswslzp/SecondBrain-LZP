@@ -2,8 +2,8 @@
 title: "Vibe Coding"
 tags: [ai, programming, naval, karpathy]
 date_created: 2026-04-18
-date_modified: 2026-10-25
-related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[product-management-ai-era]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+date_modified: 2026-10-27
+related: ["[[naval-ravikant]]", "[[ai-impact-on-industry]]", "[[llm-wiki-pattern]]", "[[jensen-huang]]", "[[tasks-vs-jobs]]", "[[product-management-ai-era]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Vibe Coding
@@ -79,6 +79,7 @@ AI 让应用海啸式涌现，但：
 - **⚠️ 与 Naval 观点的张力**：上文说“懂底层的人能堵上抽象泄漏”。DHH 则认为，进入第三智能体时刻后，**懂编程有一阵子反而是劣势**，因为程序员倾向于规定实现路径，而描述结果和问题更有效。瓶颈也转移到了产品判断（见 [[product-management-ai-era]]）。两种说法分别适用于不同阶段和领域，这里如实并存，不强行调和。
 - **黑箱实验**：他把 Omawrite（C++/Qt）和 TTFX（Rust）当作纯黑箱来做，一行代码都没看就发布了，见 [[omarchy]]。
 - **少规定**：这和上文 Jensen 说的“有意欠详述”相呼应。DHH 还转述 Boris 的说法：Opus 5 的系统提示缩减约 80%，因为过度规定反而有害。
+- **团队级解法（Claude Code 团队）**：针对“不逐行看代码如何防架构腐化与线上事故”，[[addy-osmani|Addy Osmani]] 在 [[claude-code-team-code-review]] 中给出了 Anthropic 内部的系统解法——用六层自动化与分级验证替代人工逐行阅读，把人类注意力专门留给**架构审查、高危代码审计、证据核验与“该不该做”的判断**（见 [[agentic-code-review]]）。
 
 ## 关键引语
 
@@ -89,3 +90,4 @@ AI 让应用海啸式涌现，但：
 ## 来源
 - [[a-motorcycle-for-the-mind]]
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）

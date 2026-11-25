@@ -2,8 +2,8 @@
 title: "目标驱动的注意力与路径选择"
 tags: [goals, attention, agency, decision-making, leverage]
 date_created: 2026-10-22
-date_modified: 2026-10-25
-related: ["[[dan-koe]]", "[[agency]]", "[[attention-economy]]", "[[leverage]]", "[[musk-engineering-method]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
+date_modified: 2026-11-23
+related: ["[[dan-koe]]", "[[agency]]", "[[attention-economy]]", "[[leverage]]", "[[musk-engineering-method]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 目标驱动的注意力与路径选择
@@ -45,6 +45,12 @@ DYNA 的案例说明，星辰大海式目标必须被最小工作流反复检验
 
 [[ricky-mao|Ricky Mao]] 讲「一场比赛毁一个冠军」：21、22 岁拿了很好的成绩之后，级别、消费和生活观念一起上去，水平仍只来自日积月累的复盘。单一高目标能重排注意力，也能让人把一次结果误写成能力。他的自检是：不管今天赢了什么，我还是我。这和本页「聚焦可能筛掉反证」是同一风险，换到了成绩单上。
 
+## 嘉宾视角：“练成更高的武功本身就是终极目的”——手段与目的的倒置与归位（梁其伟，2026-11-13）
+
+[[liang-qiwei|梁其伟]]用武侠小说中的经典悖论，剖析了创业者注意力失焦（本末倒置）的根源与归位之道：
+- **当游戏沦为手段、精英身份成为目的时的注意力溃散**：2014 年《影之刃1》暴富后，梁其伟曾陷入“想成为主流社会认可的金融/资本精英”的幻觉。彼时做什么游戏已不重要（漫改、二次元、移动电竞什么火做什么），游戏沦为资本运作与冲新三板的手段，导致他每周只花一天做研发，其余注意力全消耗在酒桌路演与组局上，最终在《影之刃2》上付出惨痛代价。
+- **辟邪剑谱悖论与终极目的归位**：为什么武侠小说里众人拼死抢夺《辟邪剑谱》或屠龙刀，抢到手练成神功时仇人早已杀光，却依然乐此不疲？因为对真正的江湖人而言，**“练成更高深的武功”这件事本身就是终极目的**。如今在《影之刃零》的研发中，股权融资、可转债、建美国分公司、上索尼发布会等一切商业运作全都被降维成手段，唯一的目标是将注意力 100% 凝聚在“把眼前这款游戏做好，赚到钱和经验再去做出下一款更好的游戏”。见 [[wuxia-punk-and-craft-premium]]。
+
 ## References
 
 - [[dan-koe-delusional-goals]] — 目标作为注意力过滤器
@@ -52,3 +58,4 @@ DYNA 的案例说明，星辰大海式目标必须被最小工作流反复检验
 - [[spacex-rise-silicon-valley-101]] — 工程路径与使命的案例
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
 - [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

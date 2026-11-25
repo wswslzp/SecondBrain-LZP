@@ -2,8 +2,8 @@
 title: "特定知识（Specific Knowledge）"
 tags: [naval, wealth, career, learning]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[productize-yourself]]"]
+date_modified: 2026-11-23
+related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[productize-yourself]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 特定知识
@@ -55,5 +55,12 @@ Warren Buffett 出校后去找 Benjamin Graham，愿免费工作。Graham 说：
 
 没有特定知识，杠杆只是放大平庸。
 
+## 嘉宾视角：角落做题家的“病态美学”与建筑学叙事拓扑（梁其伟，2026-11-13）
+
+[[liang-qiwei|梁其伟]]的个人经历展示了多种看似无关的早期特质如何跨界组合成不可复制的[[specific-knowledge|特定知识]]：
+- **童年疏离感与古龙“病态美学”**：海南中学寄宿时期作为教室角落里的“透明人”，他对现实社交极度钝感，却在古龙武侠小说（《多情剑客无情剑》《午夜兰花》）与日本漫画（《剑风传奇》《幽游白书》）的意识流分镜中建立起对“极美与极暗对冲、残缺病态人格”的敏锐直觉。
+- **清华/耶鲁建筑学训练与阴谋结构（Soulframe）**：两个名校建筑设计学位看似与游戏无关（他自嘲“像战士背包里放着两件橙色法师装备”），却赋予了他对多线叙事拓扑结构（Plot）的严密逻辑把控与对黑白灰原初材质的冷峻审美，最终凝结为持续构建 18 年的“影境”武侠朋克宇宙。见 [[s-game-phantom-blade-zero]]。
+
 ## 来源
 - [[how-to-get-rich]]
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

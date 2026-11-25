@@ -2,8 +2,8 @@
 title: "AI 能源瓶颈（Energy Bottleneck）"
 tags: [ai, energy, power, nuclear, uranium-enrichment, grid, compute, infrastructure, cs153]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]", "[[nvidia]]", "[[frontier-systems]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]"]
+date_modified: 2026-10-27
+related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]", "[[nvidia]]", "[[frontier-systems]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # AI 能源瓶颈
@@ -86,6 +86,10 @@ related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]",
 
 如果说 [[scott-nolan]]（[[general-matter]]）从**燃料/enrichment** 一路追瓶颈，[[amin-vahdat]]（[[value-per-gigawatt]]）补的则是同一功耗瓶颈的**电网供给与合约**这一面：电力公司要求 **20 年 take-or-pay** 长约、permitting 漫长、小于 **100MW** 的容量被 stranded；且 **serving/推理**负载在电力上是可分散互换的，**training** 却要一大块**连续（contiguous）**的电。这正是数据中心运营者眼中的 power bottleneck——与本页需求侧的 super-linear 曲线、以及 [[sam-altman]] 口中的「shortage forever」是同一枚硬币的两面。
 
+## 嘉宾视角：器件尺度的功耗问题（2026-10-27）
+
+本页谈电网/数据中心尺度的能耗；[[haozhe-wang|Harry Wang]]（硅谷101 Alignment 2026）把功耗追到**器件尺度**：晶体管缩小后的漏电（leakage）——材料太厚时电子从"关闭的阀门"下方溜过，白白耗电发热；堆叠纳米片又带来界面散热问题。他的解法仍是材料：换二维半导体（厚 0.65nm 的 MoS₂ 沟道"水龙头"关得严），再让 AI 管良率、减少废片（[[2d-semiconductor]]、[[atomic-microscopy]]）。
+
 ## 相关页面
 - [[compute-infrastructure]]
 - [[general-matter]]
@@ -98,3 +102,4 @@ related: ["[[compute-infrastructure]]", "[[general-matter]]", "[[scott-nolan]]",
 
 ## References
 - [[cs153-scott-nolan-energy]] — Stanford CS153（讲者 Scott Nolan / General Matter），Energy Bottlenecks
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

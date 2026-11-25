@@ -2,8 +2,8 @@
 title: "Accelerated Computing（加速计算 / 后通用计算时代）"
 tags: [nvidia, accelerated-computing, compute, moores-law, codesign, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]"]
+date_modified: 2026-10-27
+related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # Accelerated Computing（加速计算 / 后通用计算时代）
@@ -71,6 +71,10 @@ related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]",
 
 [[amin-vahdat]]（[[value-per-gigawatt]]）从**需求侧**给出与本页一致的专用化理由：通用 CPU 的性能/能效增长已停滞了**十余年**，所以必须挑那些体量足够大的 workload（inference / training）去做专用硅——一颗 TPU 在这些任务上可比 CPU **高约 100×** 的效率，代价是它「can't do anything（else）」。这条来自 Google 自研 silicon 的路径，为本页「通用计算走到尽头、机制上专用」的后通用计算命题再添一个独立佐证。
 
+## 嘉宾视角：材料侧的同一堵墙（2026-10-27）
+
+本页讲体系结构侧的"通用计算的尽头"；[[haozhe-wang|Harry Wang]] 从**材料本身**给出同方向的印证：硅缩到 5nm 以下电子迁移率下降、漏电加剧；业界 2nm/1nm 多为堆叠换算的**名义节点**（纳米片每层 7nm、堆三层，7÷3≈2nm），与"增加核数"同构。他的出路在沟道材料换代——二维半导体（MoS₂，厚 0.65nm 仍保持迁移率），配合 AI 原生的制备与良率管理（见 [[2d-semiconductor]]、[[atomic-microscopy]]）。
+
 ## 相关页面
 
 - [[extreme-co-design]]
@@ -84,3 +88,4 @@ related: ["[[extreme-co-design]]", "[[nvidia]]", "[[cuda]]", "[[scaling-laws]]",
 ## References
 
 - [[cs153-jensen-huang-compute]] — Stanford CS153（讲者 Jensen Huang / NVIDIA），2026
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

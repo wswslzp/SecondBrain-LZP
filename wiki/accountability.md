@@ -2,8 +2,8 @@
 title: "责任感（Accountability，Naval 语境）"
 tags: [naval, wealth, entrepreneurship, reputation]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[judgment]]"]
+date_modified: 2026-11-23
+related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[judgment]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 责任感（Accountability）
@@ -59,5 +59,17 @@ Naval 视 accountability 为"声誉版本的 skin in the game"（Taleb 概念）
 
 **在工作中承担问责 = 对你所有工作持有股权**。下行风险换上行潜力。
 
+## 智能体工程中的责任不可外包（"You land it, you own it"）
+
+在 AI 编写绝大部分代码的工程体系中（如 [[claude-code|Claude Code]] 90% 代码由 Claude 编写），[[addy-osmani|Addy Osmani]] 在 [[claude-code-team-code-review]] 中明确了一条核心铁律：**机器的批准绝不能顶替必需的人类批准；无论代码是谁敲出来的，每一个发布的变更背后都必须有一个具体的人来负责（"A person answers for every change that ships, whoever typed it"）**。如果一个 PR 是由 Agent 提交的，操控该 Agent 的人类工程师（Operator）自动成为责任人与必需审查者之一，并践行“谁合入，谁负责（You land it, you own it）”。见 [[agentic-code-review]]。
+
+## 嘉宾视角：买断制作品的制作人署名责任与片尾名单的荣耀杠杆（梁其伟，2026-11-13）
+
+[[s-game-phantom-blade-zero|灵游坊]]创始人[[liang-qiwei|梁其伟]]将单机买断制游戏与普通工业品/免费长线手游的根本差异归结为**创作者的具名问责（Accountability）**：
+- **“作品”必须有具名的第一责任人**：中国游戏市场 99% 的高流水买量产品与小游戏都在“闷声发大财”，玩家根本不知道背后是谁做的，就像没人关心喝水杯子的工匠是谁；但单机买断制游戏一旦被称为“作品”，就必须像电影导演或建筑师一样，由制作人站出来以个人名义承担一切赞誉与骂名（“出来挨骂是制作人必须承担的职责”）。
+- **片尾制作人员名单（Credits）的荣耀杠杆**：在商业手游时代，研发人员往往是不留名的幕后螺丝钉；而在《影之刃零》研发尾声，团队对片尾制作人员名单的署名与排序极其看重，甚至有已离职的前同事主动请求列入“以下人员亦有参与”。这种“把自己的真名实姓刻在一部传世作品上供亲友见证”的声誉 Skin in the Game，产生了远超单纯薪资的凝聚力，使团队在发售冲刺期保持了近乎零离职率。见 [[s-game-phantom-blade-zero]]。
+
 ## 来源
 - [[how-to-get-rich]]
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

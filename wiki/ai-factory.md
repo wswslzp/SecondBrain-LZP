@@ -2,8 +2,8 @@
 title: "AI Factory（前沿 AI 制造管线）"
 tags: [ai, training, infrastructure, post-training]
 date_created: 2026-04-18
-date_modified: 2026-10-25
-related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]", "[[token-economics]]", "[[nvidia]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+date_modified: 2026-10-27
+related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-models]]", "[[token-economics]]", "[[nvidia]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # AI Factory
@@ -117,6 +117,10 @@ related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-model
 
 [[robot-workflow-loop]] 将这一原则延伸到机器人：如果产品只测量一次折叠是否成功，模型就学不到补料、恢复和全天产量；工作流设计本身决定反馈的完整性。
 
+## 嘉宾视角：从单向流水到双向飞轮（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学，硅谷101 Alignment 2026）把 AI 与芯片的关系描述为循环："AI 需要芯片，芯片也需要 AI。" 本页的 AI Factory 是芯片→算力→AI 的单向流水；Harry 提出的 [[autogenic-intelligence|自生成智能]] 要求**双向闭环**——AI 反过来造芯（ATOMIC 表征、Co-Scientist 做实验、AI 在缺陷材料上造芯 +30pct 良率）。他的初创公司做的 yield intelligence / lab-to-fab，正是 fab 环节 AI 化的一个具体形态。
+
 ## 来源
 - [[cs153-luma-amit-jain]]
 - [[cs153-bfl-andreas-blattmann]]
@@ -124,3 +128,4 @@ related: ["[[frontier-systems]]", "[[context-feedback-loops]]", "[[unified-model
 - [[cs153-frontier-systems]]
 - [[nvidia-gtc-berlin-2026]] — 数据中心工厂含义下的部署与 Agent 扩展
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

@@ -2,8 +2,8 @@
 title: "克制作为战略（Restraint as Strategy）"
 tags: [strategy, business, open-source, game-theory, deepseek, agi]
 date_created: 2026-07-23
-date_modified: 2026-10-25
-related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[intelligence-as-utility]]", "[[game-theory]]", "[[venture-capital-systems]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
+date_modified: 2026-11-23
+related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[intelligence-as-utility]]", "[[game-theory]]", "[[venture-capital-systems]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 克制作为战略（Restraint as Strategy）
@@ -54,7 +54,22 @@ related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[open-weights-strategy]]", "[[i
 
 ⚠️ 张力：[[liang-wenfeng-investor-meeting|梁文锋]] 的克制来自「拿得多的会被拿得少的打败」，是为了活得更久而压低可得利益。[[ricky-mao|Ricky Mao]] 的克制来自牌桌：通胀是人生的大小盲，但多数人把盲注估得太大，所以大多数牌应该弃，筹码只堆在最好的机会上。一个是少拿以续命，一个是少打以保正期望。并列保留，不合并成同一条战略。
 
+## 第三种克制：在 Man vs. Man 的政治与权力博弈中克制“好人垄断欲”（Vitalik，2026-10-29）
+
+[[vitalik-buterin|Vitalik Buterin]] 在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中，从政治哲学与捐赠反思的角度提供了与梁文锋“少拿以减少阻力”高度呼应的另一重克制逻辑：
+
+- **捐赠与政策游说的克制**：在“人对抗自然（Man vs. Nature，如发蚊帐、研发生物防御）”中，砸钱越多效果越好；但在“人与人博弈（Man vs. Man，如立法游说、扶持政客）”中，当受赠机构（如拿到约 5 亿美元柴犬币的 FLI）高调把巨资砸向激进 AI 监管法案时，必然触发硅谷投资人（如 a16z）与公众的强烈逆反——因为人们会本能地警惕“一个土豪在用巨款操纵我们的政治”。
+- **对“好公司独占权力”的克制**：针对部分 [[effective-altruism|EA]] 成员主张“因为 [[anthropic|Anthropic]] 是好人，所以应该由它赢下竞赛、垄断最强 AI 并限制开源”，Vitalik 指出这种“好人掌权论”与独裁逻辑无异，必然招致全球其他参与者（包括开源社区与中国研究者）的激烈反抗。真正稳健的安全不靠单一“好人”垄断，而靠 [[d-acc|d/acc（分布式防御）]] 与多系统之间的 **分权制衡（Checks and Balances）**。
+
+## 第四种克制：认清“黄金男配角”定位，拒绝慕容复式的资本妄念（梁其伟，2026-11-13）
+
+[[s-game-phantom-blade-zero|灵游坊]]创始人[[liang-qiwei|梁其伟]]在《张小珺商业访谈录》中，从武侠心性与企业边界角度阐述了创作者的战略克制：
+- **警惕“梁博基尼”的规模化幻觉**：2014 年《影之刃1》以 20 人团队创下首月 4,000 万流水、月净利润一两千万后，梁其伟曾一度被体内的世故反派（“梁博基尼”）主导，试图用资本杠杆搞泛 IP 矩阵、冲新三板、追逐移动电竞风口，结果导致研发荒废、动作变形。他最终认清：自己和团队的基因是“掌门亲手下场打铁的百人小作坊”，无法走纯管理与资本整合的指数级扩张路线。
+- **“最强者是朴实的”与不当慕容复的克制**：他将冯骥（游戏科学）、刘伟（米哈游）视为“第一男主”——武功如降龙十八掌般质朴内敛，能以一己之力改写市场；而自认灵游坊带有“神鬼二象性”，武功偏华丽的逍遥派（天山折梅手）。真正的克制是放下争当“武林盟主/天下第一”的贪嗔痴妄念，避开处处算计风口却终生未能蜕变的“慕容复陷阱”，安心做江湖里人气稳居前列的“实力派男二/男三（如花满楼、西门吹雪）”，遵循“保守经营，激进产品”，把全部资源收敛到“练成下一门更高深的武功（做出下一款更好的游戏）”这一纯粹目的上。见 [[wuxia-punk-and-craft-premium]]。
+
 ## References
 
 - [[liang-wenfeng-investor-meeting]] — 投资者交流会完整版全文（2026-07-23）
 - [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

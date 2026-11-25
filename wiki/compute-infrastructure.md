@@ -2,8 +2,8 @@
 title: "AI Compute 基础设施经济"
 tags: [ai, compute, infrastructure, gpu, markets]
 date_created: 2026-04-18
-date_modified: 2026-10-22
-related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]", "[[satya-nadella]]"]
+date_modified: 2026-10-27
+related: ["[[frontier-systems]]", "[[anjney-midha]]", "[[context-feedback-loops]]", "[[nvidia]]", "[[token-economics]]", "[[jensen-huang]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[sam-altman]]", "[[satya-nadella]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # Compute 基础设施
@@ -107,6 +107,11 @@ Midha 请 Claude 整理的案例：
 
 **表述上的张力**：Jensen 称 NVIDIA 架构可跨训练、推理、数据处理和专业工具复用；Midha 说 compute 尚不是可互换商品。前者描述平台内部兼容与利用率，后者描述跨厂商资源、交付和结算，讨论层次不同，不能据前者宣布后者已过时。
 
+## 嘉宾视角：制造才是最花钱的环节（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学）在硅谷101 Alignment 2026 上拆解："你们的钱最终都流向 NVIDIA，NVIDIA 又得付给 TSMC——归根结底，制造芯片才是最花钱的环节。" 他的替代方案是 **AI 原生半导体制造**：AI 控显微镜表征材料（99.7% 准确率）、生成实验配方、在良率 65.6% 的缺陷材料上造出千级晶体管阵列并拉高良率约 30 个百分点——制造侧的智能化可能是这条成本曲线的下一个变量。
+
 ## 来源
 - [[cs153-frontier-systems]]
 - [[nvidia-gtc-berlin-2026]] — 21:49–34:50，部署与平台内部复用
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

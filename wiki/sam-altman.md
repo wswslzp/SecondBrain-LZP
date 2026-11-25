@@ -2,8 +2,8 @@
 title: "Sam Altman"
 tags: [openai, ai, agi, people, y-combinator, cs153]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[openai]]", "[[intelligence-as-utility]]", "[[y-combinator]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[frontier-systems]]"]
+date_modified: 2026-10-29
+related: ["[[openai]]", "[[intelligence-as-utility]]", "[[y-combinator]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[frontier-systems]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # Sam Altman
@@ -47,6 +47,12 @@ related: ["[[openai]]", "[[intelligence-as-utility]]", "[[y-combinator]]", "[[sc
 - **[[dario-amodei]]（[[anthropic]]）**：同为 OpenAI 早期核心（Dario 后来因信任/价值观出走创立 Anthropic）;二人对 job loss 的语气差异见 [[tasks-vs-jobs]]。
 - **[[satya-nadella]]**：在本 CS153 系列独立用了同一个「电力→light at night」比喻。
 
+## 嘉宾视角：《超级智能》书单与“牺牲开放、再牺牲安全”的外部批评（Vitalik，2026-10-29）
+
+《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）指出，Sam Altman 早年曾公开推荐牛津哲学家 Nick Bostrom 的《超级智能》（*Superintelligence*），并多次撰文表达对超级智能风险的担忧；OpenAI 内部早年也深受 [[rationalism-and-ai-safety|理性主义]] 与 [[effective-altruism|EA]] 思想影响。
+
+⚠️ **张力**：Altman 在 [[cs153-sam-altman-scale|CS153]] 中主张通过将智能做成公用事业（[[intelligence-as-utility]]）来实现“~80% 概率的民主化分叉”，反对权力集中；但 [[vitalik-buterin|Vitalik Buterin]] 从外部轨迹批评 OpenAI 是“先为了安全牺牲开放（GPT-3 起闭源），再为了加速牺牲安全（放弃多项安全承诺）”，并主张真正的去中心化与民主化必须包含 [[open-weights-strategy|开源权重]] 与 [[d-acc|d/acc]] 式的分布式防御工具。两种关于“AI 民主化”的路径并列保留。
+
 ## 相关页面
 
 - [[openai]]
@@ -59,3 +65,4 @@ related: ["[[openai]]", "[[intelligence-as-utility]]", "[[y-combinator]]", "[[sc
 ## References
 
 - [[cs153-sam-altman-scale]] — Stanford CS153「Scale, AGI, and the Future of Everything」
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

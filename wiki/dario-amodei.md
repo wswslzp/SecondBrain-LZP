@@ -2,8 +2,8 @@
 title: "Dario Amodei"
 tags: [anthropic, ai, ai-safety, people, job-loss, scaling-laws]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[anthropic]]", "[[daniela-amodei]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[claude-constitution]]"]
+date_modified: 2026-10-29
+related: ["[[anthropic]]", "[[daniela-amodei]]", "[[scaling-laws]]", "[[tasks-vs-jobs]]", "[[claude-constitution]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # Dario Amodei
@@ -53,6 +53,13 @@ Jensen Huang 称他「conflating tasks with jobs」、AI 在创造岗位；有�
 - 最爱《The Making of the Atomic Bomb》；自比 **Leo Szilard**（最先想到链式反应者）而非 Oppenheimer——视 Oppenheimer 为「failure case，what should not happen」。
 - 「we're not gonna get through this with larger-than-life personalities... the only way it's gonna end well for everyone is if there is basically **checks and balances everywhere**.」
 
+## 嘉宾视角：EA 烙印与对“Checks and Balances”的不同解法（Vitalik & Afra，2026-10-29）
+
+在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中，科技记者 Afra 与 [[vitalik-buterin|Vitalik Buterin]] 补充了 Dario 的思想背景与外部批评：
+
+- **典型的 EA 思维方式**：Afra 指出，Dario 早年即向 GiveWell 捐款，其长文《Machines of Loving Grace》体现了典型的 [[effective-altruism|有效利他主义（EA）]] 逻辑——如何最大化利用 AI 制造全球福祉。
+- ⚠️ **张力：内部精英信托 vs. 外部多系统制衡**：Dario 在 Bloomberg 访谈中自比 Leo Szilard 并主张“checks and balances everywhere”；但 Vitalik 批评指出，Anthropic 的核心安全策略仍是“因为我们是好人，所以应该由我们赢并掌握最强 AI”（招股书甚至规定创始人失能后的投票权接替名单对公众保密），且其安全倡议与公司自身权力利益的相关性超过 90%。Vitalik 主张的“分权制衡（Checks and Balances）”不是把权力交给一家“好公司”，而是通过 [[d-acc|d/acc]]、开源透明以及三个不同方法训练的不完美 AI 系统互相监督来限制风险。两种对“制衡”的理解并列保留。
+
 ## 相关页面
 
 - [[anthropic]]
@@ -64,3 +71,4 @@ Jensen Huang 称他「conflating tasks with jobs」、AI 在创造岗位；有�
 ## References
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（2026-06-10）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

@@ -2,8 +2,8 @@
 title: "Lex Fridman Podcast 节目分类目录"
 tags: [lex-fridman, podcast, catalog, youtube]
 date_created: 2026-10-25
-date_modified: 2026-10-25
-related: ["[[jensen-huang-lex-fridman]]", "[[dhh-lex-fridman]]", "[[andrej-karpathy]]", "[[jensen-huang]]", "[[42zhangjing-podcast-catalog]]", "[[xiaojun-podcast-catalog]]"]
+date_modified: 2026-10-29
+related: ["[[jensen-huang-lex-fridman]]", "[[dhh-lex-fridman]]", "[[andrej-karpathy]]", "[[jensen-huang]]", "[[42zhangjing-podcast-catalog]]", "[[xiaojun-podcast-catalog]]", "[[valley101-podcast-catalog]]"]
 ---
 
 # Lex Fridman Podcast 节目分类目录

@@ -2,10 +2,10 @@
 title: "Multi-Agent Research Loop"
 tags: [quant-trading, ai-agents, llm-tooling]
 date_created: 2026-05-17
-date_modified: 2026-05-17
+date_modified: 2026-10-27
 aliases:
   - 多 Agent 研究循环
-related: ["[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[hermes-agent]]", "[[claude-code]]", "[[multi-agent-patterns]]"]
+related: ["[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[hermes-agent]]", "[[claude-code]]", "[[multi-agent-patterns]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Multi-Agent Research Loop
@@ -104,6 +104,8 @@ Orchestrator:
 ## 与 [[multi-agent-patterns]] 的关系
 
 本模式正是 [[lidang|立党]] 在 [[multi-agent-patterns]] 中称许的「有产出的 multi-agent」正例：单一职责、有明确接受标准与硬门、go-driven，而非「七嘴八舌、无决策者」的组织架构模拟（那类是他所说的「超级大天坑」）。
+
+在软件工程领域，Anthropic 的 **Code Review for Claude Code**（见 [[agentic-code-review]]、[[claude-code-team-code-review]]）同样采用了这一模式：Pre-PR 阶段用全新上下文 subagent 审查 diff，PR 阶段用多个 Agent 并行猎捕 Bug + 独立投票过滤误报，并通过“最多 3 轮 + 仅审增量 diff”防止 Agent 作者与 Agent 审查员陷入无限循环。
 
 ## Sources
 

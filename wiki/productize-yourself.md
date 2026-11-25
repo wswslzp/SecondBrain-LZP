@@ -2,8 +2,8 @@
 title: "Productize Yourself"
 tags: [naval, wealth, career]
 date_created: 2026-04-18
-date_modified: 2026-04-18
-related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[specific-knowledge]]", "[[leverage]]", "[[accountability]]"]
+date_modified: 2026-11-23
+related: ["[[naval-ravikant]]", "[[wealth-creation]]", "[[specific-knowledge]]", "[[leverage]]", "[[accountability]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # Productize Yourself
@@ -50,5 +50,12 @@ Naval 改良的建议：
 
 当你足够独特，就没有竞争对手——**因为没人能做你**。这也是 [[four-kinds-of-luck]] 第 4 种（独特性格运气）的本质：别人会专门来找你做事。
 
+## 嘉宾视角：“把自我训练成大模型”与 99% 内因定律（梁其伟，2026-11-13）
+
+[[liang-qiwei|梁其伟]]在复盘灵游坊 15 年创作与商业沉浮时，给出了与 Naval“通过真实性逃离竞争（Escape competition through authenticity）”高度同构的东方创作者版本：
+- **服务玩家最好的方式是彻底做自己**：他指出，文化产品创作者若带着“讨好、迎合玩家”的纯粹服务心态去行事，做出来的必然是平庸之作，玩家反而看不上；真正顶级的服务是“把自我融化在大地之中”——创作者历经长年累月的阅读、痛苦与审美训练后，自己本身就变成了一座独特的“大模型”，只要沉浸在自己的世界里真诚输出，玩家自然会被极致地服务到。
+- **99% 内因定律**：2016 年《影之刃2》曾试图迎合“移动电竞（PVP）+ 二次元”两大外部风口而遭遇滑铁卢。梁其伟由此总结：**外部风口的合理性在成功中最多只占 1%，而藏在创作者内心的成长经历、“病态”审美癖好与团队基因等内部合理性占 99%**。甚至“單机游戏不如手游赚钱”也只是外部统计假象——对灵游坊这种基因的团队而言，做最契合自身基因的单机买断制游戏，赚到的钱反而远超自己勉强去做的商业手游。见 [[wuxia-punk-and-craft-premium]]。
+
 ## 来源
 - [[how-to-get-rich]]
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

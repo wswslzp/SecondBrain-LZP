@@ -2,8 +2,8 @@
 title: "Product Research"
 tags: [robotics, research, product, embodied-ai]
 date_created: 2026-10-25
-date_modified: 2026-10-25
-related: ["[[dyna-robotics]]", "[[robot-workflow-loop]]", "[[physical-ai-computing]]", "[[ai-native-company]]"]
+date_modified: 2026-11-23
+related: ["[[dyna-robotics]]", "[[robot-workflow-loop]]", "[[physical-ai-computing]]", "[[ai-native-company]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # Product Research
@@ -22,7 +22,14 @@ Product research（产品研究）是 [[lindon-gao-dyna-xiaojun]] 中 DYNA 用�
 
 一个工作流的成功不能证明所有场景可复制，也不能证明公司已经拥有通用物理智能。产品研究是一种选择研究问题的纪律，不是自动获得 PMF 的机制。
 
+## 嘉宾视角：99% 内因定律与买断制 3A 的“PV + 线下试玩”正反馈闭环（梁其伟，2026-11-13）
+
+在长周期、高投入的 3A 单机游戏研发中，[[s-game-phantom-blade-zero|灵游坊]]创始人[[liang-qiwei|梁其伟]]总结了两条核心的产品研发纪律：
+- **向内求（99% 内因）高于外部市场调研（1% 外因）**：《影之刃2》曾基于市场调研迎合“移动电竞 + 二次元”风口而失败；而在《影之刃零》中加入明亮唯美的竹林场景或調整叙事基调，绝非因为市场调研说“玩家嫌太黑”，而是出于作品自身悬念与情感起伏的内在结构需要。创作者一旦为了场外贴金而在台词中塞入违背自身暗黑杀手设定的“圣母口号”，会被核心玩家瞬间识破。
+- **高频实机 PV 与线下试玩的外部正反馈锚点**：面对从未做过 3D 游戏的巨大技术跨度与长达数年的不确定性，灵游坊沿用了《黑神话：悟空》验证的黄金流程——定期发布高质量实机 PV 并举办大规模海内外线下试玩会。用真实玩家的现场试玩正反馈来倒逼优化、稳住百人团队的心气，远比任何内部管理口号更有效。见 [[wuxia-punk-and-craft-premium]]。
+
 ## References
 
 - [[lindon-gao-dyna-xiaojun]]
 - [[dyna-robotics]]
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

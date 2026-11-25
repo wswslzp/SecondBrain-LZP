@@ -2,8 +2,8 @@
 title: "AI 对产业的影响"
 tags: [ai, semiconductor, programming, career, industry, marketing]
 date_created: 2026-04-11
-date_modified: 2026-10-25
-related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]", "[[tasks-vs-jobs]]", "[[anthropic]]", "[[product-management-ai-era]]", "[[career-as-chapters]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
+date_modified: 2026-11-23
+related: ["[[compute-infrastructure]]", "[[vibe-coding]]", "[[neuromarketing]]", "[[llm-wiki-pattern]]", "[[tasks-vs-jobs]]", "[[anthropic]]", "[[product-management-ai-era]]", "[[career-as-chapters]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # AI 对产业的影响
@@ -110,6 +110,17 @@ LLM 改变了个人知识管理方式：
 
 就业上，他不把近期风险写成奇点。缺的是原生目标和生存压力。真正担心的是知识工作被替换的速度快过新岗位和再分配，而收益集中在少数公司和资本。研究者能做的一份是把专家级 agent 的门槛降到个人能用自己的洞察变现。数字和判断均为口述。见 [[yu-su-xiaojun-agent-history]]。
 
+## 嘉宾视角：AI 进入半导体制造链本身（2026-10-27）
+
+本页的硬件层讨论的是芯片需求侧（存储超级周期）；[[haozhe-wang|Harry Wang]]（硅谷101 Alignment 2026）补上**供给侧**的变革：AI 正从三步进入制造链——看（[[atomic-microscopy|ATOMIC]] 表征材料，99.7% 准确率）、做（Co-Scientist 接实验设备生成配方）、造（在良率 65.6% 的缺陷材料上造芯、良率 +30pct）。叠加材料代际切换（[[2d-semiconductor]]），半导体的生产函数本身正在被 AI 改写。
+
+## 嘉宾视角：游戏产业的“古法手工溢价”——越是 AI 时代，人类心血越像爱马仕贴牌（梁其伟，2026-11-13）
+
+[[s-game-phantom-blade-zero|灵游坊]]创始人[[liang-qiwei|梁其伟]]在《影之刃零》发售前夕，对生成式 AI 如何重塑文化娱乐与买断制游戏产业给出了“工程拥抱、艺术死守手工”的鲜明判断：
+- **工程环节提效 vs. 艺术环节零 AI**：灵游坊在代码逻辑、QA 测试、性能优化中积极使用 AI；但在《影之刃零》的美术与核心艺术创作中坚持 100% 纯手工、零 AI 生成。原因不在于 AI 画得不好，而在于消费者对 AI 生成物的心理定价截然不同——一旦玩家发现买断制游戏或抽卡立绘是 AI“大风刮来的”，价值体系会瞬间崩塌。
+- **买断制游戏卖的是一半体验 + 一半“人类工作量溢价”**：不同于只看实用功能的喝水杯子，买断制单机玩家花数百元购买的不仅是游玩体验，更是背后数百名人类创作者耗费数年光阴、烧掉数亿资金的“心血证明”，以及对工作室未来续作的“品牌养成投票”。正如工业流水线没有消灭爱马仕手工缝制铭牌的十倍溢价，数码时代没有消灭诺兰《奥德赛》坚持 IMAX 胶片或 R 星耗资 10 亿美元人工打磨《GTA6》的定价权，**越到 AI 海量低成本生产时代，“古法手工打造”反而越会成为金字塔尖最稀缺的品牌护城河**。
+- **一人 AI 游戏团队的品牌化前提**：对于 AI 取代初级岗位导致新人断层的担忧，他认为未来会出现“一人 AI 游戏团队”或知名度堪比张艺谋的“AI 短剧/游戏导演”——只有当大众明确将体验归功于背后那个人的独特审美与灵魂（如个人 IP 结合虚拟形象日常直播），AI 原生作品才会真正建立起商业品牌溢价。见 [[wuxia-punk-and-craft-premium]]。
+
 ## 相关页面
 - [[compute-infrastructure]]
 - [[vibe-coding]]
@@ -120,3 +131,5 @@ LLM 改变了个人知识管理方式：
 - [[llm-wiki-pattern]]
 - [[ai-for-learning]]
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

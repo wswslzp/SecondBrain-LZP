@@ -2,8 +2,8 @@
 title: "NVIDIA"
 tags: [nvidia, ai, compute, gpu, cuda, semiconductors, company, supply-chain]
 date_created: 2026-07-19
-date_modified: 2026-10-22
-related: ["[[jensen-huang]]", "[[cuda]]", "[[extreme-co-design]]", "[[token-economics]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]"]
+date_modified: 2026-10-27
+related: ["[[jensen-huang]]", "[[cuda]]", "[[extreme-co-design]]", "[[token-economics]]", "[[compute-infrastructure]]", "[[amin-vahdat]]", "[[value-per-gigawatt]]", "[[satya-nadella]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # NVIDIA
@@ -94,6 +94,10 @@ Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**me
 
 演讲再次主张通用平台内部工作负载的可复用性。这不等于 [[compute-infrastructure]] 所讨论的跨供应商商品化已经实现，也不消除本页保留的 CUDA 护城河反论。新产品状态、倍数与路线图按演讲归属，不作为实时产品规格。
 
+## 嘉宾视角：Harry Wang 谈 NVIDIA 的位置（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学）在硅谷101 Alignment 2026 Keynote 上以 **NVIDIA Blackwell 300** 为例：单芯片集成 2000 亿个晶体管（开关）——摩尔定律的量化体现。他给观众拆资金链："你们的钱最终都流向 NVIDIA，NVIDIA 最终又得付给 TSMC——归根结底，制造芯片才是最花钱的环节。" 他判断 AI 原生半导体制造（yield intelligence、lab-to-fab）能提供成本更低的替代方案，并已为此成立初创公司——若成立，[[nvidia]] 生态的资本流终点（制造环节）可能被重塑。
+
 ## 相关页面
 
 - [[jensen-huang]]
@@ -111,3 +115,4 @@ Jensen 反对把 GPU 类比原子弹：GPU 用于 video games、送酱油、**me
 
 - [[jensen-huang-lex-fridman]] — Lex Fridman Podcast #494（2026-03-24）
 - [[nvidia-gtc-berlin-2026]] — GTC Berlin 主题演讲（2026-10-21）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

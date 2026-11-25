@@ -3,8 +3,8 @@ title: "Control Point Convergence (产业链控制点收敛)"
 type: concept
 tags: [产业分析, 半导体, 光通信, 投资框架]
 date_created: 2026-05-18
-date_modified: 2026-05-18
-related: ["[[cpo-co-packaged-optics]]", "[[silicon-photonics]]", "[[optical-interconnect-roadmap]]"]
+date_modified: 2026-10-27
+related: ["[[cpo-co-packaged-optics]]", "[[silicon-photonics]]", "[[optical-interconnect-roadmap]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # Control Point Convergence — 产业链控制点收敛
@@ -67,6 +67,11 @@ OIO 时代         价值链终局：
 - **时间表线性外推**：半导体技术替代历史上普遍比预测慢 2-3 年（HBM、Chiplet 都是案例）
 - **低估光源层**：NVIDIA 花 $40 亿绑定 COHR/LITE，说明它们比作者定位的"工程层"更接近核心
 
+## 嘉宾视角：yield intelligence 作为潜在新控制点（2026-10-27）
+
+用本页的 4 维控制点框架看 [[haozhe-wang|Harry Wang]] 的创业方向（硅谷101 Alignment 2026）：**yield intelligence / lab-to-fab（AI 原生半导体制造）**——① 环节关键性：良率管理是台积电统治力的来源，数千亿晶体管"都能工作"是行业命门；② 可防御性：AI 表征（99.7%）+ 配方生成 + 缺陷材料造芯（+30pct）构成数据→模型→产线的闭环；③ 替代难度：现有流程以人工质检为中心，改造成本高但也意味着在位者转型慢；④ 时机：材料代际切换（硅→[[2d-semiconductor|二维半导体]]）恰好打开窗口——新材料的良率管理"需要新思路"，在位者的既有优势不完全可迁移。与光互联的结论并行观察：控制点可能同时出现在连接（光）与制造（良率）两处。嘉宾口述，未独立核实。
+
 ## References
 
 - [[optical-interconnect-migration-leslie]] — 框架原始来源
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

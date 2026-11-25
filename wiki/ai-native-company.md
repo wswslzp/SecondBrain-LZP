@@ -2,8 +2,8 @@
 title: "AI-native 公司"
 tags: [ai-native, startups, org-design, evals, go-to-market, y-combinator]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]", "[[y-combinator]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+date_modified: 2026-10-27
+related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]", "[[y-combinator]]", "[[product-management-ai-era]]", "[[nikhyl-singhal]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # AI-native 公司
@@ -67,8 +67,16 @@ related: ["[[agentic-engineering-primitives]]", "[[diana-hu]]", "[[garry-tan]]",
 
 [[product-research]] 提供了机器人版本的评估纪律：创始人先定义长期产品与最小闭环，再决定研究优先级。签下客户或完成定制，并不自动构成 [[dyna-robotics]] 所说的可规模化 PMF。
 
+## 工程质量闭环：Claude Code 团队的“事故即 Eval”与人类边界
+
+[[addy-osmani|Addy Osmani]] 在《[[claude-code-team-code-review|How the Claude Code team does code review]]》中展示了当 90% 代码由 AI 编写时，一个闭环（closed-loop）工程组织如何运转（详见 [[agentic-code-review]]）：
+
+- **Incidents are the eval**：收集所有引发线上事故的 PR、向前修复与回滚，由懂代码库的工程师标定位置，**每天**用这个集合给审查系统跑分；每当漏检，就把缺失的上下文变成 `CLAUDE.md`、`REVIEW.md`、Skill 或新检查——这是上文“捕获 trace → 标失败转 eval → self-heal”在代码审查系统的精确落地。
+- **人类不可外包的五件事**：① 决定“到底该不该做”（愿景、Taste 与目标）；② 审计高危代码；③ 架构审查；④ 核验证据（Proofs）；⑤ 承担最终责任（“You land it, you own it”）。
+
 ## References
 
 - [[cs153-garry-tan-diana-hu-ai-native]] — 讲座源页
 - [[agentic-engineering-primitives]] — 配套的 code 层原语
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）

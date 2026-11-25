@@ -2,8 +2,8 @@
 title: "OpenAI"
 tags: [openai, ai, agi, company, chatgpt, codex, cs153]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[sam-altman]]", "[[intelligence-as-utility]]", "[[scaling-laws]]", "[[anthropic]]", "[[compute-infrastructure]]", "[[frontier-systems]]"]
+date_modified: 2026-10-29
+related: ["[[sam-altman]]", "[[intelligence-as-utility]]", "[[scaling-laws]]", "[[anthropic]]", "[[compute-infrastructure]]", "[[frontier-systems]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # OpenAI
@@ -53,6 +53,22 @@ related: ["[[sam-altman]]", "[[intelligence-as-utility]]", "[[scaling-laws]]", "
 
 [[dario-amodei|Dario Amodei]] 及一批人曾是 OpenAI 早期核心研究团队（scaling laws 正源于此），后因**信任与价值观**分歧出走，2021 年创立 [[anthropic|Anthropic]]。两家如今是模型层的主要对位者。
 
+## 嘉宾视角：从研读 LessWrong 到“为安全牺牲开放，又为加速牺牲安全”（Vitalik，2026-10-29）
+
+在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中，主持人与 [[vitalik-buterin|Vitalik Buterin]] 从 [[rationalism-and-ai-safety|理性主义]] 与 [[effective-altruism|EA]] 的视角复盘了 OpenAI 的基因演变：
+
+- **早期理性主义基因与董事会政变**：主持人引述《纽约时报》报道称，OpenAI 早期联创 Greg Brockman 曾每天带领员工研读 Eliezer Yudkowsky 在 LessWrong 上的文章；2023 年底 [[sam-altman|Sam Altman]] 被短暂踢出局再回归，可视为非营利董事会里的 EA/安全派与 e/acc（加速派）之间的一场正面交锋。
+- **Vitalik 的一句话判词**：*“他们一开始是 OpenAI，然后为了安全牺牲了开放（Sacrificed openness for safety），接着又为了加速牺牲了安全（Sacrificed safety for acceleration）。”* 2020 年 GPT-3 时以安全为由放弃开源，后来又因妨碍发展速度而放弃多项曾向政府和公众许下的安全承诺（safety pledges）。
+- **2024–2026 竞赛节奏变化（Vitalik 口述观察）**：2024–2025 年 OpenAI 一度愿意放慢单一前沿基座模型的节奏，将资源分流到 Sora 视频模型等支线项目（side projects）；直到 2026 年初 [[anthropic|Anthropic]] 推出 Mythos 与 Fable 让外界感觉 Claude 即将反超并赢下比赛，OpenAI 才紧急关停大量支线，重新把全部火力集中回前沿大模型的极限竞速。
+
+## 嘉宾视角：GPT-6 Astra 跨界冲击、万级子 Agent 烧钱解数学题与原始数据采购（硅谷101 E256，2026-10-20）
+
+在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中，主持人泓君与 [[huazhe-xu|许华哲]]、[[zheqing-zhu|朱哲清]]、[[sheng-wang|王晟]] 复盘了 OpenAI 发布 **[[gpt-6-astra|GPT-6 Astra]]**（总裁 Greg Brockman 宣称“AGI 已经到来”）后的产业震荡：
+
+- **“机器人的 GPT 时刻居然是 GPT 自己”**：Astra 发布报告中未提机器人，却直接空降 **RoboDojo** 等机器人仿真评测榜首，使大批传统 Benchmark 失效；但 [[zheqing-zhu|朱哲清]] 指出其在纯 Coding 上仅属渐进升级，定价却高达输入 **$10/M**、输出 **$50/M**（约为 GPT-6 Sol 的 4–5 倍）。
+- **单道数学题消耗 2200 万美元 Token**：泓君引述第三方测算指出，当前真正消耗前沿 Lab 算力的不是 C 端消费级 Agent，而是 AI for Science 与未解数学题——OpenAI 内部调用约 **1 万个子 Agent** 攻克**纳维-斯托克斯（Navier-Stokes）方程**，共发送约 270 万条消息、消耗约 **1300 亿输出 Token**，按零售价折算高达 **2200 万美元**。
+- **具身数据只买“生肉”与快系统布局**：[[huazhe-xu|许华哲]] 透露传言称，OpenAI 目前在机器人领域只采购未标注的原始数据（嫌外部标错且防自家标注品味泄密）回内部重标；同时传闻 OpenAI 即将发布类似 Jev 但支持图像多模态输入的“系统1”快决策模型。
+
 ## 相关页面
 
 - [[sam-altman]]
@@ -65,3 +81,5 @@ related: ["[[sam-altman]]", "[[intelligence-as-utility]]", "[[scaling-laws]]", "
 ## References
 
 - [[cs153-sam-altman-scale]] — Stanford CS153「Scale, AGI, and the Future of Everything」
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

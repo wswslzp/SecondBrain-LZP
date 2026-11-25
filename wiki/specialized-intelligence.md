@@ -2,8 +2,8 @@
 title: "专门化智能（Specialized Intelligence）"
 tags: [ai-agents, continual-learning, world-model, concept, reliability]
 date_created: 2026-10-25
-date_modified: 2026-10-25
-related: ["[[yu-su]]", "[[neocognition]]", "[[language-agent]]", "[[agi-roadmap-ladder]]", "[[ai-agent-memory]]"]
+date_modified: 2026-10-29
+related: ["[[yu-su]]", "[[neocognition]]", "[[language-agent]]", "[[agi-roadmap-ladder]]", "[[ai-agent-memory]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # 专门化智能（Specialized Intelligence）
@@ -33,7 +33,16 @@ related: ["[[yu-su]]", "[[neocognition]]", "[[language-agent]]", "[[agi-roadmap-
 
 [[agi-roadmap-ladder|梁文锋]] 把持续学习定义为“像员工一样花两个月熟悉环境”。苏煜把这段学习的内容明确写成小世界的世界模型，并把结果定义成可靠性、速度和成本。两边互补，不是同一套术语。
 
+## 嘉宾视角：大模型“场景过拟合”、30B 广度模型与 45 分钟常数陷阱（硅谷101 E256，2026-10-20）
+
+在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中，三位嘉宾从强化学习、机器人与生物医药三个维度，为本页苏煜“通用智能变标配后，可靠性、速度与成本来自学会小世界模型”的论点提供了具体机制注脚：
+
+- **过拟合（Overfitting）≠ 在线快速学习**（[[zheqing-zhu|朱哲清]]）：当前万亿级前沿模型本质上是死记硬背（Memorize）并在固定 Benchmark 与落地场景上做了大量 **Overfitting**，远未做到用一个欠拟合（Underfit）底座在真实交互中“1 个月学成基础医生、3 个月学成大学教授”。Pokee.ai 因此押注 **30B 级本地/私有小模型**，用端侧专门化模型承接个人与企业 60%–70% 的日常“广度”任务，兼顾速度与成本。
+- **机器人的“45 分钟常数陷阱”**（[[huazhe-xu|许华哲]]）：用通用大模型 [[gpt-6-astra|GPT-6 Astra]] 控制机器人做同一任务，第 1 次花 1 小时，第 2 次花 45 分钟，但**从第 3 次起永远卡在 45 分钟常数**——它无法像人类或专用具身小模型那样，在反复练习后将慢思考内化为几秒钟完成的熟练动作。
+- **实验室资源的“番茄炒蛋 vs. 海鲜大餐”**（[[sheng-wang|王晟]]）：Astra 不了解特定生物实验室的具体仪器与试剂库存（“厨房只有番茄鸡蛋土豆，它却让你做海鲜大餐”），导致具体湿实验方案设计完成度仅约 **30%**（详见 [[wet-lab-verification-loop]]）。
+
 ## References
 
 - [[yu-su-xiaojun-agent-history]]
 - [[yu-su-xiaojun-chinese-article]]
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

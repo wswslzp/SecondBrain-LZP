@@ -2,8 +2,8 @@
 title: "AI Capex Beneficiaries（AI 资本开支的错价受益者）"
 tags: [investing, ai-capex, thematic, semiconductors, enterprise-software, cybersecurity]
 date_created: 2026-07-21
-date_modified: 2026-07-21
-related: ["[[citrini-research]]", "[[qualcomm]]", "[[memory-wall]]", "[[usage-based-pricing]]", "[[project-glasswing]]", "[[sovereign-ai]]", "[[meta-ai-ad-flywheel]]", "[[token-economics]]"]
+date_modified: 2026-10-27
+related: ["[[citrini-research]]", "[[qualcomm]]", "[[memory-wall]]", "[[usage-based-pricing]]", "[[project-glasswing]]", "[[sovereign-ai]]", "[[meta-ai-ad-flywheel]]", "[[token-economics]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # AI Capex Beneficiaries
@@ -34,5 +34,10 @@ related: ["[[citrini-research]]", "[[qualcomm]]", "[[memory-wall]]", "[[usage-ba
 - 是把 vault 里散落的 AI 主题（[[memory-wall|内存墙]]、[[sovereign-ai|主权 AI]]、[[token-economics|token 经济学]]、[[meta-ray-ban-glasses|Meta 眼镜]]）用**一条资本流向叙事**统起来的顶层索引。
 - 与 [[intelligence-as-utility]]（Altman）、[[frontier-ecosystem]]（Nadella）的宏观论对照：这里给出**落到个股的定价含义**。
 
+## 嘉宾视角：资金链的下一站可能是制造（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学，硅谷101 Alignment 2026）对受益链的拆解与"unwind ≠ 见顶"框架互补："你们的钱最终都流向 NVIDIA，NVIDIA 最终又得付给 TSMC——归根结底，制造芯片才是最花钱的环节。" 若 yield intelligence / lab-to-fab（他已据此创业）能改写良率经济学，受益格局可能从"设计端抽成"向"制造端智能化"漂移；他同时押注二维半导体材料代际（[[2d-semiconductor]]）——两条线都是资本流向的潜在扰动项。口述观点，未独立核实。
+
 ## References
 - [[citrini-all-along-the-ai-watchtower]]
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

@@ -1,6 +1,6 @@
 ---
 title: "Wiki Index"
-date_modified: 2026-10-25
+date_modified: 2026-11-23
 ---
 
 # Index
@@ -8,6 +8,15 @@ date_modified: 2026-10-25
 A catalog of all pages in this wiki, organized by category.
 
 ## Entities
+- [[liang-qiwei]] — 梁其伟（Soulframe Liang），灵游坊（S-GAME）创始人兼 CEO、《雨血》与《影之刃零》制作人；提出“武侠朋克”本我闭环、99% 内因定律、强者朴实论与“练武本身即是终极目的”
+- [[s-game-phantom-blade-zero]] — 灵游坊（S-GAME）与《影之刃零》：从华清嘉园 100 万天使单机、十年手游原始积累与 2021 年“赎身”，到腾讯 4 亿+投资、总成本 4–5 亿元的 3A 动作大作全球自发行
+- [[huazhe-xu]] — 许华哲（Harry Xu），清华大学交叉信息研究院助理教授、破壳机器人创始人；拆解 GPT-6 Astra 机器人表现、控制层下压、数据“熟肉”溢价与 2028 年初通用机器人进家庭预测
+- [[zheqing-zhu]] — 朱哲清（Bill Zhu），Pokee.ai 创始人兼 CEO、前 Meta AI 应用强化学习负责人；主攻 30B 端侧私有小模型，剖析云端 Browser Use 封禁与 1:1 身份锚定
+- [[sheng-wang]] — 王晟（Sheng Wang），华盛顿大学计算机学院助理教授、Apodex 首席科学家；提出生物医药从 Computer Use 走向 Human Use（湿实验调度）与无上限 Benchmark
+- [[gpt-6-astra]] — OpenAI 2026-09 旗舰推理模型（$10/$50 per M tokens）：跨界登顶机器人仿真榜单、赋能生物古董软件 Computer Use，但受制于加密长 CoT 延迟与 30% 湿实验设计瓶颈
+- [[vitalik-buterin]] — 以太坊联合创始人；d/acc（防御性、去中心化、民主化加速主义）提出者，SHIB 数亿美元慈善（CryptoRelief/Balvi、FLI）捐赠者与反思者
+- [[haozhe-wang]] — Haozhe "Harry" Wang，杜克大学 ECE 助理教授，AI for Nanofabrication 实验室；ATOMIC、AI 原生半导体制造、自生成智能提出者
+- [[addy-osmani]] — Anthropic Claude Code 团队成员；系统阐述 90% AI 写代码下的六层审查、收敛机制与“事故即 Eval”
 - [[yu-su]] — 苏煜，OSU NLP / NeoCognition；用记忆与自主复盘 agent 史，把这一代定义为 language agent
 - [[ricky-mao]] — 毛人吉，复旦 / MIT，前投行与 CFO；2023 WSOP 金手链得主，用基线和盲注讲决策
 - [[neocognition]] — 苏煜 2025 年创立的 agent research lab，押专门化与持续学习，不押再做一个通用助手
@@ -121,7 +130,9 @@ A catalog of all pages in this wiki, organized by category.
 - [[cascaded-vs-fused-architectures]] — 架构辩论
 - [[distillation]] — 模型蒸馏（size vs steps）
 - [[open-weights-strategy]] — Open weights 作为商业策略
+- [[atomic-microscopy]] — ATOMIC：LLM agent 控显微镜 + SAM + 无监督聚类，零训练做二维材料表征（99.7%）
 - [[vibe-coding]] — 用英语而非代码构建应用的新范式
+- [[autogenic-intelligence]] — 自生成智能：AI 设计/制造芯片→芯片训练 AI 的双向飞轮，硅基生命新形态与蟹化之问
 - [[scaling-laws]] — Dario 的核心观点：算法不变，data+compute 也能可预测地让 LLM 变强；含 Jensen 的四条 scaling laws
 - [[extreme-co-design]] — NVIDIA 招牌工程范式：跨整条 stack + 超越芯片协同优化，对抗 Amdahl's Law，提前 2–3 年押注硬件
 - [[cuda]] — NVIDIA 护城河根基：「install base 定义架构」，当年不惜市值跌到 $1.5B 把 CUDA 塞进每块 GeForce
@@ -177,6 +188,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[tasks-vs-jobs]] — Dario 区分 tasks 与 jobs：the hump、就业冲击与人往哪去
 
 ### AI Agent 工程与实践
+- [[agentic-code-review]] — Claude Code 团队的六层代码审查体系：Pre-PR 可运行验证、多 Agent 投票找 Bug、3 轮收敛规则、事故即 Eval 与“谁合入谁负责”
 - [[malleable-computer]] — 可塑的计算机：用对话改造操作系统；Linux 的 CLI/配置文件“缺点”在智能体时代成了优势
 - [[build-your-own-agent]] — 手写最小 SWE agent + 对照现代 coding agent 机制；选模型 85 vs 95 分
 - [[headless-agent-pattern]] — 非程序员的通用方法：headless Claude Code + temp folder + JSON 状态回传
@@ -215,6 +227,7 @@ A catalog of all pages in this wiki, organized by category.
 - [[musk-engineering-method]] — 质疑、删除、优化、提速、自动化；成本拆解不是跳过安全验证的依据
 
 ### 半导体与光通信
+- [[2d-semiconductor]] — 二维半导体（MoS₂/石墨烯）：硅 5nm 极限、名义节点拆解、制备与良率瓶颈、AI 三步切入
 - [[control-point-convergence]] — 产业链控制点收敛框架：判断公司在哪一层而非是否在供应链上
 - [[cpo-co-packaged-optics]] — CPO 共封装光学：把光从前面板搬进封装内部，价值链重写
 - [[silicon-photonics]] — 硅光：CMOS 兼容的 12 吋晶圆光子集成平台，多材料协同
@@ -230,6 +243,11 @@ A catalog of all pages in this wiki, organized by category.
 - [[li-xiang-livis-glasses]] — 理想 Livis：录音 + 中文 AI 差异化
 
 ## Topics
+- [[wuxia-punk-and-craft-premium]] — 武侠朋克（Kung Fu Punk）与 AI 时代的古法手工溢价：从“走向他者”到“本我道德闭环”的母题转译、99% 内因定律，以及买断制艺术品的“爱马仕贴牌”定价权
+- [[wet-lab-verification-loop]] — 生物医药干湿实验闭环与 Human Use：30% 湿实验方案瓶颈、小鼠/猕猴代谢周期、单条十万美元动物数据、Adaptyv Bio MCP 湿实验云与无上限 Benchmark
+- [[effective-altruism]] — 有效利他主义（EA）：四阶段演进（蚊帐→长期主义→FTX 危机→AI 安全）、八万小时与 Earn to Give、被忽视性，以及“对抗自然 vs. 人与人博弈”的边界
+- [[rationalism-and-ai-safety]] — 互联网理性主义（LessWrong、Yudkowsky、Scott Alexander）、价值脆弱性、正交性论题、Neuralese 风险与政治分权制衡式的 AI 安全观
+- [[d-acc]] — Vitalik 提出的防御性/去中心化/民主化加速主义：瑞士群山 vs. 东欧平原类比、开源生物防御与分布式网络安全
 - [[language-agent]] — 苏煜的定义：语言是脚手架，撑起理解、弹性推理和行动；coding agent 不是另一个物种
 - [[baseline-and-exploit]] — 先有均衡基线，再用频率而非外貌找偏移；错一次可以，长期策略要对
 - [[inflation-as-blinds]] — 通胀和时间是被迫下注的成本，但多数人把它估得太大，所以大多数牌应该弃
@@ -242,11 +260,17 @@ A catalog of all pages in this wiki, organized by category.
 - [[dyna-robotics]] — 全栈机器人公司；从折叠任务推进到完整工作流，数字为创始人口述
 
 ## 播客目录
+- [[valley101-podcast-catalog]] — 硅谷101（泓君）YouTube 全部 259 条视频按标题分 10 类；257 条对齐 Fireside 官方 RSS（北京时间），附 6 期仅音频缺集核验
 - [[42zhangjing-podcast-catalog]] — 曲凯 42章经 YouTube 全部 74 集按标题分 9 类；链接为 YouTube，日期为小宇宙 RSS（北京时间）
 - [[xiaojun-podcast-catalog]] — 小珺播客 YouTube 频道视频目录：188 条公开视频按标题分类；15 条链到已核验人工字幕版
 - [[lex-fridman-podcast-catalog]] — Lex Fridman Podcast 全部 500 集按标题分 14 类的目录（YouTube 链接 + 上传日期 + 时长）
 
 ## Sources
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 张小珺 #156《侠》对话《影之刃零》制作人梁其伟：武侠病态美学与武侠朋克、清华挂科破局、十年手游与“梁博基尼”心魔、腾讯 4 亿+投资与全球自发行、AI 时代的古法手工溢价（2026-11-13）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 硅谷101 E256 对话许华哲、朱哲清、王晟：GPT-6 Astra 跨界冲击、个人 Agent 云端 IP 封锁与 30B 端侧破局、机器人快慢系统与 45 分钟常数、AI 制药湿实验闭环与 Human Use（2026-10-20）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 硅谷101 E257 对话 Vitalik Buterin 与 Afra：有效利他主义四阶段、理性主义、SHIB 数亿美元捐赠（CryptoRelief/Balvi vs. FLI）、Anthropic 治理争议与 d/acc（2026-10-29）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片、ATOMIC、AI 造芯与自生成智能（2026-10-27）
+- [[claude-code-team-code-review]] — Addy Osmani：Claude Code 团队如何做代码审查（90% AI 代码、六层检查、50+ 轮死循环收敛、事故即 Eval）（2026-10-26）
 - [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao：绝对理性、基线识人、通胀是人生的大小盲（2024-12-14，本地 ASR）
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜：agent 技术史、OpenClaw Moment、专门化与世界模型（2026-05-01，本地 ASR）
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH：三个智能体时刻、Basecamp 架构教训、开源与 AI PR、16 线程工作流、模型横评、Linux 与可塑计算机（2026-08-26）
@@ -301,6 +325,10 @@ A catalog of all pages in this wiki, organized by category.
 - [[citrini-all-along-the-ai-watchtower]] — Citrini Research「All Along the AI Watchtower」：AI 资本开支再导流的四主题错价受益者（高通 HBC / 构建者工具包 / 安全与主权 / Meta PEMDAS）（2026-07-20）
 
 ## Analyses
+- [[liang-qiwei-phantom-blade-zero-xiaojun-chinese-article]] — 张小珺 #156 梁其伟 6 小时访谈中文长文：武侠的“病态”美学、15 年创业斩妖除魔、99% 内因定律、古法手工溢价与“世界没有敌人，只有你和另一个自己”
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma-chinese-article]] — 硅谷101 E256 许华哲/朱哲清/王晟访谈中文长文：当能力曲线撞上验证周期——Meta Muse 云端封禁与端侧身份锚定、机器人 CoT 下压与熟肉数据暗战、AI 制药 30% 湿实验瓶颈与 Human Use
+- [[silicon-valley-101-vitalik-ea-ai-safety-chinese-article]] — 硅谷101 E257 Vitalik & Afra 访谈中文长文：EA 四次转向、理性主义之猫 vs. EA 战士、SHIB 跨城私钥拼图与十亿美元慈善分野、Anthropic“好人掌权论”祛魅、d/acc 与政治分权制衡式 AI 安全
+- [[harry-wang-beyond-silicon-chips-chinese-article]] — Harry Wang 硅谷101 Keynote 中文长文：硅的极限与名义节点、二维半导体、ATOMIC、AI 科学家、AI 造芯、自生成智能与蟹化之问
 - [[ricky-mao-42zhangjing-chinese-article]] — 42章经 Ricky Mao 中文长文：下一手从零开始、基线与剥削、金手链不改变水平、通胀是人生的大小盲
 - [[yu-su-xiaojun-chinese-article]] — 张小珺 #139 苏煜中文长文：逻辑智能体到 language agent、OpenClaw Moment、专门化、GUI 与责任边界
 - [[dhh-lex-fridman-chinese-article]] — Lex Fridman #501 DHH 访谈中文长文：从手工雕琢代码到用英语编程，智能体时代的程序员身份、组织瓶颈、Linux 与人的尺度

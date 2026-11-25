@@ -2,8 +2,8 @@
 title: "四种运气理论"
 tags: [luck, entrepreneurship, game-theory, self-improvement, naval]
 date_created: 2026-04-11
-date_modified: 2026-04-18
-related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[productize-yourself]]", "[[agency]]", "[[career-as-chapters]]"]
+date_modified: 2026-11-23
+related: ["[[game-theory]]", "[[marc-andreessen]]", "[[naval-ravikant]]", "[[productize-yourself]]", "[[agency]]", "[[career-as-chapters]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 四种运气理论
@@ -80,7 +80,14 @@ Naval 在《How to Get Rich》中进一步指出：第 4 种运气**本质上不
 **与 [[productize-yourself]] 的深度连接**：
 > "Escape competition through authenticity." — 没人能超过你做你自己
 
+## 嘉宾视角：“心性是一切的种子”与才华顺境的慕容复陷阱（梁其伟，2026-11-13）
+
+[[liang-qiwei|梁其伟]]在对比灵游坊与米哈游、游戏科学的发展轨迹时，对“运气与心性的因果关系（Chance IV：性格即命运）”给出了深刻反思：
+- **心相决定外部场域（种子论）**：人们常说米哈游早年是因为找不到发行商才被迫走通自研自发，游戏科学是因为早年手游受挫、核心员工面临流失才背水一战立项《黑神话：悟空》；但梁其伟认为，这些看似“被动”的外部际遇，本质上都是创始人内在心性（强者思维）这颗种子向外吸引和筛选出的必然结果。
+- **“小才华与顺境”反而可能成为阻碍大成的陷阱**：灵游坊早年因为展现出不错的艺术才华，从徐小平、网易到英雄互娱、腾讯，融资与发行一路顺风顺水，从未真正陷入绝境。梁其伟警醒道，这种“到处都能获得小成功、从未死透”的顺境，恰恰容易让人滑向武侠小说里“慕容复、杨康”式的剧本——招式华丽、算计精明，却因缺乏刻骨铭心的绝境蜕变而输给看似木讷憨厚、实则内功深不可测的“郭靖”。见 [[wuxia-punk-and-craft-premium]]。
+
 ## 来源
 - [[luck-and-the-entrepreneur]] — Marc Andreessen / James Austin
 - [[how-to-1000x-your-luck]] — @digiii
 - [[how-to-get-rich]] — Naval Ravikant
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

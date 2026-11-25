@@ -2,8 +2,8 @@
 title: "AGI 路线图：阶梯与持续学习瓶颈"
 tags: [agi, roadmap, continual-learning, agents, embodied-ai, deepseek]
 date_created: 2026-07-23
-date_modified: 2026-10-25
-related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastrophic-forgetting]]", "[[complementary-learning-systems]]", "[[ai-agent-memory]]", "[[tasks-vs-jobs]]", "[[agent-comfort-zone]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
+date_modified: 2026-10-29
+related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastrophic-forgetting]]", "[[complementary-learning-systems]]", "[[ai-agent-memory]]", "[[tasks-vs-jobs]]", "[[agent-comfort-zone]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # AGI 路线图：阶梯与持续学习瓶颈
@@ -51,7 +51,29 @@ related: ["[[liang-wenfeng]]", "[[deepseek]]", "[[scaling-laws]]", "[[catastroph
 - **[[scaling-laws]]**：阶梯是在 scaling「没看到墙」的前提下叠加的新范式（CoT/Agent/持续学习），与 Jensen 的「四条 scaling laws」（含 agentic scaling）可对读。
 - **[[deepseek]]**：DeepSeek「下一代模型必须具备持续学习能力才算下一代」「模型首先服务自己的研发」都是这条路线图的直接推论。
 
+## 嘉宾视角：RSI 缺的一环是硬件自造（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学）在硅谷101 Alignment 2026 上提出 [[autogenic-intelligence|自生成智能]]：RSI/超级智能叙事缺了"让 AI 制造自己的大脑（芯片）"这一环——AI 设计芯片→AI 造芯片→芯片训练 AI，构成模型与硬件互造的飞轮。⚠️ 张力：本页强调的墙是**软件侧**（持续学习），而 Harry 把瓶颈引向**制造侧**（材料、良率）——两个视角对"下一堵墙在哪"给出不同答案，可并列保留。
+
+## 嘉宾视角：RSI 带来的“认知论幼儿园危机”与 Neuralese 转向（Vitalik & Afra，2026-10-29）
+
+在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中，科技记者 Afra 与 [[vitalik-buterin|Vitalik Buterin]] 对阶梯上的 **CoT（思维链）** 与 **自我迭代（RSI）** 给出了来自硅谷安全圈的一线补充：
+
+- **RSI 加速与“没有大人的幼儿园”**（Afra）：在参加完伯克利 The Curve 与 Progress Conference 并访谈十余位 OpenAI、Anthropic 研究员后，多位研究员表示过去一年 AI 的进步速度**超出了他们原本的预期**；随着数据中心大规模建设，低垂的果实仿佛无穷无尽，使她对 RSI（递归自我改进）进化曲线深感忧虑。最大的困境是**认知论危机**——连造出模型的研究员自己也无法用日常语言或数学方法解释清楚模型到底有多强、想干什么，“就像一间满是哇哇大哭小孩的幼儿园里没有一个大人”。
+- **从英文 CoT 到 Neuralese（神经语言）的不可解释风险**（Vitalik）：四年前人们并未预料到 AI 下一阶段会通过思维链（Chain of Thought）突破；目前 CoT 仍用英文思考，人类尚能阅读和审计（尤其在开源模型上）。但下一个巨大不确定性是 **Neuralese（神经语言）**——如果模型不再用自然语言推理，而是直接用数百万个数字在潜空间思考，人类理解其内部意图的能力将大幅下降。详见 [[rationalism-and-ai-safety]]。
+
+## 嘉宾视角：从“场景过拟合”到“一个月学成医生”，以及具身落地的 2028 时间表（硅谷101 E256，2026-10-20）
+
+《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）的三位嘉宾针对本页阶梯中的 **CoT → Agent → 持续学习 → 具身智能** 提供了 2026 年 9 月底的一线进展校准：
+
+- **持续学习的定量化表述**（[[zheqing-zhu|朱哲清]]）：完全呼应梁文锋“员工花两个月熟悉环境”的判据——朱哲清指出，当前号称逼近 AGI 的大模型只是在固定场景上做 **Overfitting（过拟合）**，真正的通用智能应能模拟人类从零学习：**让一个欠拟合的基础模型通过 1 个月的环境交互达到人类基础医生水平，3 个月交互达到某领域教授水平**。目前模型离这种自主迭代学习还差得很远。
+- **CoT 在具身控制上的“45 分钟常数”瓶颈**（[[huazhe-xu|许华哲]]）：[[gpt-6-astra|GPT-6 Astra]] 的加密长 CoT 虽首次打通了低层机器人动作反思，但缺少持续学习向快系统（System 1）的巩固——重复做同一件事，第 3 次以后耗时永远卡在 **45 分钟常数**，无法越练越快。
+- ⚠️ **张力：具身智能是“终点”还是“18 个月内进家庭”？** 梁文锋将具身智能放在持续学习与奇点之后的终点；而许华哲在实测 Astra 的跨本体泛化与自研快系统后给出激进预测：**2028 年初（约 18 个月后）** 通用机器人即可进入家庭，通过语言指令完成 90% 的家务。
+
 ## References
 
 - [[liang-wenfeng-investor-meeting]] — 投资者交流会完整版全文（2026-07-23）
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

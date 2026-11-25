@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "7b861e8880020098",
+            "id": "730efb51dbfeb5ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/xiaojun-podcast-catalog.md",
+                "file": "wiki/42zhangjing-podcast-catalog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xiaojun-podcast-catalog"
+              "title": "42zhangjing-podcast-catalog"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/How to Get Rich.md",
+                "file": "wiki/yu-su-xiaojun-chinese-article.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "How to Get Rich 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -130,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/yu-su-xiaojun-chinese-article.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CLAUDE 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -173,21 +173,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/42zhangjing-podcast-catalog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CLAUDE 的大纲"
+              "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,43 +201,43 @@
       "bases:新建数据库": false
     }
   },
-  "active": "7b861e8880020098",
+  "active": "730efb51dbfeb5ac",
   "lastOpenFiles": [
-    "wiki/lindon-dyna-chinese-article.md",
-    "raw/assets/youtube-iDaxRNIddME-subs-zh-CN.jsonl",
-    "wiki/lindon-gao.md",
-    "sources/lindon-gao-dyna-xiaojun.md",
-    "wiki/robot-workflow-loop.md",
-    "wiki/product-research.md",
-    "wiki/dyna-robotics.md",
-    "wiki/lex-fridman-podcast-catalog.md",
     "wiki/xiaojun-podcast-catalog.md",
-    "wiki/dhh-lex-fridman-chinese-article.md",
-    "wiki/jensen-huang-lex-fridman-chinese-article.md",
-    "wiki/nvidia-gtc-berlin-2026-chinese-article.md",
-    "sources/inside-anthropic-the-circuit.md",
-    "sources/a-reading-list-for-generalists.md",
-    "raw/Nvidia GTC Berlin 2026 Jensen Huang Full Keynote.md",
+    "wiki/liang-qiwei.md",
+    "wiki/liang-qiwei-phantom-blade-zero-xiaojun-chinese-article.md",
+    "wiki/productize-yourself.md",
+    "wiki/wuxia-punk-and-craft-premium.md",
+    "sources/liang-qiwei-phantom-blade-zero-xiaojun.md",
+    "raw/AI撞上美国“新世界”：暴跌、监管、政治博弈，数据中心何去何从？【101视频播客】.md",
+    "raw/Who Is Really Behind the Hunt for Jensen Huang究竟是谁在幕后推动追捕黄仁勋？.md",
+    "wiki/silicon-valley-101-gpt6-astra-agent-robotics-pharma-chinese-article.md",
+    "wiki/valley101-podcast-catalog.md",
+    "wiki/wet-lab-verification-loop.md",
+    "wiki/sheng-wang.md",
+    "wiki/gpt-6-astra.md",
+    "wiki/huazhe-xu.md",
+    "wiki/zheqing-zhu.md",
+    "sources/silicon-valley-101-gpt6-astra-agent-robotics-pharma.md",
+    "raw/assets/youtube-lsANSvYQks0-subs-zh-Hans.jsonl",
+    "wiki/42zhangjing-podcast-catalog.md",
+    "sources/silicon-valley-101-vitalik-ea-ai-safety.md",
+    "wiki/effective-altruism.md",
+    "wiki/rationalism-and-ai-safety.md",
+    "wiki/d-acc.md",
+    "wiki/vitalik-buterin.md",
+    "wiki/silicon-valley-101-vitalik-ea-ai-safety-chinese-article.md",
+    "raw/assets/youtube-XcastAK9pDM-subs-zh-Hans.jsonl",
     "index.md",
-    "sources/smart-glasses-2026-dianwan.md",
-    "sources/spacex-rise-silicon-valley-101.md",
-    "raw/youtube-GCMlpMNK9c0-原始积累的5条建议-给年轻时候的自己.md",
-    "raw/You need to be delusional if you want to succeed如果你想成功，就需要有点妄想.md",
-    "sources/liang-wenfeng-investor-meeting.md",
-    "wiki/restraint-as-strategy.md",
+    "wiki/yu-su-xiaojun-chinese-article.md",
+    "wiki/ricky-mao-42zhangjing-chinese-article.md",
+    "raw/assets/youtube-7I0Ty53hD0g-asr-segments.jsonl",
+    "raw/assets/youtube-Xxz5uh0L1mE-asr-segments.jsonl",
+    "raw/assets/youtube-iDaxRNIddME-subs-zh-CN.jsonl",
     "index.md.tmp.94092.c95969ee3f37",
     "wiki/tasks-vs-jobs.md.tmp.94092.cc79fe9a84f0",
-    "wiki/china-us-compute-gap.md",
-    "wiki/agi-roadmap-ladder.md",
     "wiki/agi-roadmap-ladder.md.tmp.94092.c1bd6e69d7aa",
-    "wiki/deepseek.md",
-    "wiki/liang-wenfeng.md",
     "wiki/liang-wenfeng.md.tmp.94092.30db04318e0d",
-    "raw/梁文锋投资者交流会（完整版全文）.md",
-    "wiki/satya-nadella.md.tmp.21584.1e7369386151",
-    "wiki/satya-nadella.md.tmp.21584.186ea1bce1be",
-    "wiki/sovereign-ai.md.tmp.21584.9de595e91f34",
-    "wiki/sovereign-ai.md.tmp.21584.e96e0c4d61f2",
-    "wiki/meta-ai-ad-flywheel.md.tmp.21584.329905bbe465"
+    "wiki/satya-nadella.md.tmp.21584.1e7369386151"
   ]
 }

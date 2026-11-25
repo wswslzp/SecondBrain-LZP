@@ -2,8 +2,8 @@
 title: "Token 工厂经济学（AI 作为营收引擎）"
 tags: [nvidia, ai, economics, tokens, ai-factory, revenue, concept]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[ai-factory]]", "[[tasks-vs-jobs]]", "[[value-per-gigawatt]]", "[[amin-vahdat]]", "[[intelligence-as-utility]]", "[[sam-altman]]"]
+date_modified: 2026-10-29
+related: ["[[nvidia]]", "[[compute-infrastructure]]", "[[ai-factory]]", "[[tasks-vs-jobs]]", "[[value-per-gigawatt]]", "[[amin-vahdat]]", "[[intelligence-as-utility]]", "[[sam-altman]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # Token 工厂经济学（AI 作为营收引擎）
@@ -84,6 +84,13 @@ Token 工厂经济学的另一面是「谁来消费这些 token、谁的工作�
 
 [[amin-vahdat]]（[[value-per-gigawatt]]）把度量进一步收紧到 **value per dollar**（而非 FLOPs 或 gigawatts）——这与本页的 **MFU 批判**、以及 **system balance**（按 peak 过量供给、别让瓶颈资源空转）直接同源：闲置的产能「is a bug」。需求侧则由 [[sam-altman]] 的 **tokens-as-utility** 框架补齐——消费者直接以 **token** 计量思考、底层硬件被彻底抽象掉，智能像水电一样按量取用（见 [[intelligence-as-utility]]）。两者一供一需，都指向「token/价值」而非「flops」才是正确的经济单位。
 
+## 硅谷101 E256 补充：1300 亿 Token 解一道数学题 vs. C 端 Agent 的获客烧钱账（2026-10-20）
+
+《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）披露了一组 2026 年秋关于“高价前沿 Token 究竟烧在哪里”的一线数字（主持人口述与 [[zheqing-zhu|朱哲清]] 测算，未独立核实）：
+
+- **真正最烧 Token 的是 AI for Science**：[[openai|OpenAI]] 为攻克数学难题**纳维-斯托克斯（Navier-Stokes）方程**，内部调用约 **1 万个子 Agent**，发送约 **270 万条消息**，消耗约 **1300 亿输出 Token**——第三方按零售价折算，仅这一个问题就烧掉了约 **2200 万美元**（直接印证本页 Jensen 所说的“有人愿付高价购买高智能专门用途 Token”与 agentic scaling law）。
+- **GPT-6 Astra 定价与 C 端补贴倒挂**：[[gpt-6-astra|GPT-6 Astra]] 定价为输入 **$10 / 百万 Token**、输出 **$50 / 百万 Token**（约为 GPT-6 Sol 的 4–5 倍），跑 2–3 轮复杂 Agent 交互即可耗尽 100 美元额度。消费级应用 **Meta Muse** 为获客给每人每周免费提供 **1 亿 Token**（成本约 **100 美元/周**），若将 10% 流量路由至 Astra 或 Fable，单用户月成本将高达 200 美元。朱哲清据此主张：日常 60%–70% 的“广度 Token”必须在本地 30B 私有小模型上产生，只有最难的“高度 Token”才路由上云。
+
 ## 相关页面
 
 - [[nvidia]]
@@ -96,3 +103,4 @@ Token 工厂经济学的另一面是「谁来消费这些 token、谁的工作�
 ## References
 
 - [[jensen-huang-lex-fridman]] — Lex Fridman Podcast #494（2026-03-24）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

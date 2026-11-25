@@ -2,8 +2,8 @@
 title: "强通才 Generalist"
 tags: [generalist, ai-safety, strategy, career, self-improvement]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[dylan-bowman]]", "[[a-reading-list-for-generalists]]", "[[agency]]", "[[judgment]]", "[[career-as-chapters]]"]
+date_modified: 2026-10-29
+related: ["[[dylan-bowman]]", "[[a-reading-list-for-generalists]]", "[[agency]]", "[[judgment]]", "[[career-as-chapters]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # 强通才 Generalist
@@ -45,7 +45,15 @@ related: ["[[dylan-bowman]]", "[[a-reading-list-for-generalists]]", "[[agency]]"
 
 被清单最常引用的作者：**Paul Graham（5）**、**Ben Kuhn（4）**；Ethan Perez（2）、Greg Brockman（2）次之。
 
+## 背景补注：Holden Karnofsky、LessWrong 与 AI 安全机构的人才虹吸（硅谷101，2026-10-29）
+
+《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）为本页提到的 AI safety 社区生态提供了宏观资金与组织背景：
+
+- 本清单推荐的 **Holden Karnofsky**（《Learning by Writing》作者、[[daniela-amodei|Daniela Amodei]] 之夫）正是 [[effective-altruism|有效利他主义（EA）]] 两大核心机构 **GiveWell** 与 **Open Philanthropy（现 Coefficient Giving，自 2014 年以来累计拨款超 70 亿美元）** 的联合创始人；清单发表平台 **LessWrong** 则是 Eliezer Yudkowsky 奠基的 [[rationalism-and-ai-safety|互联网理性主义]] 核心阵地。
+- **为什么 AI safety 社区会有大量项目等待通才 own？** 科技记者 Afra 指出，由于 EA 资金网络（Coefficient Giving、SFF 等）向 AI 对齐与安全领域注入了极其丰厚的 Fellowship、科研资助（Grant）与高自由度岗位（只给钱、几乎不管具体研究方向），形成了对斯坦福、牛津等名校年轻博士的强烈虹吸（甚至导致华盛顿传统智库招不到合格的 AI 政策分析员）。至于清单强调的“变得更具策略性（strategic）”，[[vitalik-buterin|Vitalik Buterin]] 则给出了另一重提醒：当 EA 社群在公共传播与政治游说中过度追求策略化（Be strategic）时，反而容易让人感到像政客一样不够真诚，甚至在“人与人博弈（Man vs. Man）”中引发公众逆反。
+
 ## References
 
 - [[a-reading-list-for-generalists]] — Dylan Bowman
 - [[how-to-be-more-agentic]] — Cate Hall（清单 Dispositional 类别收录）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

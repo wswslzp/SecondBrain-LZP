@@ -2,8 +2,8 @@
 title: "Daniela Amodei"
 tags: [anthropic, ai, people, operator]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[anthropic]]", "[[dario-amodei]]", "[[generalist]]"]
+date_modified: 2026-10-29
+related: ["[[anthropic]]", "[[dario-amodei]]", "[[generalist]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # Daniela Amodei
@@ -29,6 +29,10 @@ Daniela 的丈夫 **Holden Karnofsky** 著有《Learning by Writing》，恰好�
 
 > "All of this technical safety research that we do, it's to make the products more aligned with human values, to make sure that we're not building something that could cause societal issues that previous technology companies have accidentally caused."
 
+## 嘉宾视角：连接 Anthropic 与 EA 核心资助网的纽带（硅谷101，2026-10-29）
+
+《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）在梳理 [[anthropic|Anthropic]] 与 [[effective-altruism|有效利他主义（EA）]] 的紧密联系时专门提到：Daniela Amodei 的丈夫 **Holden Karnofsky** 正是 EA 核心慈善评估机构 **GiveWell** 与资助巨头 **Open Philanthropy（现 Coefficient Giving）** 的联合创始人。这一家庭与思想纽带，连同 Dustin Moskovitz（Coefficient Giving 主要出资人，同时也是 Anthropic 早期重要股东与 METR 等第三方安全评估机构的资助方），使 Anthropic 在硅谷常被视为“EA 浓度最高”的前沿实验室。
+
 ## 相关页面
 
 - [[anthropic]]
@@ -38,3 +42,4 @@ Daniela 的丈夫 **Holden Karnofsky** 著有《Learning by Writing》，恰好�
 ## References
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（2026-06-10）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

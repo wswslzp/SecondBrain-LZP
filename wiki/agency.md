@@ -2,8 +2,8 @@
 title: "能动性 Agency"
 tags: [agency, self-improvement, psychology, career, luck]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
+date_modified: 2026-11-23
+related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[productize-yourself]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 能动性 Agency
@@ -70,6 +70,20 @@ related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[produc
 
 [[ricky-mao|Ricky Mao]] 的版本和「尽管去做」不完全同向。锦标赛有时走不了，但他仍把继续打的潜在损失和提前离场的形象损失放在一起比较，两边取害较轻的一边。换跑道在他那里也很小：某天出门向右转，就是改变。这支持能动性包含停止和转向，不支持用热情覆盖资金波动。见 [[ricky-mao-42zhangjing]]。
 
+## EA 群体的高能动性与“跨期自我契约”的陷阱（Vitalik & Afra，2026-10-29）
+
+科技记者 Afra 在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中指出，[[effective-altruism|有效利他主义（EA）]] 社群最吸引人、也最契合硅谷创始人文化（Founders culture）的特质，正是极强的 **agency（能动性）**：他们总是先在心里画出一幅宏大的未来图景（“如何用人生八万小时给世界带来最大改变”），再倒推今天的自己该如何去搞钱、建机构、做影响力（impact-maxing）。
+
+⚠️ **张力：能动性推向极致时的道德错位与自我背叛**：[[vitalik-buterin|Vitalik Buterin]] 与 Afra 同时提醒了这种“宏大目标驱动的能动性”的两重暗面：
+1. **Earn to Give 的借口**：当一个人以“未来捐钱拯救全人类”作为终极目标时，极易为眼前的投机、高杠杆乃至欺诈（如 SBF/FTX）找到合理化借口；
+2. **“你未来的自己永远会背叛你现在的自己”**（Vitalik）：年轻时凭满腔能动性与“十年、二十年后更富有的自己”签订契约，但当财富、圈子与权力改变后，未来的自己往往不再坚守当年的初心。此外，在“人与人博弈（Man vs. Man）”的政治游说中，过度讲究策略（4D Chess）的 `impact-maxing` 反而比不上 [[rationalism-and-ai-safety|理性主义者]] 由好奇心驱动、“像猫一样忠于自我”的真诚。
+
+## 嘉宾视角：做题家轨道的“拔电源”与生命倒计时下的极致能动性（梁其伟，2026-11-13）
+
+[[s-game-phantom-blade-zero|灵游坊]]创始人[[liang-qiwei|梁其伟]]在《张小珺商业访谈录》6 小时访谈中，从自身破局经历与武侠角色塑造两个维度补充了对能动性（Agency）的诠释：
+- **外部系统 Bug 触发的轨道跃迁**：梁其伟自称早年是典型的“小镇做题家”，按既定脚本本应在清华建筑系保研（4+2）后读博留校或进大设计院；但大三沉迷独立开发《雨血1：死镇》导致大四《工程经济学分析》挂科，年级前五已到手的保研资格被取消。这一“拔电源式”的系统 Bug 迫使他跳出单一做题的新手村，并在耶鲁毕业手握顶级建筑事务所 KPF 纽约 Offer 时，主动选择回国租住华清嘉园创业做游戏。
+- **向死而生的本我能动性 vs. 宏大救世妄念**：在《影之刃零》中，男主“魂”身中剧毒仅剩 66 天寿命且心脏重伤，却未万念俱灰，反而爆发出比过往纯粹当组织工具人时更强的求生欲与主观能动性。梁其伟指出，真正可信的英雄能动性并非源于“拯救苍生”的圣母式口号，而是源于个体在极端险境下为了自救与内心道德闭环而踏出的一步——当一个人真诚地拼尽全力救自己、让自我变好时，客观上反而拯救了世界；而另一男主“左殇”怀揣宏大的救世执念，最终却因将人异化为工具而毁灭了世界。见 [[wuxia-punk-and-craft-premium]]。
+
 ## References
 
 - [[how-to-be-more-agentic]] — Cate Hall
@@ -78,3 +92,5 @@ related: ["[[cate-hall]]", "[[generalist]]", "[[four-kinds-of-luck]]", "[[produc
 - [[spacex-rise-silicon-valley-101]] — 使命、资源与工程反馈的企业案例
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
 - [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

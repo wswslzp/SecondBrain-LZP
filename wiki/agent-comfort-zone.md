@@ -2,8 +2,8 @@
 title: "AI Agent 的舒适区：封闭可验证环境"
 tags: [ai-agents, go-driven, simulation, eda, matlab, lean4, cad, capability-boundary]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]"]
+date_modified: 2026-10-29
+related: ["[[lidang]]", "[[build-your-own-agent]]", "[[ai-quant-system]]", "[[three-gate-evaluator]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[ricky-mao]]", "[[ricky-mao-42zhangjing]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # AI Agent 的舒适区：封闭可验证环境
@@ -102,6 +102,17 @@ agent 只是在**两个前提**满足时把"人可解的过程"自动化：
 
 [[ricky-mao|Ricky Mao]] 说德州是收敛游戏，所以有相对标准答案，顶尖牌风才会越来越像机器人。这和游戏 agent 的舒适区同构：规则封闭、反馈快、最优解可以被学完。他同时认为现实世界更开放，不能默认每件生活决策都有 GTO。AI 可能杀死两张牌的德州，不一定杀死扑克。封闭环境里的强，不自动兑换成开放世界里的强。
 
+## 嘉宾视角：2200 万美元攻克数学方程 vs. 湿实验与真实物理的“验证墙”（硅谷101 E256，2026-10-20）
+
+《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）用数学、干实验代码、机器人与新药研发四个领域的对比，为本页的“可验证舒适区边界”提供了最鲜明的产业实证：
+
+- **舒适区内的算力奇迹**：数学与生物干实验编程（Dry Lab）具备本地/计算机内可验证性——[[openai|OpenAI]] 动用约 1 万个子 Agent、消耗约 1300 亿输出 Token（折合零售价约 **2200 万美元**）攻克纳维-斯托克斯方程；[[gpt-6-astra|GPT-6 Astra]] 在 **Terminal-Bench Science** 的生物干实验代码题上也已超越华盛顿大学助理教授 [[sheng-wang|王晟]] 本人。
+- **走出舒适区的三堵墙**：
+  1. **生物医药的“无答案悖论”与动物代谢周期**（[[sheng-wang|王晟]]）：真正的新药发现没有写好答案的测试集，必须进入**湿实验（Wet Lab）**；即便 AI 把分子设计从半年压到几小时，仍要等待小鼠（数周）与猕猴（4–8 个月）的新陈代谢周期，且 Astra 设计具体湿实验方案的完成度仅约 **30%**（详见 [[wet-lab-verification-loop]]）。
+  2. **机器人仿真的物理失真**（[[huazhe-xu|许华哲]]）：Astra 虽能凭几张图快速完成 Real-to-Sim 的 3D 视觉渲染，但并未提高物理引擎精度，仍无法直接训出最优实机控制策略。
+  3. **开放商业互联网的反爬与封禁**（[[zheqing-zhu|朱哲清]]）：消费级 Browser Use 走出本地沙箱后，Meta Muse 的云端虚拟机立刻被 Amazon 封禁商用 IP。
+- **泓君的总结**：“模型层的进展和一个行业真正的改变之间，隔着的不仅仅只是智能，还有验证……AI 圈子看到的是能力曲线，行业里的人看到的是落地周期。”
+
 ## References
 
 - [[lidang-ai-agent-tutorial]] —— 立党AI学习研究完整教程（第一期）
@@ -110,3 +121,4 @@ agent 只是在**两个前提**满足时把"人可解的过程"自动化：
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
 - [[ricky-mao-42zhangjing]] — 42章经对谈 Ricky Mao（2024-12-14，本地 ASR，未校对）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

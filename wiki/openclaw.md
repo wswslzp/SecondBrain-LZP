@@ -2,8 +2,8 @@
 title: "OpenClaw"
 tags: [ai-agents, openclaw, personal-ai, open-source, agentic-engineering, china]
 date_created: 2026-07-21
-date_modified: 2026-10-25
-related: ["[[openclaw-foundation]]", "[[vincent-koc]]", "[[gateway-architecture]]", "[[hermes-agent]]", "[[claude-code]]", "[[microsoft]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]"]
+date_modified: 2026-10-29
+related: ["[[openclaw-foundation]]", "[[vincent-koc]]", "[[gateway-architecture]]", "[[hermes-agent]]", "[[claude-code]]", "[[microsoft]]", "[[agentic-engineering-primitives]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[yu-su]]", "[[yu-su-xiaojun-agent-history]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # OpenClaw
@@ -80,8 +80,16 @@ Vincent 称其为 **postclaw era**：OpenClaw 引爆了下一代 agentic framewo
 
 中美热度他和 Vincent 的观察同向、侧重点不同：美国热在开发者圈，中国已经出圈，甚至被讲成个人翻身工具。他立刻补了一句：从爆火到社会影响，中间还缺「好用、容易用」。多数人现在找不到价值。
 
+## 竞品对照：Meta Muse 的云端虚拟机烧钱战与身份困局（朱哲清，2026-10-20）
+
+在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中，[[zheqing-zhu|朱哲清]] 对比了 2026 年 9 月冲上美国 App Store 榜首的 **Meta Muse** 与估值达 100 亿美元的 **Instinct**，为本页“为什么个人 Agent 需要运行在用户本地环境和自有设备上”提供了反面印证：
+
+- **云端虚拟机的双重烧钱黑洞**：Meta Muse 给每位用户分配一台云端虚拟电脑，并每周赠送 **1 亿免费 Token**（按输入成本折算约合 **100 美元/周/人**）；此外云端沙箱的 CPU 与内存租金极贵（Pokee.ai 在 RL rollout 中发现云虚拟沙箱的 CPU 价格一度堪比 GPU）。若再将 10% 流量路由至 [[gpt-6-astra|GPT-6 Astra]]（$10/$50 per M tokens），单用户月均成本将飙至 200 美元。
+- **外部服务准入卡在 Identity（身份确认）**：回应本页 Vincent Koc 提到的“外部服务是否允许 Agent 交易”，朱哲清指出 **Amazon 已经屏蔽了 Meta Muse 的云端 IP**——因为云端虚拟机无法证明“1 个 Agent 对应 1 个真实人类买家”。唯有走向软硬件结合（如 Meta 可穿戴设备或本地 AI PC/Mac mini），把 Agent 跑在用户端侧硬件上，才能打通商家的信任准入。
+
 ## References
 
 - [[silicon-valley-101-vincent-koc-openclaw]] — 硅谷101 对话 Vincent Koc（WAIC 2026）
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
 - [[yu-su-xiaojun-agent-history]] — 张小珺 #139 苏煜（2026-05-01，本地 ASR，未校对）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

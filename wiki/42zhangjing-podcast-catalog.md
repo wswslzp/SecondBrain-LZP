@@ -2,8 +2,8 @@
 title: "42章经｜YouTube 播客目录（标题分类）"
 tags: [podcast, youtube, catalog]
 date_created: 2026-10-25
-date_modified: 2026-10-25
-related: ["[[xiaojun-podcast-catalog]]", "[[lex-fridman-podcast-catalog]]", "[[ricky-mao-42zhangjing]]"]
+date_modified: 2026-10-29
+related: ["[[xiaojun-podcast-catalog]]", "[[lex-fridman-podcast-catalog]]", "[[valley101-podcast-catalog]]", "[[ricky-mao-42zhangjing]]"]
 ---
 
 # 42章经｜YouTube 播客目录

@@ -2,8 +2,8 @@
 title: "Scaling Laws"
 tags: [ai, scaling-laws, compute, llm, concept]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]", "[[sam-altman]]", "[[satya-nadella]]", "[[intelligence-as-utility]]", "[[liang-wenfeng]]", "[[agi-roadmap-ladder]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+date_modified: 2026-10-27
+related: ["[[compute-infrastructure]]", "[[frontier-systems]]", "[[ai-factory]]", "[[dario-amodei]]", "[[jensen-huang]]", "[[nvidia]]", "[[sam-altman]]", "[[satya-nadella]]", "[[intelligence-as-utility]]", "[[liang-wenfeng]]", "[[agi-roadmap-ladder]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[haozhe-wang]]", "[[harry-wang-beyond-silicon-chips]]"]
 ---
 
 # Scaling Laws
@@ -64,6 +64,10 @@ scaling laws 把「更多 compute」直接转化为「更强模型」，因此�
 
 [[lindon-gao-dyna-xiaojun]] 给出机器人领域的一个口述案例：DYNA 在约 100 万小时第一人称数据上观察到规模效应，并认为应先扩大多样经验，再做质量筛选。该数字未经独立核实，也不能直接等同于语言模型的 scaling law。
 
+## 嘉宾视角：芯片侧的 scaling law 与它的墙（2026-10-27）
+
+[[haozhe-wang|Harry Wang]]（杜克大学，硅谷101 Alignment 2026）提醒：scaling law 在半导体领域早已存在——"单块芯片集成更多晶体管，就更强大"（Blackwell 300：2000 亿晶体管）。但硅材料在 5nm 以下有物理极限，行业的回应是**堆叠**（纳米片三层 ≈ "2nm 名义节点"）而非真正的材料缩小；他把下一代赌注放在二维半导体 + AI 原生制造上（[[2d-semiconductor]]）。算力侧的规模定律与器件侧的物理墙在此交汇。
+
 ## 相关页面
 
 - [[compute-infrastructure]]
@@ -76,3 +80,4 @@ scaling laws 把「更多 compute」直接转化为「更强模型」，因此�
 
 - [[inside-anthropic-the-circuit]] — Bloomberg「The Circuit」深访（2026-06-10）
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[harry-wang-beyond-silicon-chips]] — 硅谷101 Alignment 2026 Keynote：Harry Wang 谈超越硅的下一代芯片与自生成智能（2026-10-27）

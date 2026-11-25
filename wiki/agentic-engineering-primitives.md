@@ -2,8 +2,8 @@
 title: "Agentic 工程原语"
 tags: [ai-agents, coding-agents, skills, evals, memory, claude-code]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[ai-native-company]]", "[[garry-tan]]", "[[claude-code]]", "[[hermes-agent]]", "[[llm-wiki-pattern]]", "[[company-brain]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+date_modified: 2026-10-27
+related: ["[[ai-native-company]]", "[[garry-tan]]", "[[claude-code]]", "[[hermes-agent]]", "[[llm-wiki-pattern]]", "[[company-brain]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Agentic 工程原语
@@ -94,9 +94,19 @@ GBrain 里有 ~40 个可试的 skill。参见 [[company-brain]]、[[ai-agent-mem
 - **Brains and hands**：协调者运行模型，代码只在隔离的虚拟机里执行，从 PR、issue 拉下来的不可信代码不会污染模型（Omabot 的设计，来自 Tobi 的建议）。
 - **Skills 让系统可扩展**：[[omarchy]] 附带 skills，教任何智能体如何为操作系统写插件，三天内出现 330 个插件，见 [[malleable-computer]]。
 
+## Anthropic 官方实践：`CLAUDE.md`、`REVIEW.md` 与线上事故即 Eval
+
+[[addy-osmani|Addy Osmani]] 在《[[claude-code-team-code-review|How the Claude Code team does code review]]》中公开了 Claude Code 团队自己使用的工程原语，与本页 Garry Tan / OpenClaw 的“工厂”原语高度同构（详见 [[agentic-code-review]]）：
+
+- **保持 `CLAUDE.md` 简短 + 引用外部文档**：因为每次审查都会拉入 `CLAUDE.md`，大型仓库必须保持其简短，只放核心约定、非目标和自检清单，其余文档靠引用加载（与上文 **Resolver** 理念一致）。
+- **`REVIEW.md` 作为审查契约**：由 Code Owners 专门写给 AI 审查员的准则（定义项目级失败、限制吹毛求疵、定义忽略路径、要求精确文件名+行号引用、要求顶层总结计数），并单独验证审查员是否遵守。
+- **Pre-PR 内部 Skills 与 Proofs**：提 PR 前跑 bug hunting、diff reduction、端到端验证和 UI 设计规范比对，要求 Agent 交出可运行证据（测试/构建/截图），再用全新上下文 subagent 审 diff。
+- **线上事故集 = 每日 Eval**：把历史引发事故的 PR、向前修复与回滚做成基准集，每天对审查系统跑分；每当审查漏掉问题，就追问“当时模型上下文缺了什么”，将其转化为一条新的 `CLAUDE.md` 规则、一个 Skill 或一项自动化检查。
+
 ## References
 
 - [[cs153-garry-tan-diana-hu-ai-native]] — 讲座源页
 - [[ai-native-company]] — 配套的 org 层论点
 - [[llm-wiki-pattern]] · [[andrej-karpathy]] — GBrain 的直接祖先（也是本 vault 的模式）
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）

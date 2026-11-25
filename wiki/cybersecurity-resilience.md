@@ -2,8 +2,8 @@
 title: "Cybersecurity Resilience（网络安全韧性）"
 tags: [cybersecurity, resilience, transparency, ai-security, crisis-management]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[joe-sullivan]]", "[[cs153-joe-sullivan-resilience]]", "[[anthropic]]", "[[vibe-coding]]", "[[agent-comfort-zone]]", "[[frontier-systems]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+date_modified: 2026-10-29
+related: ["[[joe-sullivan]]", "[[cs153-joe-sullivan-resilience]]", "[[anthropic]]", "[[vibe-coding]]", "[[agent-comfort-zone]]", "[[frontier-systems]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]"]
 ---
 
 # Cybersecurity Resilience
@@ -64,6 +64,13 @@ AI 时代最重要的范式转移（呼应 [[agent-comfort-zone]]）：
 
 [[dhh|DHH]] 说，新一代模型发现漏洞的能力是 37signals 技术团队近期最大的压力来源：要修补的漏洞一个接一个，最终系统更安全，但过程很颠簸。他的判断是**攻防同源**，能找到攻击方法的模型，也能用于防御。他还提醒，**如果你的团队现在没在忙着打补丁，不是因为安全，而是因为看不见**，你的对手很可能已经掌握了相关手段。Lex 补充说，社会工程攻击（伪造邮件、语音）会随着 AI 能力提升大规模出现（[[dhh-lex-fridman|DHH × Lex #501]]）。他也提到，Shopify 的研究发现，经智能体审查的 PR 引发的生产事故明显少于经人类审查的 PR（口述，未核实）。
 
+## 9. d/acc 与“瑞士群山”：为什么防御必须是去中心化的（Vitalik，2026-10-29）
+
+[[vitalik-buterin|Vitalik Buterin]] 在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）中阐述其 **[[d-acc|d/acc（防御性、去中心化、民主化加速主义）]]** 时，将网络安全（Cybersecurity）与生物安全并列为分布式防御的两大支柱：
+
+- **瑞士群山 vs. 东欧平原**：没有天然去中心化防御地形（群山）的平原，骑兵可长驱直入 1000 公里，唯一均衡解就是滑向单一中心化的专制帝国。同理，面对 AI 黑客攻击，如果不在底层投入赋能普通人与中小机构的去中心化网络安全工具，社会就会被迫把所有权力交给单一科技寡头或政府监控系统。
+- **事实核查**：针对“开源模型导致危险攻击”的指责，Vitalik 指出目前几乎所有最危险的攻击仍是通过闭源的 GPT 和 Claude 进行的；解决之道不是靠封禁开源实现脆弱的“中心化防御”，而是加速构建分布式的网络安全与物理免疫底座。
+
 ## References
 
 - [[cs153-joe-sullivan-resilience]] —— Joe Sullivan, Stanford CS153（2026）
@@ -71,3 +78,4 @@ AI 时代最重要的范式转移（呼应 [[agent-comfort-zone]]）：
 - [[frontier-systems]] —— AI 全栈治理/安全层
 - [[nvidia-gtc-berlin-2026]] —— 外置策略执行、凭证隔离与硬件监测
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）

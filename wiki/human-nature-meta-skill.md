@@ -2,8 +2,8 @@
 title: "理解人性：不过时的 Meta-Skill（Human Nature）"
 tags: [human-nature, persuasion, marketing, value-creation, psychology, meta]
 date_created: 2026-07-19
-date_modified: 2026-07-19
-related: ["[[neuromarketing]]", "[[attention-economy]]", "[[wealth-creation]]", "[[productize-yourself]]", "[[dan-koe]]"]
+date_modified: 2026-11-23
+related: ["[[neuromarketing]]", "[[attention-economy]]", "[[wealth-creation]]", "[[productize-yourself]]", "[[dan-koe]]", "[[liang-qiwei]]", "[[liang-qiwei-phantom-blade-zero-xiaojun]]"]
 ---
 
 # 理解人性：不过时的 Meta-Skill（Human Nature）
@@ -103,8 +103,15 @@ related: ["[[neuromarketing]]", "[[attention-economy]]", "[[wealth-creation]]", 
 
 **Make it your full-time job to study humans.**
 
+## 嘉宾视角：代际人性审美迁移——从“牺牲自我走向他者”到“本我成长与道德闭环”（梁其伟，2026-11-13）
+
+[[liang-qiwei|梁其伟]]通过对比 2006 年创作《雨血》与 2026 年推出《影之刃零》之间二十年的受众反馈，揭示了当代中国年轻人底层叙事偏好的结构性迁移：
+- **拒绝无条件自我让渡与“圣母说教”**：旧派武侠歌颂郭靖式的“为国为民”或李寻欢式的“为兄弟让出爱人与家产”；但当代青年高度关注自我感受与个人成长（这也是为什么网文的核心永远是“练级变强”，历史视频里李世民最火的切片不是贞观之治而是绝境反杀的“玄武门之乱”）。创作者若在商业作品中强行塞入居高临下的道德说教，会被受众立刻识别为“心不诚的场外贴金”。
+- **道德闭环的自洽性**：当代受众并非冷漠，而是要求英雄行为必须建立在真实的个人动机之上——“我行侠仗义、扶危济困，是为了让我自己的同理心与道德感获得安宁与自洽”。将故事内核从“为他者牺牲”重构为“在战胜心魔（另一个自己）的本我闭环中客观造福世界”，是打动当代受众的关键心理支点。见 [[wuxia-punk-and-craft-premium]]。
+
 ## References
 
 - [[most-profitable-skill-dan-koe]] — Dan Koe, "The most profitable skill of the 21st century (not AI)", 2026-07-04
 - [[dan-koe]]
 - 相关母题：[[neuromarketing]]、[[attention-economy]]（神经科学路径）；[[wealth-creation]]、[[productize-yourself]]（价值创造）
+- [[liang-qiwei-phantom-blade-zero-xiaojun]] — 《张小珺商业访谈录》#156 对话《影之刃零》制作人梁其伟（2026-11-13）

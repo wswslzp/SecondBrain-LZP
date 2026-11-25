@@ -2,8 +2,8 @@
 title: "人形机器人硬件解剖"
 tags: [humanoid-robot, hardware, embodied-ai, robotics]
 date_created: 2026-06-09
-date_modified: 2026-10-25
-related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]"]
+date_modified: 2026-10-29
+related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]", "[[lindon-gao]]", "[[dyna-robotics]]", "[[lindon-gao-dyna-xiaojun]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # 人形机器人硬件解剖
@@ -116,9 +116,17 @@ related: ["[[robot-actuators]]", "[[embodied-ai-supply-chain]]", "[[lindon-gao]]
 
 [[dyna-robotics]] 当前采用轮式底盘和类人上身，而没有预设人形为终局。Lindon 的标准是：新增的腿、灵巧手或其他结构，必须带来超过成本的任务价值；硬件至少经历多次迭代，才谈得上稳定量产。
 
+## 嘉宾视角：当基座大模型把“大脑”边界往下压，本体直接受益（许华哲，2026-10-20）
+
+在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中，[[huazhe-xu|许华哲]] 对本页“大脑（System 2）+ 小脑（System 1）”的架构切分与硬件价值给出了最新观察：
+
+- **大小脑切分边界的下移**：过去普遍认为上层 VLM 只管到“打开冰箱门、拿出西红柿”，底层执行全归小脑；[[gpt-6-astra|GPT-6 Astra]] 则把大脑指令往下压到了“把手往右伸两厘米”，让底层更像听懂左右指令的反射式提线木偶。但因 Astra 推理极慢（需 16–24 倍速看）且缺直觉物理，它无法无限下压取代小脑，端侧仍需 **<10B** 的快决策模型与之配合（近期走红的“系统1”概率模型 **Jev** 因缺乏原生图像输入与空间平衡能力，在摞方块实测中表现不佳）。
+- **底层模型跨本体泛化直接利好硬件本体**：Astra 发布仅两三周，斯坦福课题组便将其接入一台**宇树（Unitree）机器人**，两周内就跑通了家庭任务论文 Demo。只要本体硬件质量过硬，如今接上前沿大模型就能直接完成一部分跨本体泛化任务。
+
 ## References
 
 - 硅谷101《拆解机器人"肉身"》（2026-06-01）→ [[silicon-valley-101-humanoid-robot-hardware]]
 - 供应链详情见 [[embodied-ai-supply-chain]]
 - 执行器详情见 [[robot-actuators]]
 - [[lindon-gao-dyna-xiaojun]] — 张小珺对 DYNA 创始人 Lindon Gao 的访谈（2026-10-15）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

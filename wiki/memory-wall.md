@@ -2,8 +2,8 @@
 title: "Memory Wall & Near-Memory Compute（内存墙与近存计算）"
 tags: [ai-hardware, memory, hbm, inference, semiconductors]
 date_created: 2026-07-21
-date_modified: 2026-07-21
-related: ["[[qualcomm]]", "[[llm-inference-systems]]", "[[token-economics]]", "[[ai-capex-beneficiaries]]", "[[nvidia]]"]
+date_modified: 2026-10-29
+related: ["[[qualcomm]]", "[[llm-inference-systems]]", "[[token-economics]]", "[[ai-capex-beneficiaries]]", "[[nvidia]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # Memory Wall & Near-Memory Compute
@@ -27,5 +27,13 @@ related: ["[[qualcomm]]", "[[llm-inference-systems]]", "[[token-economics]]", "[
 - 是 [[llm-inference-systems]]（prefill/decode、KV cache、显存管理）在**硬件封装层**的延伸，也是 [[ai-capex-beneficiaries]] 主题 1 的技术底座。
 - 与 [[nvidia]] 的 extreme co-design / HBM 依赖形成对照：HBC 是「绕开 HBM 收费站」的路线之一。
 
+## 嘉宾视角：RAM/VRAM 昂贵与 CPU 沙箱价格逼平 GPU（朱哲清，2026-10-20）
+
+Pokee.ai 创始人 [[zheqing-zhu|朱哲清]] 在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中，从 Agent 训练与端侧部署角度补充了内存与算力硬件瓶颈的体感：
+
+- **云端虚拟沙箱的 CPU/内存成本倒挂**：无论是在 C 端给每个用户配云端虚拟机（如 Meta Muse），还是在强化学习（RL）训练中做大型批量试跑（Rollout），内存（RAM）与 CPU 都是核心资源瓶颈。Pokee.ai 曾使用云服务商的虚拟 Sandbox，结果发现**在大规模 Rollout 时 CPU 的价格竟然涨到了与 GPU 一样贵**，最终被迫直接租用大型物理 CPU 主机自建沙箱。
+- **30B 端侧模型破局**：面对全球 Memory、RAM 与 VRAM 极度昂贵且受限的现状，朱哲清选择与 [[qualcomm|高通]]、Intel、AMD、联想、惠普合作，优化 **30B 参数级模型**在个人 AI PC 与私有 AI Box 上的运行效率，让个人与企业用自有端侧算力消化 60%–70% 的日常 Token 需求。
+
 ## References
 - [[citrini-all-along-the-ai-watchtower]]
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）

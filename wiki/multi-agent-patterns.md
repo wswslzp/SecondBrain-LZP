@@ -2,8 +2,8 @@
 title: "Multi-Agent 适用与不适用"
 tags: [ai-agents, multi-agent, map-reduce, go-driven, scaling]
 date_created: 2026-07-19
-date_modified: 2026-10-25
-related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[ai-native-company]]", "[[conways-law-agents]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]"]
+date_modified: 2026-10-27
+related: ["[[multi-agent-research-loop]]", "[[lidang]]", "[[agent-comfort-zone]]", "[[claude-code]]", "[[garry-tan]]", "[[agentic-engineering-primitives]]", "[[ai-native-company]]", "[[conways-law-agents]]", "[[openclaw]]", "[[dhh]]", "[[dhh-lex-fridman]]", "[[agentic-code-review]]", "[[claude-code-team-code-review]]"]
 ---
 
 # Multi-Agent 适用与不适用
@@ -83,8 +83,16 @@ CrewAI、AutoGen、agent-agency（GitLab 上爆火过）、腾讯 workbody（飞
 - **出路**：自动化“人在环中”的部分。Omabot 定时处理 PR 和 issue，每天发一封邮件，由他做最终决定。他也提醒，并行的智能体会暴露基础设施里的 race condition。
 - **异构交叉审查**：不同来源的前沿模型互相检查（Claude 写，Codex、Grok、Copilot 审），这和人类同行评审是一个道理。
 
+## Claude Code 团队的正反实证：并行投票审查 vs 50+ 轮死循环
+
+[[addy-osmani|Addy Osmani]] 在《[[claude-code-team-code-review|How the Claude Code team does code review]]》中披露的两个细节，从正反两面印证了本页的判断（详见 [[agentic-code-review]]）：
+
+- **正例（Map-Reduce 式并行找 Bug + 投票去噪）**：在 PR 审查阶段，系统启动**多个 Agent 并行猎捕 Bug**，随后由**独立投票机制**判定某条发现是真问题还是误报（够票数才确认），再过滤掉纯风格/清理项。这正是上文“(1) map-reduce 式大规模并行”在代码审查中的标准落地。
+- **反例（Agent 作者与 Agent 审查员一夜死循环 50+ 次）**：当作者是 Agent 时，它不会像人类那样花 1 秒忽略一条微小的 nit，而是会提交新 Commit 并触发新一轮审查。团队曾在 CLI 项目中观察到一个 PR 因 Agent 作者与 Agent 审查员来回拉锯，**一夜之间循环了 50 多次**（直到被人工叫停），且 `git blame` 发现 ~59% 被反复挑刺的代码从第一轮就在那里。为此团队不得不加上硬收敛规则：最多 3 轮、后续只审增量 diff、按 Bug 类别报错。这证明**无收敛硬门的 Agent 间闭环交互极易失控**。
+
 ## References
 
 - [[lidang-ai-agent-tutorial]] —— 立党AI学习研究完整教程（第一期）
 - [[multi-agent-research-loop]]、[[agent-comfort-zone]]、[[claude-code]]
 - [[dhh-lex-fridman]] — Lex Fridman #501 DHH 访谈（2026-08-26）
+- [[claude-code-team-code-review]] — Addy Osmani：How the Claude Code team does code review（2026-10-26）

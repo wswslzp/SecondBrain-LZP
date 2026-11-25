@@ -2,8 +2,8 @@
 title: "Sovereign AI"
 tags: [ai, geopolitics, cloud, infrastructure]
 date_created: 2026-04-18
-date_modified: 2026-07-21
-related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]", "[[ai-energy-bottleneck]]", "[[frontier-ecosystem]]", "[[satya-nadella]]", "[[microsoft]]", "[[ai-capex-beneficiaries]]", "[[project-glasswing]]", "[[deepseek]]", "[[china-us-compute-gap]]"]
+date_modified: 2026-10-29
+related: ["[[context-feedback-loops]]", "[[frontier-systems]]", "[[nvidia]]", "[[jensen-huang]]", "[[ai-energy-bottleneck]]", "[[frontier-ecosystem]]", "[[satya-nadella]]", "[[microsoft]]", "[[ai-capex-beneficiaries]]", "[[project-glasswing]]", "[[deepseek]]", "[[china-us-compute-gap]]", "[[vitalik-buterin]]", "[[effective-altruism]]", "[[d-acc]]", "[[silicon-valley-101-vitalik-ea-ai-safety]]", "[[gpt-6-astra]]", "[[huazhe-xu]]", "[[zheqing-zhu]]", "[[sheng-wang]]", "[[wet-lab-verification-loop]]", "[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]"]
 ---
 
 # Sovereign AI
@@ -70,5 +70,21 @@ Macron + Jensen Huang + 一位 33 岁从未运营过企业的科学家（Mensch�
 
 [[satya-nadella|Satya Nadella]]/[[microsoft]]（[[cs153-satya-nadella-frontier-ecosystem]]）的 [[frontier-ecosystem]] 与主权 AI 是同一命题的两个尺度：都关乎**不把敏感 context / IP 泄漏**给外部——主权 AI 在**国家层面**（数据不出境、不落海外云），frontier-ecosystem 在**企业层面**（拥有自己的「token capital」、在私有 RLE 上 hill-climb，而非把语料喂给基础模型的所有者）。
 
+## 哲学与安全映射：Vitalik 的“瑞士群山”类比与分布式防御（2026-10-29）
+
+[[vitalik-buterin|Vitalik Buterin]] 在《硅谷101》E257 期（[[silicon-valley-101-vitalik-ea-ai-safety]]）阐述 **[[d-acc|d/acc（防御性、去中心化、民主化加速主义）]]** 时，从历史地理学给出了为什么世界不能接受“单一国家或单一公司垄断最强 AI”的底层论证：
+
+- **瑞士群山 vs. 东欧平原**：欧洲中部的瑞士因为群山环绕，拥有天然的**去中心化防御能力（Decentralized defense）**，小邦与自治城市得以保持独立与民主；而往东 2000 公里的大平原无险可守，骑兵可横扫千里，结果只能走向**中心化防御（Centralized defense）**与庞大的专制帝国。
+- **对“中心化 AI 安全管制”的批判**：如果 AI 安全只靠在少数美国闭源巨头（如 [[anthropic|Anthropic]]、[[openai|OpenAI]]）的模型里加中心化限制，一旦其他国家或团队拥有自己的模型，这套中心化防线就会瞬间失效；反之，若为了维持中心化防线而试图由一家公司或单一权力中心控制全球所有算力与模型，则会滑向数字专制。因此，无论是网络安全还是生物防疫，都必须构建“不需要控制全世界每一个 AI 也能保护本地社区”的分布式防御与 [[open-weights-strategy|开源生态]]。
+
+## 个人与端侧第三义：私有算力盒、30B 模型与本地身份锚定（朱哲清，2026-10-20）
+
+在国家主权与企业 On-Prem 之外，Pokee.ai 创始人 [[zheqing-zhu|朱哲清]] 在《硅谷101》E256 期（[[silicon-valley-101-gpt6-astra-agent-robotics-pharma]]）中提出了**个人与中小企业端侧私有算力（Private Compute）**的第三重逻辑：
+
+- **为什么不能把所有 Agent 都放在公有云上？** 一是数据隐私焦虑（用户抗拒将全部个人数据存入云端虚拟机）；二是成本不可持续（云端 Token 与虚拟机沙箱极贵）；三是**商用云 IP 被电商封杀**（如 Amazon 屏蔽 Meta Muse，因云端无法证明 1:1 的真实人类身份）。
+- **端侧 60%–70% Token 自给自足**：通过跑在本地 AI PC 或小型 AI Box 上的 **30B 参数级模型**（配合高通、Intel、AMD、联想、惠普硬件生态），个人与企业可以在私有算力上完成 60%–70% 的日常广度工作与本地浏览器操作，仅将最复杂的任务路由至云端前沿模型，从而同时解开隐私、身份准入、内存成本与电网电力瓶颈。
+
 ## 来源
 - [[cs153-frontier-systems]]
+- [[silicon-valley-101-vitalik-ea-ai-safety]] — 《硅谷101》E257 对话 Vitalik Buterin 与 Afra：AI安全背后的哲学思想与有效利他主义（2026-10-29）
+- [[silicon-valley-101-gpt6-astra-agent-robotics-pharma]] — 《硅谷101》E256 Agent、机器人与制药，谁先被GPT-6 Astra改写？（2026-10-20）
